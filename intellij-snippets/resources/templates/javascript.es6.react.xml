@@ -1,4 +1,4 @@
-<templateSet group="javascript">
+<templateSet group="javascript.es6.react">
   <template description="" name="ri1" toReformat="true" toShortenFQNames="true" value="import React from 'react'">
     <context>
       <option name="JAVASCRIPT" value="true"/>

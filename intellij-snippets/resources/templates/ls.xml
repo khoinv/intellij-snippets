@@ -67,27 +67,27 @@
       <option name="LS" value="true"/>
     </context>
   </template>
-  <template description="" name="cla class .." toReformat="true" toShortenFQNames="true" value="class $1$$2$">
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$$2$">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <context>
       <option name="LS" value="true"/>
     </context>
   </template>
-  <template description="" name="cla class .. constructor: .." toReformat="true" toShortenFQNames="true" value="class $1$($2$) -&gt;$3$$4$">
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$($2$) -&gt;$3$$4$">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="2"/>
     <context>
       <option name="LS" value="true"/>
     </context>
   </template>
-  <template description="" name="cla class .. extends .." toReformat="true" toShortenFQNames="true" value="class $1$ extends $2$$3$">
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$ extends $2$$3$">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;ParentClass&quot;" expression="" name="2"/>
     <context>
       <option name="LS" value="true"/>
     </context>
   </template>
-  <template description="" name="cla class .. extends .. constructor: .." toReformat="true" toShortenFQNames="true" value="class $1$ extends $2$($3$) -&gt;$4$$5$">
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$ extends $2$($3$) -&gt;$4$$5$">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;ParentClass&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="3"/>

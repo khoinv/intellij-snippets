@@ -1,26 +1,26 @@
-<templateSet group="javascript">
-  <template description="" name="des &quot;Describe&quot; b" toReformat="true" toShortenFQNames="true" value="describe('$1$', () =&gt; {$END$});">
+<templateSet group="javascript-mocha">
+  <template description="" name="des" toReformat="true" toShortenFQNames="true" value="describe('$1$', () =&gt; {$END$});">
     <context>
       <option name="JAVASCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="it &quot;it&quot; b" toReformat="true" toShortenFQNames="true" value="it('$1$', () =&gt; {$END$});">
+  <template description="" name="it" toReformat="true" toShortenFQNames="true" value="it('$1$', () =&gt; {$END$});">
     <context>
       <option name="JAVASCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="xit &quot;xit&quot; b" toReformat="true" toShortenFQNames="true" value="xit('$1$', () =&gt; {$END$});">
+  <template description="" name="xit" toReformat="true" toShortenFQNames="true" value="xit('$1$', () =&gt; {$END$});">
     <context>
       <option name="JAVASCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="exp &quot;expect&quot; b" toReformat="true" toShortenFQNames="true" value="expect($1$)$END$;">
+  <template description="" name="exp" toReformat="true" toShortenFQNames="true" value="expect($1$)$END$;">
     <variable alwaysStopAt="true" defaultValue="&quot;})${0&quot;" expression="" name="1"/>
     <context>
       <option name="JAVASCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="expe &quot;expect&quot; b" toReformat="true" toShortenFQNames="true" value="expect($1$).to.equal($END$);">
+  <template description="" name="expe" toReformat="true" toShortenFQNames="true" value="expect($1$).to.equal($END$);">
     <variable alwaysStopAt="true" defaultValue="&quot;}).to.equal(${0&quot;" expression="" name="1"/>
     <context>
       <option name="JAVASCRIPT" value="true"/>

@@ -4,7 +4,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="dst &quot;declare(strict_types=1)&quot;" toReformat="true" toShortenFQNames="true" value="declare(strict_types=$1$);">
+  <template description="" name="dst" toReformat="true" toShortenFQNames="true" value="declare(strict_types=$1$);">
     <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
@@ -83,7 +83,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="sm &quot;PHP Class Setter&quot;" toReformat="true" toShortenFQNames="true" value="/*** Sets the value of $1$** @param $2$ $$1 $3$** @return $4$*/$5$ function set$6$($7$$$1){$this-&gt;$8$ = $$1;return $this;}">
+  <template description="" name="sm" toReformat="true" toShortenFQNames="true" value="/*** Sets the value of $1$** @param $2$ $$1 $3$** @return $4$*/$5$ function set$6$($7$$$1){$this-&gt;$8$ = $$1;return $this;}">
     <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;description&quot;" expression="" name="3"/>
@@ -96,7 +96,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="gm &quot;PHP Class Getter Setter&quot;" toReformat="true" toShortenFQNames="true" value="/*** Gets the value of $1$** @return $2$*/$3$ function get$4$(){return $this-&gt;$5$;}">
+  <template description="" name="gm" toReformat="true" toShortenFQNames="true" value="/*** Gets the value of $1$** @return $2$*/$3$ function get$4$(){return $this-&gt;$5$;}">
     <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="3"/>
@@ -135,7 +135,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="t &quot;$retVal = (condition) ? a : b&quot;" toReformat="true" toShortenFQNames="true" value="$$1$ = ($2$) ? $3$ : $4$;">
+  <template description="" name="t" toReformat="true" toShortenFQNames="true" value="$$1$ = ($2$) ? $3$ : $4$;">
     <variable alwaysStopAt="true" defaultValue="&quot;retVal&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="3"/>
@@ -192,17 +192,17 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="get &quot;get&quot;" toReformat="true" toShortenFQNames="true" value="$_GET['$1$']">
+  <template description="" name="get" toReformat="true" toShortenFQNames="true" value="$_GET['$1$']">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="post &quot;post&quot;" toReformat="true" toShortenFQNames="true" value="$_POST['$1$']">
+  <template description="" name="post" toReformat="true" toShortenFQNames="true" value="$_POST['$1$']">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="session &quot;session&quot;" toReformat="true" toShortenFQNames="true" value="$_SESSION['$1$']">
+  <template description="" name="session" toReformat="true" toShortenFQNames="true" value="$_SESSION['$1$']">
     <context>
       <option name="PHP" value="true"/>
     </context>
@@ -315,7 +315,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="doc_i &quot;interface someClass {}&quot;" toReformat="true" toShortenFQNames="true" value="/*** $1* @package $2$* @author $3$**/interface $1${$4$}">
+  <template description="" name="doc_i" toReformat="true" toShortenFQNames="true" value="/*** $1* @package $2$* @author $3$**/interface $1${$4$}">
     <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;someClass&quot;" expression="" name="1"/>
@@ -323,7 +323,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="inheritdoc &quot;@inheritdoc docblock&quot;" toReformat="true" toShortenFQNames="true" value="/*** {@inheritdoc}*/">
+  <template description="" name="inheritdoc" toReformat="true" toShortenFQNames="true" value="/*** {@inheritdoc}*/">
     <context>
       <option name="PHP" value="true"/>
     </context>
@@ -363,7 +363,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="def &quot;define('VARIABLE_NAME', 'definition')&quot;" toReformat="true" toShortenFQNames="true" value="define('$1$', $2$);">
+  <template description="" name="def" toReformat="true" toShortenFQNames="true" value="define('$1$', $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;VARIABLE_NAME&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;'definition'&quot;" expression="" name="2"/>
     <context>
@@ -375,66 +375,66 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="wh &quot;while (condition) { ... }&quot;" toReformat="true" toShortenFQNames="true" value="while ($1$) {$END$}">
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while ($1$) {$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="do &quot;do { ... } while (condition)&quot;" toReformat="true" toShortenFQNames="true" value="do {$END$} while ($1$);">
+  <template description="" name="do" toReformat="true" toShortenFQNames="true" value="do {$END$} while ($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="if &quot;if (condition) { ... }&quot;" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ifn &quot;if (!condition) { ... }&quot;" toReformat="true" toShortenFQNames="true" value="if (!$1$) {$2$}">
+  <template description="" name="ifn" toReformat="true" toShortenFQNames="true" value="if (!$1$) {$2$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ifil &quot;&lt;?php if (condition): ?&gt; ... &lt;?php endif; ?&gt;&quot;" toReformat="true" toShortenFQNames="true" value="&lt;?php if ($1$): ?&gt;$END$&lt;?php endif; ?&gt;">
+  <template description="" name="ifil" toReformat="true" toShortenFQNames="true" value="&lt;?php if ($1$): ?&gt;$END$&lt;?php endif; ?&gt;">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ife &quot;if (cond) { ... } else { ... }&quot;" toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$} else {$3$}$END$">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$} else {$3$}$END$">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ifeil &quot;&lt;?php if (condition): ?&gt; ... &lt;?php else: ?&gt; ... &lt;?php endif; ?&gt;&quot;" toReformat="true" toShortenFQNames="true" value="&lt;?php if ($1$): ?&gt;$2$&lt;?php else: ?&gt;$3$&lt;?php endif; ?&gt;$END$">
+  <template description="" name="ifeil" toReformat="true" toShortenFQNames="true" value="&lt;?php if ($1$): ?&gt;$2$&lt;?php else: ?&gt;$3$&lt;?php endif; ?&gt;$END$">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="el &quot;else { ... }&quot;" toReformat="true" toShortenFQNames="true" value="else {$END$}">
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else {$END$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="eif &quot;elseif(condition) { ... }&quot;" toReformat="true" toShortenFQNames="true" value="elseif ($1$) {$END$}">
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="elseif ($1$) {$END$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="switch &quot;switch($var) { case 'xyz': ... default: .... }&quot;" toReformat="true" toShortenFQNames="true" value="switch ($$1$) {case '$2$':$3$break;$END$default:$4$break;}">
+  <template description="" name="switch" toReformat="true" toShortenFQNames="true" value="switch ($$1$) {case '$2$':$3$break;$END$default:$4$break;}">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="case &quot;case 'value': ... break&quot;" toReformat="true" toShortenFQNames="true" value="case '$1$':$2$break;">
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case '$1$':$2$break;">
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="for &quot;for ($i = 0; $i &lt; $count; $i++) { ... }&quot;" toReformat="true" toShortenFQNames="true" value="for ($$2$ = 0; $$2 &lt; $1$; $$2$3$) {$END$}">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for ($$2$ = 0; $$2 &lt; $1$; $$2$3$) {$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="3"/>
@@ -442,21 +442,21 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="foreach &quot;foreach ($var as $value) { .. }&quot;" toReformat="true" toShortenFQNames="true" value="foreach ($$1$ as $$2$) {$END$}">
+  <template description="" name="foreach" toReformat="true" toShortenFQNames="true" value="foreach ($$1$ as $$2$) {$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="foreachil &quot;&lt;?php foreach ($var as $value): ?&gt;  ... &lt;?php endforeach; ?&gt;&quot;" toReformat="true" toShortenFQNames="true" value="&lt;?php foreach ($$1$ as $$2$): ?&gt;$END$&lt;?php endforeach; ?&gt;">
+  <template description="" name="foreachil" toReformat="true" toShortenFQNames="true" value="&lt;?php foreach ($$1$ as $$2$): ?&gt;$END$&lt;?php endforeach; ?&gt;">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="foreachk &quot;foreach ($var as $key =&gt; $value) { .. }&quot;" toReformat="true" toShortenFQNames="true" value="foreach ($$1$ as $$2$ =&gt; $$3$) {$END$}">
+  <template description="" name="foreachk" toReformat="true" toShortenFQNames="true" value="foreach ($$1$ as $$2$ =&gt; $$3$) {$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="3"/>
@@ -464,7 +464,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="foreachkil &quot;&lt;?php foreach ($var as $key =&gt; $value): ?&gt;  ... &lt;?php endforeach; ?&gt;&quot;" toReformat="true" toShortenFQNames="true" value="&lt;?php foreach ($$1$ as $$2$ =&gt; $$3$): ?&gt;$END$&lt;?php endforeach; ?&gt;">
+  <template description="" name="foreachkil" toReformat="true" toShortenFQNames="true" value="&lt;?php foreach ($$1$ as $$2$ =&gt; $$3$): ?&gt;$END$&lt;?php endforeach; ?&gt;">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="3"/>
@@ -473,13 +473,13 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="array &quot;$... = ['' =&gt; ]&quot;" toReformat="true" toShortenFQNames="true" value="$$1$ = ['$2$' =&gt; $3$];">
+  <template description="" name="array" toReformat="true" toShortenFQNames="true" value="$$1$ = ['$2$' =&gt; $3$];">
     <variable alwaysStopAt="true" defaultValue="&quot;arrayName&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="try &quot;try { ... } catch (Exception $e) { ... }&quot;" toReformat="true" toShortenFQNames="true" value="try {$END$} catch ($1$ $e) {}">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try {$END$} catch ($1$ $e) {}">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
@@ -535,27 +535,27 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="log &quot;error_log(var_export($var, true));&quot;" toReformat="true" toShortenFQNames="true" value="error_log(var_export($1$, true));">
+  <template description="" name="log" toReformat="true" toShortenFQNames="true" value="error_log(var_export($1$, true));">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="var &quot;var_export($var)&quot;" toReformat="true" toShortenFQNames="true" value="var_export($1$);">
+  <template description="" name="var" toReformat="true" toShortenFQNames="true" value="var_export($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ve &quot;Dumb debug helper in HTML&quot;" toReformat="true" toShortenFQNames="true" value="echo '&lt;pre&gt;' . var_export($1$, 1) . '&lt;/pre&gt;';">
+  <template description="" name="ve" toReformat="true" toShortenFQNames="true" value="echo '&lt;pre&gt;' . var_export($1$, 1) . '&lt;/pre&gt;';">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="pc &quot;Dumb debug helper in cli&quot;" toReformat="true" toShortenFQNames="true" value="var_export($1);$0">
+  <template description="" name="pc" toReformat="true" toShortenFQNames="true" value="var_export($1);$0">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="gs &quot;PHP Class Getter Setter&quot;" toReformat="true" toShortenFQNames="true" value="/*** Gets the value of $1$** @return $2$*/public function get$3$(){return $this-&gt;$4$;}/*** Sets the value of $1** @param $2 $$1 $5$** @return $6$*/public function set$3($7$$$1){$this-&gt;$4 = $$1;return $this;}">
+  <template description="" name="gs" toReformat="true" toShortenFQNames="true" value="/*** Gets the value of $1$** @return $2$*/public function get$3$(){return $this-&gt;$4$;}/*** Sets the value of $1** @param $2 $$1 $5$** @return $6$*/public function set$3($7$$$1){$this-&gt;$4 = $$1;return $this;}">
     <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="3"/>
@@ -618,126 +618,126 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ase &quot;$this-&gt;assertEquals()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertEquals($1$, $2$);">
+  <template description="" name="ase" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertEquals($1$, $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="asne &quot;$this-&gt;assertNotEquals()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertNotEquals($1$, $2$);">
+  <template description="" name="asne" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertNotEquals($1$, $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="asf &quot;$this-&gt;assertFalse()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertFalse($1$);">
+  <template description="" name="asf" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertFalse($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ast &quot;$this-&gt;assertTrue()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertTrue($1$);">
+  <template description="" name="ast" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertTrue($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="asfex &quot;$this-&gt;assertFileExists()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertFileExists($1$);">
+  <template description="" name="asfex" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertFileExists($1$);">
     <variable alwaysStopAt="true" defaultValue="&quot;'path/to/file'&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="asfnex &quot;$this-&gt;assertFileNotExists()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertFileNotExists($1$);">
+  <template description="" name="asfnex" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertFileNotExists($1$);">
     <variable alwaysStopAt="true" defaultValue="&quot;'path/to/file'&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ascon &quot;$this-&gt;assertContains()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertContains($1$, $2$);">
+  <template description="" name="ascon" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertContains($1$, $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;$needle&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$haystack&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ashk &quot;$this-&gt;assertArrayHasKey()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertArrayHasKey($1$, $2$);">
+  <template description="" name="ashk" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertArrayHasKey($1$, $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;$key&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$array&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="asnhk &quot;$this-&gt;assertArrayNotHasKey()&quot;" toReformat="true" toShortenFQNames="true" value="this-&gt;assertArrayNotHasKey($1$, $2$);">
+  <template description="" name="asnhk" toReformat="true" toShortenFQNames="true" value="this-&gt;assertArrayNotHasKey($1$, $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;$key&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$array&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ascha &quot;$this-&gt;assertClassHasAttribute()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertClassHasAttribute($1$, '$2$');">
+  <template description="" name="ascha" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertClassHasAttribute($1$, '$2$');">
     <variable alwaysStopAt="true" defaultValue="&quot;$attributeName&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$className&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="asi &quot;$this-&gt;assertInstanceOf(...)&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertInstanceOf($1$, $2$);">
+  <template description="" name="asi" toReformat="true" toShortenFQNames="true" value="$this-&gt;assertInstanceOf($1$, $2$);">
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="test &quot;public function testXYZ() { ... }&quot;" toReformat="true" toShortenFQNames="true" value="public function test$1$(){$END$}">
+  <template description="" name="test" toReformat="true" toShortenFQNames="true" value="public function test$1$(){$END$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="setup &quot;protected function setUp() { ... }&quot;" toReformat="true" toShortenFQNames="true" value="protected function setUp(){$END$}">
+  <template description="" name="setup" toReformat="true" toShortenFQNames="true" value="protected function setUp(){$END$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="teardown &quot;protected function tearDown() { ... }&quot;" toReformat="true" toShortenFQNames="true" value="protected function tearDown(){$END$}">
+  <template description="" name="teardown" toReformat="true" toShortenFQNames="true" value="protected function tearDown(){$END$}">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="exp &quot;phpunit expects&quot;" toReformat="true" toShortenFQNames="true" value="expects($this-&gt;$1$())-&gt;method('$2$')-&gt;with($this-&gt;equalTo($3$)$4$)-&gt;will($this-&gt;returnValue($5$));">
+  <template description="" name="exp" toReformat="true" toShortenFQNames="true" value="expects($this-&gt;$1$())-&gt;method('$2$')-&gt;with($this-&gt;equalTo($3$)$4$)-&gt;will($this-&gt;returnValue($5$));">
     <variable alwaysStopAt="true" defaultValue="&quot;once&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="testcmt &quot;phpunit comment with group&quot;" toReformat="true" toShortenFQNames="true" value="/*** @group $1$*/">
+  <template description="" name="testcmt" toReformat="true" toShortenFQNames="true" value="/*** @group $1$*/">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="fail &quot;$this-&gt;fail()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;fail($1$);">
+  <template description="" name="fail" toReformat="true" toShortenFQNames="true" value="$this-&gt;fail($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="marki &quot;$this-&gt;markTestIncomplete()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;markTestIncomplete($1$);">
+  <template description="" name="marki" toReformat="true" toShortenFQNames="true" value="$this-&gt;markTestIncomplete($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="marks &quot;$this-&gt;markTestSkipped()&quot;" toReformat="true" toShortenFQNames="true" value="$this-&gt;markTestSkipped($1$);">
+  <template description="" name="marks" toReformat="true" toShortenFQNames="true" value="$this-&gt;markTestSkipped($1$);">
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="te &quot;throw new Exception()&quot;" toReformat="true" toShortenFQNames="true" value="throw new $1$(&quot;$2$&quot;);">
+  <template description="" name="te" toReformat="true" toShortenFQNames="true" value="throw new $1$(&quot;$2$&quot;);">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;Error Processing Request&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="fpc &quot;file_put_contents&quot; b" toReformat="true" toShortenFQNames="true" value="file_put_contents($1$, $2$$3$);$0">
+  <template description="" name="fpc" toReformat="true" toShortenFQNames="true" value="file_put_contents($1$, $2$$3$);$0">
     <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, FILE_APPEND&quot;" expression="" name="3"/>
@@ -745,7 +745,7 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="sr &quot;str_replace&quot;" toReformat="true" toShortenFQNames="true" value="str_replace($1$, $2$, $3$)$0">
+  <template description="" name="sr" toReformat="true" toShortenFQNames="true" value="str_replace($1$, $2$, $3$)$0">
     <variable alwaysStopAt="true" defaultValue="&quot;search&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;replace&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;subject&quot;" expression="" name="3"/>
@@ -753,33 +753,33 @@
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="ia &quot;in_array&quot;" toReformat="true" toShortenFQNames="true" value="in_array($1$, $2$)$0">
+  <template description="" name="ia" toReformat="true" toShortenFQNames="true" value="in_array($1$, $2$)$0">
     <variable alwaysStopAt="true" defaultValue="&quot;needle&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;haystack&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="is &quot;isset&quot;" toReformat="true" toShortenFQNames="true" value="isset($1$)$0">
+  <template description="" name="is" toReformat="true" toShortenFQNames="true" value="isset($1$)$0">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="isa &quot;isset array&quot;" toReformat="true" toShortenFQNames="true" value="isset($$1$[$2$])$0">
+  <template description="" name="isa" toReformat="true" toShortenFQNames="true" value="isset($$1$[$2$])$0">
     <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="2"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="in &quot;is_null&quot;" toReformat="true" toShortenFQNames="true" value="is_null($$1$)$0">
+  <template description="" name="in" toReformat="true" toShortenFQNames="true" value="is_null($$1$)$0">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>
     </context>
   </template>
-  <template description="" name="fe &quot;file_exists&quot;" toReformat="true" toShortenFQNames="true" value="file_exists($1$)$0">
+  <template description="" name="fe" toReformat="true" toShortenFQNames="true" value="file_exists($1$)$0">
     <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="1"/>
     <context>
       <option name="PHP" value="true"/>

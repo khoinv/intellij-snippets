@@ -1,4 +1,4 @@
-<templateSet group="javascript">
+<templateSet group="javascript-bemjson">
   <template description="" name="b" toReformat="true" toShortenFQNames="true" value="{block : '$1$',content : ['$2$']}">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="2"/>

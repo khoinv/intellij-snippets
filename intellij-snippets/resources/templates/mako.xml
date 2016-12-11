@@ -28,13 +28,13 @@
       <option name="MAKO" value="true"/>
     </context>
   </template>
-  <template description="" name="if if" toReformat="true" toShortenFQNames="true" value="% if $1$:$END$% endif">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="% if $1$:$END$% endif">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="MAKO" value="true"/>
     </context>
   </template>
-  <template description="" name="ife if/else" toReformat="true" toShortenFQNames="true" value="% if $1$:$2$% else:$END$% endif">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="% if $1$:$2$% else:$END$% endif">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="MAKO" value="true"/>

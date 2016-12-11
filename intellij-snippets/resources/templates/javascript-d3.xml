@@ -1,4 +1,4 @@
-<templateSet group="javascript">
+<templateSet group="javascript-d3">
   <template description="" name=".attr" toReformat="true" toShortenFQNames="true" value=".attr(&quot;$1$&quot;, $2$)">
     <context>
       <option name="JAVASCRIPT" value="true"/>

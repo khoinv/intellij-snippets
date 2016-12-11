@@ -326,7 +326,7 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="test test function" toReformat="true" toShortenFQNames="true" value="func Test$1$(t *testing.T) {$2$}$END$">
+  <template description="" name="test" toReformat="true" toShortenFQNames="true" value="func Test$1$(t *testing.T) {$2$}$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
     <context>
       <option name="GO" value="true"/>

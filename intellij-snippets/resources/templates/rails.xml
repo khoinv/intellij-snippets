@@ -64,7 +64,7 @@
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="ass assert_select(..)" toReformat="true" toShortenFQNames="true" value="assert_select '$1$', $2$: '$3$' $4$$END$end">
+  <template description="" name="ass" toReformat="true" toShortenFQNames="true" value="assert_select '$1$', $2$: '$3$' $4$$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;inner_html&quot;" expression="" name="3"/>
@@ -158,14 +158,14 @@
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="dele delegate .. to" toReformat="true" toShortenFQNames="true" value="delegate :$1$, to: :$END$">
+  <template description="" name="dele" toReformat="true" toShortenFQNames="true" value="delegate :$1$, to: :$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;methods&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="0"/>
     <context>
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="dele delegate .. to .. prefix .. allow_nil" toReformat="true" toShortenFQNames="true" value="delegate :$1$, to: :$2$, prefix: :$3$, allow_nil: $END$">
+  <template description="" name="dele" toReformat="true" toShortenFQNames="true" value="delegate :$1$, to: :$2$, prefix: :$3$, allow_nil: $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;methods&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;prefix&quot;" expression="" name="3"/>
@@ -636,13 +636,13 @@
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="va validates_associated" toReformat="true" toShortenFQNames="true" value="validates_associated :$END$">
+  <template description="" name="va" toReformat="true" toShortenFQNames="true" value="validates_associated :$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
     <context>
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="va validates .., acceptance: true" toReformat="true" toShortenFQNames="true" value="validates :$END$, acceptance: true">
+  <template description="" name="va" toReformat="true" toShortenFQNames="true" value="validates :$END$, acceptance: true">
     <variable alwaysStopAt="true" defaultValue="&quot;terms&quot;" expression="" name="0"/>
     <context>
       <option name="RAILS" value="true"/>
@@ -810,12 +810,12 @@
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="migration class .. &lt; ActiveRecord::Migration .. def up .. def down .. end" toReformat="true" toShortenFQNames="true" value="class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` &lt; ActiveRecord::Migrationdef up$END$enddef downendend">
+  <template description="" name="migration" toReformat="true" toShortenFQNames="true" value="class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` &lt; ActiveRecord::Migrationdef up$END$enddef downendend">
     <context>
       <option name="RAILS" value="true"/>
     </context>
   </template>
-  <template description="" name="migration class .. &lt; ActiveRecord::Migration .. def change .. end" toReformat="true" toShortenFQNames="true" value="class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` &lt; ActiveRecord::Migrationdef change$END$endend">
+  <template description="" name="migration" toReformat="true" toShortenFQNames="true" value="class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` &lt; ActiveRecord::Migrationdef change$END$endend">
     <context>
       <option name="RAILS" value="true"/>
     </context>

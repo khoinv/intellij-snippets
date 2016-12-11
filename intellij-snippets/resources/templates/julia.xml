@@ -4,94 +4,94 @@
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="fun function definition" toReformat="true" toShortenFQNames="true" value="function $1$($2$)$END$end">
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="function $1$($2$)$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="ret return" toReformat="true" toShortenFQNames="true" value="return($END$)">
+  <template description="" name="ret" toReformat="true" toShortenFQNames="true" value="return($END$)">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="pr print" toReformat="true" toShortenFQNames="true" value="print(&quot;$1$&quot;)$END$">
+  <template description="" name="pr" toReformat="true" toShortenFQNames="true" value="print(&quot;$1$&quot;)$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="prl print line" toReformat="true" toShortenFQNames="true" value="println(&quot;$1$&quot;)$END$">
+  <template description="" name="prl" toReformat="true" toShortenFQNames="true" value="println(&quot;$1$&quot;)$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="use load a package" toReformat="true" toShortenFQNames="true" value="using $END$">
+  <template description="" name="use" toReformat="true" toShortenFQNames="true" value="using $END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="incl include source code" toReformat="true" toShortenFQNames="true" value="include(&quot;$1$&quot;)$END$">
+  <template description="" name="incl" toReformat="true" toShortenFQNames="true" value="include(&quot;$1$&quot;)$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="forc for loop iterating over iterable container" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$$END$end">
+  <template description="" name="forc" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="for standard for loop" toReformat="true" toShortenFQNames="true" value="for $1$ = $2$$END$end">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for $1$ = $2$$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="fornest nested for loop" toReformat="true" toShortenFQNames="true" value="for $1$ = $2$, $3$ = $4$$END$end">
+  <template description="" name="fornest" toReformat="true" toShortenFQNames="true" value="for $1$ = $2$, $3$ = $4$$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="wh while loop" toReformat="true" toShortenFQNames="true" value="while $1$ $2$ $3$$END$end">
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while $1$ $2$ $3$$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;=&quot;" expression="" name="2"/>
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="if if statement" toReformat="true" toShortenFQNames="true" value="if $1$$END$end">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $1$$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="el else part of statement" toReformat="true" toShortenFQNames="true" value="else$END$">
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="eif else if part of if statement" toReformat="true" toShortenFQNames="true" value="else if $1$$END$">
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="else if $1$$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="ife full if-else statement" toReformat="true" toShortenFQNames="true" value="if $1$$2$else$END$end">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $1$$2$else$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="tern ternary operator" toReformat="true" toShortenFQNames="true" value="$1$ ? $2$ : $3$">
+  <template description="" name="tern" toReformat="true" toShortenFQNames="true" value="$1$ ? $2$ : $3$">
     <variable alwaysStopAt="true" defaultValue="&quot;nothing&quot;" expression="" name="3"/>
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="try try catch" toReformat="true" toShortenFQNames="true" value="try$1$catch $2$$END$end">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try$1$catch $2$$END$end">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="fin finally statement" toReformat="true" toShortenFQNames="true" value="finally$END$">
+  <template description="" name="fin" toReformat="true" toShortenFQNames="true" value="finally$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>
   </template>
-  <template description="" name="thr throw" toReformat="true" toShortenFQNames="true" value="throw($1$)$END$">
+  <template description="" name="thr" toReformat="true" toShortenFQNames="true" value="throw($1$)$END$">
     <context>
       <option name="JULIA" value="true"/>
     </context>

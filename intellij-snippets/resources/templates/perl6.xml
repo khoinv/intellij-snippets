@@ -1,4 +1,4 @@
-<templateSet group="perl">
+<templateSet group="perl6">
   <template description="" name="#!" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env perl6">
     <context>
       <option name="PERL" value="true"/>

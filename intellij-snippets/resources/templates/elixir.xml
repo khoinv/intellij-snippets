@@ -4,47 +4,47 @@
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="if if .. do .. end" toReformat="true" toShortenFQNames="true" value="if $1$ do$END$end">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $1$ do$END$end">
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="if: if .. do: .." toReformat="true" toShortenFQNames="true" value="if $1$, do: $END$">
+  <template description="" name="if:" toReformat="true" toShortenFQNames="true" value="if $1$, do: $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="ife if .. do .. else .. end" toReformat="true" toShortenFQNames="true" value="if $1$ do$2$else$END$end">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $1$ do$2$else$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="ife: if .. do: .. else:" toReformat="true" toShortenFQNames="true" value="if $1$, do: $2$, else: $END$">
+  <template description="" name="ife:" toReformat="true" toShortenFQNames="true" value="if $1$, do: $2$, else: $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="unless unless .. do .. end" toReformat="true" toShortenFQNames="true" value="unless $1$ do$END$end">
+  <template description="" name="unless" toReformat="true" toShortenFQNames="true" value="unless $1$ do$END$end">
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="unless: unless .. do: .." toReformat="true" toShortenFQNames="true" value="unless $1$, do: $END$">
+  <template description="" name="unless:" toReformat="true" toShortenFQNames="true" value="unless $1$, do: $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="unlesse unless .. do .. else .. end" toReformat="true" toShortenFQNames="true" value="unless $1$ do$2$else$END$end">
+  <template description="" name="unlesse" toReformat="true" toShortenFQNames="true" value="unless $1$ do$2$else$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="unlesse: unless .. do: .. else:" toReformat="true" toShortenFQNames="true" value="unless $1$, do: $2$, else: $END$">
+  <template description="" name="unlesse:" toReformat="true" toShortenFQNames="true" value="unless $1$, do: $2$, else: $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
     <context>
       <option name="ELIXIR" value="true"/>
@@ -226,7 +226,7 @@
       <option name="ELIXIR" value="true"/>
     </context>
   </template>
-  <template description="" name="try try .. rescue .. end" toReformat="true" toShortenFQNames="true" value="try do$1$rescue$2$ -&gt; $END$end">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try do$1$rescue$2$ -&gt; $END$end">
     <context>
       <option name="ELIXIR" value="true"/>
     </context>

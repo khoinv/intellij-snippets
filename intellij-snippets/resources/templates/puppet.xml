@@ -115,20 +115,20 @@
       <option name="PUPPET" value="true"/>
     </context>
   </template>
-  <template description="" name="extlookup Simple extlookup" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;)">
+  <template description="" name="extlookup" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;)">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <context>
       <option name="PUPPET" value="true"/>
     </context>
   </template>
-  <template description="" name="extlookup Extlookup with defaults" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;, &quot;$2$&quot;)">
+  <template description="" name="extlookup" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;, &quot;$2$&quot;)">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="2"/>
     <context>
       <option name="PUPPET" value="true"/>
     </context>
   </template>
-  <template description="" name="extlookup Extlookup with defaults and custom data file" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;, &quot;$2$&quot;, &quot;$3$&quot;)">
+  <template description="" name="extlookup" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;, &quot;$2$&quot;, &quot;$3$&quot;)">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;data source&quot;" expression="" name="3"/>

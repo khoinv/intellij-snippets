@@ -147,7 +147,7 @@
       <option name="PYTHON" value="true"/>
     </context>
   </template>
-  <template description="" name="try Try/Except" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$END$">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;raise $3&quot;" expression="" name="0"/>
@@ -155,7 +155,7 @@
       <option name="PYTHON" value="true"/>
     </context>
   </template>
-  <template description="" name="try Try/Except/Else" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$4$else:$END$">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$4$else:$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;raise $3&quot;" expression="" name="4"/>
@@ -163,7 +163,7 @@
       <option name="PYTHON" value="true"/>
     </context>
   </template>
-  <template description="" name="try Try/Except/Finally" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$4$finally:$END$">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$4$finally:$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;raise $3&quot;" expression="" name="4"/>
@@ -171,7 +171,7 @@
       <option name="PYTHON" value="true"/>
     </context>
   </template>
-  <template description="" name="try Try/Except/Else/Finally" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$4$else:$5$finally:$END$">
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try:$1$except $2$, $3$:$4$else:$5$finally:$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;raise $3&quot;" expression="" name="4"/>

@@ -154,7 +154,7 @@
       <option name="HASKELL" value="true"/>
     </context>
   </template>
-  <template description="" name="=&gt; &quot;Type constraint&quot;" toReformat="true" toShortenFQNames="true" value="($1$ $2$) =&gt; $2">
+  <template description="" name="=&gt;" toReformat="true" toShortenFQNames="true" value="($1$ $2$) =&gt; $2">
     <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
     <context>

@@ -1,5 +1,5 @@
 <templateSet group="vim">
-  <template description="" name="header standard Vim script file header" toReformat="true" toShortenFQNames="true" value="&quot; File: $1$&quot; Author: $2$&quot; Description: $3$$END$">
+  <template description="" name="header" toReformat="true" toShortenFQNames="true" value="&quot; File: $1$&quot; Author: $2$&quot; Description: $3$$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;`expand('%:t')`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;`g:snips_author`&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;&quot; Last Modified: `strftime(&quot;%B %d, %Y&quot;)`&quot;" expression="" name="0"/>
@@ -7,51 +7,51 @@
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="guard script reload guard" toReformat="true" toShortenFQNames="true" value="if exists('$1$') || &amp;cp$2$finishendiflet $1 = 1$END$">
+  <template description="" name="guard" toReformat="true" toShortenFQNames="true" value="if exists('$1$') || &amp;cp$2$finishendiflet $1 = 1$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;did_`vim_snippets#Filename()`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot; || version &lt; 700&quot;" expression="" name="2"/>
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="f function" toReformat="true" toShortenFQNames="true" value="fun! $1$$2$($3$)$END$endf">
+  <template description="" name="f" toReformat="true" toShortenFQNames="true" value="fun! $1$$2$($3$)$END$endf">
     <variable alwaysStopAt="true" defaultValue="&quot;`expand('%') =~ 'autoload' ? substitute(matchstr(expand('%:p'),'autoload/\zs.*\ze.vim'),'[/\\]','#','g').'#' : ''`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="2"/>
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="t try ... catch statement" toReformat="true" toShortenFQNames="true" value="try$1$catch $2$$END$endtry">
+  <template description="" name="t" toReformat="true" toShortenFQNames="true" value="try$1$catch $2$$END$endtry">
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="for for ... in loop" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$$END$endfor">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$$END$endfor">
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="forkv for [key, value] in loop" toReformat="true" toShortenFQNames="true" value="for [$1$,$2$] in items($3$)$END$unlet $1 $2endfor">
+  <template description="" name="forkv" toReformat="true" toShortenFQNames="true" value="for [$1$,$2$] in items($3$)$END$unlet $1 $2endfor">
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="wh while loop" toReformat="true" toShortenFQNames="true" value="while $1$$END$endw">
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while $1$$END$endw">
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="if if statement" toReformat="true" toShortenFQNames="true" value="if $1$$END$endif">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $1$$END$endif">
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="ife if ... else statement" toReformat="true" toShortenFQNames="true" value="if $1$$2$else$END$endif">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $1$$2$else$END$endif">
     <context>
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="au augroup ... autocmd block" toReformat="true" toShortenFQNames="true" value="augroup $1$&quot; this one is which you're most likely to use?autocmd $2$ $3$ $END$augroup end">
+  <template description="" name="au" toReformat="true" toShortenFQNames="true" value="augroup $1$&quot; this one is which you're most likely to use?autocmd $2$ $3$ $END$augroup end">
     <variable alwaysStopAt="true" defaultValue="&quot;AU_NAME&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;BufRead,BufNewFile&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;*.ext,*.ext3|&lt;buffer[=N]&gt;&quot;" expression="" name="3"/>
@@ -59,7 +59,7 @@
       <option name="VIM" value="true"/>
     </context>
   </template>
-  <template description="" name="bun Vundle.vim Plugin definition" toReformat="true" toShortenFQNames="true" value="Plugin '$END$'">
+  <template description="" name="bun" toReformat="true" toShortenFQNames="true" value="Plugin '$END$'">
     <context>
       <option name="VIM" value="true"/>
     </context>

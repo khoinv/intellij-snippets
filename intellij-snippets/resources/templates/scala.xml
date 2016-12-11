@@ -140,72 +140,72 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Double" toReformat="true" toShortenFQNames="true" value="dbl">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="dbl">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Int" toReformat="true" toShortenFQNames="true" value="int">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="int">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Long" toReformat="true" toShortenFQNames="true" value="lng">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="lng">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Char" toReformat="true" toShortenFQNames="true" value="chr">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="chr">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T String" toReformat="true" toShortenFQNames="true" value="str">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="str">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Array" toReformat="true" toShortenFQNames="true" value="arr">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="arr">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Buffer" toReformat="true" toShortenFQNames="true" value="buf">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="buf">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T List" toReformat="true" toShortenFQNames="true" value="list">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="list">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Tuple" toReformat="true" toShortenFQNames="true" value="tpl">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="tpl">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Set" toReformat="true" toShortenFQNames="true" value="set">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="set">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Map" toReformat="true" toShortenFQNames="true" value="map">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="map">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T HashSet" toReformat="true" toShortenFQNames="true" value="hset">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="hset">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T HashMap" toReformat="true" toShortenFQNames="true" value="hmap">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="hmap">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="T Boolean" toReformat="true" toShortenFQNames="true" value="bool">
+  <template description="" name="T" toReformat="true" toShortenFQNames="true" value="bool">
     <context>
       <option name="SCALA" value="true"/>
     </context>

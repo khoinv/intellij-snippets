@@ -47,7 +47,7 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="req require" toReformat="true" toShortenFQNames="true" value="require '$1$'">
+  <template description="" name="req" toReformat="true" toShortenFQNames="true" value="require '$1$'">
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -155,20 +155,20 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="cla class .. end" toReformat="true" toShortenFQNames="true" value="class $1$$END$end">
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="clai class .. initialize .. end" toReformat="true" toShortenFQNames="true" value="class $1$def initialize($2$)$END$endend">
+  <template description="" name="clai" toReformat="true" toShortenFQNames="true" value="class $1$def initialize($2$)$END$endend">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="2"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="cla&lt; class .. &lt; ParentClass .. initialize .. end" toReformat="true" toShortenFQNames="true" value="class $1$ &lt; $2$def initialize($3$)$END$endend">
+  <template description="" name="cla&lt;" toReformat="true" toShortenFQNames="true" value="class $1$ &lt; $2$def initialize($3$)$END$endend">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;ParentClass&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="3"/>
@@ -176,13 +176,13 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="blankslate class BlankSlate .. initialize .. end" toReformat="true" toShortenFQNames="true" value="class $END$instance_methods.each { |meth| undef_method(meth) unless meth =~ /\A__/ }end">
+  <template description="" name="blankslate" toReformat="true" toShortenFQNames="true" value="class $END$instance_methods.each { |meth| undef_method(meth) unless meth =~ /\A__/ }end">
     <variable alwaysStopAt="true" defaultValue="&quot;BlankSlate&quot;" expression="" name="0"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="claself class &lt;&lt; self .. end" toReformat="true" toShortenFQNames="true" value="class &lt;&lt; $1$$END$end">
+  <template description="" name="claself" toReformat="true" toShortenFQNames="true" value="class &lt;&lt; $1$$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;self&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
@@ -197,13 +197,13 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="mod module .. end" toReformat="true" toShortenFQNames="true" value="module $1$$END$end">
+  <template description="" name="mod" toReformat="true" toShortenFQNames="true" value="module $1$$END$end">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="mod module .. ClassMethods .. end" toReformat="true" toShortenFQNames="true" value="module $1$module ClassMethods$END$endmodule InstanceMethodsenddef self.included(receiver)receiver.extend         ClassMethodsreceiver.send :include, InstanceMethodsendend">
+  <template description="" name="mod" toReformat="true" toShortenFQNames="true" value="module $1$module ClassMethods$END$endmodule InstanceMethodsenddef self.included(receiver)receiver.extend         ClassMethodsreceiver.send :include, InstanceMethodsendend">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
@@ -337,27 +337,27 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="file File.foreach() { |line| .. }" toReformat="true" toShortenFQNames="true" value="File.foreach($1$) { |$2$| $END$ }">
+  <template description="" name="file" toReformat="true" toShortenFQNames="true" value="File.foreach($1$) { |$2$| $END$ }">
     <variable alwaysStopAt="true" defaultValue="&quot;'path/to/file'&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;line&quot;" expression="" name="2"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="file File.read()" toReformat="true" toShortenFQNames="true" value="File.read($1$)">
+  <template description="" name="file" toReformat="true" toShortenFQNames="true" value="File.read($1$)">
     <variable alwaysStopAt="true" defaultValue="&quot;'path/to/file'&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="Dir Dir.global() { |file| .. }" toReformat="true" toShortenFQNames="true" value="Dir.glob($1$) { |$2$| $END$ }">
+  <template description="" name="Dir" toReformat="true" toShortenFQNames="true" value="Dir.glob($1$) { |$2$| $END$ }">
     <variable alwaysStopAt="true" defaultValue="&quot;'dir/glob/*'&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="2"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="Dir Dir[&quot;..&quot;]" toReformat="true" toShortenFQNames="true" value="Dir[$1$]">
+  <template description="" name="Dir" toReformat="true" toShortenFQNames="true" value="Dir[$1$]">
     <variable alwaysStopAt="true" defaultValue="&quot;'glob/**/*.rb'&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
@@ -445,13 +445,13 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="eac- each_char { |chr| .. }" toReformat="true" toShortenFQNames="true" value="each_char { |$1$| $END$ }">
+  <template description="" name="eac-" toReformat="true" toShortenFQNames="true" value="each_char { |$1$| $END$ }">
     <variable alwaysStopAt="true" defaultValue="&quot;chr&quot;" expression="" name="1"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="eac- each_cons(..) { |group| .. }" toReformat="true" toShortenFQNames="true" value="each_cons($1$) { |$2$| $END$ }">
+  <template description="" name="eac-" toReformat="true" toShortenFQNames="true" value="each_cons($1$) { |$2$| $END$ }">
     <variable alwaysStopAt="true" defaultValue="&quot;2&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;group&quot;" expression="" name="2"/>
     <context>
@@ -992,14 +992,14 @@
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="ass assert_same(..)" toReformat="true" toShortenFQNames="true" value="assert_same $1$, $2$">
+  <template description="" name="ass" toReformat="true" toShortenFQNames="true" value="assert_same $1$, $2$">
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="2"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
-  <template description="" name="ass assert_send(..)" toReformat="true" toShortenFQNames="true" value="assert_send [$1$, :$2$, $3$]">
+  <template description="" name="ass" toReformat="true" toShortenFQNames="true" value="assert_send [$1$, :$2$, $3$]">
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="3"/>

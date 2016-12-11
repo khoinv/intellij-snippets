@@ -1,234 +1,234 @@
 <templateSet group="ada">
-  <template description="" name="wi with" toReformat="true" toShortenFQNames="true" value="with $1$;$END$">
+  <template description="" name="wi" toReformat="true" toShortenFQNames="true" value="with $1$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="pac package" toReformat="true" toShortenFQNames="true" value="package $1$ is$END$end $1;">
+  <template description="" name="pac" toReformat="true" toShortenFQNames="true" value="package $1$ is$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="pacb package body" toReformat="true" toShortenFQNames="true" value="package body $1$ is$END$end $1;">
+  <template description="" name="pacb" toReformat="true" toShortenFQNames="true" value="package body $1$ is$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="ent entry ... when" toReformat="true" toShortenFQNames="true" value="entry $1$($2$) when $3$ isbegin$END$end $1;">
+  <template description="" name="ent" toReformat="true" toShortenFQNames="true" value="entry $1$($2$) when $3$ isbegin$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="task task" toReformat="true" toShortenFQNames="true" value="task $1$ isentry $END$end $1;">
+  <template description="" name="task" toReformat="true" toShortenFQNames="true" value="task $1$ isentry $END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="taskb task body" toReformat="true" toShortenFQNames="true" value="task body $1$ is$2$begin$END$end $1;">
+  <template description="" name="taskb" toReformat="true" toShortenFQNames="true" value="task body $1$ is$2$begin$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="acc accept" toReformat="true" toShortenFQNames="true" value="accept $1$($2$) do$END$end $1;">
+  <template description="" name="acc" toReformat="true" toShortenFQNames="true" value="accept $1$($2$) do$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="prot protected type" toReformat="true" toShortenFQNames="true" value="protected type $1$($2$) is$END$end $1;">
+  <template description="" name="prot" toReformat="true" toShortenFQNames="true" value="protected type $1$($2$) is$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="prob protected body" toReformat="true" toShortenFQNames="true" value="protected body $1$ is$2$begin$END$end $1;">
+  <template description="" name="prob" toReformat="true" toShortenFQNames="true" value="protected body $1$ is$2$begin$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="gen generic type" toReformat="true" toShortenFQNames="true" value="generictype $1$ is $2$;$END$">
+  <template description="" name="gen" toReformat="true" toShortenFQNames="true" value="generictype $1$ is $2$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="ty type" toReformat="true" toShortenFQNames="true" value="type $1$ is $2$;$END$">
+  <template description="" name="ty" toReformat="true" toShortenFQNames="true" value="type $1$ is $2$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="tyd type with default value" toReformat="true" toShortenFQNames="true" value="type $1$ is $2$with Default_Value =&gt; $3$;$END$">
+  <template description="" name="tyd" toReformat="true" toShortenFQNames="true" value="type $1$ is $2$with Default_Value =&gt; $3$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="subty subtype" toReformat="true" toShortenFQNames="true" value="subtype $1$ is $2$;$END$">
+  <template description="" name="subty" toReformat="true" toShortenFQNames="true" value="subtype $1$ is $2$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="dec declare block" toReformat="true" toShortenFQNames="true" value="declare$1$begin$END$end;">
+  <template description="" name="dec" toReformat="true" toShortenFQNames="true" value="declare$1$begin$END$end;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="decn declare named block" toReformat="true" toShortenFQNames="true" value="$1$:declare$2$begin$END$end $1;">
+  <template description="" name="decn" toReformat="true" toShortenFQNames="true" value="$1$:declare$2$begin$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="ifex if expression" toReformat="true" toShortenFQNames="true" value="if $1$ then $2$ else $END$">
+  <template description="" name="ifex" toReformat="true" toShortenFQNames="true" value="if $1$ then $2$ else $END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="casex case expression" toReformat="true" toShortenFQNames="true" value="case $1$ iswhen $2$ =&gt; $3$,$END$">
+  <template description="" name="casex" toReformat="true" toShortenFQNames="true" value="case $1$ iswhen $2$ =&gt; $3$,$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="fora for all" toReformat="true" toShortenFQNames="true" value="for all $1$ $2$ $3$ =&gt; $END$">
+  <template description="" name="fora" toReformat="true" toShortenFQNames="true" value="for all $1$ $2$ $3$ =&gt; $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;in&quot;" expression="" name="2"/>
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="fors for some" toReformat="true" toShortenFQNames="true" value="for some $1$ $2$ $3$ =&gt; $END$">
+  <template description="" name="fors" toReformat="true" toShortenFQNames="true" value="for some $1$ $2$ $3$ =&gt; $END$">
     <variable alwaysStopAt="true" defaultValue="&quot;in&quot;" expression="" name="2"/>
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="if if" toReformat="true" toShortenFQNames="true" value="if $1$ then$END$end if;">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $1$ then$END$end if;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="ife if ... else" toReformat="true" toShortenFQNames="true" value="if $1$ then$2$else$END$end if;">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $1$ then$2$else$END$end if;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="el else" toReformat="true" toShortenFQNames="true" value="else$END$">
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="eif elsif" toReformat="true" toShortenFQNames="true" value="elsif $1$ then$END$">
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="elsif $1$ then$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="wh while" toReformat="true" toShortenFQNames="true" value="while $1$ loop$END$end loop;">
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while $1$ loop$END$end loop;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="nwh named while" toReformat="true" toShortenFQNames="true" value="$1$:while $2$ loop$END$end loop $1;">
+  <template description="" name="nwh" toReformat="true" toShortenFQNames="true" value="$1$:while $2$ loop$END$end loop $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="for for" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$ loop$END$end loop;">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$ loop$END$end loop;">
     <variable alwaysStopAt="true" defaultValue="&quot;I&quot;" expression="" name="1"/>
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="fore for each" toReformat="true" toShortenFQNames="true" value="for $1$ of $2$ loop$END$end loop;">
+  <template description="" name="fore" toReformat="true" toShortenFQNames="true" value="for $1$ of $2$ loop$END$end loop;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="nfor named for" toReformat="true" toShortenFQNames="true" value="$1$:for $2$ in $3$ loop$END$end loop $1;">
+  <template description="" name="nfor" toReformat="true" toShortenFQNames="true" value="$1$:for $2$ in $3$ loop$END$end loop $1;">
     <variable alwaysStopAt="true" defaultValue="&quot;I&quot;" expression="" name="2"/>
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="nfore named for each" toReformat="true" toShortenFQNames="true" value="$1$:for $2$ of $3$ loop$END$end loop $1;">
+  <template description="" name="nfore" toReformat="true" toShortenFQNames="true" value="$1$:for $2$ of $3$ loop$END$end loop $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="proc procedure" toReformat="true" toShortenFQNames="true" value="procedure $1$($2$) is$3$begin$END$end $1;">
+  <template description="" name="proc" toReformat="true" toShortenFQNames="true" value="procedure $1$($2$) is$3$begin$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="procd procedure declaration" toReformat="true" toShortenFQNames="true" value="procedure $1$;$END$">
+  <template description="" name="procd" toReformat="true" toShortenFQNames="true" value="procedure $1$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="fun function" toReformat="true" toShortenFQNames="true" value="function $1$($2$) return $3$ is$4$begin$END$end $1;">
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="function $1$($2$) return $3$ is$4$begin$END$end $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="fune expression function" toReformat="true" toShortenFQNames="true" value="function $1$ return $2$ is($3$);$END$">
+  <template description="" name="fune" toReformat="true" toShortenFQNames="true" value="function $1$ return $2$ is($3$);$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="fund function declaration" toReformat="true" toShortenFQNames="true" value="function $1$ return $2$;$END$">
+  <template description="" name="fund" toReformat="true" toShortenFQNames="true" value="function $1$ return $2$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="ret extended return" toReformat="true" toShortenFQNames="true" value="return $1$ do$END$end return;">
+  <template description="" name="ret" toReformat="true" toShortenFQNames="true" value="return $1$ do$END$end return;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="rec record" toReformat="true" toShortenFQNames="true" value="record$END$end record;">
+  <template description="" name="rec" toReformat="true" toShortenFQNames="true" value="record$END$end record;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="case case" toReformat="true" toShortenFQNames="true" value="case $1$ iswhen $2$ =&gt; $3$;$END$end case;">
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $1$ iswhen $2$ =&gt; $3$;$END$end case;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="whe when" toReformat="true" toShortenFQNames="true" value="when $1$ =&gt; $2$;$END$">
+  <template description="" name="whe" toReformat="true" toShortenFQNames="true" value="when $1$ =&gt; $2$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="wheo when others" toReformat="true" toShortenFQNames="true" value="when others =&gt; $1$;$END$">
+  <template description="" name="wheo" toReformat="true" toShortenFQNames="true" value="when others =&gt; $1$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="lo loop" toReformat="true" toShortenFQNames="true" value="loop$END$end loop;">
+  <template description="" name="lo" toReformat="true" toShortenFQNames="true" value="loop$END$end loop;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="nlo named loop" toReformat="true" toShortenFQNames="true" value="$1$:loop$END$end loop $1;">
+  <template description="" name="nlo" toReformat="true" toShortenFQNames="true" value="$1$:loop$END$end loop $1;">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="ex exit when" toReformat="true" toShortenFQNames="true" value="exit when $1$;$END$">
+  <template description="" name="ex" toReformat="true" toShortenFQNames="true" value="exit when $1$;$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="put Ada.Text_IO.Put" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Put($1$);$END$">
+  <template description="" name="put" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Put($1$);$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="putl Ada.Text_IO.Put_Line" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Put_Line($1$);$END$">
+  <template description="" name="putl" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Put_Line($1$);$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="get Ada.Text_IO.Get" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Get($1$);$END$">
+  <template description="" name="get" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Get($1$);$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>
   </template>
-  <template description="" name="getl Ada.Text_IO.Get_Line" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Get_Line($1$);$END$">
+  <template description="" name="getl" toReformat="true" toShortenFQNames="true" value="Ada.Text_IO.Get_Line($1$);$END$">
     <context>
       <option name="ADA" value="true"/>
     </context>

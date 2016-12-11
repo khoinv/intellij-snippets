@@ -9,6 +9,7 @@ VIM_DFAULT_VALUE = re.compile(r'(?P<var_name>(?<=\$\{)[0-9]{1,}):(?P<var_default
 VIM_REPLACE = re.compile(r'\$\{([0-9]+):?.*?\}')
 SNIPPET_TEXT_LENGTH = len('snippet')
 VIM_SNIPPET_PATH = 'vim-snippets/snippets/'
+BOOTSTRAP_VIM_SNIPPET_PATH = 'bootstrap-snippets/snippets/'
 INTELLIJ_SNIPPET_PATH = 'intellij-snippets/resources/templates/'
 
 
@@ -25,8 +26,10 @@ def convert(fn):
         language = 'perl'
     elif name.startswith('php'):
         language = 'php'
+    elif name.startswith('bootstrap'):
+        language = 'html'
 
-    templateSetNode = etree.Element('templateSet', group=language)
+    templateSetNode = etree.Element('templateSet', group = name)
     with open(fn) as f:
         vimTemplate = {}
         for line in f:
@@ -40,7 +43,7 @@ def convert(fn):
                 if line.startswith('#'):
                     vimTemplate['comment'] = line[1:].strip()
                 else:
-                    vimTemplate['name'] = line[SNIPPET_TEXT_LENGTH:].strip()
+                    vimTemplate['name'] = line[SNIPPET_TEXT_LENGTH:].strip().split(' ')[0]
             else:
                 if 'value' not in vimTemplate:
                     vimTemplate['value'] = []

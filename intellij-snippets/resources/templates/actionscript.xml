@@ -48,14 +48,14 @@
       <option name="ACTIONSCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="for enumerate names" toReformat="true" toShortenFQNames="true" value="for ($1$ in $2$){$END$}">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for ($1$ in $2$){$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
     <context>
       <option name="ACTIONSCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="for enumerate values" toReformat="true" toShortenFQNames="true" value="for each ($1$ in $2$){$END$}">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for each ($1$ in $2$){$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
     <context>
@@ -79,7 +79,7 @@
       <option name="ACTIONSCRIPT" value="true"/>
     </context>
   </template>
-  <template description="" name="for for (..) {..}" toReformat="true" toShortenFQNames="true" value="for ($2$ = 0; $2 &lt; $1$; $2$3$) {$END$}">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for ($2$ = 0; $2 &lt; $1$; $2$3$) {$END$}">
     <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="3"/>
