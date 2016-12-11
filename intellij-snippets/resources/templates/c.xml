@@ -1,0 +1,233 @@
+<templateSet group="c">
+  <template description="" name="main" toReformat="true" toShortenFQNames="true" value="int main(int argc, const char *argv[]){$END$return 0;}">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mainn" toReformat="true" toShortenFQNames="true" value="int main(void){$END$return 0;}">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inc" toReformat="true" toShortenFQNames="true" value="#include &lt;$1$.h&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;stdio&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="Inc" toReformat="true" toShortenFQNames="true" value="#include &quot;$1$&quot;">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1.h&quot;)`&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ndef" toReformat="true" toShortenFQNames="true" value="#ifndef $1#define $1$ $2$#endif /* ifndef $1 */">
+    <variable alwaysStopAt="true" defaultValue="&quot;SYMBOL&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="def" toReformat="true" toShortenFQNames="true" value="#define">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifdef" toReformat="true" toShortenFQNames="true" value="#ifdef $1$$2$#endif">
+    <variable alwaysStopAt="true" defaultValue="&quot;FOO&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#define &quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="#if" toReformat="true" toShortenFQNames="true" value="#if $1$$END$#endif">
+    <variable alwaysStopAt="true" defaultValue="&quot;FOO&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="once" toReformat="true" toShortenFQNames="true" value="#ifndef $1$#define $1$END$#endif /* end of include guard: $1 */">
+    <variable alwaysStopAt="true" defaultValue="&quot;`toupper(vim_snippets#Filename('$1_H', 'UNTITLED_H'))`&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$} else {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else {$END$}">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="elif" toReformat="true" toShortenFQNames="true" value="else if ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifi" toReformat="true" toShortenFQNames="true" value="if ($1$) $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="t" toReformat="true" toShortenFQNames="true" value="$1$ ? $2$ : $3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="3"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="switch" toReformat="true" toShortenFQNames="true" value="switch ($1$) {case $2$:$3$$4$$5$default:$6$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable case */&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;break;&quot;" expression="" name="4"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="switchndef" toReformat="true" toShortenFQNames="true" value="switch ($1$) {case $2$:$3$$4$$5$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable case */&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;break;&quot;" expression="" name="4"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $1$:$2$$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable case */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;break;&quot;" expression="" name="3"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ret" toReformat="true" toShortenFQNames="true" value="return $END$;">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for (int $2$ = 0; $2 &lt; $1$; $2$3$) {$4$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="3"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forr" toReformat="true" toShortenFQNames="true" value="for (int $1$ = $2$; $3$; $1$4$) {$5$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1 &lt; 10&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="4"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while ($1$) {$2$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="do" toReformat="true" toShortenFQNames="true" value="do {$2$} while ($1$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="$1$ $2$($3$){$4$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fund" toReformat="true" toShortenFQNames="true" value="$1$ $2$($3$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="td" toReformat="true" toShortenFQNames="true" value="typedef $1$ $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;MyCustomType&quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="st" toReformat="true" toShortenFQNames="true" value="struct $1$ {$2$}$3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1_t', 'name')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* data */&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot; /* optional variable list */&quot;" expression="" name="3"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tds" toReformat="true" toShortenFQNames="true" value="typedef struct $2${$3$} $1$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;_$1 &quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* data */&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1_t', 'name')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="enum" toReformat="true" toShortenFQNames="true" value="enum $1$ { $END$ };">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tde" toReformat="true" toShortenFQNames="true" value="typedef enum {$1$} $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* data */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pr" toReformat="true" toShortenFQNames="true" value="printf(&quot;$1$\n&quot;$2$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;%s&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fpr" toReformat="true" toShortenFQNames="true" value="fprintf($1$, &quot;$2$\n&quot;$3$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;stderr&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;%s&quot;" expression="" name="2"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prd" toReformat="true" toShortenFQNames="true" value="printf(&quot;$1$ = %d\n&quot;, $1);">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prf" toReformat="true" toShortenFQNames="true" value="printf(&quot;$1$ = %f\n&quot;, $1);">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prx" toReformat="true" toShortenFQNames="true" value="printf(&quot;$1$ = %$2$\n&quot;, $1);">
+    <variable alwaysStopAt="true" defaultValue="&quot;} = %${2&quot;" expression="" name="1"/>
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+  <template description="" name="getopt" toReformat="true" toShortenFQNames="true" value="int choice;while (1){static struct option long_options[] ={/* Use flags like so:{&quot;verbose&quot;,&#9;no_argument,&#9;&amp;verbose_flag, 'V'}*//* Argument styles: no_argument, required_argument, optional_argument */{&quot;version&quot;, no_argument,&#9;0,&#9;'v'},{&quot;help&quot;,&#9;no_argument,&#9;0,&#9;'h'},$1${0,0,0,0}};int option_index = 0;/* Argument parameters:no_argument: &quot; &quot;required_argument: &quot;:&quot;optional_argument: &quot;::&quot; */choice = getopt_long( argc, argv, &quot;vh&quot;,long_options, &amp;option_index);if (choice == -1)break;switch( choice ){case 'v':$2$break;case 'h':$3$break;case '?':/* getopt_long will have already printed an error */break;default:/* Not sure how to get here... */return EXIT_FAILURE;}}/* Deal with non-option arguments here */if ( optind &lt; argc ){while ( optind &lt; argc ){$END$}}">
+    <context>
+      <option name="C" value="true"/>
+    </context>
+  </template>
+</templateSet>

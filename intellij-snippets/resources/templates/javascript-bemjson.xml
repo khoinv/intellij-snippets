@@ -1,0 +1,46 @@
+<templateSet group="javascript">
+  <template description="" name="b" toReformat="true" toShortenFQNames="true" value="{block : '$1$',content : ['$2$']}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="btc" toReformat="true" toShortenFQNames="true" value="{block : '$1$',content: '$2$'}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bwm" toReformat="true" toShortenFQNames="true" value="{block : '$1$',mods: { $2$: '$3$' },content : ['$4$']}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;modName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;modVal&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="4"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="e" toReformat="true" toShortenFQNames="true" value="{elem : '$1$',content : ['$2$']}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mo" toReformat="true" toShortenFQNames="true" value="mods : { $1$ : '$2$' },">
+    <variable alwaysStopAt="true" defaultValue="&quot;modName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;modVal&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mi" toReformat="true" toShortenFQNames="true" value="mix : [ { $1$ : '$2$' } ],">
+    <variable alwaysStopAt="true" defaultValue="&quot;block&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;block&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+</templateSet>

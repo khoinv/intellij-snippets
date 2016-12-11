@@ -1,0 +1,530 @@
+<templateSet group="tex">
+  <template description="" name="nc \newcommand" toReformat="true" toShortenFQNames="true" value="\newcommand{\\$1$}[$2$]{$3$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;cmd&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;opt&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;realcmd&quot;" expression="" name="3"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="up \usepackage" toReformat="true" toShortenFQNames="true" value="\usepackage[$1$]{$2$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;options&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nuc \newunicodechar" toReformat="true" toShortenFQNames="true" value="\newunicodechar{$1$}{$2$$3$}} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;\ensuremath&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;tex-substitute&quot;" expression="" name="3"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dmo \DeclareMathOperator" toReformat="true" toShortenFQNames="true" value="\DeclareMathOperator{$1$}{$2$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="begin \begin{} ... \end{} block" toReformat="true" toShortenFQNames="true" value="\begin{$1$}$END$}\end{$1}">
+    <variable alwaysStopAt="true" defaultValue="&quot;env&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tab tabular (or arbitrary) environment" toReformat="true" toShortenFQNames="true" value="\begin{$1$}{$2$}$END$}\end{$1}">
+    <variable alwaysStopAt="true" defaultValue="&quot;tabular&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;c&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="thm thm (or arbitrary) environment with optional argument" toReformat="true" toShortenFQNames="true" value="\begin[$1$]{$2$}$END$}\end{$2}">
+    <variable alwaysStopAt="true" defaultValue="&quot;author&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;thm&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="center center environment" toReformat="true" toShortenFQNames="true" value="\begin{center}$END$}\end{center}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ali align(ed) environment" toReformat="true" toShortenFQNames="true" value="\begin{align$1$}\label{eq:$2$}$END$}\end{align$1}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ed&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="gat gather(ed) environment" toReformat="true" toShortenFQNames="true" value="\begin{gather$1$}$END$}\end{gather$1}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ed&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eq equation environment" toReformat="true" toShortenFQNames="true" value="\begin{equation}$END$}\end{equation}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eql Labeled equation environment" toReformat="true" toShortenFQNames="true" value="\begin{equation}\label{eq:$2$}$END$}\end{equation}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eq* unnumbered equation environment" toReformat="true" toShortenFQNames="true" value="\begin{equation*}$END$}\end{equation*}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="\ unnumbered equation: \[ ... \]" toReformat="true" toShortenFQNames="true" value="\[$END$}\]">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eqnarray eqnarray environment" toReformat="true" toShortenFQNames="true" value="\begin{eqnarray}$END$}\end{eqnarray}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lab \label" toReformat="true" toShortenFQNames="true" value="\label{$1$$2$$3$$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;eq:&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;fig:&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;tab:&quot;" expression="" name="3"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="enum enumerate environment" toReformat="true" toShortenFQNames="true" value="\begin{enumerate}\item $END$\end{enumerate}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="enuma enumerate environment" toReformat="true" toShortenFQNames="true" value="\begin{enumerate}[(a)]\item $END$\end{enumerate}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="enumi enumerate environment" toReformat="true" toShortenFQNames="true" value="\begin{enumerate}[(i)]\item $END$\end{enumerate}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="itemize itemize environment" toReformat="true" toShortenFQNames="true" value="\begin{itemize}\item $END$\end{itemize}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="item \item" toReformat="true" toShortenFQNames="true" value="\item $1$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="1"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="desc description environment" toReformat="true" toShortenFQNames="true" value="\begin{description}\item[$1$] $END$\end{description}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="]i \item (recursive)" toReformat="true" toShortenFQNames="true" value="\item $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;]i&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mat smart matrix environment" toReformat="true" toShortenFQNames="true" value="\begin{$1$matrix}$END$}\end{$1matrix}">
+    <variable alwaysStopAt="true" defaultValue="&quot;p/b/v/V/B/small&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cas cases environment" toReformat="true" toShortenFQNames="true" value="\begin{cases}$1$, &amp;\text{ if }$2$\\$END$}\end{cases}">
+    <variable alwaysStopAt="true" defaultValue="&quot;equation&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;case&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="spl split environment" toReformat="true" toShortenFQNames="true" value="\begin{split}$END$}\end{split}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="part document \part" toReformat="true" toShortenFQNames="true" value="\part{$1$} % (fold)\label{prt:$2$}$END$% part $2 (end)">
+    <variable alwaysStopAt="true" defaultValue="&quot;part name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cha \chapter" toReformat="true" toShortenFQNames="true" value="\chapter{$1$}\label{cha:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;chapter name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sec \section" toReformat="true" toShortenFQNames="true" value="\section{$1$}\label{sec:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;section name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sec* \section*" toReformat="true" toShortenFQNames="true" value="\section*{$1$}\label{sec:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;section name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sub \subsection" toReformat="true" toShortenFQNames="true" value="\subsection{$1$}\label{sub:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;subsection name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sub* \subsection*" toReformat="true" toShortenFQNames="true" value="\subsection*{$1$}\label{sub:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;subsection name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="subs \subsubsection" toReformat="true" toShortenFQNames="true" value="\subsubsection{$1$}\label{ssub:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;subsubsection name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="subs* \subsubsection*" toReformat="true" toShortenFQNames="true" value="\subsubsection*{$1$}\label{ssub:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;subsubsection name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="par \paragraph" toReformat="true" toShortenFQNames="true" value="\paragraph{$1$}\label{par:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;paragraph name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="subp \subparagraph" toReformat="true" toShortenFQNames="true" value="\subparagraph{$1$}\label{subp:$2$}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;subparagraph name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ni \noindent" toReformat="true" toShortenFQNames="true" value="\noindent$END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="itd description \item" toReformat="true" toShortenFQNames="true" value="\item[$1$] $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;description&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="figure reference to a figure" toReformat="true" toShortenFQNames="true" value="$1$~\ref{$2$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Figure&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;fig:&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="table reference to a table" toReformat="true" toShortenFQNames="true" value="$1$~\ref{$2$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;tab:&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="listing reference to a listing" toReformat="true" toShortenFQNames="true" value="$1$~\ref{$2$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Listing&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="section reference to a section" toReformat="true" toShortenFQNames="true" value="$1$~\ref{sec:$2$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Section&quot;" expression="" name="1"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="page reference to a page" toReformat="true" toShortenFQNames="true" value="$1$~\pageref{$2$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;page&quot;" expression="" name="1"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="index \index" toReformat="true" toShortenFQNames="true" value="\index{$1$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="1"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="citen \citen" toReformat="true" toShortenFQNames="true" value="\citen{$1$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="citep \citep" toReformat="true" toShortenFQNames="true" value="\citep{$1$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="citet \citet" toReformat="true" toShortenFQNames="true" value="\citet{$1$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cite \cite[]{}" toReformat="true" toShortenFQNames="true" value="\cite[$1$]{$2$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="citea \citeauthor" toReformat="true" toShortenFQNames="true" value="\citeauthor{$1$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="citey \citeyear" toReformat="true" toShortenFQNames="true" value="\citeyear{$1$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fcite \footcite[]{}" toReformat="true" toShortenFQNames="true" value="\footcite[$1$]{$2$}$END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="it italic text" toReformat="true" toShortenFQNames="true" value="\textit{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bf bold face text" toReformat="true" toShortenFQNames="true" value="\textbf{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="under underline text" toReformat="true" toShortenFQNames="true" value="\underline{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="emp emphasize text" toReformat="true" toShortenFQNames="true" value="\emph{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sc small caps text" toReformat="true" toShortenFQNames="true" value="\textsc{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sf sans serife text" toReformat="true" toShortenFQNames="true" value="\textsf{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rm roman font text" toReformat="true" toShortenFQNames="true" value="\textrm{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt typewriter (monospace) text" toReformat="true" toShortenFQNames="true" value="\texttt{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mf mathfrak" toReformat="true" toShortenFQNames="true" value="\mathfrak{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mc mathcal" toReformat="true" toShortenFQNames="true" value="\mathcal{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ms mathscr" toReformat="true" toShortenFQNames="true" value="\mathscr{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ft \footnote" toReformat="true" toShortenFQNames="true" value="\footnote{$END$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL:text&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fig figure environment (includegraphics)" toReformat="true" toShortenFQNames="true" value="\begin{figure}\begin{center}\includegraphics[scale=$1$]{Figures/$2$}\end{center}\caption{$3$}\label{fig:$4$}\end{figure}$END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tikz figure environment (tikzpicture)" toReformat="true" toShortenFQNames="true" value="\begin{figure}\begin{center}\begin{tikzpicture}[scale=$1$]$2$\end{tikzpicture}\end{center}\caption{$3$}\label{fig:$4$}\end{figure}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="1"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="stackrel \stackrel{}{}" toReformat="true" toShortenFQNames="true" value="\stackrel{$1$}{$2$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;above&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;below&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="frac \frac{}{}" toReformat="true" toShortenFQNames="true" value="\frac{$1$}{$2$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;num&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;denom&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sum \sum^{}_{}" toReformat="true" toShortenFQNames="true" value="\sum^{$1$}_{$2$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;n&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;i=1&quot;" expression="" name="2"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lim \lim_{}" toReformat="true" toShortenFQNames="true" value="\lim_{$1$} $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;n \to \infty&quot;" expression="" name="1"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="frame frame environment" toReformat="true" toShortenFQNames="true" value="\begin{frame}[$1$]{$2$}$END$}\end{frame}">
+    <variable alwaysStopAt="true" defaultValue="&quot;t&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="block block environment" toReformat="true" toShortenFQNames="true" value="\begin{block}{$1$}$END$}\end{block}">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="alert alertblock environment" toReformat="true" toShortenFQNames="true" value="\begin{alertblock}{$1$}$END$}\end{alertblock}">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="example exampleblock environment" toReformat="true" toShortenFQNames="true" value="\begin{exampleblock}{$1$}$END$}\end{exampleblock}">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="col2 two-column environment" toReformat="true" toShortenFQNames="true" value="\begin{columns}\begin{column}{0.5\textwidth}$1$\end{column}\begin{column}{0.5\textwidth}$END$\end{column}\end{columns}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="\{ \{ \}" toReformat="true" toShortenFQNames="true" value="\\{ $END$ \\}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lr left right" toReformat="true" toShortenFQNames="true" value="\left$1$ $END$ \right$1">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lr( left( right)" toReformat="true" toShortenFQNames="true" value="\left( $END$ \right)">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lr| left| right|" toReformat="true" toShortenFQNames="true" value="\left| $END$ \right|">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lr{ left\{ right\}" toReformat="true" toShortenFQNames="true" value="\left\\{ $END$ \right\\}">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lr[ left[ right]" toReformat="true" toShortenFQNames="true" value="\left[ $END$ \right]">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lra langle rangle" toReformat="true" toShortenFQNames="true" value="\langle $END$ \rangle">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lst" toReformat="true" toShortenFQNames="true" value="\begin{listing}[language=$1$]$END$}\end{listing}">
+    <variable alwaysStopAt="true" defaultValue="&quot;language&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;${VISUAL&quot;" expression="" name="0"/>
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lsi" toReformat="true" toShortenFQNames="true" value="\lstinline|$1$| $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="url" toReformat="true" toShortenFQNames="true" value="\url{$1$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="href" toReformat="true" toShortenFQNames="true" value="\href{$1$}{$2$} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+  <template description="" name="urlc" toReformat="true" toShortenFQNames="true" value="\url{`@+`} $END$">
+    <context>
+      <option name="TEX" value="true"/>
+    </context>
+  </template>
+</templateSet>

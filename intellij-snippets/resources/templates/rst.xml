@@ -1,0 +1,166 @@
+<templateSet group="rst">
+  <template description="" name=":" toReformat="true" toShortenFQNames="true" value=":$1$: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;field name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;field body&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="*" toReformat="true" toShortenFQNames="true" value="*$1$* $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Emphasis&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="**" toReformat="true" toShortenFQNames="true" value="**$1$** $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Strong emphasis&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="_" toReformat="true" toShortenFQNames="true" value="\`$1$\`_.. _\`$1\`: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;hyperlink-name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;link-block&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="=" toReformat="true" toShortenFQNames="true" value="$1$=====$2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;=&quot;" expression="" name="2"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="-" toReformat="true" toShortenFQNames="true" value="$1$-----$2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;-&quot;" expression="" name="2"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="img:" toReformat="true" toShortenFQNames="true" value=".. |$END$| image:: $1$">
+    <variable alwaysStopAt="true" defaultValue="&quot;alias&quot;" expression="" name="0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;img&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fig:" toReformat="true" toShortenFQNames="true" value=".. figure:: $1$:alt: $END$$2">
+    <variable alwaysStopAt="true" defaultValue="&quot;img&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;alter text&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cont:" toReformat="true" toShortenFQNames="true" value=".. contents::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="code:" toReformat="true" toShortenFQNames="true" value=".. code:: $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;write some code&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tip:" toReformat="true" toShortenFQNames="true" value=".. tip::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;my tips&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="not:" toReformat="true" toShortenFQNames="true" value=".. note::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;my notes&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="war:" toReformat="true" toShortenFQNames="true" value=".. warning::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;attention!&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="imp:" toReformat="true" toShortenFQNames="true" value=".. important::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;this is importatnt&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="att:" toReformat="true" toShortenFQNames="true" value=".. attention::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;hey!&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dan:" toReformat="true" toShortenFQNames="true" value=".. danger::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;ah!&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="err:" toReformat="true" toShortenFQNames="true" value=".. error::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Error occur&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cau:" toReformat="true" toShortenFQNames="true" value=".. caution::$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Watch out!&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sid:" toReformat="true" toShortenFQNames="true" value=".. sidebar:: $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tod:" toReformat="true" toShortenFQNames="true" value=".. todo::$END$">
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lis:" toReformat="true" toShortenFQNames="true" value=".. list-table:: $END$:header-rows: 1:stub-columns: 1* - x1,y1- x2,y1- x3,y1* - x1,y2- x2,y2- x3,y2* - x1,y3- x2,y3- x3,y3">
+    <variable alwaysStopAt="true" defaultValue="&quot;Title&quot;" expression="" name="0"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="toc:" toReformat="true" toShortenFQNames="true" value=".. toctree:::maxdepth: 2$END$">
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dow:" toReformat="true" toShortenFQNames="true" value=":download:`$END$ &lt;$1$&gt;`">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ref:" toReformat="true" toShortenFQNames="true" value=":ref:`$END$ &lt;$1$&gt;`">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="doc:" toReformat="true" toShortenFQNames="true" value=":doc:`$END$ &lt;$1$&gt;`">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+  <template description="" name="*c" toReformat="true" toShortenFQNames="true" value="\ *$1$*\ $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Emphasis&quot;" expression="" name="1"/>
+    <context>
+      <option name="RST" value="true"/>
+    </context>
+  </template>
+</templateSet>

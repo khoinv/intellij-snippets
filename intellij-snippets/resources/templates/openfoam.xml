@@ -1,0 +1,42 @@
+<templateSet group="openfoam">
+  <template description="" name="fv" toReformat="true" toShortenFQNames="true" value="type&#9;&#9;fixedValue;value&#9;&#9;uniform $END$;">
+    <context>
+      <option name="OPENFOAM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="zg" toReformat="true" toShortenFQNames="true" value="type&#9;&#9;zeroGradient;">
+    <context>
+      <option name="OPENFOAM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sym" toReformat="true" toShortenFQNames="true" value="type&#9;&#9;symmetryPlane;">
+    <context>
+      <option name="OPENFOAM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forces" toReformat="true" toShortenFQNames="true" value="forces{type&#9;&#9;&#9;&#9;forces;functionObjectLibs&#9;(&quot;libforces.so&quot;);enabled&#9;&#9;&#9;&#9;true;outputControl&#9;&#9;$1$;outputInterval&#9;&#9;$2$;patches&#9;&#9;&#9;&#9;($3$);log&#9;&#9;&#9;&#9;&#9;$4$;CofR&#9;&#9;&#9;&#9;($END$);}">
+    <variable alwaysStopAt="true" defaultValue="&quot;timeStep&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0 0 0&quot;" expression="" name="0"/>
+    <context>
+      <option name="OPENFOAM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="gamg" toReformat="true" toShortenFQNames="true" value="$1${solver          GAMG;tolerance       1e-$2$;relTol          $END$;smoother        GaussSeidel;cacheAgglomeration true;nCellsInCoarsestLevel 10;agglomerator    faceAreaPair;mergeLevels     1;}">
+    <variable alwaysStopAt="true" defaultValue="&quot;p&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;6&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0.0&quot;" expression="" name="0"/>
+    <context>
+      <option name="OPENFOAM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pbicg" toReformat="true" toShortenFQNames="true" value="$1${solver          PBiCG;preconditioner  DILU;tolerance       1e-$2$;relTol          $END$;}">
+    <variable alwaysStopAt="true" defaultValue="&quot;U&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;6&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0.0&quot;" expression="" name="0"/>
+    <context>
+      <option name="OPENFOAM" value="true"/>
+    </context>
+  </template>
+</templateSet>

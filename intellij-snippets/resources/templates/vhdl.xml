@@ -1,0 +1,124 @@
+<templateSet group="vhdl">
+  <template description="" name="lib" toReformat="true" toShortenFQNames="true" value="library $1$use $1$.$2$">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="libs" toReformat="true" toShortenFQNames="true" value="library IEEE;use IEEE.std_logic_1164.ALL;use IEEE.numeric_std.ALL;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="libx" toReformat="true" toShortenFQNames="true" value="library UNISIM;use UNISIM.VCOMPONENTS.ALL;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ent" toReformat="true" toShortenFQNames="true" value="entity $1$ isgeneric ($2$);port ($3$);end entity $1;">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="1"/>
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="arc" toReformat="true" toShortenFQNames="true" value="architecture $1$ of $2$ is$3$beginend $1;">
+    <variable alwaysStopAt="true" defaultValue="&quot;behav&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="2"/>
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="st" toReformat="true" toShortenFQNames="true" value="signal $1$ : std_logic;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sv" toReformat="true" toShortenFQNames="true" value="signal $1$ : std_logic_vector ($2$ downto 0);">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ist" toReformat="true" toShortenFQNames="true" value="$1$ : in std_logic;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isv" toReformat="true" toShortenFQNames="true" value="$1$ : in std_logic_vector ($2$ downto 0);">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ost" toReformat="true" toShortenFQNames="true" value="$1$ : out std_logic;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="osv" toReformat="true" toShortenFQNames="true" value="$1$ : out std_logic_vector ($2$ downto 0);">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="un" toReformat="true" toShortenFQNames="true" value="signal $1$ : unsigned ($2$ downto 0);">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pr" toReformat="true" toShortenFQNames="true" value="process ($1$)begin$2$end process;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prc" toReformat="true" toShortenFQNames="true" value="process ($1$)beginif rising_edge ($1) then$2$end if;end process;">
+    <variable alwaysStopAt="true" defaultValue="&quot;clk&quot;" expression="" name="1"/>
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pra" toReformat="true" toShortenFQNames="true" value="process ($1$)begin$2$end process;">
+    <variable alwaysStopAt="true" defaultValue="&quot;all&quot;" expression="" name="1"/>
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $1$ then$2$end if;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $1$ then$2$else$3$end if;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else$1$">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="elsif $1$ then$2$">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ca" toReformat="true" toShortenFQNames="true" value="case $1$ is$2$end case;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="when $1$ =&gt;$2$">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$ $3$ $4$ loop$5$end loop;">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;to&quot;" expression="" name="3"/>
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while $1$ loop$2$end loop;">
+    <context>
+      <option name="VHDL" value="true"/>
+    </context>
+  </template>
+</templateSet>

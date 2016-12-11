@@ -1,0 +1,500 @@
+<templateSet group="yii-chtml">
+  <template description="" name="yhrb" toReformat="true" toShortenFQNames="true" value="echo CHtml::radioButton('$1$', $2$,array($3$=&gt;$END$ );">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhass" toReformat="true" toShortenFQNames="true" value="echo CHtml::asset('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhale" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeLabelEx($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yheca" toReformat="true" toShortenFQNames="true" value="echo CHtml::encodeArray(array($END$));">
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhnurl" toReformat="true" toShortenFQNames="true" value="echo CHtml::normalizeUrl(array('$END$'));">
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhsb" toReformat="true" toShortenFQNames="true" value="echo CHtml::submitButton('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhlinkb" toReformat="true" toShortenFQNames="true" value="echo CHtml::linkButton('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;lable&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhata" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeTextArea($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhajb" toReformat="true" toShortenFQNames="true" value="echo CHtml::ajaxButton('$1$', '$2$',array('$3$'=&gt;$4$),array('$5$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ajaxOptionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ajaxOptionValue&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhai" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeId($1$, '$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhacb" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeCheckBox($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhahf" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeHiddenField($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhec" toReformat="true" toShortenFQNames="true" value="echo CHtml::encode($END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhmtag" toReformat="true" toShortenFQNames="true" value="echo CHtml::metaTag('$1$', '$2$', '$3$',array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;httpEquiv&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhddl" toReformat="true" toShortenFQNames="true" value="echo CHtml::dropDownList('$1$', '$2$', array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;select&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhlb" toReformat="true" toShortenFQNames="true" value="echo CHtml::listBox('$1$', '$2$',array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;select&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhjs" toReformat="true" toShortenFQNames="true" value="echo CHtml::script('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;test&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhaj" toReformat="true" toShortenFQNames="true" value="echo CHtml::ajax(array($END$));">
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhtf" toReformat="true" toShortenFQNames="true" value="echo CHtml::textField('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhapf" toReformat="true" toShortenFQNames="true" value="echo CHtml::activePasswordField($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhld" toReformat="true" toShortenFQNames="true" value="echo CHtml::listData(array($1$),'$2$', '$3$','$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;valueField&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;textField&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;groupField&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhmt" toReformat="true" toShortenFQNames="true" value="echo CHtml::mailto('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;email&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhimg" toReformat="true" toShortenFQNames="true" value="echo CHtml::image('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;src&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;alt&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhalb" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeListBox($1$, '$2$', array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhaff" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeFileField($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhct" toReformat="true" toShortenFQNames="true" value="echo CHtml::closeTag('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;tag&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhaif" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeInputField('$1$', $2$, '$3$',array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhjsf" toReformat="true" toShortenFQNames="true" value="echo CHtml::scriptFile('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhrbl" toReformat="true" toShortenFQNames="true" value="echo CHtml::radioButtonList('$1$', $2$, array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;select&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhcssf" toReformat="true" toShortenFQNames="true" value="echo CHtml::cssFile('$1$','$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;media&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yherr" toReformat="true" toShortenFQNames="true" value="echo CHtml::error($1$, '$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhpf" toReformat="true" toShortenFQNames="true" value="echo CHtml::passwordField('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhhf" toReformat="true" toShortenFQNames="true" value="echo CHtml::hiddenField('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhc" toReformat="true" toShortenFQNames="true" value="echo CHtml::cdata($END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhlink" toReformat="true" toShortenFQNames="true" value="echo CHtml::link('$1$',array($2$),array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yherrs" toReformat="true" toShortenFQNames="true" value="echo CHtml::errorSummary($1$,'$2$','$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;headerHtml&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;footerHtml&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yht" toReformat="true" toShortenFQNames="true" value="echo CHtml::tag('$1$',array('$2$'=&gt;$3$),$4$,$END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;tag&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhajl" toReformat="true" toShortenFQNames="true" value="echo CHtml::ajaxLink('$1$', '$2$',array('$3$'=&gt;$4$),array('$5$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ajaxOptionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ajaxOptionValue&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhlabel" toReformat="true" toShortenFQNames="true" value="echo CHtml::label('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;for&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhan" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeName($1$, '$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhsform" toReformat="true" toShortenFQNames="true" value="echo CHtml::statefulForm(array('$1$'), '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;post&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhff" toReformat="true" toShortenFQNames="true" value="echo CHtml::fileField('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhatf" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeTextField($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhcss" toReformat="true" toShortenFQNames="true" value="echo CHtml::css('$1$','$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;test&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;media&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhimgb" toReformat="true" toShortenFQNames="true" value="echo CHtml::imageButton('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;src&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhajsb" toReformat="true" toShortenFQNames="true" value="echo CHtml::ajaxSubmitButton('$1$', '$2$',array('$3$'=&gt;$4$),array('$5$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ajaxOptionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ajaxOptionValue&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhb" toReformat="true" toShortenFQNames="true" value="echo CHtml::button('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhlo" toReformat="true" toShortenFQNames="true" value="echo CHtml::listOptions('$1$', array($2$), array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;selection&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhacbl" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeCheckBoxList($1$, '$2$', array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhot" toReformat="true" toShortenFQNames="true" value="echo CHtml::openTag('$1$', array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;tag&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhcb" toReformat="true" toShortenFQNames="true" value="echo CHtml::checkBox('$1$', $2$, array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhta" toReformat="true" toShortenFQNames="true" value="echo CHtml::textArea('$1$', '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhlinkt" toReformat="true" toShortenFQNames="true" value="echo CHtml::linkTag('$1$', '$2$', '$3$', '$4$',array('$5$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;relation&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;href&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;media&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhrsb" toReformat="true" toShortenFQNames="true" value="echo CHtml::resetButton('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yharbl" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeRadioButtonList($1$, '$2$', array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhcbl" toReformat="true" toShortenFQNames="true" value="echo CHtml::checkBoxList('$1$', $2$, array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;select&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhform" toReformat="true" toShortenFQNames="true" value="echo CHtml::form(array('$1$'), '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;post&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhbeform" toReformat="true" toShortenFQNames="true" value="echo CHtml::beginForm(array('$1$'), '$2$',array('$3$'=&gt;$4$));$END$echo CHtml::endForm();">
+    <variable alwaysStopAt="true" defaultValue="&quot;post&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="4"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yhaddl" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeDropDownList($1$, '$2$', array($3$),array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yharb" toReformat="true" toShortenFQNames="true" value="echo CHtml::activeRadioButton($1$, '$2$',array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionName&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;optionValue&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII-CHTML" value="true"/>
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,71 @@
+<templateSet group="sass">
+  <template description="" name="$" toReformat="true" toShortenFQNames="true" value="$$1$: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="imp" toReformat="true" toShortenFQNames="true" value="@import '$END$'">
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mix" toReformat="true" toShortenFQNames="true" value="@mixin $1$($2$)$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inc" toReformat="true" toShortenFQNames="true" value="@include $1$($2$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;mixin&quot;" expression="" name="1"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ext" toReformat="true" toShortenFQNames="true" value="@extend $END$">
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="@function $1$($2$)$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="2"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="@if $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="@if $1$$2$@else$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="@else if $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="@for $1$ from $2$ through $3$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;$i&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;3&quot;" expression="" name="3"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="each" toReformat="true" toShortenFQNames="true" value="@each $1$ in $2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;$item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="2"/>
+    <context>
+      <option name="SASS" value="true"/>
+    </context>
+  </template>
+</templateSet>

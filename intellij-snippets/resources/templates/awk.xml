@@ -1,0 +1,105 @@
+<templateSet group="awk">
+  <template description="" name="#! #!/usr/bin/awk -f" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/awk -f">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inc @include" toReformat="true" toShortenFQNames="true" value="@include &quot;$1$&quot;$END$">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="loa @load" toReformat="true" toShortenFQNames="true" value="@load &quot;$1$&quot;$END$">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="beg BEGIN { ... }" toReformat="true" toShortenFQNames="true" value="BEGIN {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="begf BEGINFILE { ... }" toReformat="true" toShortenFQNames="true" value="BEGINFILE {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="end END { ... }" toReformat="true" toShortenFQNames="true" value="END {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="endf ENDFILE { ... }" toReformat="true" toShortenFQNames="true" value="ENDFILE {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pri print" toReformat="true" toShortenFQNames="true" value="print $1$&quot;}$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;&quot;${2&quot;" expression="" name="1"/>
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="printf printf" toReformat="true" toShortenFQNames="true" value="printf(&quot;$1$\n&quot;, $2$)$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;%s&quot;" expression="" name="1"/>
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ign IGNORECASE" toReformat="true" toShortenFQNames="true" value="IGNORECASE = $1$">
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="1"/>
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if if {...}" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife if ... else ..." toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$} else {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif else if ..." toReformat="true" toShortenFQNames="true" value="else if ($1$) {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el else {...}" toReformat="true" toShortenFQNames="true" value="else {$END$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh while" toReformat="true" toShortenFQNames="true" value="while ($1$) {$2$}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="do do ... while" toReformat="true" toShortenFQNames="true" value="do {$END$} while ($1$)">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for for" toReformat="true" toShortenFQNames="true" value="for ($2$ = 0; i &lt; $1$; $3$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;n&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++i&quot;" expression="" name="3"/>
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fore for each" toReformat="true" toShortenFQNames="true" value="for ($1$ in $2$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sw switch" toReformat="true" toShortenFQNames="true" value="switch ($1$) {case $2$:$3$breakdefault:$END$break}">
+    <context>
+      <option name="AWK" value="true"/>
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,20 @@
+<templateSet group="lfe">
+  <template description="" name="defmo" toReformat="true" toShortenFQNames="true" value="(defmodule $1$(export $2$))$0">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;all&quot;" expression="" name="2"/>
+    <context>
+      <option name="LFE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="def" toReformat="true" toShortenFQNames="true" value="(defun $1 ($2)$0)">
+    <context>
+      <option name="LFE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ltest" toReformat="true" toShortenFQNames="true" value="(defmodule $1$(behaviour ltest-unit)(export all))(include-lib &quot;ltest/include/ltest-macros.lfe&quot;)$0">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="1"/>
+    <context>
+      <option name="LFE" value="true"/>
+    </context>
+  </template>
+</templateSet>

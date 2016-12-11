@@ -1,0 +1,50 @@
+<templateSet group="eelixir">
+  <template description="" name="%" toReformat="true" toShortenFQNames="true" value="&lt;% $END$ %&gt;">
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="=" toReformat="true" toShortenFQNames="true" value="&lt;%= $END$ %&gt;">
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="end" toReformat="true" toShortenFQNames="true" value="&lt;% end %&gt;">
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="&lt;%= for $1$ &lt;- $2$ $3$ do %&gt;$END$&lt;% end %&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@conn&quot;" expression="" name="3"/>
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="&lt;%= if $1$ do %&gt;$END$&lt;% end %&gt;">
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="&lt;%= if $1$ do %&gt;$2$&lt;%= else %&gt;$END$&lt;% end %&gt;">
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ft" toReformat="true" toShortenFQNames="true" value="&lt;%= form_tag($1$, method: $2$) %&gt;$END$&lt;/form&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;&quot;/users&quot;&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;:post&quot;" expression="" name="2"/>
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lin" toReformat="true" toShortenFQNames="true" value="&lt;%= link &quot;$1$&quot;, to: $2$, method: $3$ %&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Submit&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&quot;/users&quot;&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;:delete&quot;" expression="" name="3"/>
+    <context>
+      <option name="EELIXIR" value="true"/>
+    </context>
+  </template>
+</templateSet>

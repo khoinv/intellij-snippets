@@ -1,0 +1,65 @@
+<templateSet group="laravel">
+  <template description="" name="l_rsc" toReformat="true" toShortenFQNames="true" value="/*!* \class       $1** \author      $3$* \date        `!v strftime('%d-%m-%y')`*/class $1$ extends $2$ {function __construct() {}public function index() {}public function create() {}public function store() {}public function show($id) {}public function edit($id) {}public function update($id) {}public function destroy($id) {}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;BaseController&quot;" expression="" name="2"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_ssp" toReformat="true" toShortenFQNames="true" value="/*!* \namespace   $1* \class       $2** \author      $3$* \date        `!v strftime('%d-%m-%y')`*/namespace $1$;use Illuminate\Support\ServiceProvider;class $2$ extends ServiceProvider {public function register() {$this-&gt;app-&gt;bind('$4$Service', function ($app) {return new $5$($app-&gt;make('Repositories\\$6$Interface'));});}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Services&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="2"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_rsp" toReformat="true" toShortenFQNames="true" value="/*!* \namespace   $2* \class       $3** \author      $4$* \date        `!v strftime('%d-%m-%y')`*/namespace $2$};use Entities\\$1;use $2\\$1Repository;use Illuminate\Support\ServiceProvider;class $3$ extends ServiceProvider {/*!* \var     defer* \brief   Defer service*/protected $defer = $5$;public function register() {$this-&gt;app-&gt;bind('$2\\$1Interface', function($app) {return new $1Repository(new $1());});}/*!* \brief   If $defer == true need this fn*/public function provides() {return ['$2\\$1Interface'];}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Repositories\\${1:&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="5"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_md" toReformat="true" toShortenFQNames="true" value="/*!* \namespace   $1* \class       $2** \author      $3$* \date        `!v strftime('%d-%m-%y')`*/namespace $1$;class $2$ extends \Eloquent {protected $table   = '$4$';public $timestamps = $5$;protected $hidden  = array($6$);protected $guarded = array($7$);}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Entities&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!p snip.rv = t[2].lower()`&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;'id'&quot;" expression="" name="7"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_ar" toReformat="true" toShortenFQNames="true" value="/*!* \namespace   $1* \class       $2* \implements  $3** \author      $4$* \date        `!v strftime('%d-%m-%y')`*/namespace $1$;use Illuminate\Database\Eloquent\Model;abstract class $2$ implements $3$ {protected $model;/*!* \fn      __construct** \brief   Take the model*/public function __construct(Model $model) {$this-&gt;model = $model;}/*!* \fn      all** \return  Illuminate\Database\Eloquent\Collection*/public function all($columns = array('*')) {return $this-&gt;model-&gt;all()-&gt;toArray();}/*!* \fn      create** \return  Illuminate\Database\Eloquent\Model*/public function create(array $attributes) {return $this-&gt;model-&gt;create($attributes);}/*!* \fn      destroy** \return  int*/public function destroy($ids) {return $this-&gt;model-&gt;destroy($ids);}/*!* \fn      find** \return  mixed*/public function find($id, $columns = array('*')) {return $this-&gt;model-&gt;find($id, $columns);}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Repositories&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;BaseRepositoryInterface&quot;" expression="" name="3"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_r" toReformat="true" toShortenFQNames="true" value="/*!* \namespace   $1* \class       $3* \implements  $4** \author      $5$* \date        `!v strftime('%d-%m-%y')`*/namespace $1$};class $3$ extends \\$6$ implements $4$ {$7$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Repositories\\${2&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$3RepositoryInterface&quot;" expression="" name="4"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_s" toReformat="true" toShortenFQNames="true" value="/*!* \namespace $1* \class     $2** \author    $6$* \date      `!v strftime('%d-%m-%y')`*/namespace Services\\$1$;use $3$};class $2$ {protected $$5$;/*!* \fn      __construct*/public function __construct($4 $repo) {$this-&gt;$5 = $repo;}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v g:snips_author`&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Repositories\\${4:Interface&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`!v expand('%:t:r')`&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;repo&quot;" expression="" name="5"/>
+    <context>
+      <option name="LARAVEL" value="true"/>
+    </context>
+  </template>
+</templateSet>

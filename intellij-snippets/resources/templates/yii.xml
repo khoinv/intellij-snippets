@@ -1,0 +1,336 @@
+<templateSet group="yii">
+  <template description="" name="yse" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;session['$END$'];">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yrd" toReformat="true" toShortenFQNames="true" value="$this-&gt;renderDynamic('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;callback&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycas" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;cache-&gt;set('$1$', $2$, $3$, new C$4$CacheDependency($END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expire&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;}CacheDependency(${0&quot;" expression="" name="4"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycad" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;cache-&gt;add('$1$', $2$, $3$, new C$4$CacheDependency($END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expire&quot;" expression="" name="3"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yregcf" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;clientScript-&gt;registerCssFile('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yreqtype" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;request-&gt;requestType">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yisajax" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;request-&gt;isAjaxRequest">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yt" toReformat="true" toShortenFQNames="true" value="Yii::t('$1$', '$2$',array($END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;category&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="2"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yregc" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;clientScript-&gt;registerCss('$1$', '$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ylog" toReformat="true" toShortenFQNames="true" value="Yii::log('$1$', '$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;msg&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;info&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yuserip" toReformat="true" toShortenFQNames="true" value="YYii::app()-&gt;request-&gt;userHostAddress">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yregsf" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;clientScript-&gt;registerScriptFile('$1$', CClientScript::POS_$END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;scriptUrl&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;END&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ylinkpager" toReformat="true" toShortenFQNames="true" value="$this-&gt;widget('CLinkPager', array('pages'=&gt;$pages,'header'=&gt;'$END$'}))">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yjec" toReformat="true" toShortenFQNames="true" value="CJSON::encode($END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yadp" toReformat="true" toShortenFQNames="true" value="$dataProvider = new CActiveDataProvider('$1$', array('criteria' =&gt; array('condition' =&gt; '$2$','order' =&gt; '$3$','with' =&gt; array('$4$')),//'pagination' =&gt; false,'pagination' =&gt; array('pageSize'=&gt;$5$,),));$END$// $dataProvider-&gt;getData() will return a list of Post objects">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yrdi" toReformat="true" toShortenFQNames="true" value="$this-&gt;renderDynamic('$1$', array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;callback&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yregs" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;clientScript-&gt;registerScript('$1$', '$2$', CClientScript::POS_$END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;READY&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycaf" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;cache-&gt;flush();">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yco" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;request-&gt;cookies['$END$']">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yuser" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;user-&gt;">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yrf" toReformat="true" toShortenFQNames="true" value="$this-&gt;refresh();">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yimp" toReformat="true" toShortenFQNames="true" value="Yii::import('$END$');">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ytrace" toReformat="true" toShortenFQNames="true" value="Yii::trace('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;msg&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ypar" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;params['$END$']">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yispost" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;request-&gt;isPostRequest">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yifisajax" toReformat="true" toShortenFQNames="true" value="if(Yii::app()-&gt;request-&gt;isAjaxRequest == TRUE){$END$}">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ydelcache" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;cache-&gt;delete('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yr" toReformat="true" toShortenFQNames="true" value="$this-&gt;render('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;view&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yre" toReformat="true" toShortenFQNames="true" value="$this-&gt;redirect(array('$1$/$END$'));">
+    <variable alwaysStopAt="true" defaultValue="&quot;controller&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycag" toReformat="true" toShortenFQNames="true" value="Yii::app()-&gt;cache-&gt;get('$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yrt" toReformat="true" toShortenFQNames="true" value="$this-&gt;renderText('$END$');">
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yrp" toReformat="true" toShortenFQNames="true" value="$this-&gt;renderPartial('$1$',array('$2$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;view&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycountm" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;count($2$, array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycountbs" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;countBySql($2$,array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;sql&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yupdatea" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;updateAll($2$, $3$,array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array('attributes')&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yupdatebp" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;updateByPk($2$, $3$, $4$,array('$5$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pk&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array('attributes')&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ydela" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;deleteAll($2$,array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ydelbp" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;deleteByPk($2$, $3$, array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pk&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yfind" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;find($2$,array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yfinda" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;findAll($2$,array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yfindbp" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;findByPk($2$, $3$, array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pk&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yfindabp" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;findAllByPk($2$, $3$,array('$4$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pk&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yfindbs" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;findBySql($2$, array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;sql&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yfindaba" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;findAllByAttributes(array('$2$'=&gt;$3$), $4$, array('$5$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attributeName&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attributeValue&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yexists" toReformat="true" toShortenFQNames="true" value="$1$::model()-&gt;exists($2$, array('$3$'=&gt;$END$));">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ymodel" toReformat="true" toShortenFQNames="true" value="&lt;?phpclass $1$ extends $2${/*** Returns the static model of the specified AR class.* @return CActiveRecord the static model class*/public static function model($className=__CLASS__){return parent::model($className);}/*** @return string the associated database table name*/public function tableName(){return '$END$';}/*** @return array validation rules for model attributes.*/public function rules(){return array();}/*** @return array relational rules.*/public function relations(){return array();}/*** @return array customized attribute labels (name=&amp;gt;label)*/public function attributeLabels(){return array();}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;CActiveRecord&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="0"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ycontroller" toReformat="true" toShortenFQNames="true" value="&lt;?php/*** $1$*/class $2$Controller extends $3${public function action$4$(){$END$}// -----------------------------------------------------------// Uncomment the following methods and override them if needed/*public function filters(){// return the filter configuration for this controller, e.g.:return array('inlineFilterName',array('class'=&gt;'path.to.FilterClass','propertyName'=&gt;'propertyValue',),);}public function actions(){// return external action classes, e.g.:return array('action1'=&gt;'path.to.ActionClass','action2'=&gt;array('class'=&gt;'path.to.AnotherActionClass','propertyName'=&gt;'propertyValue',),);}*/}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Site&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;CController&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Index&quot;" expression="" name="4"/>
+    <context>
+      <option name="YII" value="true"/>
+    </context>
+  </template>
+</templateSet>

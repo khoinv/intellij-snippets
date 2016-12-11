@@ -1,0 +1,20 @@
+<templateSet group="snippets">
+  <template description="" name="snip" toReformat="true" toShortenFQNames="true" value="snippet $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;trigger&quot;" expression="" name="1"/>
+    <context>
+      <option name="SNIPPETS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="msnip" toReformat="true" toShortenFQNames="true" value="snippet $1$ $2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;trigger&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;description&quot;" expression="" name="2"/>
+    <context>
+      <option name="SNIPPETS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="v" toReformat="true" toShortenFQNames="true" value="{VISUAL}">
+    <context>
+      <option name="SNIPPETS" value="true"/>
+    </context>
+  </template>
+</templateSet>

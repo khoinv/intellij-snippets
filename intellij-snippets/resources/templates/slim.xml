@@ -1,0 +1,105 @@
+<templateSet group="slim">
+  <template description="" name="pry" toReformat="true" toShortenFQNames="true" value="- binding.pry">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="renp" toReformat="true" toShortenFQNames="true" value="= render partial: '$END$'">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fieldset" toReformat="true" toShortenFQNames="true" value="fieldsetlegend $1$">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="css" toReformat="true" toShortenFQNames="true" value="link rel=&quot;stylesheet&quot; href=&quot;$1$&quot; type=&quot;text/css&quot; media=&quot;$2$&quot;">
+    <variable alwaysStopAt="true" defaultValue="&quot;style.css&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;all&quot;" expression="" name="2"/>
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="script" toReformat="true" toShortenFQNames="true" value="script src=&quot;$1$&quot; type=&quot;text/javascript&quot;">
+    <variable alwaysStopAt="true" defaultValue="&quot;script.js&quot;" expression="" name="1"/>
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nbs" toReformat="true" toShortenFQNames="true" value="&amp;nbsp;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="left" toReformat="true" toShortenFQNames="true" value="&amp;#x2190;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="right" toReformat="true" toShortenFQNames="true" value="&amp;#x2192;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="up" toReformat="true" toShortenFQNames="true" value="&amp;#x2191;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="down" toReformat="true" toShortenFQNames="true" value="&amp;#x2193;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="return" toReformat="true" toShortenFQNames="true" value="&amp;#x21A9;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="backtab" toReformat="true" toShortenFQNames="true" value="&amp;#x21E4;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tab" toReformat="true" toShortenFQNames="true" value="&amp;#x21E5;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="shift" toReformat="true" toShortenFQNames="true" value="&amp;#x21E7;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ctrl" toReformat="true" toShortenFQNames="true" value="&amp;#x2303;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="enter" toReformat="true" toShortenFQNames="true" value="&amp;#x2305;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cmd" toReformat="true" toShortenFQNames="true" value="&amp;#x2318;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="option" toReformat="true" toShortenFQNames="true" value="&amp;#x2325;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="delete" toReformat="true" toShortenFQNames="true" value="&amp;#x2326;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+  <template description="" name="backspace" toReformat="true" toShortenFQNames="true" value="&amp;#x232B;">
+    <context>
+      <option name="SLIM" value="true"/>
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,1110 @@
+<templateSet group="rails">
+  <template description="" name="art" toReformat="true" toShortenFQNames="true" value="assert_redirected_to $1$: '$2$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="artnp" toReformat="true" toShortenFQNames="true" value="assert_redirected_to $1$_$2$_path($3$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;parent&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;child&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="artnpp" toReformat="true" toShortenFQNames="true" value="assert_redirected_to $1$_$2$_path($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;parent&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;child&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="artp" toReformat="true" toShortenFQNames="true" value="assert_redirected_to $1$_path($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="artpp" toReformat="true" toShortenFQNames="true" value="assert_redirected_to $END$s_path">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asd" toReformat="true" toShortenFQNames="true" value="assert_difference '$1$.$2$', $3$ do$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;Model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asnd" toReformat="true" toShortenFQNames="true" value="assert_no_difference '$1$.$2$' do$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;Model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asre" toReformat="true" toShortenFQNames="true" value="assert_response :$1$, @response.body">
+    <variable alwaysStopAt="true" defaultValue="&quot;success&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asrj" toReformat="true" toShortenFQNames="true" value="assert_rjs :$1$, '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;replace&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;dom id&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ass assert_select(..)" toReformat="true" toShortenFQNames="true" value="assert_select '$1$', $2$: '$3$' $4$$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;text&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;inner_html&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;do&quot;" expression="" name="4"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ba" toReformat="true" toShortenFQNames="true" value="before_action :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bf" toReformat="true" toShortenFQNames="true" value="before_filter :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bt" toReformat="true" toShortenFQNames="true" value="belongs_to :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;association&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="btp" toReformat="true" toShortenFQNames="true" value="belongs_to :$1$, polymorphic: true">
+    <variable alwaysStopAt="true" defaultValue="&quot;association&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="crw" toReformat="true" toShortenFQNames="true" value="cattr_accessor :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defcreate" toReformat="true" toShortenFQNames="true" value="def create@$1$ = $2$.new($1_params)respond_to do |format|if @$1.saveflash[:notice] = '$2 was successfully created.'format.html { redirect_to(@$1) }format.xml  { render xml: @$1, status: :created, location: @$1 }elseformat.html { render action: 'new' }format.xml  { render xml: @$1.errors, status: :unprocessable_entity }endendend">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defdestroy" toReformat="true" toShortenFQNames="true" value="def destroy@$1$ = $2$.find(params[:id])@$1.destroyrespond_to do |format|format.html { redirect_to($1s_url) }format.xml  { head :ok }endend">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defedit" toReformat="true" toShortenFQNames="true" value="def edit@$1$ = $END$.find(params[:id])end">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defindex" toReformat="true" toShortenFQNames="true" value="def index@$1$ = $2$.allrespond_to do |format|format.html # index.html.erbformat.xml  { render xml: @$1s }endend">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defnew" toReformat="true" toShortenFQNames="true" value="def new@$1$ = $2$.newrespond_to do |format|format.html # new.html.erbformat.xml  { render xml: @$1 }endend">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defshow" toReformat="true" toShortenFQNames="true" value="def show@$1$ = $2$.find(params[:id])respond_to do |format|format.html # show.html.erbformat.xml  { render xml: @$1 }endend">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defupdate" toReformat="true" toShortenFQNames="true" value="def update@$1$ = $2$.find(params[:id])respond_to do |format|if @$1.update($1_params)flash[:notice] = '$2 was successfully updated.'format.html { redirect_to(@$1) }format.xml  { head :ok }elseformat.html { render action: 'edit' }format.xml  { render xml: @$1.errors, status: :unprocessable_entity }endendend">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defparams" toReformat="true" toShortenFQNames="true" value="def $1$_paramsparams.require(:$1).permit()end">
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dele delegate .. to" toReformat="true" toShortenFQNames="true" value="delegate :$1$, to: :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;methods&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dele delegate .. to .. prefix .. allow_nil" toReformat="true" toShortenFQNames="true" value="delegate :$1$, to: :$2$, prefix: :$3$, allow_nil: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;methods&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;prefix&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;allow_nil&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="amc" toReformat="true" toShortenFQNames="true" value="alias_method_chain :$1$, :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;feature&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="flash" toReformat="true" toShortenFQNames="true" value="flash[:$1$] = '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;notice&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="habtm" toReformat="true" toShortenFQNames="true" value="has_and_belongs_to_many :$1$, join_table: '$2$', foreign_key: '$3$_id'">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="hm" toReformat="true" toShortenFQNames="true" value="has_many :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="hmd" toReformat="true" toShortenFQNames="true" value="has_many :$1$s, class_name: '$2$', foreign_key: '$3$_id', dependent: :destroy">
+    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="hmt" toReformat="true" toShortenFQNames="true" value="has_many :$1$, through: :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ho" toReformat="true" toShortenFQNames="true" value="has_one :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="hod" toReformat="true" toShortenFQNames="true" value="has_one :$1$, dependent: :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;destroy&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="i18" toReformat="true" toShortenFQNames="true" value="I18n.t('$1$')">
+    <variable alwaysStopAt="true" defaultValue="&quot;type.key&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ist" toReformat="true" toShortenFQNames="true" value="&lt;%= image_submit_tag('$1$', id: '$2$'$END$) %&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;agree.png&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="log" toReformat="true" toShortenFQNames="true" value="Rails.logger.$1$ $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;debug&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="log2" toReformat="true" toShortenFQNames="true" value="RAILS_DEFAULT_LOGGER.$1$ $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;debug&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="logd" toReformat="true" toShortenFQNames="true" value="logger.debug { '$1$' }">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="loge" toReformat="true" toShortenFQNames="true" value="logger.error { '$1$' }">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="logf" toReformat="true" toShortenFQNames="true" value="logger.fatal { '$1$' }">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="logi" toReformat="true" toShortenFQNames="true" value="logger.info { '$1$' }">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="logw" toReformat="true" toShortenFQNames="true" value="logger.warn { '$1$' }">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mapc" toReformat="true" toShortenFQNames="true" value="$1$.$2$ '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;connect&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;controller/:action/:id&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mapca" toReformat="true" toShortenFQNames="true" value="$1$.catch_all '*$2$', controller: '$3$', action: '$4$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;anything&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;error&quot;" expression="" name="4"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mapr" toReformat="true" toShortenFQNames="true" value="$1$.resource :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;resource&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="maprs" toReformat="true" toShortenFQNames="true" value="$1$.resources :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;resource&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mapwo" toReformat="true" toShortenFQNames="true" value="$1$.with_options $2$: '$3$' do |$3|$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;controller&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;thing&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mbv" toReformat="true" toShortenFQNames="true" value="before_validation :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mbc" toReformat="true" toShortenFQNames="true" value="before_create :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mbu" toReformat="true" toShortenFQNames="true" value="before_update :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mbs" toReformat="true" toShortenFQNames="true" value="before_save :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mbd" toReformat="true" toShortenFQNames="true" value="before_destroy :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mav" toReformat="true" toShortenFQNames="true" value="after_validation :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="maf" toReformat="true" toShortenFQNames="true" value="after_find :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mat" toReformat="true" toShortenFQNames="true" value="after_touch :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="macr" toReformat="true" toShortenFQNames="true" value="after_create :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mau" toReformat="true" toShortenFQNames="true" value="after_update :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mas" toReformat="true" toShortenFQNames="true" value="after_save :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mad" toReformat="true" toShortenFQNames="true" value="after_destroy :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="marc" toReformat="true" toShortenFQNames="true" value="around_create :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="maru" toReformat="true" toShortenFQNames="true" value="around_update :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mars" toReformat="true" toShortenFQNames="true" value="around_save :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mard" toReformat="true" toShortenFQNames="true" value="around_destroy :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mcht" toReformat="true" toShortenFQNames="true" value="change_table :$1$ do |t|$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mp" toReformat="true" toShortenFQNames="true" value="map(&amp;:$END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mrw" toReformat="true" toShortenFQNames="true" value="mattr_accessor :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="oa" toReformat="true" toShortenFQNames="true" value="order('$END$')">
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="od" toReformat="true" toShortenFQNames="true" value="order('$END$ DESC')">
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pa" toReformat="true" toShortenFQNames="true" value="params[:$1$]">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ra" toReformat="true" toShortenFQNames="true" value="render action: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ral" toReformat="true" toShortenFQNames="true" value="render action: '$1$', layout: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rest" toReformat="true" toShortenFQNames="true" value="respond_to do |format|format.$1$ { $END$ }end">
+    <variable alwaysStopAt="true" defaultValue="&quot;html&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rf" toReformat="true" toShortenFQNames="true" value="render file: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;filepath&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rfu" toReformat="true" toShortenFQNames="true" value="render file: '$1$', use_full_path: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;filepath&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ri" toReformat="true" toShortenFQNames="true" value="render inline: &quot;$END$&quot;">
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;%= 'hello' %&gt;&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ril" toReformat="true" toShortenFQNames="true" value="render inline: &quot;$1$&quot;, locals: { $2$: '$3$'$END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;%= 'hello' %&gt;&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rit" toReformat="true" toShortenFQNames="true" value="render inline: &quot;$1$&quot;, type: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;%= 'hello' %&gt;&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;:rxml&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rjson" toReformat="true" toShortenFQNames="true" value="render json: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rl" toReformat="true" toShortenFQNames="true" value="render layout: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rn" toReformat="true" toShortenFQNames="true" value="render nothing: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rns" toReformat="true" toShortenFQNames="true" value="render nothing: $1$, status: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;401&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rp" toReformat="true" toShortenFQNames="true" value="render partial: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rpc" toReformat="true" toShortenFQNames="true" value="render partial: '$1$', collection: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1s&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rpl" toReformat="true" toShortenFQNames="true" value="render partial: '$1$', locals: { $2$: $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rpo" toReformat="true" toShortenFQNames="true" value="render partial: '$1$', object: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rps" toReformat="true" toShortenFQNames="true" value="render partial: '$1$', status: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;500&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rt" toReformat="true" toShortenFQNames="true" value="render text: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rtl" toReformat="true" toShortenFQNames="true" value="render text: '$1$', layout: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rtlt" toReformat="true" toShortenFQNames="true" value="render text: '$1$', layout: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rts" toReformat="true" toShortenFQNames="true" value="render text: '$1$', status: $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;401&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ru" toReformat="true" toShortenFQNames="true" value="render :update do |$1$|$1.$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;page&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rxml" toReformat="true" toShortenFQNames="true" value="render xml: '$END$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sc" toReformat="true" toShortenFQNames="true" value="scope :$1$, -&gt; { where($2$: $END$) }">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sl" toReformat="true" toShortenFQNames="true" value="scope :$1$, lambda do |$2$|where('$3$', $END$)end">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;field = ?&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sha1" toReformat="true" toShortenFQNames="true" value="Digest::SHA1.hexdigest($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sweeper" toReformat="true" toShortenFQNames="true" value="class $1$Sweeper &lt; ActionController::Caching::Sweeperobserve $1def after_save($END$)expire_cache($2)enddef after_destroy($2)expire_cache($2)enddef expire_cache($2)expire_pageendend">
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va validates_associated" toReformat="true" toShortenFQNames="true" value="validates_associated :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va validates .., acceptance: true" toReformat="true" toShortenFQNames="true" value="validates :$END$, acceptance: true">
+    <variable alwaysStopAt="true" defaultValue="&quot;terms&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vc" toReformat="true" toShortenFQNames="true" value="validates :$END$, confirmation: true">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ve" toReformat="true" toShortenFQNames="true" value="validates :$1$, exclusion: { in: $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;%w( mov avi )&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vf" toReformat="true" toShortenFQNames="true" value="validates :$1$, format: { with: /$END$/ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vi" toReformat="true" toShortenFQNames="true" value="validates :$1$, inclusion: { in: %w($END$) }">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot; mov avi &quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vl" toReformat="true" toShortenFQNames="true" value="validates :$1$, length: { in: $2$..$END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;3&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;20&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vn" toReformat="true" toShortenFQNames="true" value="validates :$END$, numericality: true">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vp" toReformat="true" toShortenFQNames="true" value="validates :$END$, presence: true">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vu" toReformat="true" toShortenFQNames="true" value="validates :$END$, uniqueness: true">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="format" toReformat="true" toShortenFQNames="true" value="format.$1$ { $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;js|xml|html&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wc" toReformat="true" toShortenFQNames="true" value="where($1$$END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;'conditions'&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;, bind_var&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wf" toReformat="true" toShortenFQNames="true" value="where($1$: $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xdelete" toReformat="true" toShortenFQNames="true" value="xhr :delete, :$1$, id: $2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;destroy&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xget" toReformat="true" toShortenFQNames="true" value="xhr :get, :$1$, id: $2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;show&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xpost" toReformat="true" toShortenFQNames="true" value="xhr :post, :$1$, $2$: $3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;create&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xput" toReformat="true" toShortenFQNames="true" value="xhr :put, :$1$, id: $2$, $3$: $4$">
+    <variable alwaysStopAt="true" defaultValue="&quot;update&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="4"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="test" toReformat="true" toShortenFQNames="true" value="test '$1$' do$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;should do something&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mac" toReformat="true" toShortenFQNames="true" value="add_column :$1$, :$2$, :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;data_type&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mai" toReformat="true" toShortenFQNames="true" value="add_index :$1$, :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mrc" toReformat="true" toShortenFQNames="true" value="remove_column :$1$, :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mrnc" toReformat="true" toShortenFQNames="true" value="rename_column :$1$, :$2$, :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;old_column_name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;new_column_name&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mcc" toReformat="true" toShortenFQNames="true" value="change_column :$1$, :$2$, :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mnc" toReformat="true" toShortenFQNames="true" value="t.$1$ :$2$$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;, null: false&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mct" toReformat="true" toShortenFQNames="true" value="create_table :$1$ do |t|$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="migration class .. &lt; ActiveRecord::Migration .. def up .. def down .. end" toReformat="true" toShortenFQNames="true" value="class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` &lt; ActiveRecord::Migrationdef up$END$enddef downendend">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="migration class .. &lt; ActiveRecord::Migration .. def change .. end" toReformat="true" toShortenFQNames="true" value="class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` &lt; ActiveRecord::Migrationdef change$END$endend">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="trc" toReformat="true" toShortenFQNames="true" value="t.remove :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tre" toReformat="true" toShortenFQNames="true" value="t.rename :$1$, :$2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;old_column_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;new_column_name&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tref" toReformat="true" toShortenFQNames="true" value="t.references :$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcb" toReformat="true" toShortenFQNames="true" value="t.boolean :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcbi" toReformat="true" toShortenFQNames="true" value="t.binary :$1$, limit: $2$.megabytes$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;2&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcd" toReformat="true" toShortenFQNames="true" value="t.decimal :$1$, precision: $2$, scale: $3$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;10&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;2&quot;" expression="" name="3"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcda" toReformat="true" toShortenFQNames="true" value="t.date :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcdt" toReformat="true" toShortenFQNames="true" value="t.datetime :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcf" toReformat="true" toShortenFQNames="true" value="t.float :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tch" toReformat="true" toShortenFQNames="true" value="t.change :$1$, :$2$, $3$: $4$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;limit&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;80&quot;" expression="" name="4"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tci" toReformat="true" toShortenFQNames="true" value="t.integer :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcl" toReformat="true" toShortenFQNames="true" value="t.integer :lock_version, null: false, default: 0$END$">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcr" toReformat="true" toShortenFQNames="true" value="t.references :$1$, polymorphic: { default: '$2$' }$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;taggable&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Photo&quot;" expression="" name="2"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcs" toReformat="true" toShortenFQNames="true" value="t.string :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tct" toReformat="true" toShortenFQNames="true" value="t.text :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcti" toReformat="true" toShortenFQNames="true" value="t.time :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tcts" toReformat="true" toShortenFQNames="true" value="t.timestamp :$1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="1"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tctss" toReformat="true" toShortenFQNames="true" value="t.timestamps$END$">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isfp" toReformat="true" toShortenFQNames="true" value="it { should filter_param :$END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isrt" toReformat="true" toShortenFQNames="true" value="it { should redirect_to $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isrtp" toReformat="true" toShortenFQNames="true" value="it { should render_template $END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isrwl" toReformat="true" toShortenFQNames="true" value="it { should render_with_layout $END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isrf" toReformat="true" toShortenFQNames="true" value="it { should rescue_from $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isrw" toReformat="true" toShortenFQNames="true" value="it { should respond_with $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;status&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isr" toReformat="true" toShortenFQNames="true" value="it { should route(:$1$, '$END$') }">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isss" toReformat="true" toShortenFQNames="true" value="it { should set_session :$END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="issf" toReformat="true" toShortenFQNames="true" value="it { should set_the_flash('$END$') }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isama" toReformat="true" toShortenFQNames="true" value="it { should allow_mass_assignment_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isav" toReformat="true" toShortenFQNames="true" value="it { should allow_value($1$).for :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isee" toReformat="true" toShortenFQNames="true" value="it { should ensure_exclusion_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isei" toReformat="true" toShortenFQNames="true" value="it { should ensure_inclusion_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isel" toReformat="true" toShortenFQNames="true" value="it { should ensure_length_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isva" toReformat="true" toShortenFQNames="true" value="it { should validate_acceptance_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isvc" toReformat="true" toShortenFQNames="true" value="it { should validate_confirmation_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isvn" toReformat="true" toShortenFQNames="true" value="it { should validate_numericality_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isvp" toReformat="true" toShortenFQNames="true" value="it { should validate_presence_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isvu" toReformat="true" toShortenFQNames="true" value="it { should validate_uniqueness_of :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isana" toReformat="true" toShortenFQNames="true" value="it { should accept_nested_attributes_for :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isbt" toReformat="true" toShortenFQNames="true" value="it { should belong_to :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isbtcc" toReformat="true" toShortenFQNames="true" value="it { should belong_to(:$1$).counter_cache $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="0"/>
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ishbtm" toReformat="true" toShortenFQNames="true" value="it { should have_and_belong_to_many :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isbv" toReformat="true" toShortenFQNames="true" value="it { should be_valid }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ishc" toReformat="true" toShortenFQNames="true" value="it { should have_db_column :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ishi" toReformat="true" toShortenFQNames="true" value="it { should have_db_index :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ishm" toReformat="true" toShortenFQNames="true" value="it { should have_many :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ishmt" toReformat="true" toShortenFQNames="true" value="it { should have_many(:$1$).through :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isho" toReformat="true" toShortenFQNames="true" value="it { should have_one :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ishro" toReformat="true" toShortenFQNames="true" value="it { should have_readonly_attribute :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="iss" toReformat="true" toShortenFQNames="true" value="it { should serialize :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isres" toReformat="true" toShortenFQNames="true" value="it { should respond_to :$END$ }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="isresw" toReformat="true" toShortenFQNames="true" value="it { should respond_to(:$1$).with($END$).arguments }">
+    <context>
+      <option name="RAILS" value="true"/>
+    </context>
+  </template>
+</templateSet>

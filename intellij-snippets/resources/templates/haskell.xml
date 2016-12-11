@@ -1,0 +1,267 @@
+<templateSet group="haskell">
+  <template description="" name="lang" toReformat="true" toShortenFQNames="true" value="{-# LANGUAGE $END$ #-}">
+    <variable alwaysStopAt="true" defaultValue="&quot;OverloadedStrings&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="haddock" toReformat="true" toShortenFQNames="true" value="{-# OPTIONS_HADDOCK $END$ #-}">
+    <variable alwaysStopAt="true" defaultValue="&quot;hide&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ghc" toReformat="true" toShortenFQNames="true" value="{-# OPTIONS_GHC $END$ #-}">
+    <variable alwaysStopAt="true" defaultValue="&quot;-fno-warn-unused-imports&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inline" toReformat="true" toShortenFQNames="true" value="{-# INLINE $END$ #-}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="info" toReformat="true" toShortenFQNames="true" value="-- |-- Module      :  $1$-- Copyright   :  $2$ $3$-- License     :  $4$---- Maintainer  :  $5$-- Stability   :  $6$-- Portability :  $7$---- $END$--">
+    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(substitute(expand('%:r'), '[/\\]','.','g'),'^\%(\l*\.\)\?','','')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Author&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;2011-2012&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;BSD3&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;email@something.com&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;experimental&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;unknown&quot;" expression="" name="7"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Description&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="imp" toReformat="true" toShortenFQNames="true" value="import $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Data.Text&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="import" toReformat="true" toShortenFQNames="true" value="import           $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Data.Text&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="import2" toReformat="true" toShortenFQNames="true" value="import           $1$ ($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;Data.Text&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;head&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="impq" toReformat="true" toShortenFQNames="true" value="import qualified $1$ as $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Data.Text&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="importq" toReformat="true" toShortenFQNames="true" value="import qualified $1$ as $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Data.Text&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inst" toReformat="true" toShortenFQNames="true" value="instance $1$ $2$ where$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Monoid&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Type&quot;" expression="" name="2"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="type" toReformat="true" toShortenFQNames="true" value="type $1$ = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Type&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Type&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="data" toReformat="true" toShortenFQNames="true" value="data $1$ = $2$ $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Type&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Int&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="newtype" toReformat="true" toShortenFQNames="true" value="newtype $1$ = $2$ $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Type&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Int&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="class" toReformat="true" toShortenFQNames="true" value="class $1$ a where$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="1"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="module" toReformat="true" toShortenFQNames="true" value="module `substitute(substitute(expand('%:r'), '[/\\]','.','g'),'^\%(\l*\.\)\?','','')` () where`expand('%') =~ 'Main' ? &quot;\nmain :: IO ()\nmain = undefined&quot; : &quot;&quot;`">
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="main" toReformat="true" toShortenFQNames="true" value="main :: IO ()main = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="const" toReformat="true" toShortenFQNames="true" value="$1$ :: $2$$1 = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fn" toReformat="true" toShortenFQNames="true" value="$1$ :: $2$ -&gt; $3$$1 $4$ = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;fn&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fn2" toReformat="true" toShortenFQNames="true" value="$1$ :: $2$ -&gt; $3$ -&gt; $4$$1 $5$ = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;fn&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fn3" toReformat="true" toShortenFQNames="true" value="$1$ :: $2$ -&gt; $3$ -&gt; $4$ -&gt; $5$$1 $6$ = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;fn&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="=&gt; &quot;Type constraint&quot;" toReformat="true" toShortenFQNames="true" value="($1$ $2$) =&gt; $2">
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ap" toReformat="true" toShortenFQNames="true" value="$1$ $2$ $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;fn&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="\" toReformat="true" toShortenFQNames="true" value="\\$1$ -&gt; $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="(\" toReformat="true" toShortenFQNames="true" value="(\\$1$ -&gt; $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="&lt;-" toReformat="true" toShortenFQNames="true" value="$1$ &lt;- $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;m a&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="-&gt;" toReformat="true" toShortenFQNames="true" value="$1$ -&gt; $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;m a&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tup" toReformat="true" toShortenFQNames="true" value="($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tup2" toReformat="true" toShortenFQNames="true" value="($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;c&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tup3" toReformat="true" toShortenFQNames="true" value="($1$, $2$, $3$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;c&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;d&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rec" toReformat="true" toShortenFQNames="true" value="$1$ { $2$ = $3$, $4$ = $END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Record&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;recFieldA&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;recFieldB&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $1$ of$2$ -&gt; $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;something&quot;" expression="" name="1"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="let" toReformat="true" toShortenFQNames="true" value="let $1$ = $2$in $3$">
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="where" toReformat="true" toShortenFQNames="true" value="where$1$ = $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;fn&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;undefined&quot;" expression="" name="0"/>
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="spec" toReformat="true" toShortenFQNames="true" value="module `substitute(substitute(expand('%:r'), '[/\\]','.','g'),'^\%(\l*\.\)\?','','')` (main, spec) whereimport Test.Hspecimport Test.QuickCheckmain :: IO ()main = hspec specspec :: Specspec =describe &quot;$1$&quot; $ do$0">
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="desc" toReformat="true" toShortenFQNames="true" value="describe &quot;$1$&quot; $ do$0">
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="it" toReformat="true" toShortenFQNames="true" value="it &quot;$1$&quot; $$0">
+    <context>
+      <option name="HASKELL" value="true"/>
+    </context>
+  </template>
+</templateSet>

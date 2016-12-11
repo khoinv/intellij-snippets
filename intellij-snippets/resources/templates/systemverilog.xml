@@ -1,0 +1,71 @@
+<templateSet group="systemverilog">
+  <template description="" name="fe" toReformat="true" toShortenFQNames="true" value="foreach ($1$) begin$END$end">
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dowh" toReformat="true" toShortenFQNames="true" value="do begin$END$end while ($1$);">
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="alc" toReformat="true" toShortenFQNames="true" value="always_comb begin $1$$END$end $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;: statement_label&quot;" expression="" name="1"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="alff" toReformat="true" toShortenFQNames="true" value="always_ff @(posedge $1$) begin $2$$END$end $2">
+    <variable alwaysStopAt="true" defaultValue="&quot;clk&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;: statement_label&quot;" expression="" name="2"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="all" toReformat="true" toShortenFQNames="true" value="always_latch begin $1$$END$end $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;: statement_label&quot;" expression="" name="1"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl" toReformat="true" toShortenFQNames="true" value="class $1$;// data or class properties$END$// initializationfunction new();endfunction : newendclass : $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;class_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="types" toReformat="true" toShortenFQNames="true" value="typedef struct {$END$} $1$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;name_t&quot;" expression="" name="1"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prog" toReformat="true" toShortenFQNames="true" value="program $1$ ();$END$endprogram : $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;program_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="intf" toReformat="true" toShortenFQNames="true" value="interface $1$ ();// nets$END$// clocking// modportsendinterface : $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;program_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="clock" toReformat="true" toShortenFQNames="true" value="clocking $1$ @($2$ $3$);$END$endclocking : $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;clocking_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;posedge&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;clk&quot;" expression="" name="3"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cg" toReformat="true" toShortenFQNames="true" value="covergroup $1$ @($2$ $3$);$END$endgroup : $1">
+    <variable alwaysStopAt="true" defaultValue="&quot;group_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;posedge&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;clk&quot;" expression="" name="3"/>
+    <context>
+      <option name="SYSTEMVERILOG" value="true"/>
+    </context>
+  </template>
+</templateSet>

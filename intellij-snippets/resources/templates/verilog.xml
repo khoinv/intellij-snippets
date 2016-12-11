@@ -1,0 +1,52 @@
+<templateSet group="verilog">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) begin$END$end">
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if ($1$) begin$2$endelse begin$1$end">
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="else if ($1$) begin$END$end">
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else begin$END$end">
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while ($1$) begin$END$end">
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rep" toReformat="true" toShortenFQNames="true" value="repeat ($1$) begin$END$end">
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case ($1$)$2$: begin$3$enddefault: begin$4$endendcase">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* value */&quot;" expression="" name="2"/>
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="casez" toReformat="true" toShortenFQNames="true" value="casez ($1$)$2$: begin$3$enddefault: begin$4$endendcase">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* variable */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* value */&quot;" expression="" name="2"/>
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="al" toReformat="true" toShortenFQNames="true" value="always @($1$) begin$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* sensitive list */&quot;" expression="" name="1"/>
+    <context>
+      <option name="VERILOG" value="true"/>
+    </context>
+  </template>
+</templateSet>

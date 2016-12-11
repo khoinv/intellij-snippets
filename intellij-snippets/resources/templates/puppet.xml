@@ -1,0 +1,315 @@
+<templateSet group="puppet">
+  <template description="" name="classheader" toReformat="true" toShortenFQNames="true" value="# == Class: $1$## $2$## === Parameters## Document parameters here.## [*parameter1*]#   Explanation of what this parameter affects and what it defaults to.#   e.g. &quot;Specify one or more upstream ntp servers as an array.&quot;## === Variables## Here you should define a list of variables that this module would require.## [*variable1*]#   Explanation of how this variable affects the funtion of this class and#   if it has a default. e.g. &quot;The parameter enc_ntp_servers must be set by the#   External Node Classifier as a comma separated list of hostnames.&quot;## === Examples##  class { '$1':#    parameter1 =&gt; [ 'just', 'an', 'example', ]#  }## === Authors## `g:snips_author` &lt;`g:snips_email`&gt;## === Copyright## Copyright `strftime(&quot;%Y&quot;)` `g:snips_author`#class $1 ($3$){$4$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(expand('%:p:s?.*modules/??:h:h'), 'name')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Full description of class $1 here&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defheader" toReformat="true" toShortenFQNames="true" value="# == Define: $1$## $2$## === Parameters## Document parameters here## [*namevar*]#   If there is a parameter that defaults to the value of the title string#   when not explicitly set, you must always say so.  This parameter can be#   referred to as a &quot;namevar,&quot; since it's functionally equivalent to the#   namevar of a core resource type.## [*basedir*]#   Description of this variable.  For example, &quot;This parameter sets the#   base directory for this resource type.  It should not contain a trailing#   slash.&quot;## === Examples## Provide some examples on how to use this type:##   $1 { 'namevar':#     basedir =&gt; '/tmp/src',#   }## === Authors## `g:snips_author` &lt;`g:snips_email`&gt;## === Copyright## Copyright `strftime(&quot;%Y&quot;)` `g:snips_author`#define $1($3$) {$4$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(expand('%:p:s?.*modules/??:r:s?/manifests/?::?'), 'name')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Full description of defined resource type $1 here&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="class" toReformat="true" toShortenFQNames="true" value="class $1$ {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'name')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="node" toReformat="true" toShortenFQNames="true" value="node &quot;$1$&quot; {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'fqdn')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $$1$ {default: { $END$ }}">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $$1$ {$2$} else {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $$1$ {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifd" toReformat="true" toShortenFQNames="true" value="if defined($1$[&quot;$2$&quot;]) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Resource&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifnd" toReformat="true" toShortenFQNames="true" value="if !defined($1$[&quot;$2$&quot;]) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Resource&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else {$END$}">
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="?" toReformat="true" toShortenFQNames="true" value="? {&quot;$1$&quot;&#9;=&gt; $END$}">
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="[" toReformat="true" toShortenFQNames="true" value="[ $1$ ]">
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="&gt;" toReformat="true" toShortenFQNames="true" value="$1$&#9;=&gt; $END$">
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="p:" toReformat="true" toShortenFQNames="true" value="&quot;puppet://puppet/$1$/$END$&quot;">
+    <variable alwaysStopAt="true" defaultValue="&quot;module name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;file name&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="alert" toReformat="true" toShortenFQNames="true" value="alert(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="crit" toReformat="true" toShortenFQNames="true" value="crit(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="debug" toReformat="true" toShortenFQNames="true" value="debug(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defined" toReformat="true" toShortenFQNames="true" value="defined($1$[&quot;$2$&quot;])">
+    <variable alwaysStopAt="true" defaultValue="&quot;Resource&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="emerg" toReformat="true" toShortenFQNames="true" value="emerg(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="extlookup Simple extlookup" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="extlookup Extlookup with defaults" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;, &quot;$2$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="extlookup Extlookup with defaults and custom data file" toReformat="true" toShortenFQNames="true" value="extlookup(&quot;$1$&quot;, &quot;$2$&quot;, &quot;$3$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;data source&quot;" expression="" name="3"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fail" toReformat="true" toShortenFQNames="true" value="fail(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="info" toReformat="true" toShortenFQNames="true" value="info(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inline_template" toReformat="true" toShortenFQNames="true" value="inline_template(&quot;&lt;%= $1$ %&gt;&quot;)">
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="notice" toReformat="true" toShortenFQNames="true" value="notice(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="realize" toReformat="true" toShortenFQNames="true" value="realize($1$[$2$])">
+    <variable alwaysStopAt="true" defaultValue="&quot;Resource&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="regsubst" toReformat="true" toShortenFQNames="true" value="regsubst($1$, $2$, &quot;$3$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;hay stack&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;needle&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;replacement&quot;" expression="" name="3"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inc" toReformat="true" toShortenFQNames="true" value="include $1$">
+    <variable alwaysStopAt="true" defaultValue="&quot;classname&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="split" toReformat="true" toShortenFQNames="true" value="split($1$, &quot;$2$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;hay stack&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;patten&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="versioncmp" toReformat="true" toShortenFQNames="true" value="versioncmp(&quot;$1$&quot;, &quot;$2$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;version&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;version&quot;" expression="" name="2"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="warning" toReformat="true" toShortenFQNames="true" value="warning(&quot;$1$&quot;)">
+    <variable alwaysStopAt="true" defaultValue="&quot;message&quot;" expression="" name="1"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cron" toReformat="true" toShortenFQNames="true" value="cron { &quot;$1$&quot;:command =&gt; &quot;$2$&quot;,user    =&gt; &quot;$3$&quot;,$4$    =&gt; $END$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;root&quot;" expression="" name="3"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="exec" toReformat="true" toShortenFQNames="true" value="exec { &quot;$1$&quot;:command =&gt; &quot;$2$&quot;,user    =&gt; &quot;$3$&quot;,$4$    =&gt; $END$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;root&quot;" expression="" name="3"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="user" toReformat="true" toShortenFQNames="true" value="user { &quot;$1$&quot;:ensure      =&gt; present,comment     =&gt; &quot;$2$&quot;,managehome  =&gt; true,home        =&gt; &quot;$END$&quot;,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;user&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/home/$1&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="group" toReformat="true" toShortenFQNames="true" value="group { &quot;$1$&quot;:ensure =&gt; $END$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;group&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;present&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="host" toReformat="true" toShortenFQNames="true" value="host { &quot;$1$&quot;:ip =&gt; $END$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;hostname&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;127.0.0.1&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mailalias" toReformat="true" toShortenFQNames="true" value="mailalias { &quot;$1$&quot;:recipient =&gt; &quot;$END$&quot;,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;localpart&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;recipient&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mount" toReformat="true" toShortenFQNames="true" value="mount { &quot;$1$&quot;:ensure&#9;=&gt; $2$,device&#9;=&gt; &quot;$END$&quot;,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;destination path&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;mounted&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;device name or path&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="package" toReformat="true" toShortenFQNames="true" value="package { &quot;$1$&quot;:ensure&#9;=&gt; $END$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;package name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;present&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="yumrepo" toReformat="true" toShortenFQNames="true" value="yumrepo { &quot;$1$&quot;:descr   =&gt; &quot;$2$&quot;,enabled =&gt; $END$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;repo name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="0"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="define" toReformat="true" toShortenFQNames="true" value="define $1$ ($2$) {$END$}">
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="service" toReformat="true" toShortenFQNames="true" value="service { &quot;$1$&quot; :ensure    =&gt; running,enable    =&gt; true,require   =&gt; [ Package[&quot;$2$&quot;], File[&quot;$3$&quot;], ],subscribe =&gt; [ File[&quot;$4$&quot;], File[&quot;$5$&quot;], Package[&quot;$6$&quot;], ],}">
+    <variable alwaysStopAt="true" defaultValue="&quot;service&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;configfile1&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;configfile2&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="6"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="file" toReformat="true" toShortenFQNames="true" value="file { &quot;$1$&quot; :ensure  =&gt; $2$,owner   =&gt; &quot;$3$&quot;,group   =&gt; &quot;$4$&quot;,mode    =&gt; &quot;$5$&quot;,source  =&gt; &quot;puppet:///modules/$6$/$7$&quot;,content =&gt; template(&quot;$8$/$9$&quot;),alias   =&gt; &quot;$10$&quot;,require =&gt; [ Package[&quot;$11$&quot;], File[&quot;$12$&quot;], ],}">
+    <variable alwaysStopAt="true" defaultValue="&quot;filename&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;present&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;root&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;root&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0644&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;module&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;source&quot;" expression="" name="7"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;module&quot;" expression="" name="8"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;template&quot;" expression="" name="9"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;alias&quot;" expression="" name="10"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="11"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="12"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+  <template description="" name="archive" toReformat="true" toShortenFQNames="true" value="archive { &quot;$1$&quot; :ensure     =&gt; $2$,url        =&gt; &quot;http://$3$&quot;,extension  =&gt; &quot;$4$&quot;,target     =&gt; &quot;$5$&quot;,checksum   =&gt; $6$,src_target =&gt; &quot;$7$&quot;,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;filename&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;present&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;tgz&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;target&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/tmp&quot;" expression="" name="7"/>
+    <context>
+      <option name="PUPPET" value="true"/>
+    </context>
+  </template>
+</templateSet>

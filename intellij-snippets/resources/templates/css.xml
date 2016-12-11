@@ -1,0 +1,2550 @@
+<templateSet group="css">
+  <template description="" name="." toReformat="true" toShortenFQNames="true" value="$1$ {$END$}">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="!" toReformat="true" toShortenFQNames="true" value="!important">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdi:m+" toReformat="true" toShortenFQNames="true" value="-moz-border-image: url($1$) $2$ $3$ $4$ $5$ $6$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stretch&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stretch&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdi:m" toReformat="true" toShortenFQNames="true" value="-moz-border-image: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrz:m" toReformat="true" toShortenFQNames="true" value="-moz-border-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh:m+" toReformat="true" toShortenFQNames="true" value="-moz-box-shadow: $1$ $2$ $3$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh:m" toReformat="true" toShortenFQNames="true" value="-moz-box-shadow: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdi:w+" toReformat="true" toShortenFQNames="true" value="-webkit-border-image: url($1$) $2$ $3$ $4$ $5$ $6$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stretch&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stretch&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdi:w" toReformat="true" toShortenFQNames="true" value="-webkit-border-image: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrz:w" toReformat="true" toShortenFQNames="true" value="-webkit-border-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh:w+" toReformat="true" toShortenFQNames="true" value="-webkit-box-shadow: $1$ $2$ $3$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh:w" toReformat="true" toShortenFQNames="true" value="-webkit-box-shadow: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@f" toReformat="true" toShortenFQNames="true" value="@font-face {font-family: $1$;src: url($END$);}">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@i" toReformat="true" toShortenFQNames="true" value="@import url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@m" toReformat="true" toShortenFQNames="true" value="@media $1$ {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;print&quot;" expression="" name="1"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bg+" toReformat="true" toShortenFQNames="true" value="background: #$1$ url($2$) $3$ $4$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;FFF&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;no-repeat&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bga" toReformat="true" toShortenFQNames="true" value="background-attachment: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bga:f" toReformat="true" toShortenFQNames="true" value="background-attachment: fixed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bga:s" toReformat="true" toShortenFQNames="true" value="background-attachment: scroll;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgbk" toReformat="true" toShortenFQNames="true" value="background-break: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgbk:bb" toReformat="true" toShortenFQNames="true" value="background-break: bounding-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgbk:c" toReformat="true" toShortenFQNames="true" value="background-break: continuous;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgbk:eb" toReformat="true" toShortenFQNames="true" value="background-break: each-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgcp" toReformat="true" toShortenFQNames="true" value="background-clip: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgcp:bb" toReformat="true" toShortenFQNames="true" value="background-clip: border-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgcp:cb" toReformat="true" toShortenFQNames="true" value="background-clip: content-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgcp:nc" toReformat="true" toShortenFQNames="true" value="background-clip: no-clip;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgcp:pb" toReformat="true" toShortenFQNames="true" value="background-clip: padding-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgc" toReformat="true" toShortenFQNames="true" value="background-color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;FFF&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgc:t" toReformat="true" toShortenFQNames="true" value="background-color: transparent;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgi" toReformat="true" toShortenFQNames="true" value="background-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgi:n" toReformat="true" toShortenFQNames="true" value="background-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgo" toReformat="true" toShortenFQNames="true" value="background-origin: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgo:bb" toReformat="true" toShortenFQNames="true" value="background-origin: border-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgo:cb" toReformat="true" toShortenFQNames="true" value="background-origin: content-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgo:pb" toReformat="true" toShortenFQNames="true" value="background-origin: padding-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgpx" toReformat="true" toShortenFQNames="true" value="background-position-x: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgpy" toReformat="true" toShortenFQNames="true" value="background-position-y: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgp" toReformat="true" toShortenFQNames="true" value="background-position: $1$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgr" toReformat="true" toShortenFQNames="true" value="background-repeat: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgr:n" toReformat="true" toShortenFQNames="true" value="background-repeat: no-repeat;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgr:x" toReformat="true" toShortenFQNames="true" value="background-repeat: repeat-x;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgr:y" toReformat="true" toShortenFQNames="true" value="background-repeat: repeat-y;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgr:r" toReformat="true" toShortenFQNames="true" value="background-repeat: repeat;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgz" toReformat="true" toShortenFQNames="true" value="background-size: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgz:a" toReformat="true" toShortenFQNames="true" value="background-size: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgz:ct" toReformat="true" toShortenFQNames="true" value="background-size: contain;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bgz:cv" toReformat="true" toShortenFQNames="true" value="background-size: cover;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bg" toReformat="true" toShortenFQNames="true" value="background: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bg:ie" toReformat="true" toShortenFQNames="true" value="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$1$',sizingMethod='$END$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;crop&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bg:n" toReformat="true" toShortenFQNames="true" value="background: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bd+" toReformat="true" toShortenFQNames="true" value="border: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1px&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;solid&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdb+" toReformat="true" toShortenFQNames="true" value="border-bottom: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1px&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;solid&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbc" toReformat="true" toShortenFQNames="true" value="border-bottom-color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbi" toReformat="true" toShortenFQNames="true" value="border-bottom-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbi:n" toReformat="true" toShortenFQNames="true" value="border-bottom-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbli" toReformat="true" toShortenFQNames="true" value="border-bottom-left-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbli:c" toReformat="true" toShortenFQNames="true" value="border-bottom-left-image: continue;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbli:n" toReformat="true" toShortenFQNames="true" value="border-bottom-left-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdblrz" toReformat="true" toShortenFQNames="true" value="border-bottom-left-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbri" toReformat="true" toShortenFQNames="true" value="border-bottom-right-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbri:c" toReformat="true" toShortenFQNames="true" value="border-bottom-right-image: continue;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbri:n" toReformat="true" toShortenFQNames="true" value="border-bottom-right-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbrrz" toReformat="true" toShortenFQNames="true" value="border-bottom-right-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbs" toReformat="true" toShortenFQNames="true" value="border-bottom-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbs:n" toReformat="true" toShortenFQNames="true" value="border-bottom-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbw" toReformat="true" toShortenFQNames="true" value="border-bottom-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdb" toReformat="true" toShortenFQNames="true" value="border-bottom: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdb:n" toReformat="true" toShortenFQNames="true" value="border-bottom: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbk" toReformat="true" toShortenFQNames="true" value="border-break: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdbk:c" toReformat="true" toShortenFQNames="true" value="border-break: close;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdcl" toReformat="true" toShortenFQNames="true" value="border-collapse: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdcl:c" toReformat="true" toShortenFQNames="true" value="border-collapse: collapse;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdcl:s" toReformat="true" toShortenFQNames="true" value="border-collapse: separate;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdc" toReformat="true" toShortenFQNames="true" value="border-color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdci" toReformat="true" toShortenFQNames="true" value="border-corner-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdci:c" toReformat="true" toShortenFQNames="true" value="border-corner-image: continue;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdci:n" toReformat="true" toShortenFQNames="true" value="border-corner-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf" toReformat="true" toShortenFQNames="true" value="border-fit: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:c" toReformat="true" toShortenFQNames="true" value="border-fit: clip;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:of" toReformat="true" toShortenFQNames="true" value="border-fit: overwrite;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:ow" toReformat="true" toShortenFQNames="true" value="border-fit: overwrite;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:r" toReformat="true" toShortenFQNames="true" value="border-fit: repeat;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:sc" toReformat="true" toShortenFQNames="true" value="border-fit: scale;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:sp" toReformat="true" toShortenFQNames="true" value="border-fit: space;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdf:st" toReformat="true" toShortenFQNames="true" value="border-fit: stretch;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdi" toReformat="true" toShortenFQNames="true" value="border-image: url($1$) $2$ $3$ $4$ $5$ $6$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="5"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stretch&quot;" expression="" name="6"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stretch&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdi:n" toReformat="true" toShortenFQNames="true" value="border-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdl+" toReformat="true" toShortenFQNames="true" value="border-left: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1px&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;solid&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdlc" toReformat="true" toShortenFQNames="true" value="border-left-color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdli" toReformat="true" toShortenFQNames="true" value="border-left-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdli:n" toReformat="true" toShortenFQNames="true" value="border-left-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdls" toReformat="true" toShortenFQNames="true" value="border-left-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdls:n" toReformat="true" toShortenFQNames="true" value="border-left-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdlw" toReformat="true" toShortenFQNames="true" value="border-left-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdl" toReformat="true" toShortenFQNames="true" value="border-left: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdl:n" toReformat="true" toShortenFQNames="true" value="border-left: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdlt" toReformat="true" toShortenFQNames="true" value="border-length: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdlt:a" toReformat="true" toShortenFQNames="true" value="border-length: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrz" toReformat="true" toShortenFQNames="true" value="border-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdr+" toReformat="true" toShortenFQNames="true" value="border-right: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1px&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;solid&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrc" toReformat="true" toShortenFQNames="true" value="border-right-color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdri" toReformat="true" toShortenFQNames="true" value="border-right-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdri:n" toReformat="true" toShortenFQNames="true" value="border-right-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrs" toReformat="true" toShortenFQNames="true" value="border-right-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrs:n" toReformat="true" toShortenFQNames="true" value="border-right-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdrw" toReformat="true" toShortenFQNames="true" value="border-right-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdr" toReformat="true" toShortenFQNames="true" value="border-right: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdr:n" toReformat="true" toShortenFQNames="true" value="border-right: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdsp" toReformat="true" toShortenFQNames="true" value="border-spacing: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds" toReformat="true" toShortenFQNames="true" value="border-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:ds" toReformat="true" toShortenFQNames="true" value="border-style: dashed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:dtds" toReformat="true" toShortenFQNames="true" value="border-style: dot-dash;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:dtdtds" toReformat="true" toShortenFQNames="true" value="border-style: dot-dot-dash;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:dt" toReformat="true" toShortenFQNames="true" value="border-style: dotted;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:db" toReformat="true" toShortenFQNames="true" value="border-style: double;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:g" toReformat="true" toShortenFQNames="true" value="border-style: groove;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:h" toReformat="true" toShortenFQNames="true" value="border-style: hidden;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:i" toReformat="true" toShortenFQNames="true" value="border-style: inset;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:n" toReformat="true" toShortenFQNames="true" value="border-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:o" toReformat="true" toShortenFQNames="true" value="border-style: outset;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:r" toReformat="true" toShortenFQNames="true" value="border-style: ridge;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:s" toReformat="true" toShortenFQNames="true" value="border-style: solid;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bds:w" toReformat="true" toShortenFQNames="true" value="border-style: wave;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdt+" toReformat="true" toShortenFQNames="true" value="border-top: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1px&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;solid&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtc" toReformat="true" toShortenFQNames="true" value="border-top-color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdti" toReformat="true" toShortenFQNames="true" value="border-top-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdti:n" toReformat="true" toShortenFQNames="true" value="border-top-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtli" toReformat="true" toShortenFQNames="true" value="border-top-left-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtli:c" toReformat="true" toShortenFQNames="true" value="border-corner-image: continue;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtli:n" toReformat="true" toShortenFQNames="true" value="border-corner-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtlrz" toReformat="true" toShortenFQNames="true" value="border-top-left-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtri" toReformat="true" toShortenFQNames="true" value="border-top-right-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtri:c" toReformat="true" toShortenFQNames="true" value="border-top-right-image: continue;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtri:n" toReformat="true" toShortenFQNames="true" value="border-top-right-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtrrz" toReformat="true" toShortenFQNames="true" value="border-top-right-radius: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdts" toReformat="true" toShortenFQNames="true" value="border-top-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdts:n" toReformat="true" toShortenFQNames="true" value="border-top-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdtw" toReformat="true" toShortenFQNames="true" value="border-top-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdt" toReformat="true" toShortenFQNames="true" value="border-top: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdt:n" toReformat="true" toShortenFQNames="true" value="border-top: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bdw" toReformat="true" toShortenFQNames="true" value="border-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bd" toReformat="true" toShortenFQNames="true" value="border: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bd:n" toReformat="true" toShortenFQNames="true" value="border: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="b" toReformat="true" toShortenFQNames="true" value="bottom: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="b:a" toReformat="true" toShortenFQNames="true" value="bottom: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh+" toReformat="true" toShortenFQNames="true" value="box-shadow: $1$ $2$ $3$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh" toReformat="true" toShortenFQNames="true" value="box-shadow: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxsh:n" toReformat="true" toShortenFQNames="true" value="box-shadow: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxz" toReformat="true" toShortenFQNames="true" value="box-sizing: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxz:bb" toReformat="true" toShortenFQNames="true" value="box-sizing: border-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bxz:cb" toReformat="true" toShortenFQNames="true" value="box-sizing: content-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cps" toReformat="true" toShortenFQNames="true" value="caption-side: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cps:b" toReformat="true" toShortenFQNames="true" value="caption-side: bottom;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cps:t" toReformat="true" toShortenFQNames="true" value="caption-side: top;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl" toReformat="true" toShortenFQNames="true" value="clear: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl:b" toReformat="true" toShortenFQNames="true" value="clear: both;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl:l" toReformat="true" toShortenFQNames="true" value="clear: left;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl:n" toReformat="true" toShortenFQNames="true" value="clear: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl:r" toReformat="true" toShortenFQNames="true" value="clear: right;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cp" toReformat="true" toShortenFQNames="true" value="clip: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cp:a" toReformat="true" toShortenFQNames="true" value="clip: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cp:r" toReformat="true" toShortenFQNames="true" value="clip: rect($1$ $2$ $3$ $END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="c" toReformat="true" toShortenFQNames="true" value="color: #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct" toReformat="true" toShortenFQNames="true" value="content: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:a" toReformat="true" toShortenFQNames="true" value="content: attr($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:cq" toReformat="true" toShortenFQNames="true" value="content: close-quote;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:c" toReformat="true" toShortenFQNames="true" value="content: counter($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:cs" toReformat="true" toShortenFQNames="true" value="content: counters($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:ncq" toReformat="true" toShortenFQNames="true" value="content: no-close-quote;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:noq" toReformat="true" toShortenFQNames="true" value="content: no-open-quote;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:n" toReformat="true" toShortenFQNames="true" value="content: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ct:oq" toReformat="true" toShortenFQNames="true" value="content: open-quote;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="coi" toReformat="true" toShortenFQNames="true" value="counter-increment: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cor" toReformat="true" toShortenFQNames="true" value="counter-reset: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur" toReformat="true" toShortenFQNames="true" value="cursor: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:a" toReformat="true" toShortenFQNames="true" value="cursor: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:c" toReformat="true" toShortenFQNames="true" value="cursor: crosshair;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:d" toReformat="true" toShortenFQNames="true" value="cursor: default;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:ha" toReformat="true" toShortenFQNames="true" value="cursor: hand;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:he" toReformat="true" toShortenFQNames="true" value="cursor: help;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:m" toReformat="true" toShortenFQNames="true" value="cursor: move;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:p" toReformat="true" toShortenFQNames="true" value="cursor: pointer;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cur:t" toReformat="true" toShortenFQNames="true" value="cursor: text;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d" toReformat="true" toShortenFQNames="true" value="display: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:mib" toReformat="true" toShortenFQNames="true" value="display: -moz-inline-box;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:mis" toReformat="true" toShortenFQNames="true" value="display: -moz-inline-stack;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:b" toReformat="true" toShortenFQNames="true" value="display: block;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:cp" toReformat="true" toShortenFQNames="true" value="display: compact;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:ib" toReformat="true" toShortenFQNames="true" value="display: inline-block;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:itb" toReformat="true" toShortenFQNames="true" value="display: inline-table;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:i" toReformat="true" toShortenFQNames="true" value="display: inline;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:li" toReformat="true" toShortenFQNames="true" value="display: list-item;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:n" toReformat="true" toShortenFQNames="true" value="display: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:ri" toReformat="true" toShortenFQNames="true" value="display: run-in;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbcp" toReformat="true" toShortenFQNames="true" value="display: table-caption;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbc" toReformat="true" toShortenFQNames="true" value="display: table-cell;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbclg" toReformat="true" toShortenFQNames="true" value="display: table-column-group;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbcl" toReformat="true" toShortenFQNames="true" value="display: table-column;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbfg" toReformat="true" toShortenFQNames="true" value="display: table-footer-group;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbhg" toReformat="true" toShortenFQNames="true" value="display: table-header-group;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbrg" toReformat="true" toShortenFQNames="true" value="display: table-row-group;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tbr" toReformat="true" toShortenFQNames="true" value="display: table-row;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d:tb" toReformat="true" toShortenFQNames="true" value="display: table;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ec" toReformat="true" toShortenFQNames="true" value="empty-cells: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ec:h" toReformat="true" toShortenFQNames="true" value="empty-cells: hide;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ec:s" toReformat="true" toShortenFQNames="true" value="empty-cells: show;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="exp" toReformat="true" toShortenFQNames="true" value="expression()">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fl" toReformat="true" toShortenFQNames="true" value="float: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fl:l" toReformat="true" toShortenFQNames="true" value="float: left;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fl:n" toReformat="true" toShortenFQNames="true" value="float: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fl:r" toReformat="true" toShortenFQNames="true" value="float: right;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="f+" toReformat="true" toShortenFQNames="true" value="font: $1$ $2$,$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1em&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Arial&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;sans-serif&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fef" toReformat="true" toShortenFQNames="true" value="font-effect: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fef:eb" toReformat="true" toShortenFQNames="true" value="font-effect: emboss;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fef:eg" toReformat="true" toShortenFQNames="true" value="font-effect: engrave;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fef:n" toReformat="true" toShortenFQNames="true" value="font-effect: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fef:o" toReformat="true" toShortenFQNames="true" value="font-effect: outline;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="femp" toReformat="true" toShortenFQNames="true" value="font-emphasize-position: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="femp:a" toReformat="true" toShortenFQNames="true" value="font-emphasize-position: after;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="femp:b" toReformat="true" toShortenFQNames="true" value="font-emphasize-position: before;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fems" toReformat="true" toShortenFQNames="true" value="font-emphasize-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fems:ac" toReformat="true" toShortenFQNames="true" value="font-emphasize-style: accent;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fems:c" toReformat="true" toShortenFQNames="true" value="font-emphasize-style: circle;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fems:ds" toReformat="true" toShortenFQNames="true" value="font-emphasize-style: disc;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fems:dt" toReformat="true" toShortenFQNames="true" value="font-emphasize-style: dot;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fems:n" toReformat="true" toShortenFQNames="true" value="font-emphasize-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fem" toReformat="true" toShortenFQNames="true" value="font-emphasize: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ff" toReformat="true" toShortenFQNames="true" value="font-family: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ff:c" toReformat="true" toShortenFQNames="true" value="font-family: $END$,cursive;">
+    <variable alwaysStopAt="true" defaultValue="&quot;'Monotype Corsiva','Comic Sans MS'&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ff:f" toReformat="true" toShortenFQNames="true" value="font-family: $END$,fantasy;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Capitals,Impact&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ff:m" toReformat="true" toShortenFQNames="true" value="font-family: $END$,monospace;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Monaco,'Courier New'&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ff:ss" toReformat="true" toShortenFQNames="true" value="font-family: $END$,sans-serif;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Helvetica,Arial&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ff:s" toReformat="true" toShortenFQNames="true" value="font-family: $END$,serif;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Georgia,'Times New Roman'&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fza" toReformat="true" toShortenFQNames="true" value="font-size-adjust: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fza:n" toReformat="true" toShortenFQNames="true" value="font-size-adjust: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fz" toReformat="true" toShortenFQNames="true" value="font-size: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fsm" toReformat="true" toShortenFQNames="true" value="font-smooth: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fsm:aw" toReformat="true" toShortenFQNames="true" value="font-smooth: always;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fsm:a" toReformat="true" toShortenFQNames="true" value="font-smooth: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fsm:n" toReformat="true" toShortenFQNames="true" value="font-smooth: never;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst" toReformat="true" toShortenFQNames="true" value="font-stretch: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:c" toReformat="true" toShortenFQNames="true" value="font-stretch: condensed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:e" toReformat="true" toShortenFQNames="true" value="font-stretch: expanded;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:ec" toReformat="true" toShortenFQNames="true" value="font-stretch: extra-condensed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:ee" toReformat="true" toShortenFQNames="true" value="font-stretch: extra-expanded;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:n" toReformat="true" toShortenFQNames="true" value="font-stretch: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:sc" toReformat="true" toShortenFQNames="true" value="font-stretch: semi-condensed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:se" toReformat="true" toShortenFQNames="true" value="font-stretch: semi-expanded;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:uc" toReformat="true" toShortenFQNames="true" value="font-stretch: ultra-condensed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fst:ue" toReformat="true" toShortenFQNames="true" value="font-stretch: ultra-expanded;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fs" toReformat="true" toShortenFQNames="true" value="font-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fs:i" toReformat="true" toShortenFQNames="true" value="font-style: italic;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fs:n" toReformat="true" toShortenFQNames="true" value="font-style: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fs:o" toReformat="true" toShortenFQNames="true" value="font-style: oblique;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fv" toReformat="true" toShortenFQNames="true" value="font-variant: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fv:n" toReformat="true" toShortenFQNames="true" value="font-variant: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fv:sc" toReformat="true" toShortenFQNames="true" value="font-variant: small-caps;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fw" toReformat="true" toShortenFQNames="true" value="font-weight: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fw:b" toReformat="true" toShortenFQNames="true" value="font-weight: bold;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fw:br" toReformat="true" toShortenFQNames="true" value="font-weight: bolder;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fw:lr" toReformat="true" toShortenFQNames="true" value="font-weight: lighter;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fw:n" toReformat="true" toShortenFQNames="true" value="font-weight: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="f" toReformat="true" toShortenFQNames="true" value="font: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h" toReformat="true" toShortenFQNames="true" value="height: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h:a" toReformat="true" toShortenFQNames="true" value="height: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l" toReformat="true" toShortenFQNames="true" value="left: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l:a" toReformat="true" toShortenFQNames="true" value="left: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lts" toReformat="true" toShortenFQNames="true" value="letter-spacing: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lh" toReformat="true" toShortenFQNames="true" value="line-height: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lisi" toReformat="true" toShortenFQNames="true" value="list-style-image: url($END$);">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lisi:n" toReformat="true" toShortenFQNames="true" value="list-style-image: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lisp" toReformat="true" toShortenFQNames="true" value="list-style-position: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lisp:i" toReformat="true" toShortenFQNames="true" value="list-style-position: inside;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lisp:o" toReformat="true" toShortenFQNames="true" value="list-style-position: outside;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list" toReformat="true" toShortenFQNames="true" value="list-style-type: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:c" toReformat="true" toShortenFQNames="true" value="list-style-type: circle;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:dclz" toReformat="true" toShortenFQNames="true" value="list-style-type: decimal-leading-zero;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:dc" toReformat="true" toShortenFQNames="true" value="list-style-type: decimal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:d" toReformat="true" toShortenFQNames="true" value="list-style-type: disc;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:lr" toReformat="true" toShortenFQNames="true" value="list-style-type: lower-roman;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:n" toReformat="true" toShortenFQNames="true" value="list-style-type: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:s" toReformat="true" toShortenFQNames="true" value="list-style-type: square;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list:ur" toReformat="true" toShortenFQNames="true" value="list-style-type: upper-roman;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lis" toReformat="true" toShortenFQNames="true" value="list-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lis:n" toReformat="true" toShortenFQNames="true" value="list-style: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mb" toReformat="true" toShortenFQNames="true" value="margin-bottom: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mb:a" toReformat="true" toShortenFQNames="true" value="margin-bottom: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ml" toReformat="true" toShortenFQNames="true" value="margin-left: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ml:a" toReformat="true" toShortenFQNames="true" value="margin-left: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mr" toReformat="true" toShortenFQNames="true" value="margin-right: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mr:a" toReformat="true" toShortenFQNames="true" value="margin-right: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mt" toReformat="true" toShortenFQNames="true" value="margin-top: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mt:a" toReformat="true" toShortenFQNames="true" value="margin-top: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m" toReformat="true" toShortenFQNames="true" value="margin: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m:4" toReformat="true" toShortenFQNames="true" value="margin: $1$ $2$ $3$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m:3" toReformat="true" toShortenFQNames="true" value="margin: $1$ $2$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m:2" toReformat="true" toShortenFQNames="true" value="margin: $1$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m:0" toReformat="true" toShortenFQNames="true" value="margin: 0;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m:a" toReformat="true" toShortenFQNames="true" value="margin: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mah" toReformat="true" toShortenFQNames="true" value="max-height: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mah:n" toReformat="true" toShortenFQNames="true" value="max-height: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="maw" toReformat="true" toShortenFQNames="true" value="max-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="maw:n" toReformat="true" toShortenFQNames="true" value="max-width: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mih" toReformat="true" toShortenFQNames="true" value="min-height: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="miw" toReformat="true" toShortenFQNames="true" value="min-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="op" toReformat="true" toShortenFQNames="true" value="opacity: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="op:ie" toReformat="true" toShortenFQNames="true" value="filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=$END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;100&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="op:ms" toReformat="true" toShortenFQNames="true" value="-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$END$)';">
+    <variable alwaysStopAt="true" defaultValue="&quot;100&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="orp" toReformat="true" toShortenFQNames="true" value="orphans: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="o+" toReformat="true" toShortenFQNames="true" value="outline: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;1px&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;solid&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="oc" toReformat="true" toShortenFQNames="true" value="outline-color: $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;#000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="oc:i" toReformat="true" toShortenFQNames="true" value="outline-color: invert;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="oo" toReformat="true" toShortenFQNames="true" value="outline-offset: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="os" toReformat="true" toShortenFQNames="true" value="outline-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ow" toReformat="true" toShortenFQNames="true" value="outline-width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="o" toReformat="true" toShortenFQNames="true" value="outline: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="o:n" toReformat="true" toShortenFQNames="true" value="outline: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovs" toReformat="true" toShortenFQNames="true" value="overflow-style: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovs:a" toReformat="true" toShortenFQNames="true" value="overflow-style: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovs:mq" toReformat="true" toShortenFQNames="true" value="overflow-style: marquee;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovs:mv" toReformat="true" toShortenFQNames="true" value="overflow-style: move;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovs:p" toReformat="true" toShortenFQNames="true" value="overflow-style: panner;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovs:s" toReformat="true" toShortenFQNames="true" value="overflow-style: scrollbar;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovx" toReformat="true" toShortenFQNames="true" value="overflow-x: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovx:a" toReformat="true" toShortenFQNames="true" value="overflow-x: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovx:h" toReformat="true" toShortenFQNames="true" value="overflow-x: hidden;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovx:s" toReformat="true" toShortenFQNames="true" value="overflow-x: scroll;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovx:v" toReformat="true" toShortenFQNames="true" value="overflow-x: visible;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovy" toReformat="true" toShortenFQNames="true" value="overflow-y: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovy:a" toReformat="true" toShortenFQNames="true" value="overflow-y: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovy:h" toReformat="true" toShortenFQNames="true" value="overflow-y: hidden;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovy:s" toReformat="true" toShortenFQNames="true" value="overflow-y: scroll;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ovy:v" toReformat="true" toShortenFQNames="true" value="overflow-y: visible;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ov" toReformat="true" toShortenFQNames="true" value="overflow: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ov:a" toReformat="true" toShortenFQNames="true" value="overflow: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ov:h" toReformat="true" toShortenFQNames="true" value="overflow: hidden;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ov:s" toReformat="true" toShortenFQNames="true" value="overflow: scroll;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ov:v" toReformat="true" toShortenFQNames="true" value="overflow: visible;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pb" toReformat="true" toShortenFQNames="true" value="padding-bottom: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pl" toReformat="true" toShortenFQNames="true" value="padding-left: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pr" toReformat="true" toShortenFQNames="true" value="padding-right: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pt" toReformat="true" toShortenFQNames="true" value="padding-top: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="p" toReformat="true" toShortenFQNames="true" value="padding: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="p:4" toReformat="true" toShortenFQNames="true" value="padding: $1$ $2$ $3$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="p:3" toReformat="true" toShortenFQNames="true" value="padding: $1$ $2$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="p:2" toReformat="true" toShortenFQNames="true" value="padding: $1$ $END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="p:0" toReformat="true" toShortenFQNames="true" value="padding: 0;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgba" toReformat="true" toShortenFQNames="true" value="page-break-after: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgba:aw" toReformat="true" toShortenFQNames="true" value="page-break-after: always;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgba:a" toReformat="true" toShortenFQNames="true" value="page-break-after: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgba:l" toReformat="true" toShortenFQNames="true" value="page-break-after: left;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgba:r" toReformat="true" toShortenFQNames="true" value="page-break-after: right;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbb" toReformat="true" toShortenFQNames="true" value="page-break-before: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbb:aw" toReformat="true" toShortenFQNames="true" value="page-break-before: always;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbb:a" toReformat="true" toShortenFQNames="true" value="page-break-before: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbb:l" toReformat="true" toShortenFQNames="true" value="page-break-before: left;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbb:r" toReformat="true" toShortenFQNames="true" value="page-break-before: right;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbi" toReformat="true" toShortenFQNames="true" value="page-break-inside: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbi:a" toReformat="true" toShortenFQNames="true" value="page-break-inside: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pgbi:av" toReformat="true" toShortenFQNames="true" value="page-break-inside: avoid;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pos" toReformat="true" toShortenFQNames="true" value="position: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pos:a" toReformat="true" toShortenFQNames="true" value="position: absolute;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pos:f" toReformat="true" toShortenFQNames="true" value="position: fixed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pos:r" toReformat="true" toShortenFQNames="true" value="position: relative;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pos:s" toReformat="true" toShortenFQNames="true" value="position: static;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="q" toReformat="true" toShortenFQNames="true" value="quotes: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="q:en" toReformat="true" toShortenFQNames="true" value="quotes: '\201C' '\201D' '\2018' '\2019';">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="q:n" toReformat="true" toShortenFQNames="true" value="quotes: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="q:ru" toReformat="true" toShortenFQNames="true" value="quotes: '\00AB' '\00BB' '\201E' '\201C';">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rz" toReformat="true" toShortenFQNames="true" value="resize: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rz:b" toReformat="true" toShortenFQNames="true" value="resize: both;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rz:h" toReformat="true" toShortenFQNames="true" value="resize: horizontal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rz:n" toReformat="true" toShortenFQNames="true" value="resize: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rz:v" toReformat="true" toShortenFQNames="true" value="resize: vertical;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="r" toReformat="true" toShortenFQNames="true" value="right: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="r:a" toReformat="true" toShortenFQNames="true" value="right: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tbl" toReformat="true" toShortenFQNames="true" value="table-layout: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tbl:a" toReformat="true" toShortenFQNames="true" value="table-layout: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tbl:f" toReformat="true" toShortenFQNames="true" value="table-layout: fixed;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tal" toReformat="true" toShortenFQNames="true" value="text-align-last: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tal:a" toReformat="true" toShortenFQNames="true" value="text-align-last: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tal:c" toReformat="true" toShortenFQNames="true" value="text-align-last: center;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tal:l" toReformat="true" toShortenFQNames="true" value="text-align-last: left;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tal:r" toReformat="true" toShortenFQNames="true" value="text-align-last: right;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ta" toReformat="true" toShortenFQNames="true" value="text-align: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ta:c" toReformat="true" toShortenFQNames="true" value="text-align: center;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ta:l" toReformat="true" toShortenFQNames="true" value="text-align: left;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ta:r" toReformat="true" toShortenFQNames="true" value="text-align: right;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="td" toReformat="true" toShortenFQNames="true" value="text-decoration: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="td:l" toReformat="true" toShortenFQNames="true" value="text-decoration: line-through;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="td:n" toReformat="true" toShortenFQNames="true" value="text-decoration: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="td:o" toReformat="true" toShortenFQNames="true" value="text-decoration: overline;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="td:u" toReformat="true" toShortenFQNames="true" value="text-decoration: underline;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te" toReformat="true" toShortenFQNames="true" value="text-emphasis: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:ac" toReformat="true" toShortenFQNames="true" value="text-emphasis: accent;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:a" toReformat="true" toShortenFQNames="true" value="text-emphasis: after;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:b" toReformat="true" toShortenFQNames="true" value="text-emphasis: before;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:c" toReformat="true" toShortenFQNames="true" value="text-emphasis: circle;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:ds" toReformat="true" toShortenFQNames="true" value="text-emphasis: disc;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:dt" toReformat="true" toShortenFQNames="true" value="text-emphasis: dot;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="te:n" toReformat="true" toShortenFQNames="true" value="text-emphasis: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="th" toReformat="true" toShortenFQNames="true" value="text-height: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="th:a" toReformat="true" toShortenFQNames="true" value="text-height: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="th:f" toReformat="true" toShortenFQNames="true" value="text-height: font-size;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="th:m" toReformat="true" toShortenFQNames="true" value="text-height: max-size;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="th:t" toReformat="true" toShortenFQNames="true" value="text-height: text-size;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ti" toReformat="true" toShortenFQNames="true" value="text-indent: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ti:-" toReformat="true" toShortenFQNames="true" value="text-indent: -9999px;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj" toReformat="true" toShortenFQNames="true" value="text-justify: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:a" toReformat="true" toShortenFQNames="true" value="text-justify: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:d" toReformat="true" toShortenFQNames="true" value="text-justify: distribute;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:ic" toReformat="true" toShortenFQNames="true" value="text-justify: inter-cluster;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:ii" toReformat="true" toShortenFQNames="true" value="text-justify: inter-ideograph;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:iw" toReformat="true" toShortenFQNames="true" value="text-justify: inter-word;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:k" toReformat="true" toShortenFQNames="true" value="text-justify: kashida;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tj:t" toReformat="true" toShortenFQNames="true" value="text-justify: tibetan;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="to+" toReformat="true" toShortenFQNames="true" value="text-outline: $1$ $2$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="to" toReformat="true" toShortenFQNames="true" value="text-outline: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="to:n" toReformat="true" toShortenFQNames="true" value="text-outline: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tr" toReformat="true" toShortenFQNames="true" value="text-replace: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tr:n" toReformat="true" toShortenFQNames="true" value="text-replace: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tsh+" toReformat="true" toShortenFQNames="true" value="text-shadow: $1$ $2$ $3$ #$END$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;000&quot;" expression="" name="0"/>
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tsh" toReformat="true" toShortenFQNames="true" value="text-shadow: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tsh:n" toReformat="true" toShortenFQNames="true" value="text-shadow: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt" toReformat="true" toShortenFQNames="true" value="text-transform: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt:c" toReformat="true" toShortenFQNames="true" value="text-transform: capitalize;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt:l" toReformat="true" toShortenFQNames="true" value="text-transform: lowercase;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt:n" toReformat="true" toShortenFQNames="true" value="text-transform: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt:u" toReformat="true" toShortenFQNames="true" value="text-transform: uppercase;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tw" toReformat="true" toShortenFQNames="true" value="text-wrap: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tw:no" toReformat="true" toShortenFQNames="true" value="text-wrap: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tw:n" toReformat="true" toShortenFQNames="true" value="text-wrap: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tw:s" toReformat="true" toShortenFQNames="true" value="text-wrap: suppress;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tw:u" toReformat="true" toShortenFQNames="true" value="text-wrap: unrestricted;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="t" toReformat="true" toShortenFQNames="true" value="top: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="t:a" toReformat="true" toShortenFQNames="true" value="top: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va" toReformat="true" toShortenFQNames="true" value="vertical-align: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:bl" toReformat="true" toShortenFQNames="true" value="vertical-align: baseline;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:b" toReformat="true" toShortenFQNames="true" value="vertical-align: bottom;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:m" toReformat="true" toShortenFQNames="true" value="vertical-align: middle;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:sub" toReformat="true" toShortenFQNames="true" value="vertical-align: sub;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:sup" toReformat="true" toShortenFQNames="true" value="vertical-align: super;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:tb" toReformat="true" toShortenFQNames="true" value="vertical-align: text-bottom;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:tt" toReformat="true" toShortenFQNames="true" value="vertical-align: text-top;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="va:t" toReformat="true" toShortenFQNames="true" value="vertical-align: top;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="v" toReformat="true" toShortenFQNames="true" value="visibility: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="v:c" toReformat="true" toShortenFQNames="true" value="visibility: collapse;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="v:h" toReformat="true" toShortenFQNames="true" value="visibility: hidden;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="v:v" toReformat="true" toShortenFQNames="true" value="visibility: visible;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whsc" toReformat="true" toShortenFQNames="true" value="white-space-collapse: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whsc:ba" toReformat="true" toShortenFQNames="true" value="white-space-collapse: break-all;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whsc:bs" toReformat="true" toShortenFQNames="true" value="white-space-collapse: break-strict;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whsc:k" toReformat="true" toShortenFQNames="true" value="white-space-collapse: keep-all;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whsc:l" toReformat="true" toShortenFQNames="true" value="white-space-collapse: loose;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whsc:n" toReformat="true" toShortenFQNames="true" value="white-space-collapse: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whs" toReformat="true" toShortenFQNames="true" value="white-space: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whs:n" toReformat="true" toShortenFQNames="true" value="white-space: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whs:nw" toReformat="true" toShortenFQNames="true" value="white-space: nowrap;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whs:pl" toReformat="true" toShortenFQNames="true" value="white-space: pre-line;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whs:pw" toReformat="true" toShortenFQNames="true" value="white-space: pre-wrap;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="whs:p" toReformat="true" toShortenFQNames="true" value="white-space: pre;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wid" toReformat="true" toShortenFQNames="true" value="widows: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="w" toReformat="true" toShortenFQNames="true" value="width: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="w:a" toReformat="true" toShortenFQNames="true" value="width: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wob" toReformat="true" toShortenFQNames="true" value="word-break: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wob:ba" toReformat="true" toShortenFQNames="true" value="word-break: break-all;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wob:bs" toReformat="true" toShortenFQNames="true" value="word-break: break-strict;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wob:k" toReformat="true" toShortenFQNames="true" value="word-break: keep-all;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wob:l" toReformat="true" toShortenFQNames="true" value="word-break: loose;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wob:n" toReformat="true" toShortenFQNames="true" value="word-break: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wos" toReformat="true" toShortenFQNames="true" value="word-spacing: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wow" toReformat="true" toShortenFQNames="true" value="word-wrap: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wow:no" toReformat="true" toShortenFQNames="true" value="word-wrap: none;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wow:n" toReformat="true" toShortenFQNames="true" value="word-wrap: normal;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wow:s" toReformat="true" toShortenFQNames="true" value="word-wrap: suppress;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wow:u" toReformat="true" toShortenFQNames="true" value="word-wrap: unrestricted;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="z" toReformat="true" toShortenFQNames="true" value="z-index: $END$;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="z:a" toReformat="true" toShortenFQNames="true" value="z-index: auto;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="zoo" toReformat="true" toShortenFQNames="true" value="zoom: 1;">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":h" toReformat="true" toShortenFQNames="true" value=":hover">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":fc" toReformat="true" toShortenFQNames="true" value=":first-child">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":lc" toReformat="true" toShortenFQNames="true" value=":last-child">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":nc" toReformat="true" toShortenFQNames="true" value=":nth-child($END$)">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":nlc" toReformat="true" toShortenFQNames="true" value=":nth-last-child($END$)">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":oc" toReformat="true" toShortenFQNames="true" value=":only-child">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":a" toReformat="true" toShortenFQNames="true" value=":after">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name=":b" toReformat="true" toShortenFQNames="true" value=":before">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="::a" toReformat="true" toShortenFQNames="true" value="::after">
+    <context>
+      <option name="CSS" value="true"/>
+    </context>
+  </template>
+</templateSet>

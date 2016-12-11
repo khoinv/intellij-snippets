@@ -1,0 +1,269 @@
+<templateSet group="jinja">
+  <template description="" name="%" toReformat="true" toShortenFQNames="true" value="{% $1$ %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="%%" toReformat="true" toShortenFQNames="true" value="{% $1$ %}$END${% end$1 %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;tag_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="{" toReformat="true" toShortenFQNames="true" value="{{ $1$ }}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="autoescape" toReformat="true" toShortenFQNames="true" value="{% autoescape $1$ %}$END${% endautoescape %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;off&quot;" expression="" name="1"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="block" toReformat="true" toShortenFQNames="true" value="{% block $1$ %}$END${% endblock %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="#" toReformat="true" toShortenFQNames="true" value="{# $END$ #}">
+    <variable alwaysStopAt="true" defaultValue="&quot;comment&quot;" expression="" name="0"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="comment" toReformat="true" toShortenFQNames="true" value="{% comment %}$END${% endcomment %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cycle" toReformat="true" toShortenFQNames="true" value="{% cycle $1$ $2$ $3$} %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;val1&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;val2&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;as ${4&quot;" expression="" name="3"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="debug" toReformat="true" toShortenFQNames="true" value="{% debug %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="extends" toReformat="true" toShortenFQNames="true" value="{% extends &quot;$END$&quot; %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;base.html&quot;" expression="" name="0"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="filter" toReformat="true" toShortenFQNames="true" value="{% filter $1$ %}$END${% endfilter %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="firstof" toReformat="true" toShortenFQNames="true" value="{% firstof $1$ %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="{% for $1$ in $2$ %}$END${% endfor %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="empty" toReformat="true" toShortenFQNames="true" value="{% empty %}$END$">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="{% if $1$ %}$END${% endif %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="{% else %}$1$">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="{% elif $1$ %}$END$">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifchanged" toReformat="true" toShortenFQNames="true" value="{% ifchanged %}$1${% endifchanged %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifequal" toReformat="true" toShortenFQNames="true" value="{% ifequal $1$ $2$ %}$END${% endifequal %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifnotequal" toReformat="true" toShortenFQNames="true" value="{% ifnotequal $1$ $2$ %}$END${% endifnotequal %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="include" toReformat="true" toShortenFQNames="true" value="{% include &quot;$END$&quot; %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="load" toReformat="true" toShortenFQNames="true" value="{% load $END$ %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="now" toReformat="true" toShortenFQNames="true" value="{% now &quot;$END$&quot; %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;jS F Y H:i&quot;" expression="" name="0"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="regroup" toReformat="true" toShortenFQNames="true" value="{% regroup $1$ by $2$ as $END$ %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="spaceless" toReformat="true" toShortenFQNames="true" value="{% spaceless %}$END${% endspaceless %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ssi" toReformat="true" toShortenFQNames="true" value="{% ssi $END$ %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="trans" toReformat="true" toShortenFQNames="true" value="{% trans &quot;$END$&quot; %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="0"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="url" toReformat="true" toShortenFQNames="true" value="{% url $1$ as $END$ %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="widthratio" toReformat="true" toShortenFQNames="true" value="{% widthratio $1$ $2$ $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;this_value&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;max_value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;100&quot;" expression="" name="0"/>
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="with" toReformat="true" toShortenFQNames="true" value="{% with $1$ as $2$ %}$END${% endwith %}">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="add" toReformat="true" toShortenFQNames="true" value="add:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="center" toReformat="true" toShortenFQNames="true" value="center:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cut" toReformat="true" toShortenFQNames="true" value="cut:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="date" toReformat="true" toShortenFQNames="true" value="date:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="default" toReformat="true" toShortenFQNames="true" value="default:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defaultifnone" toReformat="true" toShortenFQNames="true" value="default_if_none:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dictsort" toReformat="true" toShortenFQNames="true" value="dictsort:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dictsortrev" toReformat="true" toShortenFQNames="true" value="dictsortreversed:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="divisibleby" toReformat="true" toShortenFQNames="true" value="divisibleby:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="floatformat" toReformat="true" toShortenFQNames="true" value="floatformat:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="getdigit" toReformat="true" toShortenFQNames="true" value="get_digit:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="join" toReformat="true" toShortenFQNames="true" value="join:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lengthis" toReformat="true" toShortenFQNames="true" value="length_is:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pluralize" toReformat="true" toShortenFQNames="true" value="pluralize:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="removetags" toReformat="true" toShortenFQNames="true" value="removetags:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="slice" toReformat="true" toShortenFQNames="true" value="slice:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="stringformat" toReformat="true" toShortenFQNames="true" value="stringformat:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="time" toReformat="true" toShortenFQNames="true" value="time:&quot;$END$&quot;">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="truncatewords" toReformat="true" toShortenFQNames="true" value="truncatewords:$END$">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="truncatewordshtml" toReformat="true" toShortenFQNames="true" value="truncatewords_html:$END$">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+  <template description="" name="urlizetrunc" toReformat="true" toShortenFQNames="true" value="urlizetrunc:$END$">
+    <context>
+      <option name="JINJA" value="true"/>
+    </context>
+  </template>
+</templateSet>

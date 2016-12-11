@@ -1,0 +1,124 @@
+<templateSet group="actionscript">
+  <template description="" name="main" toReformat="true" toShortenFQNames="true" value="package {import flash.display.*;import flash.Events.*;public class Main extends Sprite {public function Main (&#9;) {trace(&quot;start&quot;);stage.scaleMode = StageScaleMode.NO_SCALE;stage.addEventListener(Event.RESIZE, resizeListener);}private function resizeListener (e:Event):void {trace(&quot;The application window changed size!&quot;);trace(&quot;New width:  &quot; + stage.stageWidth);trace(&quot;New height: &quot; + stage.stageHeight);}}}">
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="class" toReformat="true" toShortenFQNames="true" value="$1$ class $2$ $END$ {public function $2 (&#9;) {(&quot;start&quot;);}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;public|internal&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;extends &quot;" expression="" name="0"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="all" toReformat="true" toShortenFQNames="true" value="package name {$1$ class $2$ $END$ {private|public| static const FOO = &quot;abc&quot;;private|public| static var BAR = &quot;abc&quot;;// class initializer - no JIT !! one time setupif Cababilities.os == &quot;Linux|MacOS&quot; {FOO = &quot;other&quot;;}// constructor:public function $2 (&#9;){super2();trace(&quot;start&quot;);}public function name (a, b...){super.name(..);lable:break}}}function A(){// A can only be accessed within this file}">
+    <variable alwaysStopAt="true" defaultValue="&quot;public|internal|final&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;extends &quot;" expression="" name="0"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="switch" toReformat="true" toShortenFQNames="true" value="switch($1$){case $2$:$END$break;default:}">
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $1$:$END$break;">
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="package" toReformat="true" toShortenFQNames="true" value="package $1${$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="1"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while $1${$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;cond&quot;" expression="" name="1"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="do" toReformat="true" toShortenFQNames="true" value="do {$END$} while ($1$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;cond&quot;" expression="" name="1"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for enumerate names" toReformat="true" toShortenFQNames="true" value="for ($1$ in $2$){$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for enumerate values" toReformat="true" toShortenFQNames="true" value="for each ($1$ in $2$){$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="2"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="get_set" toReformat="true" toShortenFQNames="true" value="function get $1$ {return $2$}function set $1 (newValue) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="interface" toReformat="true" toShortenFQNames="true" value="interface name {function method($1$):$END$;}">
+    <variable alwaysStopAt="true" defaultValue="&quot;returntype&quot;" expression="" name="0"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try {$1$} catch (error:ErrorType) {$2$} finally {$END$}">
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for for (..) {..}" toReformat="true" toShortenFQNames="true" value="for ($2$ = 0; $2 &lt; $1$; $2$3$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="3"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forr" toReformat="true" toShortenFQNames="true" value="for ($1$ = $2$; $3$; $1$4$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1 &lt; 10&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="4"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="1"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else {$END$}">
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="t" toReformat="true" toShortenFQNames="true" value="$1$ ? $2$ : $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="0"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="function $1$($2$)$3${$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="ACTIONSCRIPT" value="true"/>
+    </context>
+  </template>
+</templateSet>

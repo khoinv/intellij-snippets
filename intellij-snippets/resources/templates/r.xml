@@ -1,0 +1,330 @@
+<templateSet group="r">
+  <template description="" name="#!" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env Rscript">
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lib" toReformat="true" toShortenFQNames="true" value="library($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="req" toReformat="true" toShortenFQNames="true" value="require($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;package&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="source" toReformat="true" toShortenFQNames="true" value="source('$END$')">
+    <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="else {$END$}">
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ei" toReformat="true" toShortenFQNames="true" value="else if ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while($1$) {$2$}">
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for ($1$ in $2$) {$3$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="2"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="$1$ &lt;- function ($2$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;variables&quot;" expression="" name="2"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ret" toReformat="true" toShortenFQNames="true" value="return($END$)">
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="df" toReformat="true" toShortenFQNames="true" value="$1$[$2$, $END$]">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;rows&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;cols&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="c" toReformat="true" toShortenFQNames="true" value="c($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="li" toReformat="true" toShortenFQNames="true" value="list($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mat" toReformat="true" toShortenFQNames="true" value="matrix($1$, nrow = $2$, ncol = $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;data&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;rows&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;cols&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="apply" toReformat="true" toShortenFQNames="true" value="apply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;margin&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="lapply" toReformat="true" toShortenFQNames="true" value="lapply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sapply" toReformat="true" toShortenFQNames="true" value="lapply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vapply" toReformat="true" toShortenFQNames="true" value="vapply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mapply" toReformat="true" toShortenFQNames="true" value="mapply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;...&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tapply" toReformat="true" toShortenFQNames="true" value="tapply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;vector&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rapply" toReformat="true" toShortenFQNames="true" value="rapply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dd" toReformat="true" toShortenFQNames="true" value="ddply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;frame&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;variables&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dl" toReformat="true" toShortenFQNames="true" value="dlply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;frame&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;variables&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="da" toReformat="true" toShortenFQNames="true" value="daply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;frame&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;variables&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d_" toReformat="true" toShortenFQNames="true" value="d_ply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;frame&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;variables&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ad" toReformat="true" toShortenFQNames="true" value="adply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;margin&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="al" toReformat="true" toShortenFQNames="true" value="alply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;margin&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="aa" toReformat="true" toShortenFQNames="true" value="aaply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;margin&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="a_" toReformat="true" toShortenFQNames="true" value="a_ply($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;margin&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ld" toReformat="true" toShortenFQNames="true" value="ldply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ll" toReformat="true" toShortenFQNames="true" value="llply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="la" toReformat="true" toShortenFQNames="true" value="laply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="l_" toReformat="true" toShortenFQNames="true" value="l_ply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="md" toReformat="true" toShortenFQNames="true" value="mdply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;matrix&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ml" toReformat="true" toShortenFQNames="true" value="mlply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;matrix&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ma" toReformat="true" toShortenFQNames="true" value="maply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;matrix&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m_" toReformat="true" toShortenFQNames="true" value="m_ply($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;matrix&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pl" toReformat="true" toShortenFQNames="true" value="plot($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ggp" toReformat="true" toShortenFQNames="true" value="ggplot($1$, aes($END$))">
+    <variable alwaysStopAt="true" defaultValue="&quot;data&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;aesthetics&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="img" toReformat="true" toShortenFQNames="true" value="$1$(filename = '$2$', width = $3$, height = $4$, unit = '$5$')$END$dev.off()">
+    <variable alwaysStopAt="true" defaultValue="&quot;(jpeg,bmp,png,tiff)&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;filename&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;plot&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fis" toReformat="true" toShortenFQNames="true" value="fisher.test($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="chi" toReformat="true" toShortenFQNames="true" value="chisq.test($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tt" toReformat="true" toShortenFQNames="true" value="t.test($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wil" toReformat="true" toShortenFQNames="true" value="wilcox.test($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cor" toReformat="true" toShortenFQNames="true" value="cor.test($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fte" toReformat="true" toShortenFQNames="true" value="var.test($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="R" value="true"/>
+    </context>
+  </template>
+</templateSet>

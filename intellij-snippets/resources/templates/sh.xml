@@ -1,0 +1,102 @@
+<templateSet group="sh">
+  <template description="" name="#!" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env sh">
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bash" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env bash">
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sbash" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env bashset -euo pipefailIFS=$'\n\t'">
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if [[ $1$ ]]; then$END$fi">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="elif" toReformat="true" toShortenFQNames="true" value="elif [[ $1$ ]]; then$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for (( $2$ = 0; $2 &lt; $1$; $2++ )); do$END$done">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fori" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$ ; do$END$done">
+    <variable alwaysStopAt="true" defaultValue="&quot;needle&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;haystack&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while [[ $1$ ]]; do$END$done">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="until" toReformat="true" toShortenFQNames="true" value="until [[ $1$ ]]; do$END$done">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $1$ in$2$)$END$;;esac">
+    <variable alwaysStopAt="true" defaultValue="&quot;word&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pattern&quot;" expression="" name="2"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="go" toReformat="true" toShortenFQNames="true" value="while getopts '$1$' $2$docase $$2 in$3$)$END$;;esacdone">
+    <variable alwaysStopAt="true" defaultValue="&quot;o&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;opts&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;o0&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#staments&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sdir" toReformat="true" toShortenFQNames="true" value="SCRIPT_DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;">
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="getopt" toReformat="true" toShortenFQNames="true" value="__ScriptVersion=&quot;$1$&quot;#===  FUNCTION  ================================================================#         NAME:  usage#  DESCRIPTION:  Display usage information.#===============================================================================function usage (){echo &quot;Usage :  $$END$ [options] [--]Options:-h|help       Display this message-v|version    Display script version&quot;}    # ----------  end of function usage  ----------#-----------------------------------------------------------------------#  Handle command line arguments#-----------------------------------------------------------------------while getopts &quot;:hv&quot; optdocase $opt inh|help     )  usage; exit 0   ;;v|version  )  echo &quot;$$END$ -- Version $__ScriptVersion&quot;; exit 0   ;;* )  echo -e &quot;\n  Option does not exist : $OPTARG\n&quot;usage; exit 1   ;;esac    # --- end of case ---doneshift $(($OPTIND-1))">
+    <variable alwaysStopAt="true" defaultValue="&quot;version&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="root" toReformat="true" toShortenFQNames="true" value="if [ \$(id -u) -ne 0 ]; then exec sudo \$0; fi">
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun-sh" toReformat="true" toShortenFQNames="true" value="$1$() {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#function_body&quot;" expression="" name="0"/>
+    <context>
+      <option name="SH" value="true"/>
+    </context>
+  </template>
+</templateSet>

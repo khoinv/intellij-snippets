@@ -1,0 +1,269 @@
+<templateSet group="codeigniter">
+  <template description="" name="ci_controller" toReformat="true" toShortenFQNames="true" value="&lt;?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class $1$ extends CI_Controller{function __construct(){parent::__construct();$2$}function $3$(){$4$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;// code...&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;// code...&quot;" expression="" name="4"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_model" toReformat="true" toShortenFQNames="true" value="&lt;?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class $1$ extends CI_Model{function __construct(){parent::__construct();$2$}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ClassName_model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;// code...&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_model_crudl" toReformat="true" toShortenFQNames="true" value="&lt;?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class $1$ extends CI_Model{private $table = '$2$';function __construct(){parent::__construct();$3$}public function create($data){if($this-&gt;db-&gt;insert($this-&gt;table, $data))return true;elsereturn false;}public function read($id){return $this-&gt;db-&gt;get_where($this-&gt;table, array('id', $id))-&gt;result();}public function update($id, $data){if($this-&gt;db-&gt;update($this-&gt;table, $data, array('id' =&gt; $id)))return true;elsereturn false;}public function delete($id){if(is_array($id)){$this-&gt;db-&gt;trans_start();foreach($id as $elem)$this-&gt;db-&gt;delete($this-&gt;table, array('id' =&gt; $elem));$this-&gt;db-&gt;trans_complete();}else{if($this-&gt;db-&gt;delete($this-&gt;table, array('id' =&gt; $id)))return true;elsereturn false;}}public function listRows($limit = null, $offset = 0){if(!is_null($limit))$this-&gt;db-&gt;limit($limit, $offset);return $this-&gt;db-&gt;get($this-&gt;table)-&gt;result();}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ClassName_model&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;// code...&quot;" expression="" name="3"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_load-view" toReformat="true" toShortenFQNames="true" value="$this-&gt;load-&gt;view(&quot;$1$&quot;, $$2$);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;view_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;data&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-insert" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;insert(&quot;$1$&quot;, $$2$);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;data&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-select" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;select(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;id, ...&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-from" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;from(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-join" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;join(&quot;$1$&quot;, &quot;$2$&quot;, &quot;$3$&quot;);$4$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="3"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-where" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;where(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-or_where" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;or_where(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-get" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;get(&quot;$1$&quot;, $2$, $3$);$4$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;limit&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;offset&quot;" expression="" name="3"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-delete" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;delete(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;where&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_db-update" toReformat="true" toShortenFQNames="true" value="$this-&gt;db-&gt;update(&quot;$1$&quot;, $$2$, $$3$);$4$">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;set&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;where&quot;" expression="" name="3"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-post" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;post(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-get" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;get(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-cookie" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;cookie(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-server" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;server(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-user_agent" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;user_agent();$1$">
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-is_ajax_request" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;is_ajax_request();$1$">
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_input-is_cli_request" toReformat="true" toShortenFQNames="true" value="$this-&gt;input-&gt;is_cli_request();$1$">
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_validation-set_rules" toReformat="true" toShortenFQNames="true" value="$this-&gt;form_validation-&gt;set_rules(&quot;$1$&quot;, &quot;$2$&quot;, &quot;$3$&quot;);$4$">
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;label&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;trim|required&quot;" expression="" name="3"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_open" toReformat="true" toShortenFQNames="true" value="form_open(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_open_multipart" toReformat="true" toShortenFQNames="true" value="form_open_multipart(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_hidden" toReformat="true" toShortenFQNames="true" value="form_hidden(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_input" toReformat="true" toShortenFQNames="true" value="form_input(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_password" toReformat="true" toShortenFQNames="true" value="form_password(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_upload" toReformat="true" toShortenFQNames="true" value="form_upload(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_textarea" toReformat="true" toShortenFQNames="true" value="form_textarea(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_dropdown" toReformat="true" toShortenFQNames="true" value="form_dropdown(&quot;$1$&quot;, $$2$, $$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;options&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;selected);${4&quot;" expression="" name="3"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_checkbox" toReformat="true" toShortenFQNames="true" value="form_checkbox(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_radio" toReformat="true" toShortenFQNames="true" value="form_radio(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_submit" toReformat="true" toShortenFQNames="true" value="form_submit(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_reset" toReformat="true" toShortenFQNames="true" value="form_reset(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_button" toReformat="true" toShortenFQNames="true" value="form_button(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_label" toReformat="true" toShortenFQNames="true" value="form_label(&quot;$1$&quot;, &quot;$2$&quot;);$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;label text&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="2"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_form_close" toReformat="true" toShortenFQNames="true" value="form_close();$1$">
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_validation_errors" toReformat="true" toShortenFQNames="true" value="validation_errors();$1$">
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_session_userdata" toReformat="true" toShortenFQNames="true" value="$this-&gt;session-&gt;userdata(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_session_set_userdata" toReformat="true" toShortenFQNames="true" value="$this-&gt;session-&gt;set_userdata($$1$);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ci_session_flashdata" toReformat="true" toShortenFQNames="true" value="$this-&gt;session-&gt;flashdata(&quot;$1$&quot;);$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <context>
+      <option name="CODEIGNITER" value="true"/>
+    </context>
+  </template>
+</templateSet>

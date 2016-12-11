@@ -1,0 +1,33 @@
+<templateSet group="apache">
+  <template description="" name="dir" toReformat="true" toShortenFQNames="true" value="&lt;Directory $1$&gt;DirectoryIndex $END$Order Deny,AllowDeny from All&lt;/Directory&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;/&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;index.html&quot;" expression="" name="0"/>
+    <context>
+      <option name="APACHE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="filesmatch" toReformat="true" toShortenFQNames="true" value="&lt;FilesMatch &quot;$1$&quot;&gt;$END$&lt;/FilesMatch&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="1"/>
+    <context>
+      <option name="APACHE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifmodule" toReformat="true" toShortenFQNames="true" value="&lt;IfModule $1$&gt;$END$&lt;/IfModule&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;mod_example.c&quot;" expression="" name="1"/>
+    <context>
+      <option name="APACHE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="limitexcept" toReformat="true" toShortenFQNames="true" value="&lt;LimitExcept $1$&gt;$END$&lt;/LimitExcept&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;POST GET&quot;" expression="" name="1"/>
+    <context>
+      <option name="APACHE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="proxy" toReformat="true" toShortenFQNames="true" value="&lt;Proxy $1$&gt;$END$&lt;/Proxy&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;*&quot;" expression="" name="1"/>
+    <context>
+      <option name="APACHE" value="true"/>
+    </context>
+  </template>
+</templateSet>

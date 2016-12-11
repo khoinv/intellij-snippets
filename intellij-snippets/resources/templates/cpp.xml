@@ -1,0 +1,238 @@
+<templateSet group="cpp">
+  <template description="" name="incc" toReformat="true" toShortenFQNames="true" value="#include &lt;$1$&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;iostream&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="binc" toReformat="true" toShortenFQNames="true" value="#include &lt;boost/$1$.hpp&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;shared_ptr&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="array" toReformat="true" toShortenFQNames="true" value="std::array&lt;$1$, $2$&gt; $3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;N&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vector" toReformat="true" toShortenFQNames="true" value="std::vector&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="deque" toReformat="true" toShortenFQNames="true" value="std::deque&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="flist" toReformat="true" toShortenFQNames="true" value="std::forward_list&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="list" toReformat="true" toShortenFQNames="true" value="std::list&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="set" toReformat="true" toShortenFQNames="true" value="std::set&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="map" toReformat="true" toShortenFQNames="true" value="std::map&lt;$1$, $2$&gt; $3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mset" toReformat="true" toShortenFQNames="true" value="std::multiset&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mmap" toReformat="true" toShortenFQNames="true" value="std::multimap&lt;$1$, $2$&gt; $3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="uset" toReformat="true" toShortenFQNames="true" value="std::unordered_set&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="umap" toReformat="true" toShortenFQNames="true" value="std::unordered_map&lt;$1$, $2$&gt; $3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="umset" toReformat="true" toShortenFQNames="true" value="std::unordered_multiset&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ummap" toReformat="true" toShortenFQNames="true" value="std::unordered_multimap&lt;$1$, $2$&gt; $3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="stack" toReformat="true" toShortenFQNames="true" value="std::stack&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="queue" toReformat="true" toShortenFQNames="true" value="std::queue&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pqueue" toReformat="true" toShortenFQNames="true" value="std::priority_queue&lt;$1$&gt; $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pri" toReformat="true" toShortenFQNames="true" value="private">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pro" toReformat="true" toShortenFQNames="true" value="protected">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pub" toReformat="true" toShortenFQNames="true" value="public">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fr" toReformat="true" toShortenFQNames="true" value="friend">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mu" toReformat="true" toShortenFQNames="true" value="mutable">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl" toReformat="true" toShortenFQNames="true" value="class $1${public:$1($2$);~$1();private:$END$};">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1', 'name')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;/* data */&quot;" expression="" name="0"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="mfun" toReformat="true" toShortenFQNames="true" value="$4$ $1$::$2$($3$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1', 'ClassName')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;memberFunction&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ns" toReformat="true" toShortenFQNames="true" value="namespace $1$ {$END$} /* namespace $1 */">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cout" toReformat="true" toShortenFQNames="true" value="std::cout &lt;&lt; $1$ &lt;&lt; std::endl;">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cin" toReformat="true" toShortenFQNames="true" value="std::cin &gt;&gt; $1$;">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sca" toReformat="true" toShortenFQNames="true" value="static_cast&lt;$1$&gt;($2$)$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;unsigned&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expr&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dca" toReformat="true" toShortenFQNames="true" value="dynamic_cast&lt;$1$&gt;($2$)$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;unsigned&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expr&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rca" toReformat="true" toShortenFQNames="true" value="reinterpret_cast&lt;$1$&gt;($2$)$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;unsigned&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expr&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cca" toReformat="true" toShortenFQNames="true" value="const_cast&lt;$1$&gt;($2$)$3$">
+    <variable alwaysStopAt="true" defaultValue="&quot;unsigned&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;expr&quot;" expression="" name="2"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fori" toReformat="true" toShortenFQNames="true" value="for (int $2$ = 0; $2 &lt; $1$; $2$3$) {$4$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="3"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fore" toReformat="true" toShortenFQNames="true" value="for ($1$ $2$ : $3$) {$4$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;auto&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;container&quot;" expression="" name="3"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="iter" toReformat="true" toShortenFQNames="true" value="for ($1$&lt;$2$&gt;::$3$ $4$ = $5$.begin(); $4 != $5.end(); ++$4) {$6$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;std::vector&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;const_iterator&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;container&quot;" expression="" name="5"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="itera" toReformat="true" toShortenFQNames="true" value="for (auto $1$ = $2$.begin(); $1 != $2.end(); ++$1) {$3$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;container&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;std::cout &lt;&lt; *$1 &lt;&lt; std::endl;&quot;" expression="" name="3"/>
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ld" toReformat="true" toShortenFQNames="true" value="[$1$]($2$){$3$};">
+    <context>
+      <option name="CPP" value="true"/>
+    </context>
+  </template>
+</templateSet>

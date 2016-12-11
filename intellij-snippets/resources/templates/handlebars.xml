@@ -1,0 +1,14 @@
+<templateSet group="handlebars">
+  <template description="" name="if # {{#if value}} ... {{/if}}" toReformat="true" toShortenFQNames="true" value="{{#if $1$}}$END${{/if}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="1"/>
+    <context>
+      <option name="HANDLEBARS" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifn # {{#unless value}} ... {{/unless}}" toReformat="true" toShortenFQNames="true" value="{{#unless $1$}}$END${{/unless}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="1"/>
+    <context>
+      <option name="HANDLEBARS" value="true"/>
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,24 @@
+<templateSet group="supercollider">
+  <template description="" name="b" toReformat="true" toShortenFQNames="true" value="($END$)">
+    <context>
+      <option name="SUPERCOLLIDER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+    <context>
+      <option name="SUPERCOLLIDER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$} {$END$}">
+    <context>
+      <option name="SUPERCOLLIDER" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="for ($1$, $2$) { |i|$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;10&quot;" expression="" name="2"/>
+    <context>
+      <option name="SUPERCOLLIDER" value="true"/>
+    </context>
+  </template>
+</templateSet>

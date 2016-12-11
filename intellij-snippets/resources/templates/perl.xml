@@ -1,0 +1,341 @@
+<templateSet group="perl">
+  <template description="" name="#!" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env perl">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="." toReformat="true" toShortenFQNames="true" value="=&gt;">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sub" toReformat="true" toShortenFQNames="true" value="sub $1$ {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if ($1$) {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$}else {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifee" toReformat="true" toShortenFQNames="true" value="if ($1$) {$2$}elsif ($3$) {$4$}else {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;# elsif...&quot;" expression="" name="4"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="elsif ($1$) {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xif" toReformat="true" toShortenFQNames="true" value="$1$ if $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="unless" toReformat="true" toShortenFQNames="true" value="unless ($1$) {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xunless" toReformat="true" toShortenFQNames="true" value="$1$ unless $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eval" toReformat="true" toShortenFQNames="true" value="local $@;eval {$1$};if (my $e = $@) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;# do something risky...&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# handle failure...&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wh" toReformat="true" toShortenFQNames="true" value="while ($1$) {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xwh" toReformat="true" toShortenFQNames="true" value="$1$ while $2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cfor" toReformat="true" toShortenFQNames="true" value="for (my $$2$ = 0; $$2 &lt; $1$; $$2$3$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="3"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="xfor" toReformat="true" toShortenFQNames="true" value="$1$ for @$2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="foreach my $$1$ (@$2$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fore" toReformat="true" toShortenFQNames="true" value="$1$ foreach @$2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="package" toReformat="true" toShortenFQNames="true" value="package $1$;use strict;use warnings;$END$1;__END__">
+    <variable alwaysStopAt="true" defaultValue="&quot;`expand('%:p:s?.*lib/??:r:gs?/?::?')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="packagev514" toReformat="true" toShortenFQNames="true" value="package $1$ $2$;use v5.14;use warnings;$END$1;__END__">
+    <variable alwaysStopAt="true" defaultValue="&quot;`expand('%:p:s?.*lib/??:r:gs?/?::?')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0.99&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="moose" toReformat="true" toShortenFQNames="true" value="use Moose;use namespace::autoclean;$1$BEGIN {extends '$2$'};$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ParentClass&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="parent" toReformat="true" toShortenFQNames="true" value="use parent qw($END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;Parent Class&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="slurp" toReformat="true" toShortenFQNames="true" value="my $$1$ = do { local $/; open my $file, '&lt;', &quot;$2$&quot;; &lt;$file&gt; };$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="strwar" toReformat="true" toShortenFQNames="true" value="use strict;use warnings;">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="vers" toReformat="true" toShortenFQNames="true" value="## no criticour $VERSION = '$END$';eval $VERSION;## use critic">
+    <variable alwaysStopAt="true" defaultValue="&quot;version&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="switch" toReformat="true" toShortenFQNames="true" value="use feature 'switch';">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asub" toReformat="true" toShortenFQNames="true" value="sub {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="begin" toReformat="true" toShortenFQNames="true" value="BEGIN {$END$}">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pkgmv" toReformat="true" toShortenFQNames="true" value="__PACKAGE__-&gt;$1$($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;package_method&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pkgm" toReformat="true" toShortenFQNames="true" value="__PACKAGE__-&gt;$END$()">
+    <variable alwaysStopAt="true" defaultValue="&quot;package_method&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pkget" toReformat="true" toShortenFQNames="true" value="__PACKAGE__-&gt;get_$END$()">
+    <variable alwaysStopAt="true" defaultValue="&quot;package_method&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pkgetv" toReformat="true" toShortenFQNames="true" value="__PACKAGE__-&gt;get_$1$($END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;package_method&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="qrx" toReformat="true" toShortenFQNames="true" value="qr/$END$/xms">
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="qr/" toReformat="true" toShortenFQNames="true" value="qr/$END$/x">
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="given" toReformat="true" toShortenFQNames="true" value="given ($$1$) {$2$$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# cases&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# default&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="when" toReformat="true" toShortenFQNames="true" value="when ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;case&quot;" expression="" name="1"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="hslice" toReformat="true" toShortenFQNames="true" value="@{ $1$  }{ $END$ }">
+    <variable alwaysStopAt="true" defaultValue="&quot;hash&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="map" toReformat="true" toShortenFQNames="true" value="map {  $END$    }  $1$ ;">
+    <variable alwaysStopAt="true" defaultValue="&quot; body &quot;" expression="" name="0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot; @array &quot;" expression="" name="1"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ppod" toReformat="true" toShortenFQNames="true" value="=head1 NAME$1$ - $2$=head1 SYNOPSISuse $1;$3$=head1 DESCRIPTION$END$=head1 INTERFACE=head1 DEPENDENCIES=head1 SEE ALSO">
+    <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ShortDesc&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# synopsis...&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# longer description...&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="psub" toReformat="true" toShortenFQNames="true" value="=head2 $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;MethodName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Summary....&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="psubi" toReformat="true" toShortenFQNames="true" value="=head2 $1$$END$=cut">
+    <variable alwaysStopAt="true" defaultValue="&quot;MethodName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Summary...&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="subpod" toReformat="true" toShortenFQNames="true" value="=head2 $1Summary of $1=cutsub $1$ {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;subroutine_name&quot;" expression="" name="1"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="parg" toReformat="true" toShortenFQNames="true" value="=over 2=itemArguments=over 3=itemC&lt;$1$&gt;$2$=back=itemReturn=over 3=itemC&lt;$END$&gt;=back=back">
+    <variable alwaysStopAt="true" defaultValue="&quot;DataStructure&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Sample&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;...return data&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="has" toReformat="true" toShortenFQNames="true" value="has $1$ =&gt; (is&#9;    =&gt; '$2$',isa &#9;=&gt; '$3$',default =&gt; sub {$4$},$END$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ro|rw&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Str|Int|HashRef|ArrayRef|etc&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;defaultvalue&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# other attributes&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="override" toReformat="true" toShortenFQNames="true" value="override $1$ =&gt; sub {$2$;$END$;};">
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# my $self = shift;&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# my ($self, $args) = @_;&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tuse" toReformat="true" toShortenFQNames="true" value="use Test::More;use Test::Deep; # (); # uncomment to stop prototype errorsuse Test::Exception;">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tlib" toReformat="true" toShortenFQNames="true" value="use lib qw{ ./t/lib };">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tmeths" toReformat="true" toShortenFQNames="true" value="$ENV{TEST_METHOD} = '$END$';">
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="trunner" toReformat="true" toShortenFQNames="true" value="use $END$;$1-&gt;runtests();">
+    <variable alwaysStopAt="true" defaultValue="&quot;test_class&quot;" expression="" name="0"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tsub" toReformat="true" toShortenFQNames="true" value="sub t$1$_$2$ :Test($3$) {my $self = shift;$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;number&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;test_case&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;num_of_tests&quot;" expression="" name="3"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="trsub" toReformat="true" toShortenFQNames="true" value="test $1$ =&gt; { description =&gt; '$2$'} =&gt; sub {my ($self) = @_;$END$};">
+    <variable alwaysStopAt="true" defaultValue="&quot;test_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Description of test.&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="tprep" toReformat="true" toShortenFQNames="true" value="sub prep$1$_$2$ :Test(startup) {my $self = shift;$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;number&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;test_case&quot;" expression="" name="2"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="debug_trace" toReformat="true" toShortenFQNames="true" value="use Carp; # 'verbose';# cloak &quot;die&quot;# warn &quot;warning&quot;$SIG{'__DIE__'} = sub {require Carp; Carp::confess};">
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dump" toReformat="true" toShortenFQNames="true" value="use Data::Dump qw(dump);warn dump $1$">
+    <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="1"/>
+    <context>
+      <option name="PERL" value="true"/>
+    </context>
+  </template>
+</templateSet>

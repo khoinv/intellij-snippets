@@ -1,0 +1,207 @@
+<templateSet group="erlang">
+  <template description="" name="mod" toReformat="true" toShortenFQNames="true" value="-module($1$).-compile([export_all]).start() -&gt;$END$stop() -&gt;ok.">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="def" toReformat="true" toShortenFQNames="true" value="-define($1$, $2$).">
+    <variable alwaysStopAt="true" defaultValue="&quot;macro&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="2"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="exp" toReformat="true" toShortenFQNames="true" value="-export([$1$/$END$]).">
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;arity&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="inc" toReformat="true" toShortenFQNames="true" value="-include(&quot;$1$&quot;).">
+    <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="1"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="incl" toReformat="true" toShortenFQNames="true" value="-include_lib(&quot;$1$/include/$1$.hrl&quot;).$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;lib&quot;" expression="" name="1"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="beh" toReformat="true" toShortenFQNames="true" value="-behaviour($1$).">
+    <variable alwaysStopAt="true" defaultValue="&quot;behaviour&quot;" expression="" name="1"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifd" toReformat="true" toShortenFQNames="true" value="-ifdef($1$).$END$-endif.">
+    <variable alwaysStopAt="true" defaultValue="&quot;TEST&quot;" expression="" name="1"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if$1$ -&gt;$END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;guard&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="case" toReformat="true" toShortenFQNames="true" value="case $1$ of$2$ -&gt;$END$;end">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pattern&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="fun ($1$) -&gt; $2$ end">
+    <variable alwaysStopAt="true" defaultValue="&quot;Parameters&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="2"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try$1$catch$2$ -&gt; $END$end">
+    <variable alwaysStopAt="true" defaultValue="&quot;_:_&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;got_some_exception&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rec" toReformat="true" toShortenFQNames="true" value="-record($1$, {$2$=$3$}).">
+    <variable alwaysStopAt="true" defaultValue="&quot;record&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="3"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="todo" toReformat="true" toShortenFQNames="true" value="%% TODO: $END$">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="%d" toReformat="true" toShortenFQNames="true" value="%% @doc $END$">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="%e" toReformat="true" toShortenFQNames="true" value="%% @end">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="%s" toReformat="true" toShortenFQNames="true" value="%% @spec $END$">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="%p" toReformat="true" toShortenFQNames="true" value="%% @private">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="application" toReformat="true" toShortenFQNames="true" value="-module($1$).-behaviour(application).-export([start/2, stop/1]).start(_Type, _StartArgs) -&gt;case $END$:start_link() of{ok, Pid} -&gt;{ok, Pid};Other -&gt;{error, Other}end.stop(_State) -&gt;ok.">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;root_supervisor&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="supervisor" toReformat="true" toShortenFQNames="true" value="-module($1$).-behaviour(supervisor).%% API-export([start_link/0]).%% Supervisor callbacks-export([init/1]).-define(SERVER, ?MODULE).start_link() -&gt;supervisor:start_link({local, ?SERVER}, ?MODULE, []).init([]) -&gt;Server = {$END$, {$2$, start_link, []},permanent, 2000, worker, [$2$]},Children = [Server],RestartStrategy = {one_for_one, 0, 1},{ok, {RestartStrategy, Children}}.">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;my_server&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="gen_server" toReformat="true" toShortenFQNames="true" value="-module($END$).-behaviour(gen_server).%% API-export([start_link/0]).%% gen_server callbacks-export([init/1,handle_call/3,handle_cast/2,handle_info/2,terminate/2,code_change/3]).-define(SERVER, ?MODULE).-record(state, {}).%%%===================================================================%%% API%%%===================================================================start_link() -&gt;gen_server:start_link({local, ?SERVER}, ?MODULE, [], []).%%%===================================================================%%% gen_server callbacks%%%===================================================================init([]) -&gt;{ok, #state{}}.handle_call(_Request, _From, State) -&gt;Reply = ok,{reply, Reply, State}.handle_cast(_Msg, State) -&gt;{noreply, State}.handle_info(_Info, State) -&gt;{noreply, State}.terminate(_Reason, _State) -&gt;ok.code_change(_OldVsn, State, _Extra) -&gt;{ok, State}.%%%===================================================================%%% Internal functions%%%===================================================================">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="gen_fsm" toReformat="true" toShortenFQNames="true" value="-module($END$).-behaviour(gen_fsm).%% API-export([start_link/0]).%% gen_fsm callbacks-export([init/1,state_name/2,state_name/3,handle_event/3,handle_sync_event/4,handle_info/3,terminate/3,code_change/4]).-record(state, {}).%%%===================================================================%%% API%%%===================================================================%%--------------------------------------------------------------------%% @doc%% Creates a gen_fsm process which calls Module:init/1 to%% initialize. To ensure a synchronized start-up procedure, this%% function does not return until Module:init/1 has returned.%%%% @spec start_link() -&gt; {ok, Pid} | ignore | {error, Error}%% @end%%--------------------------------------------------------------------start_link() -&gt;gen_fsm:start_link({local, ?MODULE}, ?MODULE, [], []).%%%===================================================================%%% gen_fsm callbacks%%%===================================================================%%--------------------------------------------------------------------%% @private%% @doc%% Whenever a gen_fsm is started using gen_fsm:start/[3,4] or%% gen_fsm:start_link/[3,4], this function is called by the new%% process to initialize.%%%% @spec init(Args) -&gt; {ok, StateName, State} |%%                     {ok, StateName, State, Timeout} |%%                     ignore |%%                     {stop, StopReason}%% @end%%--------------------------------------------------------------------init([]) -&gt;{ok, state_name, #state{}}.%%--------------------------------------------------------------------%% @private%% @doc%% There should be one instance of this function for each possible%% state name. Whenever a gen_fsm receives an event sent using%% gen_fsm:send_event/2, the instance of this function with the same%% name as the current state name StateName is called to handle%% the event. It is also called if a timeout occurs.%%%% @spec state_name(Event, State) -&gt;%%                   {next_state, NextStateName, NextState} |%%                   {next_state, NextStateName, NextState, Timeout} |%%                   {stop, Reason, NewState}%% @end%%--------------------------------------------------------------------state_name(_Event, State) -&gt;{next_state, state_name, State}.%%--------------------------------------------------------------------%% @private%% @doc%% There should be one instance of this function for each possible%% state name. Whenever a gen_fsm receives an event sent using%% gen_fsm:sync_send_event/[2,3], the instance of this function with%% the same name as the current state name StateName is called to%% handle the event.%%%% @spec state_name(Event, From, State) -&gt;%%                   {next_state, NextStateName, NextState} |%%                   {next_state, NextStateName, NextState, Timeout} |%%                   {reply, Reply, NextStateName, NextState} |%%                   {reply, Reply, NextStateName, NextState, Timeout} |%%                   {stop, Reason, NewState} |%%                   {stop, Reason, Reply, NewState}%% @end%%--------------------------------------------------------------------state_name(_Event, _From, State) -&gt;Reply = ok,{reply, Reply, state_name, State}.%%--------------------------------------------------------------------%% @private%% @doc%% Whenever a gen_fsm receives an event sent using%% gen_fsm:send_all_state_event/2, this function is called to handle%% the event.%%%% @spec handle_event(Event, StateName, State) -&gt;%%                   {next_state, NextStateName, NextState} |%%                   {next_state, NextStateName, NextState, Timeout} |%%                   {stop, Reason, NewState}%% @end%%--------------------------------------------------------------------handle_event(_Event, StateName, State) -&gt;{next_state, StateName, State}.%%--------------------------------------------------------------------%% @private%% @doc%% Whenever a gen_fsm receives an event sent using%% gen_fsm:sync_send_all_state_event/[2,3], this function is called%% to handle the event.%%%% @spec handle_sync_event(Event, From, StateName, State) -&gt;%%                   {next_state, NextStateName, NextState} |%%                   {next_state, NextStateName, NextState, Timeout} |%%                   {reply, Reply, NextStateName, NextState} |%%                   {reply, Reply, NextStateName, NextState, Timeout} |%%                   {stop, Reason, NewState} |%%                   {stop, Reason, Reply, NewState}%% @end%%--------------------------------------------------------------------handle_sync_event(_Event, _From, StateName, State) -&gt;Reply = ok,{reply, Reply, StateName, State}.%%--------------------------------------------------------------------%% @private%% @doc%% This function is called by a gen_fsm when it receives any%% message other than a synchronous or asynchronous event%% (or a system message).%%%% @spec handle_info(Info,StateName,State)-&gt;%%                   {next_state, NextStateName, NextState} |%%                   {next_state, NextStateName, NextState, Timeout} |%%                   {stop, Reason, NewState}%% @end%%--------------------------------------------------------------------handle_info(_Info, StateName, State) -&gt;{next_state, StateName, State}.%%--------------------------------------------------------------------%% @private%% @doc%% This function is called by a gen_fsm when it is about to%% terminate. It should be the opposite of Module:init/1 and do any%% necessary cleaning up. When it returns, the gen_fsm terminates with%% Reason. The return value is ignored.%%%% @spec terminate(Reason, StateName, State) -&gt; void()%% @end%%--------------------------------------------------------------------terminate(_Reason, _StateName, _State) -&gt;ok.%%--------------------------------------------------------------------%% @private%% @doc%% Convert process state when code is changed%%%% @spec code_change(OldVsn, StateName, State, Extra) -&gt;%%                   {ok, StateName, NewState}%% @end%%--------------------------------------------------------------------code_change(_OldVsn, StateName, State, _Extra) -&gt;{ok, StateName, State}.%%%===================================================================%%% Internal functions%%%===================================================================">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="gen_event" toReformat="true" toShortenFQNames="true" value="-module($END$).-behaviour(gen_event).%% API-export([start_link/0,add_handler/2]).%% gen_event callbacks-export([init/1,handle_event/2,handle_call/2,handle_info/2,terminate/2,code_change/3]).-record(state, {}).%%%===================================================================%%% gen_event callbacks%%%===================================================================%%--------------------------------------------------------------------%% @doc%% Creates an event manager%%%% @spec start_link() -&gt; {ok, Pid} | {error, Error}%% @end%%--------------------------------------------------------------------start_link() -&gt;gen_event:start_link({local, ?MODULE}).%%--------------------------------------------------------------------%% @doc%% Adds an event handler%%%% @spec add_handler(Handler, Args) -&gt; ok | {'EXIT', Reason} | term()%% @end%%--------------------------------------------------------------------add_handler(Handler, Args) -&gt;gen_event:add_handler(?MODULE, Handler, Args).%%%===================================================================%%% gen_event callbacks%%%===================================================================%%--------------------------------------------------------------------%% @private%% @doc%% Whenever a new event handler is added to an event manager,%% this function is called to initialize the event handler.%%%% @spec init(Args) -&gt; {ok, State}%% @end%%--------------------------------------------------------------------init([]) -&gt;{ok, #state{}}.%%--------------------------------------------------------------------%% @private%% @doc%% Whenever an event manager receives an event sent using%% gen_event:notify/2 or gen_event:sync_notify/2, this function is%% called for each installed event handler to handle the event.%%%% @spec handle_event(Event, State) -&gt;%%                          {ok, State} |%%                          {swap_handler, Args1, State1, Mod2, Args2} |%%                          remove_handler%% @end%%--------------------------------------------------------------------handle_event(_Event, State) -&gt;{ok, State}.%%--------------------------------------------------------------------%% @private%% @doc%% Whenever an event manager receives a request sent using%% gen_event:call/3,4, this function is called for the specified%% event handler to handle the request.%%%% @spec handle_call(Request, State) -&gt;%%                   {ok, Reply, State} |%%                   {swap_handler, Reply, Args1, State1, Mod2, Args2} |%%                   {remove_handler, Reply}%% @end%%--------------------------------------------------------------------handle_call(_Request, State) -&gt;Reply = ok,{ok, Reply, State}.%%--------------------------------------------------------------------%% @private%% @doc%% This function is called for each installed event handler when%% an event manager receives any other message than an event or a%% synchronous request (or a system message).%%%% @spec handle_info(Info, State) -&gt;%%                         {ok, State} |%%                         {swap_handler, Args1, State1, Mod2, Args2} |%%                         remove_handler%% @end%%--------------------------------------------------------------------handle_info(_Info, State) -&gt;{ok, State}.%%--------------------------------------------------------------------%% @private%% @doc%% Whenever an event handler is deleted from an event manager, this%% function is called. It should be the opposite of Module:init/1 and%% do any necessary cleaning up.%%%% @spec terminate(Reason, State) -&gt; void()%% @end%%--------------------------------------------------------------------terminate(_Reason, _State) -&gt;ok.%%--------------------------------------------------------------------%% @private%% @doc%% Convert process state when code is changed%%%% @spec code_change(OldVsn, State, Extra) -&gt; {ok, NewState}%% @end%%--------------------------------------------------------------------code_change(_OldVsn, State, _Extra) -&gt;{ok, State}.%%%===================================================================%%% Internal functions%%%===================================================================">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eunit" toReformat="true" toShortenFQNames="true" value="-module($1$).-include_lib(&quot;eunit/include/eunit.hrl&quot;).$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'my')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ieunit" toReformat="true" toShortenFQNames="true" value="-ifdef(TEST).-include_lib(&quot;eunit/include/eunit.hrl&quot;).$END$-endif.">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="as" toReformat="true" toShortenFQNames="true" value="?assert($END$)">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asn" toReformat="true" toShortenFQNames="true" value="?assertNot($END$)">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="aseq" toReformat="true" toShortenFQNames="true" value="?assertEqual($1$, $END$)">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asneq" toReformat="true" toShortenFQNames="true" value="?assertNotEqual($1$, $END$)">
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asmat" toReformat="true" toShortenFQNames="true" value="?assertMatch($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;Pattern&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asnmat" toReformat="true" toShortenFQNames="true" value="?assertNotMatch($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;Pattern&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="aserr" toReformat="true" toShortenFQNames="true" value="?assertError($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;Pattern&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asex" toReformat="true" toShortenFQNames="true" value="?assertExit($1$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;Pattern&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="asexc" toReformat="true" toShortenFQNames="true" value="?assertException($1$, $2$, $END$)">
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Pattern&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="ERLANG" value="true"/>
+    </context>
+  </template>
+</templateSet>

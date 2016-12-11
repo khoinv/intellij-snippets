@@ -1,0 +1,27 @@
+<templateSet group="jade">
+  <template description="" name="rep" toReformat="true" toShortenFQNames="true" value="div(ng-repeat='$1$ in $2$')">
+    <context>
+      <option name="JADE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="repf" toReformat="true" toShortenFQNames="true" value="div(ng-repeat='$1$ in $2$' | $3$)">
+    <context>
+      <option name="JADE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="repi" toReformat="true" toShortenFQNames="true" value="div(ng-repeat='$1$ in $2$' track by $index)">
+    <context>
+      <option name="JADE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="hide" toReformat="true" toShortenFQNames="true" value="div(ng-hide='$1$')">
+    <context>
+      <option name="JADE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="show" toReformat="true" toShortenFQNames="true" value="div(ng-show='$1$')">
+    <context>
+      <option name="JADE" value="true"/>
+    </context>
+  </template>
+</templateSet>

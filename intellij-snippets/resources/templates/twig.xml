@@ -1,0 +1,42 @@
+<templateSet group="twig">
+  <template description="" name="bl &quot;{% block xyz %} .. {% endblock xyz %}&quot;" toReformat="true" toShortenFQNames="true" value="{% block $1$ %}$2${% endblock $1 %}">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js &quot;{% javascripts 'xyz' %} .. {% endjavascripts %}&quot;" toReformat="true" toShortenFQNames="true" value="{% javascripts '$1$' %}&lt;script src=&quot;{{ asset_url }}&quot;&gt;&lt;/script&gt;{% endjavascripts %}">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="css &quot;{% stylesheets 'xyz' %} .. {% endstylesheets %}&quot;" toReformat="true" toShortenFQNames="true" value="{% stylesheets '$1$' %}&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ asset_url }}&quot;&gt;{% endstylesheets %}">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if &quot;{% if %} .. {% endif %}&quot;" toReformat="true" toShortenFQNames="true" value="{% if $1$ %}$2${% endif %}">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife &quot;{% if %} .. {% else %} .. {% endif %}&quot;" toReformat="true" toShortenFQNames="true" value="{% if $1$ %}$2${% else %}$END${% endif %}">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el &quot;{% else %}&quot;" toReformat="true" toShortenFQNames="true" value="{% else %}$END$">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif &quot;{% elseif %}&quot;" toReformat="true" toShortenFQNames="true" value="{% elseif $1$ %}$END$">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for &quot;{% for x in y %} .. {% endfor %}&quot;" toReformat="true" toShortenFQNames="true" value="{% for $1$ in $2$ %}$3${% endfor %}">
+    <context>
+      <option name="TWIG" value="true"/>
+    </context>
+  </template>
+</templateSet>

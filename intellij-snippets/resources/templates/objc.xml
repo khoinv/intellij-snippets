@@ -1,0 +1,355 @@
+<templateSet group="objc">
+  <template description="" name="Imp" toReformat="true" toShortenFQNames="true" value="#import &lt;$1$&gt;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Cocoa/Cocoa.h&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="imp" toReformat="true" toShortenFQNames="true" value="#import &quot;$1$&quot;">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`.h&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sel" toReformat="true" toShortenFQNames="true" value="@selector($1$:)">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="s" toReformat="true" toShortenFQNames="true" value="@&quot;$1$&quot;">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="o" toReformat="true" toShortenFQNames="true" value="$1$ *$2$ = [$3$]$4$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;NSObject&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1 alloc&quot;" expression="" name="3"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="log" toReformat="true" toShortenFQNames="true" value="NSLog(@&quot;$1$&quot;$2$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;%@&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="objc" toReformat="true" toShortenFQNames="true" value="@interface $1$ : $2${}@end@implementation $1$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'someClass')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;NSObject&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="int" toReformat="true" toShortenFQNames="true" value="@interface $1$ : $2${$3$}$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'someClass')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;NSObject&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@interface" toReformat="true" toShortenFQNames="true" value="@interface $1$ : $2${$3$}$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'someClass')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;NSObject&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="impl" toReformat="true" toShortenFQNames="true" value="@implementation $1$$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'someClass')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@implementation" toReformat="true" toShortenFQNames="true" value="@implementation $1$$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('', 'someClass')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pro" toReformat="true" toShortenFQNames="true" value="@protocol $1$ $2$$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1Delegate', 'MyProtocol')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;NSObject&gt;&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@protocol" toReformat="true" toShortenFQNames="true" value="@protocol $1$ $2$$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1Delegate', 'MyProtocol')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;NSObject&gt;&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="init" toReformat="true" toShortenFQNames="true" value="- (id)init{if (self = [super init]) {$END$}return self;}">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dealloc" toReformat="true" toShortenFQNames="true" value="- (void) dealloc{$END$[super dealloc];}">
+    <variable alwaysStopAt="true" defaultValue="&quot;deallocations&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="su" toReformat="true" toShortenFQNames="true" value="[super $1$]">
+    <variable alwaysStopAt="true" defaultValue="&quot;init&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ibo" toReformat="true" toShortenFQNames="true" value="IBOutlet $1$ *$2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;NSSomeClass&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cat" toReformat="true" toShortenFQNames="true" value="@interface $1$ ($2$)@end@implementation $1 ($2)$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;NSObject&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;MyCategory&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cath" toReformat="true" toShortenFQNames="true" value="@interface $1$ ($2$)$END$@end">
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename('$1', 'NSObject')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;MyCategory&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="m" toReformat="true" toShortenFQNames="true" value="- ($1$)$2${$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="md" toReformat="true" toShortenFQNames="true" value="- ($1$)$2$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ibad" toReformat="true" toShortenFQNames="true" value="- (IBAction)$1$:($2$)sender;">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="iba" toReformat="true" toShortenFQNames="true" value="- (IBAction)$1$:($2$)sender{$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="wake" toReformat="true" toShortenFQNames="true" value="- (void)awakeFromNib{$END$}">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="M" toReformat="true" toShortenFQNames="true" value="+ ($1$)$2${$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return nil;&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sm" toReformat="true" toShortenFQNames="true" value="- ($1$)$2${[super $2];$END$return self;}">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="objacc" toReformat="true" toShortenFQNames="true" value="- ($1$)$2${return $2;}- (void)set$2:($1)$3${[$3 retain];[$2 release];$2 = $3;}">
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;thing&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;new$2&quot;" expression="" name="3"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forin" toReformat="true" toShortenFQNames="true" value="for ($1$ *$2$ in $3$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;some$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="3"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fore" toReformat="true" toShortenFQNames="true" value="for ($1$ in $2$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forarray" toReformat="true" toShortenFQNames="true" value="unsigned int $1$Count = [$2$ count];for (unsigned int index = 0; index &lt; $1Count; index++) {$3$ $1 = [$2 $1AtIndex:index];$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="3"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fora" toReformat="true" toShortenFQNames="true" value="unsigned int $1$Count = [$2$ count];for (unsigned int index = 0; index &lt; $1Count; index++) {$3$ $1 = [$2 $1AtIndex:index];$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="3"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@try" toReformat="true" toShortenFQNames="true" value="@try {$1$}@catch (NSException * e) {$2$}@finally {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;statements&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@catch" toReformat="true" toShortenFQNames="true" value="@catch ($1$) {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="@finally" toReformat="true" toShortenFQNames="true" value="@finally {$END$}">
+    <variable alwaysStopAt="true" defaultValue="&quot;statements&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prop" toReformat="true" toShortenFQNames="true" value="@property ($1$) $2$ $3$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;retain&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;NSSomeClass&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;*$2&quot;" expression="" name="3"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="syn" toReformat="true" toShortenFQNames="true" value="@synthesize $1$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;property&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="alloc" toReformat="true" toShortenFQNames="true" value="[[$1$ alloc] init$2$];">
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="a" toReformat="true" toShortenFQNames="true" value="[[$1$ alloc] init$2$];">
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ret" toReformat="true" toShortenFQNames="true" value="[$1$ retain];">
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rel" toReformat="true" toShortenFQNames="true" value="[$END$ release];">
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="arel" toReformat="true" toShortenFQNames="true" value="[$END$ autorelease];">
+    <variable alwaysStopAt="true" defaultValue="&quot;foo&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pool" toReformat="true" toShortenFQNames="true" value="NSAutoreleasePool *$1$ = [[NSAutoreleasePool alloc] init];$END$[$1 drain];">
+    <variable alwaysStopAt="true" defaultValue="&quot;pool&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="except" toReformat="true" toShortenFQNames="true" value="NSException *$1$;$1 = [NSException exceptionWithName:@&quot;$2$&quot;reason:@&quot;$END$&quot;userInfo:nil];[$1 raise];">
+    <variable alwaysStopAt="true" defaultValue="&quot;badness&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1Name&quot;" expression="" name="2"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prag" toReformat="true" toShortenFQNames="true" value="#pragma mark $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;-&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cl" toReformat="true" toShortenFQNames="true" value="@class $1$;">
+    <variable alwaysStopAt="true" defaultValue="&quot;Foo&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="color" toReformat="true" toShortenFQNames="true" value="[[NSColor $END$] set];">
+    <variable alwaysStopAt="true" defaultValue="&quot;blackColor&quot;" expression="" name="0"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="array" toReformat="true" toShortenFQNames="true" value="NSMutableArray *$1$ = [NSMutable array];">
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nsa" toReformat="true" toShortenFQNames="true" value="NSArray $END$">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nsma" toReformat="true" toShortenFQNames="true" value="NSMutableArray $END$">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="aa" toReformat="true" toShortenFQNames="true" value="NSArray * array;">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ma" toReformat="true" toShortenFQNames="true" value="NSMutableArray * array;">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dict" toReformat="true" toShortenFQNames="true" value="NSMutableDictionary *$1$ = [NSMutableDictionary dictionary];">
+    <variable alwaysStopAt="true" defaultValue="&quot;dict&quot;" expression="" name="1"/>
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nsd" toReformat="true" toShortenFQNames="true" value="NSDictionary $END$">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nsmd" toReformat="true" toShortenFQNames="true" value="NSMutableDictionary $END$">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nss" toReformat="true" toShortenFQNames="true" value="NSString $END$">
+    <context>
+      <option name="OBJC" value="true"/>
+    </context>
+  </template>
+</templateSet>

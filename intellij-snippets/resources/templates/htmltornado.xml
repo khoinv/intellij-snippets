@@ -1,0 +1,96 @@
+<templateSet group="htmltornado">
+  <template description="" name="{" toReformat="true" toShortenFQNames="true" value="{{ $END$ }}">
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="extends" toReformat="true" toShortenFQNames="true" value="{% extends &quot;$END$&quot; %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;base.html&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="autoescape" toReformat="true" toShortenFQNames="true" value="{% autoescape $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;xhtml_escape | None&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="apply" toReformat="true" toShortenFQNames="true" value="{% apply $1$ %}$END${% end %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;function&quot;" expression="" name="1"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="block" toReformat="true" toShortenFQNames="true" value="{% block $1$ %}$END${% end %}">
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="{% for $1$ in $2$ %}$END${% end %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="1"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="from" toReformat="true" toShortenFQNames="true" value="{% from $1$ import $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="{% if $1$ %}$END${% end %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="{% elif $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="el" toReformat="true" toShortenFQNames="true" value="{% else %}">
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="import" toReformat="true" toShortenFQNames="true" value="{% import $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;module&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="include" toReformat="true" toShortenFQNames="true" value="{% include &quot;$END$&quot; %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;filename&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="module" toReformat="true" toShortenFQNames="true" value="{% module $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="raw" toReformat="true" toShortenFQNames="true" value="{% raw $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;expression&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="set" toReformat="true" toShortenFQNames="true" value="{% set $1$ = $END$ %}">
+    <variable alwaysStopAt="true" defaultValue="&quot;x&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;y&quot;" expression="" name="0"/>
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="{% try %}$1${% except %}$2${% finallly %}$END${% end %}">
+    <context>
+      <option name="HTMLTORNADO" value="true"/>
+    </context>
+  </template>
+</templateSet>
