@@ -4,6 +4,7 @@ import os
 from lxml import etree
 import xml.etree.cElementTree as ET
 import glob
+import fnmatch
 
 VIM_DFAULT_VALUE = re.compile(r'(?P<var_name>(?<=\$\{)[0-9]{1,}):(?P<var_default>.+?)\}')
 VIM_REPLACE = re.compile(r'\$\{([0-9]+):?.*?\}')
@@ -76,5 +77,9 @@ def vimToIntellijTemplate(vimTemplate, language):
 
 
 if __name__ == '__main__':
-    for fn in glob.glob(VIM_SNIPPET_PATH + '*.snippets'):
+    fns = []
+    for root, dirnames, filenames in os.walk(VIM_SNIPPET_PATH):
+        for filename in fnmatch.filter(filenames, '*.snippets'):
+            fns.append(os.path.join(root, filename))
+    for fn in fns:
         convert(fn)

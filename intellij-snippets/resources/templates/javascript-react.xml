@@ -1,0 +1,109 @@
+<templateSet group="javascript-react">
+  <template description="" name="ir" toReformat="true" toShortenFQNames="true" value="import React from 'react';">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ird" toReformat="true" toShortenFQNames="true" value="import ReactDOM from 'react-dom';">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cdm" toReformat="true" toShortenFQNames="true" value="componentDidMount() {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cdup" toReformat="true" toShortenFQNames="true" value="componentDidUpdate(prevProps, prevState) {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cwm" toReformat="true" toShortenFQNames="true" value="componentWillMount() {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cwr" toReformat="true" toShortenFQNames="true" value="componentWillReceiveProps(nextProps) {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cwun" toReformat="true" toShortenFQNames="true" value="componentWillUnmount() {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cwu" toReformat="true" toShortenFQNames="true" value="componentWillUpdate(nextProps, nextState) {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fup" toReformat="true" toShortenFQNames="true" value="forceUpdate($1$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;callback&quot;" expression="" name="1"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="dp" toReformat="true" toShortenFQNames="true" value="static defaultProps = {$1$: $2$,}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="st" toReformat="true" toShortenFQNames="true" value="state = {$1$: $2$,}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pt" toReformat="true" toShortenFQNames="true" value="static propTypes = {$1$: React.PropTypes.$2$,}">
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rcc" toReformat="true" toShortenFQNames="true" value="class $1$ extends React.Component {render() {return ($END$);}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="0"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="rdr" toReformat="true" toShortenFQNames="true" value="ReactDOM.render($1$, $2$)">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ercc" toReformat="true" toShortenFQNames="true" value="export default class $1$ extends React.Component {render() {return ($END$);}}">
+    <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="0"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ctor" toReformat="true" toShortenFQNames="true" value="constructor() {super();$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ren" toReformat="true" toShortenFQNames="true" value="render() {return ($1$);}">
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="1"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sst" toReformat="true" toShortenFQNames="true" value="this.setState({$1$: $2$});">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="scu" toReformat="true" toShortenFQNames="true" value="shouldComponentUpdate(nextProps, nextState) {$1$}">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="prp" toReformat="true" toShortenFQNames="true" value="this.props.$1$">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+</templateSet>

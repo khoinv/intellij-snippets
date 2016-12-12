@@ -1,0 +1,19 @@
+<templateSet group="requirejs_coffee">
+  <template description="" name="def" toReformat="true" toShortenFQNames="true" value="define [&quot;$1$&quot;], ($2$) -&gt;$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;#dependencies1&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#dependencies2&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;TARGET&quot;" expression="" name="0"/>
+    <context>
+      <option name="REQUIREJS_COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="defn" toReformat="true" toShortenFQNames="true" value="define &quot;$1$&quot;, [&quot;$2$&quot;], ($3$) -&gt;$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;#name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#dependencies1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#dependencies2&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;TARGET&quot;" expression="" name="0"/>
+    <context>
+      <option name="REQUIREJS_COFFEE" value="true"/>
+    </context>
+  </template>
+</templateSet>

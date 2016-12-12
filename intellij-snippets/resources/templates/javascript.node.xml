@@ -1,0 +1,102 @@
+<templateSet group="javascript.node">
+  <template description="" name="#!" toReformat="true" toShortenFQNames="true" value="#!/usr/bin/env node">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ex" toReformat="true" toShortenFQNames="true" value="module.exports = $1$;">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="re" toReformat="true" toShortenFQNames="true" value="$1$ $2$ = require('$3$');">
+    <variable alwaysStopAt="true" defaultValue="&quot;const&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;module_name&quot;" expression="" name="3"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="on" toReformat="true" toShortenFQNames="true" value="on('$1$', function($2$) {$3$});">
+    <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="emit" toReformat="true" toShortenFQNames="true" value="emit('$1$', $2$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="once" toReformat="true" toShortenFQNames="true" value="once('$1$', function($2$) {$3$});">
+    <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="http" toReformat="true" toShortenFQNames="true" value="http.createServer($1$).listen($2$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;port_number&quot;" expression="" name="2"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="net" toReformat="true" toShortenFQNames="true" value="net.createServer(function($1$){$1$.on('data', function('data'){$2$]});$1$.on('end', function(){$3$});}).listen($4$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;socket&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;8124&quot;" expression="" name="4"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="pipe" toReformat="true" toShortenFQNames="true" value="pipe($1$)$2$">
+    <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="1"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eget" toReformat="true" toShortenFQNames="true" value="$1$.get('$2$', $3$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="3"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="epost" toReformat="true" toShortenFQNames="true" value="$1$.post('$2$', $3$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="3"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eput" toReformat="true" toShortenFQNames="true" value="$1$.put('$2$', $3$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="3"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="edel" toReformat="true" toShortenFQNames="true" value="$1$.delete('$2$', $3$);">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="3"/>
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="stdin" toReformat="true" toShortenFQNames="true" value="process.stdin">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+  <template description="" name="stdout" toReformat="true" toShortenFQNames="true" value="process.stdout">
+    <context>
+      <option name="JAVASCRIPT" value="true"/>
+    </context>
+  </template>
+</templateSet>

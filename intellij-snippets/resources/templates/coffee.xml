@@ -1,0 +1,182 @@
+<templateSet group="coffee">
+  <template description="" name="forindo" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$do ($1) -&gt;$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;// body&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fora" toReformat="true" toShortenFQNames="true" value="for $1$ in $2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;array&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="foro" toReformat="true" toShortenFQNames="true" value="for $1$, $2$ of $3$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forr" toReformat="true" toShortenFQNames="true" value="for $1$ in [$2$..$3$]$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;start&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;finish&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forrb" toReformat="true" toShortenFQNames="true" value="for $1$ in [$2$..$3$] by $4$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;start&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;finish&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;step&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forrex" toReformat="true" toShortenFQNames="true" value="for $1$ in [$2$...$3$]$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;start&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;finish&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="forrexb" toReformat="true" toShortenFQNames="true" value="for $1$ in [$2$...$3$] by $4$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;start&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;finish&quot;" expression="" name="3"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;step&quot;" expression="" name="4"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="($1$) -&gt;$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="bfun" toReformat="true" toShortenFQNames="true" value="($1$) =&gt;$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$constructor: ($2$) -&gt;$3$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="2"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$ extends $2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ParentClass&quot;" expression="" name="2"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="cla" toReformat="true" toShortenFQNames="true" value="class $1$ extends $2$constructor: ($3$) -&gt;$4$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ParentClass&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="3"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="if $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="if $1$$2$else$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="else if $1$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="ifte" toReformat="true" toShortenFQNames="true" value="if $1$ then $2$ else $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="unl" toReformat="true" toShortenFQNames="true" value="$1$ unless $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="swi" toReformat="true" toShortenFQNames="true" value="switch $1$when $2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;# body...&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="log" toReformat="true" toShortenFQNames="true" value="console.log $END$">
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="try" toReformat="true" toShortenFQNames="true" value="try$1$catch $2$$END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;error&quot;" expression="" name="2"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="req" toReformat="true" toShortenFQNames="true" value="$2$ = require '$1$'">
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;sys&quot;" expression="" name="1"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="exp" toReformat="true" toShortenFQNames="true" value="$END$ = exports ? this">
+    <variable alwaysStopAt="true" defaultValue="&quot;root&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+  <template description="" name="jsonp" toReformat="true" toShortenFQNames="true" value="JSON.parse $END$">
+    <variable alwaysStopAt="true" defaultValue="&quot;jstr&quot;" expression="" name="0"/>
+    <context>
+      <option name="COFFEE" value="true"/>
+    </context>
+  </template>
+</templateSet>
