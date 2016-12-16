@@ -1,0 +1,6 @@
+[submodule "vim-snippets"]
+	path = vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "bootstrap-snippets"]
+	path = bootstrap-snippets
+	url = https://github.com/bonsaiben/bootstrap-snippets.git

@@ -1,0 +1,132 @@
+<templateSet group="node">
+  <template description="" name="nd-#!" toReformat="false" toShortenFQNames="true" value="    #!/usr/bin/env node&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-ex" toReformat="false" toShortenFQNames="true" value="    module.exports = $var1$;&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-re" toReformat="false" toShortenFQNames="true" value="    $var1$ $var2$ = require('$var3$');&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;const&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;module_name&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-on" toReformat="false" toShortenFQNames="true" value="    on('$var1$', function($var2$) {&#10;      $var3$&#10;    });&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-emit" toReformat="false" toShortenFQNames="true" value="    emit('$var1$', $var2$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-once" toReformat="false" toShortenFQNames="true" value="    once('$var1$', function($var2$) {&#10;      $var3$&#10;    });&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-http" toReformat="false" toShortenFQNames="true" value="    http.createServer($var1$).listen($var2$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;port_number&quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-net" toReformat="false" toShortenFQNames="true" value="    net.createServer(function($var1$){&#10;        $var1$.on('data', function('data'){&#10;          $var2$&#10;        ]});&#10;        $var1$.on('end', function(){&#10;          $var3$&#10;        });&#10;    }).listen($var4$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;socket&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;8124&quot;" expression="" name="var4"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-pipe" toReformat="false" toShortenFQNames="true" value="    pipe($var1$)$var2$&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-eget" toReformat="false" toShortenFQNames="true" value="    $var1$.get('$var2$', $var3$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-epost" toReformat="false" toShortenFQNames="true" value="    $var1$.post('$var2$', $var3$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-eput" toReformat="false" toShortenFQNames="true" value="    $var1$.put('$var2$', $var3$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-edel" toReformat="false" toShortenFQNames="true" value="    $var1$.delete('$var2$', $var3$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;app&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;route&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;handler&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-stdin" toReformat="false" toShortenFQNames="true" value="    process.stdin&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="nd-stdout" toReformat="false" toShortenFQNames="true" value="    process.stdout&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+</templateSet>

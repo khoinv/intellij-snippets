@@ -1,0 +1,83 @@
+<templateSet group="angular">
+  <template description="" name="d3-iti" toReformat="false" toShortenFQNames="true" value="it('$var1$', inject(function($var2$) {&#10;    $END$&#10;}));&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;description&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-befi" toReformat="false" toShortenFQNames="true" value="beforeEach(inject(function($var1$) {&#10;    $END$&#10;}));&#10;endsnippet&#10;&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-aconf" toReformat="false" toShortenFQNames="true" value="config(function($var1$) {&#10;    $END$&#10;});&#10;endsnippet&#10;&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-acont" toReformat="false" toShortenFQNames="true" value="controller('$var1$', [$var2$function($var2$) {&#10;    $END$&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-aconts" toReformat="false" toShortenFQNames="true" value="controller('$var1$', [$var2$function($var2$) {&#10;    $END$&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;'$scope', &quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-adir" toReformat="false" toShortenFQNames="true" value="directive('$var1$', [$var2$function($var2$) {&#10;    return {&#10;        restrict: '$var3$',&#10;        link: function(scope, element, attrs) {&#10;            $END$&#10;        }&#10;    };&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;EA&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-adirs" toReformat="false" toShortenFQNames="true" value="directive('$var1$', [$var2$function($var2$) {&#10;    return {&#10;        restrict: '$var3$',&#10;        link: function(scope, element, attrs) {&#10;            $END$&#10;        }&#10;    };&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;'$scope', &quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;EA&quot;" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-afact" toReformat="false" toShortenFQNames="true" value="factory('$var1$', [$var2$function($var2$) {&#10;    $END$&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-afacts" toReformat="false" toShortenFQNames="true" value="factory('$var1$', [$var2$function($var2$) {&#10;    $END$&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;'$scope', &quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="d3-aserv" toReformat="false" toShortenFQNames="true" value="service('$var1$', [$var2$function($var2$) {&#10;    $END$&#10;}]);&#10;endsnippet&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+</templateSet>

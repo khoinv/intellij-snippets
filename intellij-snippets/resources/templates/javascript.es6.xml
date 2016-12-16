@@ -1,0 +1,122 @@
+<templateSet group="javascritp.es6">
+  <template description="" name="js6-const" toReformat="false" toShortenFQNames="true" value="    const $var1$ = $END$;&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-let" toReformat="false" toShortenFQNames="true" value="    let $var1$ = $END$;&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-im" toReformat="false" toShortenFQNames="true" value="    import $var1$ from '$var2$';&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-imas" toReformat="false" toShortenFQNames="true" value="    import * as $var1$ from '$var2$';&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-imm" toReformat="false" toShortenFQNames="true" value="    import { $var1$ } from '$var2$';&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-cla" toReformat="false" toShortenFQNames="true" value="    class $var1$ {&#10;        $END$&#10;    }&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-clax" toReformat="false" toShortenFQNames="true" value="    class $var1$ extends $var2$ {&#10;        $END$&#10;    }&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-clac" toReformat="false" toShortenFQNames="true" value="    class $var1$ {&#10;        constructor($var2$) {&#10;            $END$&#10;        }&#10;    }&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-foro" toReformat="false" toShortenFQNames="true" value="    for (const $var1$ of $var2$) {&#10;        $END$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;prop&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-fun*" toReformat="false" toShortenFQNames="true" value="    function* $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-c=&gt;" toReformat="false" toShortenFQNames="true" value="    const $var1$ = ($var2$) =&gt; {&#10;        $END$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-caf" toReformat="false" toShortenFQNames="true" value="    const $var1$ = ($var2$) =&gt; {&#10;        $END$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;function_name&quot;" expression="" name="var1"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-=&gt;" toReformat="false" toShortenFQNames="true" value="    ($var1$) =&gt; {&#10;        $END$&#10;    }&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-af" toReformat="false" toShortenFQNames="true" value="    ($var1$) =&gt; {&#10;        $END$&#10;    }&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-sym" toReformat="false" toShortenFQNames="true" value="    const $var1$ = Symbol('$END$');&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="js6-ed" toReformat="false" toShortenFQNames="true" value="    export default $END$&#10;">
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+</templateSet>
