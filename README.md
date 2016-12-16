@@ -1,4 +1,4 @@
-## intellij-snippets
+## Intellij-snippets
 This repository contains snippets files for various programing languages.
 
 Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets) - that using snipMate format
@@ -27,8 +27,8 @@ Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets
 - [go.md](intellij-snippets/resources/documents/go.md)
 - [html.md](intellij-snippets/resources/documents/html.md)
 - [java.md](intellij-snippets/resources/documents/java.md)
-- [javascript-d3.md](intellij-snippets/resources/documents/javascript-d3)
-- [javascript.md](intellij-snippets/resources/documents/javascript)
+- [javascript-d3.md](intellij-snippets/resources/documents/javascript-d3.md)
+- [javascript.md](intellij-snippets/resources/documents/javascript.md)
 - [javascript2.md](intellij-snippets/resources/documents/javascript2)
 - [javascritp.es6.md](intellij-snippets/resources/documents/javascript.es6.md)
 - [jquery.md](intellij-snippets/resources/documents/jquery.md)
