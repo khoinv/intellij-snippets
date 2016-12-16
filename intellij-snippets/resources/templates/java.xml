@@ -127,7 +127,7 @@
   </template>
   <template description="" name="jv-tc" toReformat="false" toShortenFQNames="true" value="    public class $var1$ extends $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;)`&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;TestCase&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;TestCase&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -308,7 +308,7 @@
     </context>
   </template>
   <template description="" name="jv-err" toReformat="false" toShortenFQNames="true" value="    System.err.print(&quot;$END$&quot;);&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -317,7 +317,7 @@
   </template>
   <template description="" name="jv-errf" toReformat="false" toShortenFQNames="true" value="    System.err.printf(&quot;$var1$&quot;, $END$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -325,7 +325,7 @@
     </context>
   </template>
   <template description="" name="jv-errln" toReformat="false" toShortenFQNames="true" value="    System.err.println(&quot;$END$&quot;);&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -499,7 +499,7 @@
     </context>
   </template>
   <template description="" name="jv-@br" toReformat="false" toShortenFQNames="true" value="    @brief $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Description&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Description&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -507,7 +507,7 @@
     </context>
   </template>
   <template description="" name="jv-@fi" toReformat="false" toShortenFQNames="true" value="    @file $END$.java&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;)`&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;)`&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -515,7 +515,7 @@
     </context>
   </template>
   <template description="" name="jv-@pa" toReformat="false" toShortenFQNames="true" value="    @param $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -523,7 +523,7 @@
     </context>
   </template>
   <template description="" name="jv-@re" toReformat="false" toShortenFQNames="true" value="    @return $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -612,7 +612,7 @@
     </context>
   </template>
   <template description="" name="jv-print" toReformat="false" toShortenFQNames="true" value="    System.out.print(&quot;$END$&quot;);&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
@@ -621,7 +621,7 @@
   </template>
   <template description="" name="jv-printf" toReformat="false" toShortenFQNames="true" value="    System.out.printf(&quot;$var1$&quot;, $END$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>

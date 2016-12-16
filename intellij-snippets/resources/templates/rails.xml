@@ -11,7 +11,7 @@
     <variable alwaysStopAt="true" defaultValue="&quot;parent&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;child&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -20,7 +20,7 @@
   <template description="" name="rail-artnpp" toReformat="false" toShortenFQNames="true" value="    assert_redirected_to $var1$_$var2$_path($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;parent&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;child&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -28,14 +28,14 @@
   </template>
   <template description="" name="rail-artp" toReformat="false" toShortenFQNames="true" value="    assert_redirected_to $var1$_path($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-artpp" toReformat="false" toShortenFQNames="true" value="    assert_redirected_to $END$s_path&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -67,7 +67,7 @@
   </template>
   <template description="" name="rail-asrj" toReformat="false" toShortenFQNames="true" value="    assert_rjs :$var1$, '$END$'&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;replace&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;dom id&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;dom id&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -84,21 +84,21 @@
     </context>
   </template>
   <template description="" name="rail-ba" toReformat="false" toShortenFQNames="true" value="    before_action :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-bf" toReformat="false" toShortenFQNames="true" value="    before_filter :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-bt" toReformat="false" toShortenFQNames="true" value="    belongs_to :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;association&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;association&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -112,7 +112,7 @@
     </context>
   </template>
   <template description="" name="rail-crw" toReformat="false" toShortenFQNames="true" value="    cattr_accessor :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -136,7 +136,7 @@
   </template>
   <template description="" name="rail-defedit" toReformat="false" toShortenFQNames="true" value="    def edit&#10;        @$var1$ = $END$.find(params[:id])&#10;    end&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -183,7 +183,7 @@
   </template>
   <template description="" name="rail-dele" toReformat="false" toShortenFQNames="true" value="    delegate :$var1$, to: :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;methods&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -193,7 +193,7 @@
     <variable alwaysStopAt="true" defaultValue="&quot;methods&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;prefix&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;allow_nil&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;allow_nil&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -201,7 +201,7 @@
   </template>
   <template description="" name="rail-amc" toReformat="false" toShortenFQNames="true" value="    alias_method_chain :$var1$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;method_name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;feature&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;feature&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -223,7 +223,7 @@
     </context>
   </template>
   <template description="" name="rail-hm" toReformat="false" toShortenFQNames="true" value="    has_many :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -240,14 +240,14 @@
   </template>
   <template description="" name="rail-hmt" toReformat="false" toShortenFQNames="true" value="    has_many :$var1$, through: :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-ho" toReformat="false" toShortenFQNames="true" value="    has_one :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -255,7 +255,7 @@
   </template>
   <template description="" name="rail-hod" toReformat="false" toShortenFQNames="true" value="    has_one :$var1$, dependent: :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;destroy&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;destroy&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -328,7 +328,7 @@
   <template description="" name="rail-mapc" toReformat="false" toShortenFQNames="true" value="    $var1$.$var2$ '$END$'&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;connect&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;controller/:action/:id&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;controller/:action/:id&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -346,7 +346,7 @@
   </template>
   <template description="" name="rail-mapr" toReformat="false" toShortenFQNames="true" value="    $var1$.resource :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;resource&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;resource&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -354,7 +354,7 @@
   </template>
   <template description="" name="rail-maprs" toReformat="false" toShortenFQNames="true" value="    $var1$.resources :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;resource&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;resource&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -370,112 +370,112 @@
     </context>
   </template>
   <template description="" name="rail-mbv" toReformat="false" toShortenFQNames="true" value="    before_validation :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mbc" toReformat="false" toShortenFQNames="true" value="    before_create :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mbu" toReformat="false" toShortenFQNames="true" value="    before_update :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mbs" toReformat="false" toShortenFQNames="true" value="    before_save :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mbd" toReformat="false" toShortenFQNames="true" value="    before_destroy :$END$&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mav" toReformat="false" toShortenFQNames="true" value="    after_validation :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-maf" toReformat="false" toShortenFQNames="true" value="    after_find :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mat" toReformat="false" toShortenFQNames="true" value="    after_touch :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-macr" toReformat="false" toShortenFQNames="true" value="    after_create :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mau" toReformat="false" toShortenFQNames="true" value="    after_update :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mas" toReformat="false" toShortenFQNames="true" value="    after_save :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mad" toReformat="false" toShortenFQNames="true" value="    after_destroy :$END$&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-marc" toReformat="false" toShortenFQNames="true" value="    around_create :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-maru" toReformat="false" toShortenFQNames="true" value="    around_update :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mars" toReformat="false" toShortenFQNames="true" value="    around_save :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mard" toReformat="false" toShortenFQNames="true" value="    around_destroy :$END$&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -489,28 +489,28 @@
     </context>
   </template>
   <template description="" name="rail-mp" toReformat="false" toShortenFQNames="true" value="    map(&amp;:$END$)&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;id&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-mrw" toReformat="false" toShortenFQNames="true" value="    mattr_accessor :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-oa" toReformat="false" toShortenFQNames="true" value="    order('$END$')&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-od" toReformat="false" toShortenFQNames="true" value="    order('$END$ DESC')&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -524,7 +524,7 @@
     </context>
   </template>
   <template description="" name="rail-ra" toReformat="false" toShortenFQNames="true" value="    render action: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -532,7 +532,7 @@
   </template>
   <template description="" name="rail-ral" toReformat="false" toShortenFQNames="true" value="    render action: '$var1$', layout: '$END$'&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;action&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -546,7 +546,7 @@
     </context>
   </template>
   <template description="" name="rail-rf" toReformat="false" toShortenFQNames="true" value="    render file: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;filepath&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;filepath&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -554,14 +554,14 @@
   </template>
   <template description="" name="rail-rfu" toReformat="false" toShortenFQNames="true" value="    render file: '$var1$', use_full_path: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;filepath&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;false&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-ri" toReformat="false" toShortenFQNames="true" value="    render inline: &quot;$END$&quot;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;&lt;%= 'hello' %&gt;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;%= 'hello' %&gt;&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -578,28 +578,28 @@
   </template>
   <template description="" name="rail-rit" toReformat="false" toShortenFQNames="true" value="    render inline: &quot;$var1$&quot;, type: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;%= 'hello' %&gt;&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;:rxml&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;:rxml&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-rjson" toReformat="false" toShortenFQNames="true" value="    render json: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-rl" toReformat="false" toShortenFQNames="true" value="    render layout: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-rn" toReformat="false" toShortenFQNames="true" value="    render nothing: $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -607,14 +607,14 @@
   </template>
   <template description="" name="rail-rns" toReformat="false" toShortenFQNames="true" value="    render nothing: $var1$, status: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;401&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;401&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-rp" toReformat="false" toShortenFQNames="true" value="    render partial: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -622,7 +622,7 @@
   </template>
   <template description="" name="rail-rpc" toReformat="false" toShortenFQNames="true" value="    render partial: '$var1$', collection: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$1s&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1s&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -631,7 +631,7 @@
   <template description="" name="rail-rpl" toReformat="false" toShortenFQNames="true" value="    render partial: '$var1$', locals: { $var2$: $END$ }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -639,7 +639,7 @@
   </template>
   <template description="" name="rail-rpo" toReformat="false" toShortenFQNames="true" value="    render partial: '$var1$', object: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$1&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -647,14 +647,14 @@
   </template>
   <template description="" name="rail-rps" toReformat="false" toShortenFQNames="true" value="    render partial: '$var1$', status: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;500&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;500&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-rt" toReformat="false" toShortenFQNames="true" value="    render text: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -662,7 +662,7 @@
   </template>
   <template description="" name="rail-rtl" toReformat="false" toShortenFQNames="true" value="    render text: '$var1$', layout: '$END$'&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;layoutname&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -670,7 +670,7 @@
   </template>
   <template description="" name="rail-rtlt" toReformat="false" toShortenFQNames="true" value="    render text: '$var1$', layout: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -678,7 +678,7 @@
   </template>
   <template description="" name="rail-rts" toReformat="false" toShortenFQNames="true" value="    render text: '$var1$', status: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;401&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;401&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -692,7 +692,7 @@
     </context>
   </template>
   <template description="" name="rail-rxml" toReformat="false" toShortenFQNames="true" value="    render xml: '$END$'&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;text to render&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -701,7 +701,7 @@
   <template description="" name="rail-sc" toReformat="false" toShortenFQNames="true" value="    scope :$var1$, -&gt; { where($var2$: $END$) }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -711,14 +711,14 @@
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;field = ?&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-sha1" toReformat="false" toShortenFQNames="true" value="    Digest::SHA1.hexdigest($END$)&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -726,28 +726,28 @@
   </template>
   <template description="" name="rail-sweeper" toReformat="false" toShortenFQNames="true" value="    class $var1$Sweeper &lt; ActionController::Caching::Sweeper&#10;        observe $var1$&#10;&#10;        def after_save($END$)&#10;            expire_cache($var2$)&#10;        end&#10;&#10;        def after_destroy($var2$)&#10;            expire_cache($var2$)&#10;        end&#10;&#10;        def expire_cache($var2$)&#10;            expire_page&#10;        end&#10;    end&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ModelClassName&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;model_class_name&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-va" toReformat="false" toShortenFQNames="true" value="    validates_associated :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-va" toReformat="false" toShortenFQNames="true" value="    validates :$END$, acceptance: true&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;terms&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;terms&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-vc" toReformat="false" toShortenFQNames="true" value="    validates :$END$, confirmation: true&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -755,7 +755,7 @@
   </template>
   <template description="" name="rail-ve" toReformat="false" toShortenFQNames="true" value="    validates :$var1$, exclusion: { in: $END$ }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;%w( mov avi )&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;%w( mov avi )&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -763,7 +763,7 @@
   </template>
   <template description="" name="rail-vf" toReformat="false" toShortenFQNames="true" value="    validates :$var1$, format: { with: /$END$/ }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -771,7 +771,7 @@
   </template>
   <template description="" name="rail-vi" toReformat="false" toShortenFQNames="true" value="    validates :$var1$, inclusion: { in: %w($END$) }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot; mov avi &quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot; mov avi &quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -780,28 +780,28 @@
   <template description="" name="rail-vl" toReformat="false" toShortenFQNames="true" value="    validates :$var1$, length: { in: $var2$..$END$ }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;3&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;20&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;20&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-vn" toReformat="false" toShortenFQNames="true" value="    validates :$END$, numericality: true&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-vp" toReformat="false" toShortenFQNames="true" value="    validates :$END$, presence: true&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-vu" toReformat="false" toShortenFQNames="true" value="    validates :$END$, uniqueness: true&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -816,7 +816,7 @@
   </template>
   <template description="" name="rail-wc" toReformat="false" toShortenFQNames="true" value="    where($var1$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;'conditions'&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;, bind_var&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;, bind_var&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -824,7 +824,7 @@
   </template>
   <template description="" name="rail-wf" toReformat="false" toShortenFQNames="true" value="    where($var1$: $END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;field&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -875,7 +875,7 @@
   <template description="" name="rail-mac" toReformat="false" toShortenFQNames="true" value="    add_column :$var1$, :$var2$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;data_type&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;data_type&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -883,7 +883,7 @@
   </template>
   <template description="" name="rail-mai" toReformat="false" toShortenFQNames="true" value="    add_index :$var1$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -891,7 +891,7 @@
   </template>
   <template description="" name="rail-mrc" toReformat="false" toShortenFQNames="true" value="    remove_column :$var1$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column_name&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -900,7 +900,7 @@
   <template description="" name="rail-mrnc" toReformat="false" toShortenFQNames="true" value="    rename_column :$var1$, :$var2$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table_name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;old_column_name&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;new_column_name&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;new_column_name&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -909,7 +909,7 @@
   <template description="" name="rail-mcc" toReformat="false" toShortenFQNames="true" value="    change_column :$var1$, :$var2$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -944,7 +944,7 @@
     </context>
   </template>
   <template description="" name="rail-trc" toReformat="false" toShortenFQNames="true" value="    t.remove :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -959,7 +959,7 @@
     </context>
   </template>
   <template description="" name="rail-tref" toReformat="false" toShortenFQNames="true" value="    t.references :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -1076,14 +1076,14 @@
     </context>
   </template>
   <template description="" name="rail-isfp" toReformat="false" toShortenFQNames="true" value="    it { should filter_param :$END$ }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-isrt" toReformat="false" toShortenFQNames="true" value="    it { should redirect_to $END$ }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;url&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -1102,14 +1102,14 @@
     </context>
   </template>
   <template description="" name="rail-isrf" toReformat="false" toShortenFQNames="true" value="    it { should rescue_from $END$ }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-isrw" toReformat="false" toShortenFQNames="true" value="    it { should respond_with $END$ }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;status&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;status&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -1117,14 +1117,14 @@
   </template>
   <template description="" name="rail-isr" toReformat="false" toShortenFQNames="true" value="    it { should route(:$var1$, '$END$') }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;path&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
     </context>
   </template>
   <template description="" name="rail-isss" toReformat="false" toShortenFQNames="true" value="    it { should set_session :$END$ }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>
@@ -1209,7 +1209,7 @@
     </context>
   </template>
   <template description="" name="rail-isbtcc" toReformat="false" toShortenFQNames="true" value="    it { should belong_to(:$var1$).counter_cache $END$ }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
       <option name="RHTML" value="true"/>

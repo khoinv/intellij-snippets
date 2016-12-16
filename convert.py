@@ -63,7 +63,10 @@ def vimToIntellijTemplate(vimTemplate, supportLanguages, prefix):
     defaultValues = [item for sublist in defaultValues for item in sublist]
     for defaultValue in defaultValues:
         if defaultValue:
-            defaultValueNode = etree.Element('variable', name="var{}".format(defaultValue[0]), expression="", defaultValue='"{}"'.format(defaultValue[1]), alwaysStopAt="true")
+            if(defaultValue[0]) == '0':
+                defaultValueNode = etree.Element('variable', name="END", expression="", defaultValue='"{}"'.format(defaultValue[1]), alwaysStopAt="true")
+            else:
+                defaultValueNode = etree.Element('variable', name="var{}".format(defaultValue[0]), expression="", defaultValue='"{}"'.format(defaultValue[1]), alwaysStopAt="true")
             templateNode.append(defaultValueNode)
     contextNode = etree.Element('context')
     for lg in supportLanguages:

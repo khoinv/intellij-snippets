@@ -1,7 +1,7 @@
 <templateSet group="sass">
   <template description="" name="$" toReformat="false" toShortenFQNames="true" value="    $$var1$: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>

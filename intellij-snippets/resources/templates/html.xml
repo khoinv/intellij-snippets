@@ -218,7 +218,7 @@
   </template>
   <template description="" name="attr" toReformat="false" toShortenFQNames="true" value="    $var1$=&quot;$END$&quot;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;property&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;property&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -367,7 +367,7 @@
   </template>
   <template description="" name="a" toReformat="false" toShortenFQNames="true" value="    &lt;a href=&quot;$var1$&quot;&gt;$END$&lt;/a&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -376,7 +376,7 @@
   </template>
   <template description="" name="a." toReformat="false" toShortenFQNames="true" value="    &lt;a class=&quot;$var1$&quot; href=&quot;$var2$&quot;&gt;$END$&lt;/a&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -385,7 +385,7 @@
   </template>
   <template description="" name="a#" toReformat="false" toShortenFQNames="true" value="    &lt;a id=&quot;$var1$&quot; href=&quot;$var2$&quot;&gt;$END$&lt;/a&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -394,7 +394,7 @@
   </template>
   <template description="" name="a:ext" toReformat="false" toShortenFQNames="true" value="    &lt;a href=&quot;http://$var1$&quot;&gt;$END$&lt;/a&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;example.com&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -404,7 +404,7 @@
   <template description="" name="a:mail" toReformat="false" toShortenFQNames="true" value="    &lt;a href=&quot;mailto:$var1$?subject=$var2$&quot;&gt;$END$&lt;/a&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;joe@example.com&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;feedback&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;email me&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;email me&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -412,7 +412,7 @@
     </context>
   </template>
   <template description="" name="ac" toReformat="false" toShortenFQNames="true" value="    &lt;a href=&quot;`@+`&quot;&gt;$END$&lt;/a&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`@+`&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`@+`&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -1160,7 +1160,7 @@
   <template description="" name="html5" toReformat="false" toShortenFQNames="true" value="    &lt;!DOCTYPE html&gt;&#10;    &lt;html&gt;&#10;        &lt;head&gt;&#10;            &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;&#10;            &lt;title&gt;$var1$&lt;/title&gt;&#10;            $var2$&#10;        &lt;/head&gt;&#10;        &lt;body&gt;&#10;            $END$&#10;        &lt;/body&gt;&#10;    &lt;/html&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;link&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -1171,7 +1171,7 @@
     <variable alwaysStopAt="true" defaultValue="&quot;es&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;link&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -1436,7 +1436,7 @@
     </context>
   </template>
   <template description="" name="label" toReformat="false" toShortenFQNames="true" value="    &lt;label for=&quot;$END$&quot;&gt;$var1$&lt;/label&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -1458,7 +1458,7 @@
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var4"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$5&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$5&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -1501,7 +1501,7 @@
     </context>
   </template>
   <template description="" name="lia" toReformat="false" toShortenFQNames="true" value="    &lt;li&gt;&lt;a href=&quot;$END$&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -1762,7 +1762,7 @@
     </context>
   </template>
   <template description="" name="opt" toReformat="false" toShortenFQNames="true" value="    &lt;option value=&quot;$var1$&quot;&gt;$END$&lt;/option&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -2138,7 +2138,7 @@
   </template>
   <template description="" name="time" toReformat="false" toShortenFQNames="true" value="    &lt;time datetime=&quot;$var1$&quot; pubdate=&quot;$var2$&quot;&gt;$END$&lt;/time&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -2146,7 +2146,7 @@
     </context>
   </template>
   <template description="" name="title" toReformat="false" toShortenFQNames="true" value="    &lt;title&gt;$END$&lt;/title&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

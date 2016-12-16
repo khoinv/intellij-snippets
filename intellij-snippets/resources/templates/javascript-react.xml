@@ -87,7 +87,7 @@
   </template>
   <template description="" name="re-rcc" toReformat="false" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -103,7 +103,7 @@
   </template>
   <template description="" name="re-ercc" toReformat="false" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

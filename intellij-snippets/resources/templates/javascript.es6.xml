@@ -60,7 +60,7 @@
   <template description="" name="js6-foro" toReformat="false" toShortenFQNames="true" value="    for (const $var1$ of $var2$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;prop&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

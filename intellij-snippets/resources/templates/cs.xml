@@ -433,94 +433,94 @@
   </template>
   <template description="" name="js-mi" toReformat="false" toShortenFQNames="true" value="    $var1$ int $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mi+" toReformat="false" toShortenFQNames="true" value="    public int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mi&amp;" toReformat="false" toShortenFQNames="true" value="    internal int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mi|" toReformat="false" toShortenFQNames="true" value="    protected int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mi-" toReformat="false" toShortenFQNames="true" value="    private int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mb" toReformat="false" toShortenFQNames="true" value="    $var1$ bool $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mb+" toReformat="false" toShortenFQNames="true" value="    public bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mb&amp;" toReformat="false" toShortenFQNames="true" value="    internal bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mb|" toReformat="false" toShortenFQNames="true" value="    protected bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-mb-" toReformat="false" toShortenFQNames="true" value="    private bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-ms" toReformat="false" toShortenFQNames="true" value="    $var1$ string $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-ms+" toReformat="false" toShortenFQNames="true" value="    public string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-ms&amp;" toReformat="false" toShortenFQNames="true" value="    internal string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-ms|" toReformat="false" toShortenFQNames="true" value="    protected string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;}(${2:&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
   <template description="" name="js-ms-" toReformat="false" toShortenFQNames="true" value="    private string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
@@ -589,7 +589,7 @@
     </context>
   </template>
   <template description="" name="js-eq" toReformat="false" toShortenFQNames="true" value="    public override bool Equals(object obj) {&#10;        if (obj == null || GetType() != obj.GetType()) {&#10;            return false;&#10;        }&#10;        $END$&#10;        return base.Equals(obj);&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;throw new NotImplementedException();&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;throw new NotImplementedException();&quot;" expression="" name="END"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>

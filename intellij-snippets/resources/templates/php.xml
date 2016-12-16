@@ -133,7 +133,7 @@
   </template>
   <template description="" name="php-$g" toReformat="false" toShortenFQNames="true" value="    $var1$-&gt;get$END$();&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;$foo&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;Bar&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Bar&quot;" expression="" name="END"/>
     <context>
       <option name="PHP" value="true"/>
       <option name="HTML" value="true"/>
@@ -357,7 +357,7 @@
     <variable alwaysStopAt="true" defaultValue="&quot;`g:snips_author`&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$Id$&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var4"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="END"/>
     <context>
       <option name="PHP" value="true"/>
       <option name="HTML" value="true"/>
@@ -539,7 +539,7 @@
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;&lt;!-- html... --&gt;&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;!-- html... --&gt;&quot;" expression="" name="END"/>
     <context>
       <option name="PHP" value="true"/>
       <option name="HTML" value="true"/>

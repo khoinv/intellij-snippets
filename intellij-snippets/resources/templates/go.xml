@@ -6,7 +6,7 @@
   </template>
   <template description="" name="vr" toReformat="false" toShortenFQNames="true" value="    var $var1$ $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;t&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -23,7 +23,7 @@
   </template>
   <template description="" name="ap" toReformat="false" toShortenFQNames="true" value="    append($var1$, $END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;slice&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -44,7 +44,7 @@
     </context>
   </template>
   <template description="" name="ch" toReformat="false" toShortenFQNames="true" value="    chan $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -57,14 +57,14 @@
   </template>
   <template description="" name="c" toReformat="false" toShortenFQNames="true" value="    const $var1$ = $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;NAME&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
   <template description="" name="co" toReformat="false" toShortenFQNames="true" value="    const (&#10;        $var1$ = iota&#10;        $END$&#10;    )&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;NAME1&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;NAME2&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;NAME2&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -75,7 +75,7 @@
     </context>
   </template>
   <template description="" name="df" toReformat="false" toShortenFQNames="true" value="    defer $END$()&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;func&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;func&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -211,14 +211,14 @@
   </template>
   <template description="" name="mk" toReformat="false" toShortenFQNames="true" value="    make($var1$, $END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;[]string&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
   <template description="" name="mp" toReformat="false" toShortenFQNames="true" value="    map[$var1$]$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -229,7 +229,7 @@
     </context>
   </template>
   <template description="" name="nw" toReformat="false" toShortenFQNames="true" value="    new($END$)&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -241,7 +241,7 @@
     </context>
   </template>
   <template description="" name="pn" toReformat="false" toShortenFQNames="true" value="    panic(&quot;$END$&quot;)&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;msg&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;msg&quot;" expression="" name="END"/>
     <context>
       <option name="GO" value="true"/>
     </context>

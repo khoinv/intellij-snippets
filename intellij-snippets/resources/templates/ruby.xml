@@ -30,7 +30,7 @@
     </context>
   </template>
   <template description="" name="rb-y" toReformat="false" toShortenFQNames="true" value="    :yields: $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;arguments&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;arguments&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -177,7 +177,7 @@
     </context>
   </template>
   <template description="" name="rb-blankslate" toReformat="false" toShortenFQNames="true" value="    class $END$&#10;        instance_methods.each { |meth| undef_method(meth) unless meth =~ /\A__/ }&#10;    end&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;BlankSlate&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;BlankSlate&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -210,44 +210,44 @@
     </context>
   </template>
   <template description="" name="rb-r" toReformat="false" toShortenFQNames="true" value="    attr_reader :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-w" toReformat="false" toShortenFQNames="true" value="    attr_writer :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-rw" toReformat="false" toShortenFQNames="true" value="    attr_accessor :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-atp" toReformat="false" toShortenFQNames="true" value="    attr_protected :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-ata" toReformat="false" toShortenFQNames="true" value="    attr_accessible :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attr_names&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-ana" toReformat="false" toShortenFQNames="true" value="    accepts_nested_attributes_for :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;association&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;association&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-ivc" toReformat="false" toShortenFQNames="true" value="    @$var1$ ||= $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;variable_name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;cached_value&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;cached_value&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -287,21 +287,21 @@
   <template description="" name="rb-defd" toReformat="false" toShortenFQNames="true" value="    def_delegator :$var1$, :$var2$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;@del_obj&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;del_meth&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;new_name&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;new_name&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-defds" toReformat="false" toShortenFQNames="true" value="    def_delegators :$var1$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;@del_obj&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;del_methods&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;del_methods&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-am" toReformat="false" toShortenFQNames="true" value="    alias_method :$var1$, :$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;new_name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;old_name&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;old_name&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -847,7 +847,7 @@
     </context>
   </template>
   <template description="" name="rb-optp" toReformat="false" toShortenFQNames="true" value="    require 'optparse'&#10;&#10;    options = { $END$ }&#10;&#10;    ARGV.options do |opts|&#10;        opts.banner = &quot;Usage: #{File.basename($PROGRAM_NAME)}&quot;&#10;    end&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;default: 'args'&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;default: 'args'&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1181,25 +1181,25 @@
     </context>
   </template>
   <template description="" name="rb-mbio" toReformat="false" toShortenFQNames="true" value="    must_be_instance_of $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-wbio" toReformat="false" toShortenFQNames="true" value="    wont_be_instance_of $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-mbko" toReformat="false" toShortenFQNames="true" value="    must_be_kind_of $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-wbko" toReformat="false" toShortenFQNames="true" value="    wont_be_kind_of $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Class&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1215,13 +1215,13 @@
     </context>
   </template>
   <template description="" name="rb-mbsa" toReformat="false" toShortenFQNames="true" value="    must_be_same_as $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-wbsa" toReformat="false" toShortenFQNames="true" value="    wont_be_same_as $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1260,37 +1260,37 @@
     </context>
   </template>
   <template description="" name="rb-me" toReformat="false" toShortenFQNames="true" value="    must_equal $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-we" toReformat="false" toShortenFQNames="true" value="    wont_equal $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;other&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-mi" toReformat="false" toShortenFQNames="true" value="    must_include $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-wi" toReformat="false" toShortenFQNames="true" value="    wont_include $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-mm" toReformat="false" toShortenFQNames="true" value="    must_match /$END$/&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-wm" toReformat="false" toShortenFQNames="true" value="    wont_match /$END$/&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;regex&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1301,19 +1301,19 @@
     </context>
   </template>
   <template description="" name="rb-mra" toReformat="false" toShortenFQNames="true" value="    -&gt; { $var1$ }.must_raise $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-mrt" toReformat="false" toShortenFQNames="true" value="    must_respond_to :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-wrt" toReformat="false" toShortenFQNames="true" value="    wont_respond_to :$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1341,7 +1341,7 @@
   </template>
   <template description="" name="rb-descm" toReformat="false" toShortenFQNames="true" value="    describe '$var1$' do&#10;        $END$&#10;    end&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;#method&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;pending 'Not implemented'&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;pending 'Not implemented'&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1382,7 +1382,7 @@
     </context>
   </template>
   <template description="" name="rb-s." toReformat="false" toShortenFQNames="true" value="    subject.$END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
@@ -1407,19 +1407,19 @@
   <template description="" name="rb-experr" toReformat="false" toShortenFQNames="true" value="    expect { $var1$ }.to raise_error $var2$, /$END$/&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;StandardError&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;message_regex&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;message_regex&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-shared" toReformat="false" toShortenFQNames="true" value="    shared_examples $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;'shared examples name'&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;'shared examples name'&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
   </template>
   <template description="" name="rb-ibl" toReformat="false" toShortenFQNames="true" value="    it_behaves_like $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;'shared examples name'&quot;" expression="" name="var0"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;'shared examples name'&quot;" expression="" name="END"/>
     <context>
       <option name="RUBY" value="true"/>
     </context>
