@@ -77,8 +77,8 @@ Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets
     - "RUBY"
     - "RHTML"
     - "GO"
-- Note:If you want make support all languages snippet, let support_languages value is 'OTHER'
-- prefix can be empty
+- Note: If you want make a snippet that support all languages, let supportLanguages value is 'OTHER'
+- prefix option can be empty
 
 ## TODO
-- Make it become a Plugin#####
+- Make it become a Plugin
