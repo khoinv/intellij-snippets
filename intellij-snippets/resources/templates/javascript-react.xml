@@ -85,9 +85,9 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-rcc" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
+  <template description="" name="re-rcc" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $var0$&#10;            );&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var0"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -101,9 +101,9 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-ercc" toReformat="true" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
+  <template description="" name="re-ercc" toReformat="true" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $var0$&#10;            );&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var0"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

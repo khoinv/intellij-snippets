@@ -1,89 +1,89 @@
 <templateSet group="sql">
-  <template description="" name="sql-tbl" toReformat="true" toShortenFQNames="true" value="    create table $var1$ (&#10;        $END$&#10;    );&#10;">
+  <template description="" name="sql-tbl" toReformat="true" toShortenFQNames="true" value="    create table $var1$ (&#10;        $var0$&#10;    );&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;columns&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;columns&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-col" toReformat="true" toShortenFQNames="true" value="    $var1$    $var2$    $var3$    $END$&#10;">
+  <template description="" name="sql-col" toReformat="true" toShortenFQNames="true" value="    $var1$    $var2$    $var3$    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default ''&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-ccol" toReformat="true" toShortenFQNames="true" value="    $var1$    varchar2($var2$)    $var3$    $END$&#10;">
+  <template description="" name="sql-ccol" toReformat="true" toShortenFQNames="true" value="    $var1$    varchar2($var2$)    $var3$    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;size&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default ''&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-ncol" toReformat="true" toShortenFQNames="true" value="    $var1$    number    $var3$    $END$&#10;">
+  <template description="" name="sql-ncol" toReformat="true" toShortenFQNames="true" value="    $var1$    number    $var3$    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default 0&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-dcol" toReformat="true" toShortenFQNames="true" value="    $var1$    date    $var3$    $END$&#10;">
+  <template description="" name="sql-dcol" toReformat="true" toShortenFQNames="true" value="    $var1$    date    $var3$    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default sysdate&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;not null&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-ind" toReformat="true" toShortenFQNames="true" value="    create index $END$ on $var1$($var2$);&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1_$2&quot;" expression="" name="END"/>
+  <template description="" name="sql-ind" toReformat="true" toShortenFQNames="true" value="    create index $var0$ on $var1$($var2$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;$1_$2&quot;" expression="" name="var0"/>
     <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var2"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-uind" toReformat="true" toShortenFQNames="true" value="    create unique index $var1$ on $var2$($END$);&#10;">
+  <template description="" name="sql-uind" toReformat="true" toShortenFQNames="true" value="    create unique index $var1$ on $var2$($var0$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-tblcom" toReformat="true" toShortenFQNames="true" value="    comment on table $var1$ is '$END$';&#10;">
+  <template description="" name="sql-tblcom" toReformat="true" toShortenFQNames="true" value="    comment on table $var1$ is '$var0$';&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;comment&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;comment&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-colcom" toReformat="true" toShortenFQNames="true" value="    comment on column $var1$.$var2$ is '$END$';&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;comment&quot;" expression="" name="END"/>
-    <context>
-      <option name="SQL" value="true"/>
-    </context>
-  </template>
-  <template description="" name="sql-addcol" toReformat="true" toShortenFQNames="true" value="    alter table $var1$ add ($var2$ $END$);&#10;">
+  <template description="" name="sql-colcom" toReformat="true" toShortenFQNames="true" value="    comment on column $var1$.$var2$ is '$var0$';&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;comment&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>
   </template>
-  <template description="" name="sql-seq" toReformat="true" toShortenFQNames="true" value="    create sequence $var1$ start with $var2$ increment by $var3$ minvalue $END$;&#10;">
+  <template description="" name="sql-addcol" toReformat="true" toShortenFQNames="true" value="    alter table $var1$ add ($var2$ $var0$);&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;table&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;column&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var0"/>
+    <context>
+      <option name="SQL" value="true"/>
+    </context>
+  </template>
+  <template description="" name="sql-seq" toReformat="true" toShortenFQNames="true" value="    create sequence $var1$ start with $var2$ increment by $var3$ minvalue $var0$;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="var0"/>
     <context>
       <option name="SQL" value="true"/>
     </context>

@@ -55,7 +55,8 @@ def vimToIntellijTemplate(vimTemplate, supportLanguages, prefix):
     intellijTemplate = {}
     name = prefix + vimTemplate['name']
     description = vimTemplate['comment'] if 'comment' in vimTemplate else ''
-    value = ''.join([re.sub(VIM_REPLACE1, r'$var\1$', re.sub(VIM_REPLACE2, r'$var\1$', v) ).replace('$var0$', '$END$') for v in vimTemplate['value']])
+    # value = ''.join([re.sub(VIM_REPLACE1, r'$var\1$', re.sub(VIM_REPLACE2, r'$var\1$', v) ).replace('$var0$', '$END$') for v in vimTemplate['value']])
+    value = ''.join([re.sub(VIM_REPLACE1, r'$var\1$', re.sub(VIM_REPLACE2, r'$var\1$', v) ) for v in vimTemplate['value']])
     templateNode = etree.Element('template', name=name, value=value, description=description, toReformat="true", toShortenFQNames="true")
 
     defaultValues = [re.findall(VIM_DFAULT_VALUE, v) for v in vimTemplate['value']]
@@ -63,10 +64,10 @@ def vimToIntellijTemplate(vimTemplate, supportLanguages, prefix):
     defaultValues = [item for sublist in defaultValues for item in sublist]
     for defaultValue in defaultValues:
         if defaultValue:
-            if(defaultValue[0]) == '0':
-                defaultValueNode = etree.Element('variable', name="END", expression="", defaultValue='"{}"'.format(defaultValue[1]), alwaysStopAt="true")
-            else:
-                defaultValueNode = etree.Element('variable', name="var{}".format(defaultValue[0]), expression="", defaultValue='"{}"'.format(defaultValue[1]), alwaysStopAt="true")
+            # if(defaultValue[0]) == '0':
+            #     defaultValueNode = etree.Element('variable', name="END", expression="", defaultValue='"{}"'.format(defaultValue[1]), alwaysStopAt="true")
+            # else:
+            defaultValueNode = etree.Element('variable', name="var{}".format(defaultValue[0]), expression="", defaultValue='"{}"'.format(defaultValue[1].replace('"', '\\"')), alwaysStopAt="true")
             templateNode.append(defaultValueNode)
     contextNode = etree.Element('context')
     for lg in supportLanguages:

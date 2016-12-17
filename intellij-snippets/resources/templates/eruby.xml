@@ -1,5 +1,5 @@
 <templateSet group="eruby">
-  <template description="" name="er-rc" toReformat="true" toShortenFQNames="true" value="    &lt;% $END$ %&gt;&#10;">
+  <template description="" name="er-rc" toReformat="true" toShortenFQNames="true" value="    &lt;% $var0$ %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
@@ -13,7 +13,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-%" toReformat="true" toShortenFQNames="true" value="    &lt;% $END$ %&gt;&#10;">
+  <template description="" name="er-%" toReformat="true" toShortenFQNames="true" value="    &lt;% $var0$ %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
@@ -34,14 +34,14 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ead" toReformat="true" toShortenFQNames="true" value="    &lt;% $var1$.each do |$var2$| %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-ead" toReformat="true" toShortenFQNames="true" value="    &lt;% $var1$.each do |$var2$| %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-for" toReformat="true" toShortenFQNames="true" value="    &lt;% for $var2$ in $var1$ %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-for" toReformat="true" toShortenFQNames="true" value="    &lt;% for $var2$ in $var1$ %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var2"/>
     <context>
       <option name="RHTML" value="true"/>
@@ -49,15 +49,15 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-rp" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$END$' %&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="END"/>
+  <template description="" name="er-rp" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var0$' %&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-rpl" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var1$', locals: { :$var2$ =&gt; '$var3$'$END$ } %&gt;&#10;">
+  <template description="" name="er-rpl" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var1$', locals: { :$var2$ =&gt; '$var3$'$var0$ } %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var3"/>
@@ -67,67 +67,67 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-rps" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var1$', status: $END$ %&gt;&#10;">
+  <template description="" name="er-rps" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var1$', status: $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;500&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;500&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-rpc" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var1$', collection: $END$ %&gt;&#10;">
+  <template description="" name="er-rpc" toReformat="true" toShortenFQNames="true" value="    &lt;%= render partial: '$var1$', collection: $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lia" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', action: '$END$' %&gt;&#10;">
+  <template description="" name="er-lia" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', action: '$var0$' %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;link text...&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-liai" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', action: '$var2$', id: $END$ %&gt;&#10;">
+  <template description="" name="er-liai" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', action: '$var2$', id: $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;link text...&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;edit&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@item&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@item&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lic" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', controller: '$END$' %&gt;&#10;">
+  <template description="" name="er-lic" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', controller: '$var0$' %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;link text...&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lica" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', controller: '$var2$', action: '$END$' %&gt;&#10;">
+  <template description="" name="er-lica" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', controller: '$var2$', action: '$var0$' %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;link text...&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-licai" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', controller: '$var2$', action: '$var3$', id: $END$ %&gt;&#10;">
+  <template description="" name="er-licai" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to '$var1$', controller: '$var2$', action: '$var3$', id: $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;link text...&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;edit&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@item&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@item&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
@@ -142,7 +142,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-conf" toReformat="true" toShortenFQNames="true" value="    &lt;% content_for :$var1$ do %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-conf" toReformat="true" toShortenFQNames="true" value="    &lt;% content_for :$var1$ do %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;head&quot;" expression="" name="var1"/>
     <context>
       <option name="RHTML" value="true"/>
@@ -157,17 +157,17 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ct" toReformat="true" toShortenFQNames="true" value="    &lt;%= content_tag '$var1$', $var2$$END$ %&gt;&#10;">
+  <template description="" name="er-ct" toReformat="true" toShortenFQNames="true" value="    &lt;%= content_tag '$var1$', $var2$$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;DIV&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;content&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;,options&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;,options&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ff" toReformat="true" toShortenFQNames="true" value="    &lt;%= form_for @$var1$ do |f| %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-ff" toReformat="true" toShortenFQNames="true" value="    &lt;%= form_for @$var1$ do |f| %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var1"/>
     <context>
       <option name="RHTML" value="true"/>
@@ -175,25 +175,25 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffi" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.input :$END$ %&gt;&#10;">
+  <template description="" name="er-ffi" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.input :$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffcb" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.check_box :$END$ %&gt;&#10;">
+  <template description="" name="er-ffcb" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.check_box :$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffe" toReformat="true" toShortenFQNames="true" value="    &lt;% error_messages_for :$var1$ %&gt;&#10;&#10;    &lt;%= form_for @$var2$ do |f| %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-ffe" toReformat="true" toShortenFQNames="true" value="    &lt;% error_messages_for :$var1$ %&gt;&#10;&#10;    &lt;%= form_for @$var2$ do |f| %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var2"/>
     <context>
@@ -202,81 +202,81 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffff" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.file_field :$END$ %&gt;&#10;">
+  <template description="" name="er-ffff" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.file_field :$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffhf" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.hidden_field :$END$ %&gt;&#10;">
+  <template description="" name="er-ffhf" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.hidden_field :$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffl" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.label :$var2$, '$END$' %&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="END"/>
-    <context>
-      <option name="RHTML" value="true"/>
-      <option name="RUBY" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="er-ffpf" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.password_field :$END$ %&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
-    <context>
-      <option name="RHTML" value="true"/>
-      <option name="RUBY" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="er-ffrb" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.radio_button :$var2$, :$END$ %&gt;&#10;">
+  <template description="" name="er-ffl" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.label :$var2$, '$var0$' %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;tag_value&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffs" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.submit &quot;$END$&quot; %&gt;&#10;">
+  <template description="" name="er-ffpf" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.password_field :$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;submit&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ffta" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.text_area :$END$ %&gt;&#10;">
+  <template description="" name="er-ffrb" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.radio_button :$var2$, :$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;tag_value&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-fftf" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.text_field :$END$ %&gt;&#10;">
+  <template description="" name="er-ffs" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.submit &quot;$var0$&quot; %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;submit&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-fields" toReformat="true" toShortenFQNames="true" value="    &lt;%= fields_for :$var1$, @$var1$ do |$var2$| %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-ffta" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.text_area :$var0$ %&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <context>
+      <option name="RHTML" value="true"/>
+      <option name="RUBY" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="er-fftf" toReformat="true" toShortenFQNames="true" value="    &lt;%= $var1$.text_field :$var0$ %&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var0"/>
+    <context>
+      <option name="RHTML" value="true"/>
+      <option name="RUBY" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="er-fields" toReformat="true" toShortenFQNames="true" value="    &lt;%= fields_for :$var1$, @$var1$ do |$var2$| %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;f&quot;" expression="" name="var2"/>
     <context>
@@ -293,84 +293,84 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-it" toReformat="true" toShortenFQNames="true" value="    &lt;%= image_tag &quot;$var1$&quot;$END$ %&gt;&#10;">
+  <template description="" name="er-it" toReformat="true" toShortenFQNames="true" value="    &lt;%= image_tag &quot;$var1$&quot;$var0$ %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-jit" toReformat="true" toShortenFQNames="true" value="    &lt;%= javascript_include_tag $END$ %&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;:all&quot;" expression="" name="END"/>
+  <template description="" name="er-jit" toReformat="true" toShortenFQNames="true" value="    &lt;%= javascript_include_tag $var0$ %&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;:all&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-jsit" toReformat="true" toShortenFQNames="true" value="    &lt;%= javascript_include_tag &quot;$END$&quot; %&gt;&#10;">
+  <template description="" name="er-jsit" toReformat="true" toShortenFQNames="true" value="    &lt;%= javascript_include_tag &quot;$var0$&quot; %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lim" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to $var1$.$var2$, $var3$_path($END$) %&gt;&#10;">
+  <template description="" name="er-lim" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to $var1$.$var2$, $var3$_path($var0$) %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-linp" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var2$_$var3$_path($var4$, $END$) %&gt;&#10;">
+  <template description="" name="er-linp" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var2$_$var3$_path($var4$, $var0$) %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Link text...&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;parent&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;child&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="var4"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$3&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$3&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-linpp" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var2$_$var3$_path($END$) %&gt;&#10;">
+  <template description="" name="er-linpp" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var2$_$var3$_path($var0$) %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Link text...&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;parent&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;child&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lip" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var2$_path($END$) %&gt;&#10;">
+  <template description="" name="er-lip" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var2$_path($var0$) %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Link text...&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;@$2&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lipp" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $END$s_path %&gt;&#10;">
+  <template description="" name="er-lipp" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var0$s_path %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Link text...&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;model&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-lt" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $END$ %&gt;&#10;">
+  <template description="" name="er-lt" toReformat="true" toShortenFQNames="true" value="    &lt;%= link_to &quot;$var1$&quot;, $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;dest&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;dest&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
@@ -384,11 +384,11 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ofcfs" toReformat="true" toShortenFQNames="true" value="    &lt;%= options_from_collection_for_select $var1$, $var2$, $var3$, $END$ %&gt;&#10;">
+  <template description="" name="er-ofcfs" toReformat="true" toShortenFQNames="true" value="    &lt;%= options_from_collection_for_select $var1$, $var2$, $var3$, $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;collection&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value_method&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;text_method&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;selected_value&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;selected_value&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
@@ -404,7 +404,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-rf" toReformat="true" toShortenFQNames="true" value="    &lt;%= render file: &quot;$var1$&quot;$END$ %&gt;&#10;">
+  <template description="" name="er-rf" toReformat="true" toShortenFQNames="true" value="    &lt;%= render file: &quot;$var1$&quot;$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="var1"/>
     <context>
       <option name="RHTML" value="true"/>
@@ -412,7 +412,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-rt" toReformat="true" toShortenFQNames="true" value="    &lt;%= render template: &quot;$var1$&quot;$END$ %&gt;&#10;">
+  <template description="" name="er-rt" toReformat="true" toShortenFQNames="true" value="    &lt;%= render template: &quot;$var1$&quot;$var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;file&quot;" expression="" name="var1"/>
     <context>
       <option name="RHTML" value="true"/>
@@ -420,30 +420,30 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-slt" toReformat="true" toShortenFQNames="true" value="    &lt;%= stylesheet_link_tag $var1$, cache: $END$ %&gt;&#10;">
+  <template description="" name="er-slt" toReformat="true" toShortenFQNames="true" value="    &lt;%= stylesheet_link_tag $var1$, cache: $var0$ %&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;:all&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var0"/>
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-sslt" toReformat="true" toShortenFQNames="true" value="    &lt;%= stylesheet_link_tag &quot;$END$&quot; %&gt;&#10;">
+  <template description="" name="er-sslt" toReformat="true" toShortenFQNames="true" value="    &lt;%= stylesheet_link_tag &quot;$var0$&quot; %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-if" toReformat="true" toShortenFQNames="true" value="    &lt;% if $var1$ %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-if" toReformat="true" toShortenFQNames="true" value="    &lt;% if $var1$ %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="er-ife" toReformat="true" toShortenFQNames="true" value="    &lt;% if $var1$ %&gt;&#10;        $var2$&#10;    &lt;% else %&gt;&#10;        $END$&#10;    &lt;% end %&gt;&#10;">
+  <template description="" name="er-ife" toReformat="true" toShortenFQNames="true" value="    &lt;% if $var1$ %&gt;&#10;        $var2$&#10;    &lt;% else %&gt;&#10;        $var0$&#10;    &lt;% end %&gt;&#10;">
     <context>
       <option name="RHTML" value="true"/>
       <option name="RUBY" value="true"/>

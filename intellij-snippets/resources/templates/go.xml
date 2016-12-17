@@ -4,9 +4,9 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="vr" toReformat="true" toShortenFQNames="true" value="    var $var1$ $END$&#10;">
+  <template description="" name="vr" toReformat="true" toShortenFQNames="true" value="    var $var1$ $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;t&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -21,9 +21,9 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="ap" toReformat="true" toShortenFQNames="true" value="    append($var1$, $END$)&#10;">
+  <template description="" name="ap" toReformat="true" toShortenFQNames="true" value="    append($var1$, $var0$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;slice&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -43,28 +43,28 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="ch" toReformat="true" toShortenFQNames="true" value="    chan $END$&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="END"/>
+  <template description="" name="ch" toReformat="true" toShortenFQNames="true" value="    chan $var0$&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="cs" toReformat="true" toShortenFQNames="true" value="    case $var1$:&#10;        $END$&#10;">
+  <template description="" name="cs" toReformat="true" toShortenFQNames="true" value="    case $var1$:&#10;        $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var1"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="c" toReformat="true" toShortenFQNames="true" value="    const $var1$ = $END$&#10;">
+  <template description="" name="c" toReformat="true" toShortenFQNames="true" value="    const $var1$ = $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;NAME&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="co" toReformat="true" toShortenFQNames="true" value="    const (&#10;        $var1$ = iota&#10;        $END$&#10;    )&#10;">
+  <template description="" name="co" toReformat="true" toShortenFQNames="true" value="    const (&#10;        $var1$ = iota&#10;        $var0$&#10;    )&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;NAME1&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;NAME2&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;NAME2&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -74,13 +74,13 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="df" toReformat="true" toShortenFQNames="true" value="    defer $END$()&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;func&quot;" expression="" name="END"/>
+  <template description="" name="df" toReformat="true" toShortenFQNames="true" value="    defer $var0$()&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;func&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="dfr" toReformat="true" toShortenFQNames="true" value="    defer func() {&#10;        if err := recover(); err != nil {&#10;            $END$&#10;        }&#10;    }()&#10;">
+  <template description="" name="dfr" toReformat="true" toShortenFQNames="true" value="    defer func() {&#10;        if err := recover(); err != nil {&#10;            $var0$&#10;        }&#10;    }()&#10;">
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -114,7 +114,7 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="    if $var1$ {&#10;        $var2$&#10;    } else {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="    if $var1$ {&#10;        $var2$&#10;    } else {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="var1"/>
     <context>
       <option name="GO" value="true"/>
@@ -125,7 +125,7 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="ir" toReformat="true" toShortenFQNames="true" value="    if err != nil {&#10;        return err&#10;    }&#10;    $END$&#10;">
+  <template description="" name="ir" toReformat="true" toShortenFQNames="true" value="    if err != nil {&#10;        return err&#10;    }&#10;    $var0$&#10;">
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -155,18 +155,18 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="ie" toReformat="true" toShortenFQNames="true" value="    if $var1$ {&#10;        $var2$&#10;    } else {&#10;        $var3$&#10;    }&#10;    $END$&#10;">
+  <template description="" name="ie" toReformat="true" toShortenFQNames="true" value="    if $var1$ {&#10;        $var2$&#10;    } else {&#10;        $var3$&#10;    }&#10;    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;/* condition */&quot;" expression="" name="var1"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="    for $var1${&#10;        $END$&#10;    }&#10;">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="    for $var1${&#10;        $var0$&#10;    }&#10;">
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="fori" toReformat="true" toShortenFQNames="true" value="    for $var2$ := 0; $var2$ &lt; $var1$; $var2$$var3$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="fori" toReformat="true" toShortenFQNames="true" value="    for $var2$ := 0; $var2$ &lt; $var1$; $var2$$var3$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="var3"/>
@@ -174,21 +174,21 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="forr" toReformat="true" toShortenFQNames="true" value="    for $var1$ := range $var2$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="forr" toReformat="true" toShortenFQNames="true" value="    for $var1$ := range $var2$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;collection&quot;" expression="" name="var2"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="    func $var1$($var2$) $var3$ {&#10;        $var4$&#10;    }&#10;    $END$&#10;">
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="    func $var1$($var2$) $var3$ {&#10;        $var4$&#10;    }&#10;    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;funcName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;error&quot;" expression="" name="var3"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="fum" toReformat="true" toShortenFQNames="true" value="    func ($var1$ $var2$) $var3$($var4$) $var5$ {&#10;        $var6$&#10;    }&#10;    $END$&#10;">
+  <template description="" name="fum" toReformat="true" toShortenFQNames="true" value="    func ($var1$ $var2$) $var3$($var4$) $var5$ {&#10;        $var6$&#10;    }&#10;    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;receiver&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;funcName&quot;" expression="" name="var3"/>
@@ -209,27 +209,27 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="mk" toReformat="true" toShortenFQNames="true" value="    make($var1$, $END$)&#10;">
+  <template description="" name="mk" toReformat="true" toShortenFQNames="true" value="    make($var1$, $var0$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;[]string&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="mp" toReformat="true" toShortenFQNames="true" value="    map[$var1$]$END$&#10;">
+  <template description="" name="mp" toReformat="true" toShortenFQNames="true" value="    map[$var1$]$var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;string&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="main" toReformat="true" toShortenFQNames="true" value="    func main() {&#10;        $var1$&#10;    }&#10;    $END$&#10;">
+  <template description="" name="main" toReformat="true" toShortenFQNames="true" value="    func main() {&#10;        $var1$&#10;    }&#10;    $var0$&#10;">
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="nw" toReformat="true" toShortenFQNames="true" value="    new($END$)&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="END"/>
+  <template description="" name="nw" toReformat="true" toShortenFQNames="true" value="    new($var0$)&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -240,8 +240,8 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="pn" toReformat="true" toShortenFQNames="true" value="    panic(&quot;$END$&quot;)&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;msg&quot;" expression="" name="END"/>
+  <template description="" name="pn" toReformat="true" toShortenFQNames="true" value="    panic(&quot;$var0$&quot;)&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;msg&quot;" expression="" name="var0"/>
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -259,12 +259,12 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="rn" toReformat="true" toShortenFQNames="true" value="    range $END$&#10;">
+  <template description="" name="rn" toReformat="true" toShortenFQNames="true" value="    range $var0$&#10;">
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="rt" toReformat="true" toShortenFQNames="true" value="    return $END$&#10;">
+  <template description="" name="rt" toReformat="true" toShortenFQNames="true" value="    return $var0$&#10;">
     <context>
       <option name="GO" value="true"/>
     </context>
@@ -274,7 +274,7 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="sl" toReformat="true" toShortenFQNames="true" value="    select {&#10;    case $var1$ := &lt;-$var2$&#10;        $var3$&#10;    default:&#10;        $END$&#10;    }&#10;">
+  <template description="" name="sl" toReformat="true" toShortenFQNames="true" value="    select {&#10;    case $var1$ := &lt;-$var2$&#10;        $var3$&#10;    default:&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;v1&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;chan1&quot;" expression="" name="var2"/>
     <context>
@@ -286,14 +286,14 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="st" toReformat="true" toShortenFQNames="true" value="    struct $var1$ {&#10;        $var2$&#10;    }&#10;    $END$&#10;">
+  <template description="" name="st" toReformat="true" toShortenFQNames="true" value="    struct $var1$ {&#10;        $var2$&#10;    }&#10;    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;/* data */&quot;" expression="" name="var2"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="sw" toReformat="true" toShortenFQNames="true" value="    switch $var1$ {&#10;    case $var2$:&#10;        $var3$&#10;    case $var4$:&#10;        $var5$&#10;    default:&#10;        $END$&#10;    }&#10;">
+  <template description="" name="sw" toReformat="true" toShortenFQNames="true" value="    switch $var1$ {&#10;    case $var2$:&#10;        $var3$&#10;    case $var4$:&#10;        $var5$&#10;    default:&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value2&quot;" expression="" name="var4"/>
@@ -313,20 +313,20 @@
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="g" toReformat="true" toShortenFQNames="true" value="    go $var1$($END$)&#10;">
+  <template description="" name="g" toReformat="true" toShortenFQNames="true" value="    go $var1$($var0$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;funcName&quot;" expression="" name="var1"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="ga" toReformat="true" toShortenFQNames="true" value="    go func($var1$ $var2$) {&#10;        $var3$&#10;    }($END$)&#10;">
+  <template description="" name="ga" toReformat="true" toShortenFQNames="true" value="    go func($var1$ $var2$) {&#10;        $var3$&#10;    }($var0$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;/* code */&quot;" expression="" name="var3"/>
     <context>
       <option name="GO" value="true"/>
     </context>
   </template>
-  <template description="" name="test" toReformat="true" toShortenFQNames="true" value="    func Test$var1$(t *testing.T) {&#10;        $var2$&#10;    }&#10;    $END$&#10;">
+  <template description="" name="test" toReformat="true" toShortenFQNames="true" value="    func Test$var1$(t *testing.T) {&#10;        $var2$&#10;    }&#10;    $var0$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <context>
       <option name="GO" value="true"/>

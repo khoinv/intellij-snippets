@@ -200,40 +200,40 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-===" toReformat="true" toShortenFQNames="true" value="    `repeat('=', strlen(getline(line(&quot;.&quot;) - 1)) - strlen(getline('.')))`&#10;&#10;    $END$&#10;">
+  <template description="" name="md-===" toReformat="true" toShortenFQNames="true" value="    `repeat('=', strlen(getline(line(&quot;.&quot;) - 1)) - strlen(getline('.')))`&#10;&#10;    $var0$&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md--" toReformat="true" toShortenFQNames="true" value="    -   $END$&#10;">
+  <template description="" name="md--" toReformat="true" toShortenFQNames="true" value="    -   $var0$&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md----" toReformat="true" toShortenFQNames="true" value="    `repeat('-', strlen(getline(line(&quot;.&quot;) - 1)) - strlen(getline('.')))`&#10;&#10;    $END$&#10;&#10;">
+  <template description="" name="md----" toReformat="true" toShortenFQNames="true" value="    `repeat('-', strlen(getline(line(&quot;.&quot;) - 1)) - strlen(getline('.')))`&#10;&#10;    $var0$&#10;&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-blockquote" toReformat="true" toShortenFQNames="true" value="    {% blockquote %}&#10;    $END$&#10;    {% endblockquote %}&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;quote&quot;" expression="" name="END"/>
+  <template description="" name="md-blockquote" toReformat="true" toShortenFQNames="true" value="    {% blockquote %}&#10;    $var0$&#10;    {% endblockquote %}&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;quote&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-blockquote-author" toReformat="true" toShortenFQNames="true" value="    {% blockquote $var1$, $var2$ %}&#10;    $END$&#10;    {% endblockquote %}&#10;&#10;">
+  <template description="" name="md-blockquote-author" toReformat="true" toShortenFQNames="true" value="    {% blockquote $var1$, $var2$ %}&#10;    $var0$&#10;    {% endblockquote %}&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;author&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;quote&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;quote&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-blockquote-link" toReformat="true" toShortenFQNames="true" value="    {% blockquote $var1$ $var2$ $var3$ %}&#10;    $END$&#10;    {% endblockquote %}&#10;&#10;">
+  <template description="" name="md-blockquote-link" toReformat="true" toShortenFQNames="true" value="    {% blockquote $var1$ $var2$ $var3$ %}&#10;    $var0$&#10;    {% endblockquote %}&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;author&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;URL&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;link_text&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;quote&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;quote&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
@@ -251,48 +251,48 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-codeblock-short" toReformat="true" toShortenFQNames="true" value="    {% codeblock %}&#10;    $END$&#10;    {% endcodeblock %}&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;code_snippet&quot;" expression="" name="END"/>
+  <template description="" name="md-codeblock-short" toReformat="true" toShortenFQNames="true" value="    {% codeblock %}&#10;    $var0$&#10;    {% endcodeblock %}&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;code_snippet&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-codeblock-full" toReformat="true" toShortenFQNames="true" value="    {% codeblock $var1$ lang:$var2$ $var3$ $var4$ %}&#10;    $END$&#10;    {% endcodeblock %}&#10;&#10;">
+  <template description="" name="md-codeblock-full" toReformat="true" toShortenFQNames="true" value="    {% codeblock $var1$ lang:$var2$ $var3$ $var4$ %}&#10;    $var0$&#10;    {% endcodeblock %}&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;title&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;language&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;URL&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;link_text&quot;" expression="" name="var4"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;code_snippet&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;code_snippet&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-gist-full" toReformat="true" toShortenFQNames="true" value="    {% gist $var1$ $END$ %}&#10;&#10;">
+  <template description="" name="md-gist-full" toReformat="true" toShortenFQNames="true" value="    {% gist $var1$ $var0$ %}&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;gist_id&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;filename&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;filename&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-gist-short" toReformat="true" toShortenFQNames="true" value="    {% gist $END$ %}&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;gist_id&quot;" expression="" name="END"/>
+  <template description="" name="md-gist-short" toReformat="true" toShortenFQNames="true" value="    {% gist $var0$ %}&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;gist_id&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-img" toReformat="true" toShortenFQNames="true" value="    {% img $var1$ $var2$ $var3$ $var4$ $var5$ $END$ %}&#10;&#10;">
+  <template description="" name="md-img" toReformat="true" toShortenFQNames="true" value="    {% img $var1$ $var2$ $var3$ $var4$ $var5$ $var0$ %}&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;class&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;URL&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;width&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;height&quot;" expression="" name="var4"/>
     <variable alwaysStopAt="true" defaultValue="&quot;title_text&quot;" expression="" name="var5"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;alt_text&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;alt_text&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="md-youtube" toReformat="true" toShortenFQNames="true" value="    {% youtube $END$ %}&#10;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;video_id&quot;" expression="" name="END"/>
+  <template description="" name="md-youtube" toReformat="true" toShortenFQNames="true" value="    {% youtube $var0$ %}&#10;&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;video_id&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>

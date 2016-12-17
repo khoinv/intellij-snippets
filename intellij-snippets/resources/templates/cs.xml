@@ -1,61 +1,61 @@
 <templateSet group="javascript2">
-  <template description="" name="js-sim" toReformat="true" toShortenFQNames="true" value="    $var1$static int Main(string[] args) {&#10;        $END$&#10;        return 0;&#10;    }&#10;">
+  <template description="" name="js-sim" toReformat="true" toShortenFQNames="true" value="    $var1$static int Main(string[] args) {&#10;        $var0$&#10;        return 0;&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public &quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-simc" toReformat="true" toShortenFQNames="true" value="    public class Application {&#10;        $var1$static int Main(string[] args) {&#10;            $END$&#10;            return 0;&#10;        }&#10;    }&#10;">
+  <template description="" name="js-simc" toReformat="true" toShortenFQNames="true" value="    public class Application {&#10;        $var1$static int Main(string[] args) {&#10;            $var0$&#10;            return 0;&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public &quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-svm" toReformat="true" toShortenFQNames="true" value="    $var1$static void Main(string[] args) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-svm" toReformat="true" toShortenFQNames="true" value="    $var1$static void Main(string[] args) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public &quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-if" toReformat="true" toShortenFQNames="true" value="    if ($var1$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-if" toReformat="true" toShortenFQNames="true" value="    if ($var1$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-el" toReformat="true" toShortenFQNames="true" value="    else {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-el" toReformat="true" toShortenFQNames="true" value="    else {&#10;        $var0$&#10;    }&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ifs" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $END$&#10;">
+  <template description="" name="js-ifs" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $var0$&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-t" toReformat="true" toShortenFQNames="true" value="    $var1$ ? $var2$ : $END$&#10;">
+  <template description="" name="js-t" toReformat="true" toShortenFQNames="true" value="    $var1$ ? $var2$ : $var0$&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-?" toReformat="true" toShortenFQNames="true" value="    $var1$ ? $var2$ : $END$&#10;">
+  <template description="" name="js-?" toReformat="true" toShortenFQNames="true" value="    $var1$ ? $var2$ : $var0$&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-do" toReformat="true" toShortenFQNames="true" value="    do {&#10;        $END$&#10;    } while ($var1$);&#10;">
+  <template description="" name="js-do" toReformat="true" toShortenFQNames="true" value="    do {&#10;        $var0$&#10;    } while ($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-wh" toReformat="true" toShortenFQNames="true" value="    while ($var1$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-wh" toReformat="true" toShortenFQNames="true" value="    while ($var1$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;true&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-for" toReformat="true" toShortenFQNames="true" value="    for (int $var1$ = 0; $var1$ &lt; $var2$; $var1$$var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-for" toReformat="true" toShortenFQNames="true" value="    for (int $var1$ = 0; $var1$ &lt; $var2$; $var1$$var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;count&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;++&quot;" expression="" name="var3"/>
@@ -63,96 +63,96 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-forr" toReformat="true" toShortenFQNames="true" value="    for (int $var1$ = $var2$; $var1$ &gt;= 0; $var1$--) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-forr" toReformat="true" toShortenFQNames="true" value="    for (int $var1$ = $var2$; $var1$ &gt;= 0; $var1$--) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;length&quot;" expression="" name="var2"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-fore" toReformat="true" toShortenFQNames="true" value="    foreach ($var1$ $var2$ in $var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-fore" toReformat="true" toShortenFQNames="true" value="    foreach ($var1$ $var2$ in $var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;entry&quot;" expression="" name="var2"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-foreach" toReformat="true" toShortenFQNames="true" value="    foreach ($var1$ $var2$ in $var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-foreach" toReformat="true" toShortenFQNames="true" value="    foreach ($var1$ $var2$ in $var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;entry&quot;" expression="" name="var2"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-each" toReformat="true" toShortenFQNames="true" value="    foreach ($var1$ $var2$ in $var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-each" toReformat="true" toShortenFQNames="true" value="    foreach ($var1$ $var2$ in $var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;entry&quot;" expression="" name="var2"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-interface" toReformat="true" toShortenFQNames="true" value="    public interface $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-interface" toReformat="true" toShortenFQNames="true" value="    public interface $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-if+" toReformat="true" toShortenFQNames="true" value="    public interface $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-if+" toReformat="true" toShortenFQNames="true" value="    public interface $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-class" toReformat="true" toShortenFQNames="true" value="    public class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-class" toReformat="true" toShortenFQNames="true" value="    public class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls" toReformat="true" toShortenFQNames="true" value="    $var2$ class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls" toReformat="true" toShortenFQNames="true" value="    $var2$ class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls+" toReformat="true" toShortenFQNames="true" value="    public class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls+" toReformat="true" toShortenFQNames="true" value="    public class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls+^" toReformat="true" toShortenFQNames="true" value="    public static class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls+^" toReformat="true" toShortenFQNames="true" value="    public static class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls&amp;" toReformat="true" toShortenFQNames="true" value="    internal class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls&amp;" toReformat="true" toShortenFQNames="true" value="    internal class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls&amp;^" toReformat="true" toShortenFQNames="true" value="    internal static class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls&amp;^" toReformat="true" toShortenFQNames="true" value="    internal static class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls|" toReformat="true" toShortenFQNames="true" value="    protected class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls|" toReformat="true" toShortenFQNames="true" value="    protected class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-cls|%" toReformat="true" toShortenFQNames="true" value="    protected abstract class $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-cls|%" toReformat="true" toShortenFQNames="true" value="    protected abstract class $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ctor" toReformat="true" toShortenFQNames="true" value="    public $var1$() {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-ctor" toReformat="true" toShortenFQNames="true" value="    public $var1$() {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
@@ -400,153 +400,153 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-m" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$ $var3$($var4$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-m" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$ $var3$($var4$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="var2"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-m+" toReformat="true" toShortenFQNames="true" value="    public $var1$ $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-m+" toReformat="true" toShortenFQNames="true" value="    public $var1$ $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-m&amp;" toReformat="true" toShortenFQNames="true" value="    internal $var1$ $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-m&amp;" toReformat="true" toShortenFQNames="true" value="    internal $var1$ $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-m|" toReformat="true" toShortenFQNames="true" value="    protected $var1$ $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-m|" toReformat="true" toShortenFQNames="true" value="    protected $var1$ $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-m-" toReformat="true" toShortenFQNames="true" value="    private $var1$ $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-m-" toReformat="true" toShortenFQNames="true" value="    private $var1$ $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mi" toReformat="true" toShortenFQNames="true" value="    $var1$ int $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-mi" toReformat="true" toShortenFQNames="true" value="    $var1$ int $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mi+" toReformat="true" toShortenFQNames="true" value="    public int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
+  <template description="" name="js-mi+" toReformat="true" toShortenFQNames="true" value="    public int $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mi&amp;" toReformat="true" toShortenFQNames="true" value="    internal int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
+  <template description="" name="js-mi&amp;" toReformat="true" toShortenFQNames="true" value="    internal int $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mi|" toReformat="true" toShortenFQNames="true" value="    protected int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
+  <template description="" name="js-mi|" toReformat="true" toShortenFQNames="true" value="    protected int $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mi-" toReformat="true" toShortenFQNames="true" value="    private int $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="END"/>
+  <template description="" name="js-mi-" toReformat="true" toShortenFQNames="true" value="    private int $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return 0;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mb" toReformat="true" toShortenFQNames="true" value="    $var1$ bool $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-mb" toReformat="true" toShortenFQNames="true" value="    $var1$ bool $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mb+" toReformat="true" toShortenFQNames="true" value="    public bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
+  <template description="" name="js-mb+" toReformat="true" toShortenFQNames="true" value="    public bool $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mb&amp;" toReformat="true" toShortenFQNames="true" value="    internal bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
+  <template description="" name="js-mb&amp;" toReformat="true" toShortenFQNames="true" value="    internal bool $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mb|" toReformat="true" toShortenFQNames="true" value="    protected bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
+  <template description="" name="js-mb|" toReformat="true" toShortenFQNames="true" value="    protected bool $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-mb-" toReformat="true" toShortenFQNames="true" value="    private bool $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="END"/>
+  <template description="" name="js-mb-" toReformat="true" toShortenFQNames="true" value="    private bool $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return false;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ms" toReformat="true" toShortenFQNames="true" value="    $var1$ string $var2$($var3$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-ms" toReformat="true" toShortenFQNames="true" value="    $var1$ string $var2$($var3$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return \&quot;\&quot;;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ms+" toReformat="true" toShortenFQNames="true" value="    public string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
+  <template description="" name="js-ms+" toReformat="true" toShortenFQNames="true" value="    public string $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return \&quot;\&quot;;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ms&amp;" toReformat="true" toShortenFQNames="true" value="    internal string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
+  <template description="" name="js-ms&amp;" toReformat="true" toShortenFQNames="true" value="    internal string $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return \&quot;\&quot;;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ms|" toReformat="true" toShortenFQNames="true" value="    protected string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-ms|" toReformat="true" toShortenFQNames="true" value="    protected string $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;}(${2:&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;return \&quot;\&quot;;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-ms-" toReformat="true" toShortenFQNames="true" value="    private string $var1$($var2$) {&#10;        $END$&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;return &quot;&quot;;&quot;" expression="" name="END"/>
+  <template description="" name="js-ms-" toReformat="true" toShortenFQNames="true" value="    private string $var1$($var2$) {&#10;        $var0$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;return \&quot;\&quot;;&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-struct" toReformat="true" toShortenFQNames="true" value="    public struct $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-struct" toReformat="true" toShortenFQNames="true" value="    public struct $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename()`&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-enum" toReformat="true" toShortenFQNames="true" value="    enum $var1$ {&#10;        $END$&#10;    }&#10;    &#10;">
+  <template description="" name="js-enum" toReformat="true" toShortenFQNames="true" value="    enum $var1$ {&#10;        $var0$&#10;    }&#10;    &#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-enum+" toReformat="true" toShortenFQNames="true" value="    public enum $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-enum+" toReformat="true" toShortenFQNames="true" value="    public enum $var1$ {&#10;        $var0$&#10;    }&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-#if" toReformat="true" toShortenFQNames="true" value="    #if&#10;        $END$&#10;    #endif&#10;">
+  <template description="" name="js-#if" toReformat="true" toShortenFQNames="true" value="    #if&#10;        $var0$&#10;    #endif&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-///" toReformat="true" toShortenFQNames="true" value="    /// &lt;summary&gt;&#10;    /// $END$&#10;    /// &lt;/summary&gt;&#10;">
+  <template description="" name="js-///" toReformat="true" toShortenFQNames="true" value="    /// &lt;summary&gt;&#10;    /// $var0$&#10;    /// &lt;/summary&gt;&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
@@ -588,8 +588,8 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-eq" toReformat="true" toShortenFQNames="true" value="    public override bool Equals(object obj) {&#10;        if (obj == null || GetType() != obj.GetType()) {&#10;            return false;&#10;        }&#10;        $END$&#10;        return base.Equals(obj);&#10;    }&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;throw new NotImplementedException();&quot;" expression="" name="END"/>
+  <template description="" name="js-eq" toReformat="true" toShortenFQNames="true" value="    public override bool Equals(object obj) {&#10;        if (obj == null || GetType() != obj.GetType()) {&#10;            return false;&#10;        }&#10;        $var0$&#10;        return base.Equals(obj);&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="&quot;throw new NotImplementedException();&quot;" expression="" name="var0"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
@@ -601,7 +601,7 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-index" toReformat="true" toShortenFQNames="true" value="    public $var1$ this[$var2$ index] {&#10;        get { $END$ }&#10;        set { $END$ }&#10;    }&#10;">
+  <template description="" name="js-index" toReformat="true" toShortenFQNames="true" value="    public $var1$ this[$var2$ index] {&#10;        get { $var0$ }&#10;        set { $var0$ }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;int&quot;" expression="" name="var2"/>
     <context>
@@ -615,13 +615,13 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-lock" toReformat="true" toShortenFQNames="true" value="    lock ($var1$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-lock" toReformat="true" toShortenFQNames="true" value="    lock ($var1$) {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;this&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-namespace" toReformat="true" toShortenFQNames="true" value="    namespace $var1$ {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="js-namespace" toReformat="true" toShortenFQNames="true" value="    namespace $var1$ {&#10;        $var0$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;MyNamespace&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
@@ -649,19 +649,19 @@
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-switch" toReformat="true" toShortenFQNames="true" value="    switch ($var1$) {&#10;        $END$&#10;        default:&#10;    }&#10;">
+  <template description="" name="js-switch" toReformat="true" toShortenFQNames="true" value="    switch ($var1$) {&#10;        $var0$&#10;        default:&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;switch_on&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-try" toReformat="true" toShortenFQNames="true" value="    try {&#10;            $END$&#10;    }&#10;    catch ($var1$) {&#10;            throw;&#10;    }&#10;">
+  <template description="" name="js-try" toReformat="true" toShortenFQNames="true" value="    try {&#10;            $var0$&#10;    }&#10;    catch ($var1$) {&#10;            throw;&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;System.Exception&quot;" expression="" name="var1"/>
     <context>
       <option name="OTHER" value="true"/>
     </context>
   </template>
-  <template description="" name="js-tryf" toReformat="true" toShortenFQNames="true" value="    try {&#10;        $END$&#10;    }&#10;    finally {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="js-tryf" toReformat="true" toShortenFQNames="true" value="    try {&#10;        $var0$&#10;    }&#10;    finally {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="OTHER" value="true"/>
     </context>
