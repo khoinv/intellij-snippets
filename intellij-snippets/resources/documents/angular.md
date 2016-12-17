@@ -5,9 +5,9 @@ it('${1:description}', inject(function($2) {
     $0
 
 }));
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-befi
@@ -17,9 +17,9 @@ beforeEach(inject(function($1) {
     $0
 
 }));
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-aconf
@@ -29,9 +29,9 @@ config(function($1) {
     $0
 
 });
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-acont
@@ -41,9 +41,9 @@ controller('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4
     $0
 
 }]);
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-aconts
@@ -53,9 +53,9 @@ controller('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)
     $0
 
 }]);
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-adir
@@ -75,9 +75,9 @@ directive('${1}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig})
     };
 
 }]);
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-adirs
@@ -97,9 +97,9 @@ directive('${1}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?
     };
 
 }]);
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-afact
@@ -109,9 +109,9 @@ factory('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/i
     $0
 
 }]);
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-afacts
@@ -121,9 +121,9 @@ factory('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$
     $0
 
 }]);
-
-endsnippet
-
+```
+####d3-pet
+```javascript
 
 ```
 ####d3-aserv
@@ -133,8 +133,16 @@ service('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/i
     $0
 
 }]);
+```
+####d3-pet
+```javascript
 
-endsnippet
+```
+####d3-aservs
+```javascript
+service('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
+    $0
 
+}]);
 ```

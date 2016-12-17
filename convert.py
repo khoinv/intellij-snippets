@@ -19,7 +19,7 @@ def convert(inFile, outFile, prefix, group, language, supportLanguages):
     with open(inFile) as f:
         vimTemplate = {}
         for line in f:
-            if line.startswith('#') or line.startswith('snippet'):
+            if line.startswith('#') or line.startswith('snippet') or line.startswith('endsnippet'):
                 # Store previous vimTemplate to new file
                 if 'value' in vimTemplate and 'name' in vimTemplate:
                     templateSetNode.append(vimToIntellijTemplate(vimTemplate, supportLanguages, prefix))
