@@ -56,7 +56,7 @@ def vimToIntellijTemplate(vimTemplate, supportLanguages, prefix):
     name = prefix + vimTemplate['name']
     description = vimTemplate['comment'] if 'comment' in vimTemplate else ''
     value = ''.join([re.sub(VIM_REPLACE1, r'$var\1$', re.sub(VIM_REPLACE2, r'$var\1$', v) ).replace('$var0$', '$END$') for v in vimTemplate['value']])
-    templateNode = etree.Element('template', name=name, value=value, description=description, toReformat="false", toShortenFQNames="true")
+    templateNode = etree.Element('template', name=name, value=value, description=description, toReformat="true", toShortenFQNames="true")
 
     defaultValues = [re.findall(VIM_DFAULT_VALUE, v) for v in vimTemplate['value']]
     # flatten

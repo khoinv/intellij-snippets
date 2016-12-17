@@ -1,44 +1,44 @@
 <templateSet group="django">
-  <template description="" name="auto" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.AutoField($END$)&#10;">
+  <template description="" name="auto" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.AutoField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="bigint" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.BigIntegerField($END$)&#10;">
+  <template description="" name="bigint" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.BigIntegerField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="binary" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.BinaryField($END$)&#10;">
+  <template description="" name="binary" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.BinaryField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="bool" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.BooleanField($END$)&#10;">
+  <template description="" name="bool" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.BooleanField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default=True&quot;" expression="" name="END"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="char" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.CharField(max_length=$var2$$END$)&#10;">
+  <template description="" name="char" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.CharField(max_length=$var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True&quot;" expression="" name="END"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="comma" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.CommaSeparatedIntegerField(max_length=$var2$$END$)&#10;">
+  <template description="" name="comma" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.CommaSeparatedIntegerField(max_length=$var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True&quot;" expression="" name="END"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="date" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.DateField($var2$$END$)&#10;">
+  <template description="" name="date" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.DateField($var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;auto_now_add=True, auto_now=True&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True, null=True&quot;" expression="" name="END"/>
@@ -46,7 +46,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="datetime" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.DateTimeField($var2$$END$)&#10;">
+  <template description="" name="datetime" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.DateTimeField($var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;auto_now_add=True, auto_now=True&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True, null=True&quot;" expression="" name="END"/>
@@ -54,13 +54,13 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="decimal" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.DecimalField(max_digits=$var2$, decimal_places=$END$)&#10;">
+  <template description="" name="decimal" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.DecimalField(max_digits=$var2$, decimal_places=$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="email" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.EmailField(max_length=$var2$$END$)&#10;">
+  <template description="" name="email" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.EmailField(max_length=$var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;75&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True&quot;" expression="" name="END"/>
@@ -68,7 +68,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="file" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.FileField(upload_to=$var2$$END$)&#10;">
+  <template description="" name="file" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.FileField(upload_to=$var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;path/for/upload&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, max_length=100&quot;" expression="" name="END"/>
@@ -76,7 +76,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="filepath" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.FilePathField(path=$var2$$var3$$var4$$var5$$END$)&#10;">
+  <template description="" name="filepath" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.FilePathField(path=$var2$$var3$$var4$$var5$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;&quot;/abs/path/to/dir&quot;&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, max_length=100&quot;" expression="" name="var3"/>
@@ -87,13 +87,13 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="float" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.FloatField($END$)&#10;">
+  <template description="" name="float" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.FloatField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="image" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.ImageField(upload_to=$var2$$var3$$END$)&#10;">
+  <template description="" name="image" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.ImageField(upload_to=$var2$$var3$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;path/for/upload&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, height_field=height, width_field=width&quot;" expression="" name="var3"/>
@@ -102,37 +102,37 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="int" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.IntegerField($END$)&#10;">
+  <template description="" name="int" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.IntegerField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="ip" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.IPAddressField($END$)&#10;">
+  <template description="" name="ip" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.IPAddressField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="nullbool" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.NullBooleanField($END$)&#10;">
+  <template description="" name="nullbool" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.NullBooleanField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="posint" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.PositiveIntegerField($END$)&#10;">
+  <template description="" name="posint" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.PositiveIntegerField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="possmallint" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.PositiveSmallIntegerField($END$)&#10;">
+  <template description="" name="possmallint" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.PositiveSmallIntegerField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="slug" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.SlugField(max_length=$var2$$END$)&#10;">
+  <template description="" name="slug" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.SlugField(max_length=$var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;50&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True&quot;" expression="" name="END"/>
@@ -140,20 +140,20 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="smallint" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.SmallIntegerField($END$)&#10;">
+  <template description="" name="smallint" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.SmallIntegerField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="text" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.TextField($END$)&#10;">
+  <template description="" name="text" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.TextField($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;blank=True&quot;" expression="" name="END"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="time" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.TimeField($var2$$END$)&#10;">
+  <template description="" name="time" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.TimeField($var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;auto_now_add=True, auto_now=True&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True, null=True&quot;" expression="" name="END"/>
@@ -161,7 +161,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="url" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.URLField($var2$$var3$$END$)&#10;">
+  <template description="" name="url" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.URLField($var2$$var3$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;verify_exists=False&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, max_length=200&quot;" expression="" name="var3"/>
@@ -170,7 +170,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="xml" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.XMLField(schema_path=$var2$$END$)&#10;">
+  <template description="" name="xml" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.XMLField(schema_path=$var2$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;None&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, blank=True&quot;" expression="" name="END"/>
@@ -178,7 +178,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="fk" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.ForeignKey($var2$$var3$$var4$$END$)&#10;">
+  <template description="" name="fk" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.ForeignKey($var2$$var3$$var4$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;OtherModel&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, related_name=''&quot;" expression="" name="var3"/>
@@ -188,7 +188,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="m2m" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.ManyToManyField($var2$$var3$$var4$$var5$$var6$$END$)&#10;">
+  <template description="" name="m2m" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.ManyToManyField($var2$$var3$$var4$$var5$$var6$$END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;OtherModel&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, related_name=''&quot;" expression="" name="var3"/>
@@ -200,7 +200,7 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="o2o" toReformat="false" toShortenFQNames="true" value="    $var1$ = models.OneToOneField($var2$$var3$$var4$$var5$$END$)&#10;&#10;">
+  <template description="" name="o2o" toReformat="true" toShortenFQNames="true" value="    $var1$ = models.OneToOneField($var2$$var3$$var4$$var5$$END$)&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FIELDNAME&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;OtherModel&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, parent_link=True&quot;" expression="" name="var3"/>
@@ -211,14 +211,14 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="form" toReformat="false" toShortenFQNames="true" value="    class $var1$(forms.Form):&#10;        &quot;&quot;&quot;$var2$&quot;&quot;&quot;&#10;        $END$&#10;&#10;">
+  <template description="" name="form" toReformat="true" toShortenFQNames="true" value="    class $var1$(forms.Form):&#10;        &quot;&quot;&quot;$var2$&quot;&quot;&quot;&#10;        $END$&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;FormName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;docstring&quot;" expression="" name="var2"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="model" toReformat="false" toShortenFQNames="true" value="    class $var1$(models.Model):&#10;        &quot;&quot;&quot;$var2$&quot;&quot;&quot;&#10;        $var3$&#10;&#10;        class Meta:&#10;            $var4$&#10;&#10;        def __unicode__(self):&#10;            $var5$&#10;&#10;        def save(self, *args, **kwargs):&#10;            $var6$&#10;&#10;        @models.permalink&#10;        def get_absolute_url(self):&#10;            return ('$var7$' $END$)&#10;&#10;">
+  <template description="" name="model" toReformat="true" toShortenFQNames="true" value="    class $var1$(models.Model):&#10;        &quot;&quot;&quot;$var2$&quot;&quot;&quot;&#10;        $var3$&#10;&#10;        class Meta:&#10;            $var4$&#10;&#10;        def __unicode__(self):&#10;            $var5$&#10;&#10;        def save(self, *args, **kwargs):&#10;            $var6$&#10;&#10;        @models.permalink&#10;        def get_absolute_url(self):&#10;            return ('$var7$' $END$)&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;docstring&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;view_or_url_name&quot;" expression="" name="var7"/>
@@ -226,19 +226,19 @@
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="modeladmin" toReformat="false" toShortenFQNames="true" value="    class $var1$Admin(admin.ModelAdmin):&#10;        $END$&#10;&#10;    admin.site.register($var1$, $var1$Admin)&#10;&#10;">
+  <template description="" name="modeladmin" toReformat="true" toShortenFQNames="true" value="    class $var1$Admin(admin.ModelAdmin):&#10;        $END$&#10;&#10;    admin.site.register($var1$, $var1$Admin)&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="var1"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="tabularinline" toReformat="false" toShortenFQNames="true" value="    class $END$Inline(admin.TabularInline):&#10;        model = $var1$&#10;&#10;">
+  <template description="" name="tabularinline" toReformat="true" toShortenFQNames="true" value="    class $END$Inline(admin.TabularInline):&#10;        model = $var1$&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="END"/>
     <context>
       <option name="Django" value="true"/>
     </context>
   </template>
-  <template description="" name="stackedinline" toReformat="false" toShortenFQNames="true" value="    class $END$Inline(admin.StackedInline):&#10;        model = $var1$&#10;&#10;">
+  <template description="" name="stackedinline" toReformat="true" toShortenFQNames="true" value="    class $END$Inline(admin.StackedInline):&#10;        model = $var1$&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ModelName&quot;" expression="" name="END"/>
     <context>
       <option name="Django" value="true"/>

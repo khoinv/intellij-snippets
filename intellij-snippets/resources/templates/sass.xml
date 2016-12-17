@@ -1,5 +1,5 @@
 <templateSet group="sass">
-  <template description="" name="$" toReformat="false" toShortenFQNames="true" value="    $$var1$: $END$&#10;">
+  <template description="" name="$" toReformat="true" toShortenFQNames="true" value="    $$var1$: $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;variable&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="END"/>
     <context>
@@ -7,33 +7,33 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="imp" toReformat="false" toShortenFQNames="true" value="    @import '$END$'&#10;">
+  <template description="" name="imp" toReformat="true" toShortenFQNames="true" value="    @import '$END$'&#10;">
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="mix" toReformat="false" toShortenFQNames="true" value="    @mixin $var1$($var2$)&#10;        $END$&#10;">
+  <template description="" name="mix" toReformat="true" toShortenFQNames="true" value="    @mixin $var1$($var2$)&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="inc" toReformat="false" toShortenFQNames="true" value="    @include $var1$($var2$)&#10;">
+  <template description="" name="inc" toReformat="true" toShortenFQNames="true" value="    @include $var1$($var2$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;mixin&quot;" expression="" name="var1"/>
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ext" toReformat="false" toShortenFQNames="true" value="    @extend $END$&#10;">
+  <template description="" name="ext" toReformat="true" toShortenFQNames="true" value="    @extend $END$&#10;">
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="fun" toReformat="false" toShortenFQNames="true" value="    @function $var1$($var2$)&#10;        $END$&#10;">
+  <template description="" name="fun" toReformat="true" toShortenFQNames="true" value="    @function $var1$($var2$)&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="var2"/>
     <context>
@@ -41,28 +41,28 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="if" toReformat="false" toShortenFQNames="true" value="    @if $var1$&#10;        $END$&#10;">
+  <template description="" name="if" toReformat="true" toShortenFQNames="true" value="    @if $var1$&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="var1"/>
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ife" toReformat="false" toShortenFQNames="true" value="    @if $var1$&#10;        $var2$&#10;    @else&#10;        $END$&#10;">
+  <template description="" name="ife" toReformat="true" toShortenFQNames="true" value="    @if $var1$&#10;        $var2$&#10;    @else&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="var1"/>
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="eif" toReformat="false" toShortenFQNames="true" value="    @else if $var1$&#10;        $END$&#10;">
+  <template description="" name="eif" toReformat="true" toShortenFQNames="true" value="    @else if $var1$&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="var1"/>
     <context>
       <option name="CSS" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="for" toReformat="false" toShortenFQNames="true" value="    @for $var1$ from $var2$ through $var3$&#10;        $END$&#10;">
+  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="    @for $var1$ from $var2$ through $var3$&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;$i&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;3&quot;" expression="" name="var3"/>
@@ -71,7 +71,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="each" toReformat="false" toShortenFQNames="true" value="    @each $var1$ in $var2$&#10;        $END$&#10;">
+  <template description="" name="each" toReformat="true" toShortenFQNames="true" value="    @each $var1$ in $var2$&#10;        $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;$item&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="var2"/>
     <context>

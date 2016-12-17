@@ -1,26 +1,26 @@
 <templateSet group="java">
-  <template description="" name="jv-po" toReformat="false" toShortenFQNames="true" value="    protected $END$&#10;">
+  <template description="" name="jv-po" toReformat="true" toShortenFQNames="true" value="    protected $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-pu" toReformat="false" toShortenFQNames="true" value="    public $END$&#10;">
+  <template description="" name="jv-pu" toReformat="true" toShortenFQNames="true" value="    public $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-pr" toReformat="false" toShortenFQNames="true" value="    private $END$&#10;">
+  <template description="" name="jv-pr" toReformat="true" toShortenFQNames="true" value="    private $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-before" toReformat="false" toShortenFQNames="true" value="    @Before&#10;    static void $var1$($var2$) { $END$ }&#10;">
+  <template description="" name="jv-before" toReformat="true" toShortenFQNames="true" value="    @Before&#10;    static void $var1$($var2$) { $END$ }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;intercept&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="var2"/>
     <context>
@@ -29,21 +29,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-mm" toReformat="false" toShortenFQNames="true" value="    @ManyToMany&#10;    $END$&#10;">
+  <template description="" name="jv-mm" toReformat="true" toShortenFQNames="true" value="    @ManyToMany&#10;    $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-mo" toReformat="false" toShortenFQNames="true" value="    @ManyToOne&#10;    $END$&#10;">
+  <template description="" name="jv-mo" toReformat="true" toShortenFQNames="true" value="    @ManyToOne&#10;    $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-om" toReformat="false" toShortenFQNames="true" value="    @OneToMany$var1$&#10;    $END$&#10;">
+  <template description="" name="jv-om" toReformat="true" toShortenFQNames="true" value="    @OneToMany$var1$&#10;    $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;(cascade=CascadeType.ALL)&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -51,56 +51,56 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-oo" toReformat="false" toShortenFQNames="true" value="    @OneToOne&#10;    $var1$&#10;">
+  <template description="" name="jv-oo" toReformat="true" toShortenFQNames="true" value="    @OneToOne&#10;    $var1$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-im" toReformat="false" toShortenFQNames="true" value="    import $END$&#10;">
+  <template description="" name="jv-im" toReformat="true" toShortenFQNames="true" value="    import $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-j.b" toReformat="false" toShortenFQNames="true" value="    java.beans.&#10;">
+  <template description="" name="jv-j.b" toReformat="true" toShortenFQNames="true" value="    java.beans.&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-j.i" toReformat="false" toShortenFQNames="true" value="    java.io.&#10;">
+  <template description="" name="jv-j.i" toReformat="true" toShortenFQNames="true" value="    java.io.&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-j.m" toReformat="false" toShortenFQNames="true" value="    java.math.&#10;">
+  <template description="" name="jv-j.m" toReformat="true" toShortenFQNames="true" value="    java.math.&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-j.n" toReformat="false" toShortenFQNames="true" value="    java.net.&#10;">
+  <template description="" name="jv-j.n" toReformat="true" toShortenFQNames="true" value="    java.net.&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-j.u" toReformat="false" toShortenFQNames="true" value="    java.util.&#10;">
+  <template description="" name="jv-j.u" toReformat="true" toShortenFQNames="true" value="    java.util.&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-cl" toReformat="false" toShortenFQNames="true" value="    class $var1$ $END$&#10;">
+  <template description="" name="jv-cl" toReformat="true" toShortenFQNames="true" value="    class $var1$ $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;, &quot;untitled&quot;)`&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -108,7 +108,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-pcl" toReformat="false" toShortenFQNames="true" value="    public class $var1$ $END$&#10;">
+  <template description="" name="jv-pcl" toReformat="true" toShortenFQNames="true" value="    public class $var1$ $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;, &quot;untitled&quot;)`&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -116,7 +116,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-in" toReformat="false" toShortenFQNames="true" value="    interface $var1$ $var2$&#10;">
+  <template description="" name="jv-in" toReformat="true" toShortenFQNames="true" value="    interface $var1$ $var2$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;, &quot;untitled&quot;)`&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;extends Parent&quot;" expression="" name="var2"/>
     <context>
@@ -125,7 +125,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-tc" toReformat="false" toShortenFQNames="true" value="    public class $var1$ extends $END$&#10;">
+  <template description="" name="jv-tc" toReformat="true" toShortenFQNames="true" value="    public class $var1$ extends $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;)`&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;TestCase&quot;" expression="" name="END"/>
     <context>
@@ -134,28 +134,28 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ext" toReformat="false" toShortenFQNames="true" value="    extends $END$&#10;">
+  <template description="" name="jv-ext" toReformat="true" toShortenFQNames="true" value="    extends $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-imp" toReformat="false" toShortenFQNames="true" value="    implements $END$&#10;">
+  <template description="" name="jv-imp" toReformat="true" toShortenFQNames="true" value="    implements $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-/*" toReformat="false" toShortenFQNames="true" value="    /*&#10;     * $END$&#10;     */&#10;">
+  <template description="" name="jv-/*" toReformat="true" toShortenFQNames="true" value="    /*&#10;     * $END$&#10;     */&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-co" toReformat="false" toShortenFQNames="true" value="    static public final $var1$ $var2$ = $var3$;&#10;">
+  <template description="" name="jv-co" toReformat="true" toShortenFQNames="true" value="    static public final $var1$ $var2$ = $var3$;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;String&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var2"/>
     <context>
@@ -164,7 +164,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-cos" toReformat="false" toShortenFQNames="true" value="    static public final String $var1$ = &quot;$var2$&quot;;&#10;">
+  <template description="" name="jv-cos" toReformat="true" toShortenFQNames="true" value="    static public final String $var1$ = &quot;$var2$&quot;;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -172,49 +172,49 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-case" toReformat="false" toShortenFQNames="true" value="    case $var1$:&#10;        $END$&#10;">
+  <template description="" name="jv-case" toReformat="true" toShortenFQNames="true" value="    case $var1$:&#10;        $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-def" toReformat="false" toShortenFQNames="true" value="    default:&#10;        $END$&#10;">
+  <template description="" name="jv-def" toReformat="true" toShortenFQNames="true" value="    default:&#10;        $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-el" toReformat="false" toShortenFQNames="true" value="    else&#10;">
+  <template description="" name="jv-el" toReformat="true" toShortenFQNames="true" value="    else&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-eif" toReformat="false" toShortenFQNames="true" value="    else if ($var1$) $END$&#10;">
+  <template description="" name="jv-eif" toReformat="true" toShortenFQNames="true" value="    else if ($var1$) $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-if" toReformat="false" toShortenFQNames="true" value="    if ($var1$) $END$&#10;">
+  <template description="" name="jv-if" toReformat="true" toShortenFQNames="true" value="    if ($var1$) $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-sw" toReformat="false" toShortenFQNames="true" value="    switch ($var1$) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="jv-sw" toReformat="true" toShortenFQNames="true" value="    switch ($var1$) {&#10;        $END$&#10;    }&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-m" toReformat="false" toShortenFQNames="true" value="    $var1$ $var2$($var3$) $var4$&#10;">
+  <template description="" name="jv-m" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$($var3$) $var4$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;void&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;method&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;throws &quot;" expression="" name="var4"/>
@@ -224,7 +224,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-v" toReformat="false" toShortenFQNames="true" value="    $var1$ $var2$$var3$$var4$;&#10;">
+  <template description="" name="jv-v" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$$var3$$var4$;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;String&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; = null&quot;" expression="" name="var3"/>
@@ -234,7 +234,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-d.al" toReformat="false" toShortenFQNames="true" value="    List&lt;$var1$&gt; $var2$ = new ArrayList&lt;$var1$&gt;();$END$&#10;">
+  <template description="" name="jv-d.al" toReformat="true" toShortenFQNames="true" value="    List&lt;$var1$&gt; $var2$ = new ArrayList&lt;$var1$&gt;();$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Object&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;list&quot;" expression="" name="var2"/>
     <context>
@@ -243,7 +243,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-d.hm" toReformat="false" toShortenFQNames="true" value="    Map&lt;$var1$, $var2$&gt; $var3$ = new HashMap&lt;$var1$, $var2$&gt;();$END$&#10;">
+  <template description="" name="jv-d.hm" toReformat="true" toShortenFQNames="true" value="    Map&lt;$var1$, $var2$&gt; $var3$ = new HashMap&lt;$var1$, $var2$&gt;();$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Object&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;Object&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;map&quot;" expression="" name="var3"/>
@@ -253,7 +253,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-d.hs" toReformat="false" toShortenFQNames="true" value="    Set&lt;$var1$&gt; $var2$ = new HashSet&lt;$var1$&gt;();$END$&#10;">
+  <template description="" name="jv-d.hs" toReformat="true" toShortenFQNames="true" value="    Set&lt;$var1$&gt; $var2$ = new HashSet&lt;$var1$&gt;();$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Object&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;set&quot;" expression="" name="var2"/>
     <context>
@@ -262,7 +262,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-d.st" toReformat="false" toShortenFQNames="true" value="    Stack&lt;$var1$&gt; $var2$ = new Stack&lt;$var1$&gt;();$END$&#10;">
+  <template description="" name="jv-d.st" toReformat="true" toShortenFQNames="true" value="    Stack&lt;$var1$&gt; $var2$ = new Stack&lt;$var1$&gt;();$END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Object&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;stack&quot;" expression="" name="var2"/>
     <context>
@@ -271,7 +271,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-singlet" toReformat="false" toShortenFQNames="true" value="    private static class Holder {&#10;        private static final $var1$ INSTANCE = new $var1$();&#10;    }&#10;&#10;    private $var1$() { }&#10;&#10;    public static $var1$ getInstance() {&#10;        return Holder.INSTANCE;&#10;    }&#10;">
+  <template description="" name="jv-singlet" toReformat="true" toShortenFQNames="true" value="    private static class Holder {&#10;        private static final $var1$ INSTANCE = new $var1$();&#10;    }&#10;&#10;    private $var1$() { }&#10;&#10;    public static $var1$ getInstance() {&#10;        return Holder.INSTANCE;&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;)`&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -279,35 +279,35 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ab" toReformat="false" toShortenFQNames="true" value="    abstract $END$&#10;">
+  <template description="" name="jv-ab" toReformat="true" toShortenFQNames="true" value="    abstract $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-fi" toReformat="false" toShortenFQNames="true" value="    final $END$&#10;">
+  <template description="" name="jv-fi" toReformat="true" toShortenFQNames="true" value="    final $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-st" toReformat="false" toShortenFQNames="true" value="    static $END$&#10;">
+  <template description="" name="jv-st" toReformat="true" toShortenFQNames="true" value="    static $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-sy" toReformat="false" toShortenFQNames="true" value="    synchronized $END$&#10;">
+  <template description="" name="jv-sy" toReformat="true" toShortenFQNames="true" value="    synchronized $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-err" toReformat="false" toShortenFQNames="true" value="    System.err.print(&quot;$END$&quot;);&#10;">
+  <template description="" name="jv-err" toReformat="true" toShortenFQNames="true" value="    System.err.print(&quot;$END$&quot;);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -315,7 +315,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-errf" toReformat="false" toShortenFQNames="true" value="    System.err.printf(&quot;$var1$&quot;, $END$);&#10;">
+  <template description="" name="jv-errf" toReformat="true" toShortenFQNames="true" value="    System.err.printf(&quot;$var1$&quot;, $END$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;exception&quot;" expression="" name="END"/>
     <context>
@@ -324,7 +324,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-errln" toReformat="false" toShortenFQNames="true" value="    System.err.println(&quot;$END$&quot;);&#10;">
+  <template description="" name="jv-errln" toReformat="true" toShortenFQNames="true" value="    System.err.println(&quot;$END$&quot;);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -332,7 +332,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-as" toReformat="false" toShortenFQNames="true" value="    assert $var1$ : &quot;$var2$&quot;;&#10;">
+  <template description="" name="jv-as" toReformat="true" toShortenFQNames="true" value="    assert $var1$ : &quot;$var2$&quot;;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;test&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var2"/>
     <context>
@@ -341,7 +341,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ae" toReformat="false" toShortenFQNames="true" value="    assertEquals(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
+  <template description="" name="jv-ae" toReformat="true" toShortenFQNames="true" value="    assertEquals(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="var3"/>
@@ -351,7 +351,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-aae" toReformat="false" toShortenFQNames="true" value="    assertArrayEquals(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
+  <template description="" name="jv-aae" toReformat="true" toShortenFQNames="true" value="    assertArrayEquals(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;expecteds&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actuals&quot;" expression="" name="var3"/>
@@ -361,7 +361,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-af" toReformat="false" toShortenFQNames="true" value="    assertFalse(&quot;$var1$&quot;, $var2$);&#10;">
+  <template description="" name="jv-af" toReformat="true" toShortenFQNames="true" value="    assertFalse(&quot;$var1$&quot;, $var2$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="var2"/>
     <context>
@@ -370,7 +370,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-at" toReformat="false" toShortenFQNames="true" value="    assertTrue(&quot;$var1$&quot;, $var2$);&#10;">
+  <template description="" name="jv-at" toReformat="true" toShortenFQNames="true" value="    assertTrue(&quot;$var1$&quot;, $var2$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;condition&quot;" expression="" name="var2"/>
     <context>
@@ -379,7 +379,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-an" toReformat="false" toShortenFQNames="true" value="    assertNull(&quot;$var1$&quot;, $var2$);&#10;">
+  <template description="" name="jv-an" toReformat="true" toShortenFQNames="true" value="    assertNull(&quot;$var1$&quot;, $var2$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var2"/>
     <context>
@@ -388,7 +388,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ann" toReformat="false" toShortenFQNames="true" value="    assertNotNull(&quot;$var1$&quot;, $var2$);&#10;">
+  <template description="" name="jv-ann" toReformat="true" toShortenFQNames="true" value="    assertNotNull(&quot;$var1$&quot;, $var2$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;object&quot;" expression="" name="var2"/>
     <context>
@@ -397,7 +397,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ass" toReformat="false" toShortenFQNames="true" value="    assertSame(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
+  <template description="" name="jv-ass" toReformat="true" toShortenFQNames="true" value="    assertSame(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="var3"/>
@@ -407,7 +407,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-asns" toReformat="false" toShortenFQNames="true" value="    assertNotSame(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
+  <template description="" name="jv-asns" toReformat="true" toShortenFQNames="true" value="    assertNotSame(&quot;$var1$&quot;, $var2$, $var3$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;expected&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;actual&quot;" expression="" name="var3"/>
@@ -417,7 +417,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-fa" toReformat="false" toShortenFQNames="true" value="    fail(&quot;$var1$&quot;);&#10;">
+  <template description="" name="jv-fa" toReformat="true" toShortenFQNames="true" value="    fail(&quot;$var1$&quot;);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Failure message&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -425,7 +425,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ca" toReformat="false" toShortenFQNames="true" value="    catch($var1$ $var2$) $END$&#10;">
+  <template description="" name="jv-ca" toReformat="true" toShortenFQNames="true" value="    catch($var1$ $var2$) $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="var2"/>
     <context>
@@ -434,21 +434,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-thr" toReformat="false" toShortenFQNames="true" value="    throw $END$&#10;">
+  <template description="" name="jv-thr" toReformat="true" toShortenFQNames="true" value="    throw $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ths" toReformat="false" toShortenFQNames="true" value="    throws $END$&#10;">
+  <template description="" name="jv-ths" toReformat="true" toShortenFQNames="true" value="    throws $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-try" toReformat="false" toShortenFQNames="true" value="    try {&#10;        $END$&#10;    } catch($var1$ $var2$) {&#10;    }&#10;">
+  <template description="" name="jv-try" toReformat="true" toShortenFQNames="true" value="    try {&#10;        $END$&#10;    } catch($var1$ $var2$) {&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="var2"/>
     <context>
@@ -457,7 +457,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-tryf" toReformat="false" toShortenFQNames="true" value="    try {&#10;        $END$&#10;    } catch($var1$ $var2$) {&#10;    } finally {&#10;    }&#10;">
+  <template description="" name="jv-tryf" toReformat="true" toShortenFQNames="true" value="    try {&#10;        $END$&#10;    } catch($var1$ $var2$) {&#10;    } finally {&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Exception&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="var2"/>
     <context>
@@ -466,7 +466,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-findall" toReformat="false" toShortenFQNames="true" value="    List&lt;$var1$&gt; $var2$ = $var1$.findAll();&#10;">
+  <template description="" name="jv-findall" toReformat="true" toShortenFQNames="true" value="    List&lt;$var1$&gt; $var2$ = $var1$.findAll();&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;listName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;items&quot;" expression="" name="var2"/>
     <context>
@@ -475,7 +475,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-findbyid" toReformat="false" toShortenFQNames="true" value="    $var1$ $var2$ = $var1$.findById($var3$);&#10;">
+  <template description="" name="jv-findbyid" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$ = $var1$.findById($var3$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;var&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var2"/>
     <context>
@@ -484,21 +484,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-/**" toReformat="false" toShortenFQNames="true" value="    /**&#10;     * $END$&#10;     */&#10;">
+  <template description="" name="jv-/**" toReformat="true" toShortenFQNames="true" value="    /**&#10;     * $END$&#10;     */&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-@au" toReformat="false" toShortenFQNames="true" value="    @author `system(&quot;grep \`id -un\` /etc/passwd | cut -d \&quot;:\&quot; -f5 | cut -d \&quot;,\&quot; -f1&quot;)`&#10;">
+  <template description="" name="jv-@au" toReformat="true" toShortenFQNames="true" value="    @author `system(&quot;grep \`id -un\` /etc/passwd | cut -d \&quot;:\&quot; -f5 | cut -d \&quot;,\&quot; -f1&quot;)`&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-@br" toReformat="false" toShortenFQNames="true" value="    @brief $END$&#10;">
+  <template description="" name="jv-@br" toReformat="true" toShortenFQNames="true" value="    @brief $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Description&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -506,7 +506,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-@fi" toReformat="false" toShortenFQNames="true" value="    @file $END$.java&#10;">
+  <template description="" name="jv-@fi" toReformat="true" toShortenFQNames="true" value="    @file $END$.java&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;`vim_snippets#Filename(&quot;$1&quot;)`&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -514,7 +514,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-@pa" toReformat="false" toShortenFQNames="true" value="    @param $END$&#10;">
+  <template description="" name="jv-@pa" toReformat="true" toShortenFQNames="true" value="    @param $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -522,7 +522,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-@re" toReformat="false" toShortenFQNames="true" value="    @return $END$&#10;">
+  <template description="" name="jv-@re" toReformat="true" toShortenFQNames="true" value="    @return $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -530,7 +530,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-debug" toReformat="false" toShortenFQNames="true" value="    Logger.debug($var1$);&#10;">
+  <template description="" name="jv-debug" toReformat="true" toShortenFQNames="true" value="    Logger.debug($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -538,7 +538,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-error" toReformat="false" toShortenFQNames="true" value="    Logger.error($var1$);&#10;">
+  <template description="" name="jv-error" toReformat="true" toShortenFQNames="true" value="    Logger.error($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -546,7 +546,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-info" toReformat="false" toShortenFQNames="true" value="    Logger.info($var1$);&#10;">
+  <template description="" name="jv-info" toReformat="true" toShortenFQNames="true" value="    Logger.info($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -554,7 +554,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-warn" toReformat="false" toShortenFQNames="true" value="    Logger.warn($var1$);&#10;">
+  <template description="" name="jv-warn" toReformat="true" toShortenFQNames="true" value="    Logger.warn($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -562,56 +562,56 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-enfor" toReformat="false" toShortenFQNames="true" value="    for ($var1$ : $var2$) $END$&#10;">
+  <template description="" name="jv-enfor" toReformat="true" toShortenFQNames="true" value="    for ($var1$ : $var2$) $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-for" toReformat="false" toShortenFQNames="true" value="    for ($var1$; $var2$; $var3$) $END$&#10;">
+  <template description="" name="jv-for" toReformat="true" toShortenFQNames="true" value="    for ($var1$; $var2$; $var3$) $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-wh" toReformat="false" toShortenFQNames="true" value="    while ($var1$) $END$&#10;">
+  <template description="" name="jv-wh" toReformat="true" toShortenFQNames="true" value="    while ($var1$) $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-psvm" toReformat="false" toShortenFQNames="true" value="    public static void main (String[] args) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="jv-psvm" toReformat="true" toShortenFQNames="true" value="    public static void main (String[] args) {&#10;        $END$&#10;    }&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-main" toReformat="false" toShortenFQNames="true" value="    public static void main (String[] args) {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="jv-main" toReformat="true" toShortenFQNames="true" value="    public static void main (String[] args) {&#10;        $END$&#10;    }&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-sout" toReformat="false" toShortenFQNames="true" value="    System.out.println($END$);&#10;">
+  <template description="" name="jv-sout" toReformat="true" toShortenFQNames="true" value="    System.out.println($END$);&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-serr" toReformat="false" toShortenFQNames="true" value="    System.err.println($END$);&#10;">
+  <template description="" name="jv-serr" toReformat="true" toShortenFQNames="true" value="    System.err.println($END$);&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-print" toReformat="false" toShortenFQNames="true" value="    System.out.print(&quot;$END$&quot;);&#10;">
+  <template description="" name="jv-print" toReformat="true" toShortenFQNames="true" value="    System.out.print(&quot;$END$&quot;);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="END"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -619,7 +619,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-printf" toReformat="false" toShortenFQNames="true" value="    System.out.printf(&quot;$var1$&quot;, $END$);&#10;">
+  <template description="" name="jv-printf" toReformat="true" toShortenFQNames="true" value="    System.out.printf(&quot;$var1$&quot;, $END$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Message&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="END"/>
     <context>
@@ -628,21 +628,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-println" toReformat="false" toShortenFQNames="true" value="    System.out.println($END$);&#10;">
+  <template description="" name="jv-println" toReformat="true" toShortenFQNames="true" value="    System.out.println($END$);&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-printlna" toReformat="false" toShortenFQNames="true" value="    System.out.println(Arrays.toString($END$));&#10;">
+  <template description="" name="jv-printlna" toReformat="true" toShortenFQNames="true" value="    System.out.println(Arrays.toString($END$));&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ren" toReformat="false" toShortenFQNames="true" value="    render($var1$);&#10;">
+  <template description="" name="jv-ren" toReformat="true" toShortenFQNames="true" value="    render($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -650,14 +650,14 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-rena" toReformat="false" toShortenFQNames="true" value="    renderArgs.put(&quot;$var1$&quot;, $var2$);&#10;">
+  <template description="" name="jv-rena" toReformat="true" toShortenFQNames="true" value="    renderArgs.put(&quot;$var1$&quot;, $var2$);&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-renb" toReformat="false" toShortenFQNames="true" value="    renderBinary($var1$);&#10;">
+  <template description="" name="jv-renb" toReformat="true" toShortenFQNames="true" value="    renderBinary($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -665,7 +665,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-renj" toReformat="false" toShortenFQNames="true" value="    renderJSON($var1$);&#10;">
+  <template description="" name="jv-renj" toReformat="true" toShortenFQNames="true" value="    renderJSON($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -673,7 +673,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-renx" toReformat="false" toShortenFQNames="true" value="    renderXml($var1$);&#10;">
+  <template description="" name="jv-renx" toReformat="true" toShortenFQNames="true" value="    renderXml($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -681,7 +681,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-set" toReformat="false" toShortenFQNames="true" value="    $var1$ void set$var3$($var2$ $END$){&#10;        this.$var4$ = $var4$;&#10;    }&#10;">
+  <template description="" name="jv-set" toReformat="true" toShortenFQNames="true" value="    $var1$ void set$var3$($var2$ $END$){&#10;        this.$var4$ = $var4$;&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;}(${2:String&quot;" expression="" name="var3"/>
     <context>
@@ -690,7 +690,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-get" toReformat="false" toShortenFQNames="true" value="    $var1$ $var2$ get$var3$(){&#10;        return this.$END$;&#10;    }&#10;">
+  <template description="" name="jv-get" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$ get$var3$(){&#10;        return this.$END$;&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;public&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;String&quot;" expression="" name="var2"/>
     <context>
@@ -699,21 +699,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-re" toReformat="false" toShortenFQNames="true" value="    return $END$&#10;">
+  <template description="" name="jv-re" toReformat="true" toShortenFQNames="true" value="    return $END$&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-br" toReformat="false" toShortenFQNames="true" value="    break;&#10;">
+  <template description="" name="jv-br" toReformat="true" toShortenFQNames="true" value="    break;&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-t" toReformat="false" toShortenFQNames="true" value="    public void test$var1$() throws Exception {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="jv-t" toReformat="true" toShortenFQNames="true" value="    public void test$var1$() throws Exception {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Name&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -721,7 +721,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-test" toReformat="false" toShortenFQNames="true" value="    @Test&#10;    public void test$var1$() throws Exception {&#10;        $END$&#10;    }&#10;">
+  <template description="" name="jv-test" toReformat="true" toShortenFQNames="true" value="    @Test&#10;    public void test$var1$() throws Exception {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;Name&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -729,14 +729,14 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-Sc" toReformat="false" toShortenFQNames="true" value="    Scanner&#10;">
+  <template description="" name="jv-Sc" toReformat="true" toShortenFQNames="true" value="    Scanner&#10;">
     <context>
       <option name="JAVA_CODE" value="true"/>
       <option name="JSP" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-action" toReformat="false" toShortenFQNames="true" value="    public static void $var1$($var2$) { $END$ }&#10;">
+  <template description="" name="jv-action" toReformat="true" toShortenFQNames="true" value="    public static void $var1$($var2$) { $END$ }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;index&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="var2"/>
     <context>
@@ -745,7 +745,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-rnf" toReformat="false" toShortenFQNames="true" value="    notFound($var1$);&#10;">
+  <template description="" name="jv-rnf" toReformat="true" toShortenFQNames="true" value="    notFound($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -753,7 +753,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-rnfin" toReformat="false" toShortenFQNames="true" value="    notFoundIfNull($var1$);&#10;">
+  <template description="" name="jv-rnfin" toReformat="true" toShortenFQNames="true" value="    notFoundIfNull($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -761,7 +761,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-rr" toReformat="false" toShortenFQNames="true" value="    redirect($var1$);&#10;">
+  <template description="" name="jv-rr" toReformat="true" toShortenFQNames="true" value="    redirect($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>
@@ -769,7 +769,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="jv-ru" toReformat="false" toShortenFQNames="true" value="    unauthorized($var1$);&#10;">
+  <template description="" name="jv-ru" toReformat="true" toShortenFQNames="true" value="    unauthorized($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;param&quot;" expression="" name="var1"/>
     <context>
       <option name="JAVA_CODE" value="true"/>

@@ -1,61 +1,61 @@
 <templateSet group="react">
-  <template description="" name="re-ir" toReformat="false" toShortenFQNames="true" value="    import React from 'react';&#10;">
+  <template description="" name="re-ir" toReformat="true" toShortenFQNames="true" value="    import React from 'react';&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-ird" toReformat="false" toShortenFQNames="true" value="    import ReactDOM from 'react-dom';&#10;">
+  <template description="" name="re-ird" toReformat="true" toShortenFQNames="true" value="    import ReactDOM from 'react-dom';&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-cdm" toReformat="false" toShortenFQNames="true" value="    componentDidMount() {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-cdm" toReformat="true" toShortenFQNames="true" value="    componentDidMount() {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-cdup" toReformat="false" toShortenFQNames="true" value="    componentDidUpdate(prevProps, prevState) {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-cdup" toReformat="true" toShortenFQNames="true" value="    componentDidUpdate(prevProps, prevState) {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-cwm" toReformat="false" toShortenFQNames="true" value="    componentWillMount() {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-cwm" toReformat="true" toShortenFQNames="true" value="    componentWillMount() {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-cwr" toReformat="false" toShortenFQNames="true" value="    componentWillReceiveProps(nextProps) {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-cwr" toReformat="true" toShortenFQNames="true" value="    componentWillReceiveProps(nextProps) {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-cwun" toReformat="false" toShortenFQNames="true" value="    componentWillUnmount() {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-cwun" toReformat="true" toShortenFQNames="true" value="    componentWillUnmount() {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-cwu" toReformat="false" toShortenFQNames="true" value="    componentWillUpdate(nextProps, nextState) {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-cwu" toReformat="true" toShortenFQNames="true" value="    componentWillUpdate(nextProps, nextState) {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-fup" toReformat="false" toShortenFQNames="true" value="    forceUpdate($var1$);&#10;">
+  <template description="" name="re-fup" toReformat="true" toShortenFQNames="true" value="    forceUpdate($var1$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;callback&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -63,21 +63,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-dp" toReformat="false" toShortenFQNames="true" value="    static defaultProps = {&#10;        $var1$: $var2$,&#10;    }&#10;">
+  <template description="" name="re-dp" toReformat="true" toShortenFQNames="true" value="    static defaultProps = {&#10;        $var1$: $var2$,&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-st" toReformat="false" toShortenFQNames="true" value="    state = {&#10;        $var1$: $var2$,&#10;    }&#10;">
+  <template description="" name="re-st" toReformat="true" toShortenFQNames="true" value="    state = {&#10;        $var1$: $var2$,&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-pt" toReformat="false" toShortenFQNames="true" value="    static propTypes = {&#10;        $var1$: React.PropTypes.$var2$,&#10;    }&#10;">
+  <template description="" name="re-pt" toReformat="true" toShortenFQNames="true" value="    static propTypes = {&#10;        $var1$: React.PropTypes.$var2$,&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -85,7 +85,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-rcc" toReformat="false" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
+  <template description="" name="re-rcc" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="END"/>
     <context>
@@ -94,14 +94,14 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-rdr" toReformat="false" toShortenFQNames="true" value="    ReactDOM.render($var1$, $var2$)&#10;">
+  <template description="" name="re-rdr" toReformat="true" toShortenFQNames="true" value="    ReactDOM.render($var1$, $var2$)&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-ercc" toReformat="false" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
+  <template description="" name="re-ercc" toReformat="true" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $END$&#10;            );&#10;        }&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="END"/>
     <context>
@@ -110,14 +110,14 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-ctor" toReformat="false" toShortenFQNames="true" value="    constructor() {&#10;        super();&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-ctor" toReformat="true" toShortenFQNames="true" value="    constructor() {&#10;        super();&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-ren" toReformat="false" toShortenFQNames="true" value="    render() {&#10;        return (&#10;            $var1$&#10;        );&#10;    }&#10;">
+  <template description="" name="re-ren" toReformat="true" toShortenFQNames="true" value="    render() {&#10;        return (&#10;            $var1$&#10;        );&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -125,21 +125,21 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-sst" toReformat="false" toShortenFQNames="true" value="    this.setState({&#10;        $var1$: $var2$&#10;    });&#10;">
+  <template description="" name="re-sst" toReformat="true" toShortenFQNames="true" value="    this.setState({&#10;        $var1$: $var2$&#10;    });&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-scu" toReformat="false" toShortenFQNames="true" value="    shouldComponentUpdate(nextProps, nextState) {&#10;        $var1$&#10;    }&#10;">
+  <template description="" name="re-scu" toReformat="true" toShortenFQNames="true" value="    shouldComponentUpdate(nextProps, nextState) {&#10;        $var1$&#10;    }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-prp" toReformat="false" toShortenFQNames="true" value="    this.props.$var1$&#10;">
+  <template description="" name="re-prp" toReformat="true" toShortenFQNames="true" value="    this.props.$var1$&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

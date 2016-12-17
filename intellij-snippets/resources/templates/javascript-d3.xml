@@ -1,40 +1,40 @@
 <templateSet group="javascript-d3">
-  <template description="" name="d3-.attr" toReformat="false" toShortenFQNames="true" value="    .attr(&quot;$var1$&quot;, $var2$)&#10;">
+  <template description="" name="d3-.attr" toReformat="true" toShortenFQNames="true" value="    .attr(&quot;$var1$&quot;, $var2$)&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="d3-.style" toReformat="false" toShortenFQNames="true" value="    .style(&quot;$var1$&quot;, $var2$)&#10;">
+  <template description="" name="d3-.style" toReformat="true" toShortenFQNames="true" value="    .style(&quot;$var1$&quot;, $var2$)&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="d3-axis" toReformat="false" toShortenFQNames="true" value="    d3.svg.axis()&#10;      .orient($var1$)&#10;      .scale($var2$)&#10;">
+  <template description="" name="d3-axis" toReformat="true" toShortenFQNames="true" value="    d3.svg.axis()&#10;      .orient($var1$)&#10;      .scale($var2$)&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="d3-fd" toReformat="false" toShortenFQNames="true" value="    function(d) { $var1$ }&#10;">
+  <template description="" name="d3-fd" toReformat="true" toShortenFQNames="true" value="    function(d) { $var1$ }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="d3-fdi" toReformat="false" toShortenFQNames="true" value="    function(d, i) { $var1$ }&#10;">
+  <template description="" name="d3-fdi" toReformat="true" toShortenFQNames="true" value="    function(d, i) { $var1$ }&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="d3-marginconvention" toReformat="false" toShortenFQNames="true" value="    var $var1$ = { top: $var2$, right: $var3$, bottom: $var4$, left: $var5$ };&#10;    var $var6$ = $var7$ - $var1$.left - $var1$.right;&#10;    var $var8$ = $var9$ - $var1$.top - $var1$.bottom;&#10;    &#10;    var $var10$ = d3.select(&quot;$var11$&quot;).append(&quot;svg&quot;)&#10;      .attr(&quot;width&quot;, $var6$ + $var1$.left + $var1$.right)&#10;      .attr(&quot;height&quot;, $var8$ + $var1$.top + $var1$.bottom)&#10;        .append(&quot;g&quot;)&#10;      .attr(&quot;transform&quot;, &quot;translate(&quot; + $var1$.left + &quot;,&quot; + $var1$.top + &quot;)&quot;)&#10;">
+  <template description="" name="d3-marginconvention" toReformat="true" toShortenFQNames="true" value="    var $var1$ = { top: $var2$, right: $var3$, bottom: $var4$, left: $var5$ };&#10;    var $var6$ = $var7$ - $var1$.left - $var1$.right;&#10;    var $var8$ = $var9$ - $var1$.top - $var1$.bottom;&#10;    &#10;    var $var10$ = d3.select(&quot;$var11$&quot;).append(&quot;svg&quot;)&#10;      .attr(&quot;width&quot;, $var6$ + $var1$.left + $var1$.right)&#10;      .attr(&quot;height&quot;, $var8$ + $var1$.top + $var1$.bottom)&#10;        .append(&quot;g&quot;)&#10;      .attr(&quot;transform&quot;, &quot;translate(&quot; + $var1$.left + &quot;,&quot; + $var1$.top + &quot;)&quot;)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;margin&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;10&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;10&quot;" expression="" name="var3"/>
@@ -51,7 +51,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="d3-nest" toReformat="false" toShortenFQNames="true" value="    d3.nest()&#10;      .key($var1$)&#10;      .entries($var2$)&#10;">
+  <template description="" name="d3-nest" toReformat="true" toShortenFQNames="true" value="    d3.nest()&#10;      .key($var1$)&#10;      .entries($var2$)&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
