@@ -4,6 +4,11 @@ This repository contains snippets files for various programing languages.
 Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets) - that using snipMate format
 #### How to use
 - Clone this repository to your local env
+
+```bash
+    git submodule update --init --recursive
+```
+
 - Copy all of file in intellij-snippets/resources/templates/* to your templates folder depend on your OS
     - Live templates are stored in the following location:
     - Windows: <your_user_home_directory>.IntelliJ IDEA<version_number>\config\templates
