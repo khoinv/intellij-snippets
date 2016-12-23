@@ -1,5 +1,7 @@
 <templateSet group="javascript-d3">
   <template description="" name="d3-.attr" toReformat="true" toShortenFQNames="true" value="    .attr(&quot;$var1$&quot;, $var2$)&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -7,6 +9,8 @@
     </context>
   </template>
   <template description="" name="d3-.style" toReformat="true" toShortenFQNames="true" value="    .style(&quot;$var1$&quot;, $var2$)&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -14,6 +18,8 @@
     </context>
   </template>
   <template description="" name="d3-axis" toReformat="true" toShortenFQNames="true" value="    d3.svg.axis()&#10;      .orient($var1$)&#10;      .scale($var2$)&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -21,6 +27,7 @@
     </context>
   </template>
   <template description="" name="d3-fd" toReformat="true" toShortenFQNames="true" value="    function(d) { $var1$ }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -28,6 +35,7 @@
     </context>
   </template>
   <template description="" name="d3-fdi" toReformat="true" toShortenFQNames="true" value="    function(d, i) { $var1$ }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -44,7 +52,6 @@
     <variable alwaysStopAt="true" defaultValue="&quot;970&quot;" expression="" name="var7"/>
     <variable alwaysStopAt="true" defaultValue="&quot;height&quot;" expression="" name="var8"/>
     <variable alwaysStopAt="true" defaultValue="&quot;500&quot;" expression="" name="var9"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;svg&quot;" expression="" name="var10"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -52,6 +59,8 @@
     </context>
   </template>
   <template description="" name="d3-nest" toReformat="true" toShortenFQNames="true" value="    d3.nest()&#10;      .key($var1$)&#10;      .entries($var2$)&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

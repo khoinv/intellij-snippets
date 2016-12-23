@@ -2,41 +2,13 @@
 ```markdown
     [${1:text}](http://${2:address})
 ```
-####md-[*
-```markdown
-    [${1:link}](${2:`@*`})
-```
-####md-[c
-```markdown
-    [${1:link}](${2:`@+`})
-```
 ####md-["
 ```markdown
     [${1:text}](http://${2:address} "${3:title}")
 ```
-####md-["*
-```markdown
-    [${1:link}](${2:`@*`} "${3:title}")
-```
-####md-["c
-```markdown
-    [${1:link}](${2:`@+`} "${3:title}")
-```
 ####md-[:
 ```markdown
     [${1:id}]: http://${2:url}
-
-
-```
-####md-[:*
-```markdown
-    [${1:id}]: ${2:`@*`}
-
-
-```
-####md-[:c
-```markdown
-    [${1:id}]: ${2:`@+`}
 
 
 ```
@@ -46,51 +18,17 @@
 
 
 ```
-####md-[:"*
-```markdown
-    [${1:id}]: ${2:`@*`} "${3:title}"
-
-
-```
-####md-[:"c
-```markdown
-    [${1:id}]: ${2:`@+`} "${3:title}"
-
-
-```
 ####md-![
 ```markdown
     ![${1:alttext}](${2:/images/image.jpg})
-```
-####md-![*
-```markdown
-    ![${1:alt}](${2:`@*`})
-```
-####md-![c
-```markdown
-    ![${1:alt}](${2:`@+`})
 ```
 ####md-!["
 ```markdown
     ![${1:alttext}](${2:/images/image.jpg} "${3:title}")
 ```
-####md-!["*
-```markdown
-    ![${1:alt}](${2:`@*`} "${3:title}")
-```
-####md-!["c
-```markdown
-    ![${1:alt}](${2:`@+`} "${3:title}")
-```
 ####md-![:
 ```markdown
     ![${1:id}]: ${2:url}
-
-
-```
-####md-![:*
-```markdown
-    ![${1:id}]: ${2:`@*`}
 
 
 ```
@@ -100,29 +38,9 @@
 
 
 ```
-####md-![:"*
-```markdown
-    ![${1:id}]: ${2:`@*`} "${3:title}"
-
-
-```
-####md-![:"c
-```markdown
-    ![${1:id}]: ${2:`@+`} "${3:title}"
-
-
-```
 ####md-<
 ```markdown
     <http://${1:url}>
-```
-####md-<*
-```markdown
-    <`@*`>
-```
-####md-<c
-```markdown
-    <`@+`>
 ```
 ####md-**
 ```markdown
@@ -132,27 +50,9 @@
 ```markdown
     __${1:bold}__
 ```
-####md-===
-```markdown
-    `repeat('=', strlen(getline(line(".") - 1)) - strlen(getline('.')))`
-
-
-
-    ${0}
-```
 ####md--
 ```markdown
     -   ${0}
-```
-####md----
-```markdown
-    `repeat('-', strlen(getline(line(".") - 1)) - strlen(getline('.')))`
-
-
-
-    ${0}
-
-
 ```
 ####md-blockquote
 ```markdown
@@ -181,26 +81,6 @@
     ${0:quote}
 
     {% endblockquote %}
-
-
-```
-####md-```
-```markdown
-    \`\`\`
-
-    ${1:code}
-
-    \`\`\`
-
-
-```
-####md-```l
-```markdown
-    \`\`\`${1:language}
-
-    ${2:code}
-
-    \`\`\`
 
 
 ```

@@ -1,43 +1,51 @@
 <templateSet group="scala">
-  <template description="" name="sl-if" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $var0$&#10;">
+  <template description="" name="s-if" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-ifn" toReformat="true" toShortenFQNames="true" value="    if (!$var1$)&#10;        $var0$&#10;">
+  <template description="" name="s-ifn" toReformat="true" toShortenFQNames="true" value="    if (!$var1$)&#10;        $END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-ife" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $var2$&#10;    else&#10;        $var0$&#10;">
+  <template description="" name="s-ife" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $var2$&#10;    else&#10;        $END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-ifelif" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $var2$&#10;    else if ($var3$)&#10;        $var0$&#10;">
+  <template description="" name="s-ifelif" toReformat="true" toShortenFQNames="true" value="    if ($var1$)&#10;        $var2$&#10;    else if ($var3$)&#10;        $END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-eif" toReformat="true" toShortenFQNames="true" value="    else if ($var3$)&#10;        $var0$&#10;">
+  <template description="" name="s-eif" toReformat="true" toShortenFQNames="true" value="    else if ($var3$)&#10;        $END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-wh" toReformat="true" toShortenFQNames="true" value="    while ($var1$) {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-wh" toReformat="true" toShortenFQNames="true" value="    while ($var1$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;obj&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-for" toReformat="true" toShortenFQNames="true" value="    for ($var1$ &lt;- $var2$) {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-for" toReformat="true" toShortenFQNames="true" value="    for ($var1$ &lt;- $var2$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;obj&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-fori" toReformat="true" toShortenFQNames="true" value="    for ($var1$ &lt;- $var2$ to $var3$.length) {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-fori" toReformat="true" toShortenFQNames="true" value="    for ($var1$ &lt;- $var2$ to $var3$.length) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;i&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;0&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;obj&quot;" expression="" name="var3"/>
@@ -45,32 +53,36 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-fory" toReformat="true" toShortenFQNames="true" value="    for {&#10;        $var1$ &lt;- $var2$&#10;    } yield $var0$&#10;">
+  <template description="" name="s-fory" toReformat="true" toShortenFQNames="true" value="    for {&#10;        $var1$ &lt;- $var2$&#10;    } yield $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;item&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;obj&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-try" toReformat="true" toShortenFQNames="true" value="    try {&#10;        $var1$&#10;    } catch {&#10;        case e: FileNotFoundException =&gt; $var2$&#10;        case e: IOException =&gt; $var3$&#10;    } finally {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-try" toReformat="true" toShortenFQNames="true" value="    try {&#10;        $var1$&#10;    } catch {&#10;        case e: FileNotFoundException =&gt; $var2$&#10;        case e: IOException =&gt; $var3$&#10;    } finally {&#10;        $END$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-match" toReformat="true" toShortenFQNames="true" value="    $var1$ match {&#10;        case $var2$ =&gt; $var3$&#10;        case _ =&gt; $var0$&#10;    }&#10;">
+  <template description="" name="s-match" toReformat="true" toShortenFQNames="true" value="    $var1$ match {&#10;        case $var2$ =&gt; $var3$&#10;        case _ =&gt; $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot; obj&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;e&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-case" toReformat="true" toShortenFQNames="true" value="    case $var1$ =&gt; $var0$&#10;">
+  <template description="" name="s-case" toReformat="true" toShortenFQNames="true" value="    case $var1$ =&gt; $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-arg" toReformat="true" toShortenFQNames="true" value="    $var1$: $var2$$var0$&#10;">
+  <template description="" name="s-arg" toReformat="true" toShortenFQNames="true" value="    $var1$: $var2$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, arg&quot;" expression="" name="var0"/>
@@ -78,55 +90,55 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-args" toReformat="true" toShortenFQNames="true" value="    $var1$: $var0$*&#10;">
+  <template description="" name="s-args" toReformat="true" toShortenFQNames="true" value="    $var1$: $var0$*&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;args&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-def" toReformat="true" toShortenFQNames="true" value="    def $var1$($var2$) = $var0$&#10;">
+  <template description="" name="s-def" toReformat="true" toShortenFQNames="true" value="    def $var1$($var2$) = $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;arg&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-prdef" toReformat="true" toShortenFQNames="true" value="    private def $var1$($var2$) = $var0$&#10;">
+  <template description="" name="s-prdef" toReformat="true" toShortenFQNames="true" value="    private def $var1$($var2$) = $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;arg&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-ovdef" toReformat="true" toShortenFQNames="true" value="    override def $var1$($var2$) = $var0$&#10;">
+  <template description="" name="s-ovdef" toReformat="true" toShortenFQNames="true" value="    override def $var1$($var2$) = $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;arg&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-fcf" toReformat="true" toShortenFQNames="true" value="    ($var1$: $var2$) =&gt; $var1$ $var0$&#10;">
+  <template description="" name="s-fcf" toReformat="true" toShortenFQNames="true" value="    ($var1$: $var2$) =&gt; $var1$ $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-=&gt;" toReformat="true" toShortenFQNames="true" value="    $var1$ =&gt; $var0$&#10;">
+  <template description="" name="s-=&gt;" toReformat="true" toShortenFQNames="true" value="    $var1$ =&gt; $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-rec" toReformat="true" toShortenFQNames="true" value="    def $var1$($var0$) =&#10;        if($var2$) $var2$&#10;        else $var1$($var2$)&#10;">
+  <template description="" name="s-rec" toReformat="true" toShortenFQNames="true" value="    def $var1$($var0$) =&#10;        if($var2$) $var2$&#10;        else $var1$($var2$)&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;arg&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-crdef" toReformat="true" toShortenFQNames="true" value="    def $var1$($var2$)($var3$) = $var0$&#10;">
+  <template description="" name="s-crdef" toReformat="true" toShortenFQNames="true" value="    def $var1$($var2$)($var3$) = $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;arg&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;arg&quot;" expression="" name="var3"/>
@@ -134,139 +146,139 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-main" toReformat="true" toShortenFQNames="true" value="    def main(args: Array[String]):$var1$ = $var0$&#10;">
+  <template description="" name="s-main" toReformat="true" toShortenFQNames="true" value="    def main(args: Array[String]):$var1$ = $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    dbl&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    dbl&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    int&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    int&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    lng&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    lng&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    chr&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    chr&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    str&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    str&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    arr&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    arr&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    buf&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    buf&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    list&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    list&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    tpl&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    tpl&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    set&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    set&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    map&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    map&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    hset&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    hset&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    hmap&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    hmap&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-T" toReformat="true" toShortenFQNames="true" value="    bool&#10;">
+  <template description="" name="s-T" toReformat="true" toShortenFQNames="true" value="    bool&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-bool" toReformat="true" toShortenFQNames="true" value="    Boolean&#10;">
+  <template description="" name="s-bool" toReformat="true" toShortenFQNames="true" value="    Boolean&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-anyr" toReformat="true" toShortenFQNames="true" value="    AnyRef&#10;">
+  <template description="" name="s-anyr" toReformat="true" toShortenFQNames="true" value="    AnyRef&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-dbl" toReformat="true" toShortenFQNames="true" value="    Double&#10;">
+  <template description="" name="s-dbl" toReformat="true" toShortenFQNames="true" value="    Double&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-int" toReformat="true" toShortenFQNames="true" value="    Int&#10;">
+  <template description="" name="s-int" toReformat="true" toShortenFQNames="true" value="    Int&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-str" toReformat="true" toShortenFQNames="true" value="    String&#10;">
+  <template description="" name="s-str" toReformat="true" toShortenFQNames="true" value="    String&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-chr" toReformat="true" toShortenFQNames="true" value="    Char&#10;">
+  <template description="" name="s-chr" toReformat="true" toShortenFQNames="true" value="    Char&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-lng" toReformat="true" toShortenFQNames="true" value="    Long&#10;">
+  <template description="" name="s-lng" toReformat="true" toShortenFQNames="true" value="    Long&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-arr" toReformat="true" toShortenFQNames="true" value="    Array$var1$$var0$&#10;">
+  <template description="" name="s-arr" toReformat="true" toShortenFQNames="true" value="    Array$var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;()&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-buf" toReformat="true" toShortenFQNames="true" value="    Buffer$var1$$var0$&#10;">
+  <template description="" name="s-buf" toReformat="true" toShortenFQNames="true" value="    Buffer$var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;()&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-list" toReformat="true" toShortenFQNames="true" value="    List$var1$$var0$&#10;">
+  <template description="" name="s-list" toReformat="true" toShortenFQNames="true" value="    List$var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;()&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-tpl" toReformat="true" toShortenFQNames="true" value="    Tuple$var1$[$var2$,$var0$]&#10;">
+  <template description="" name="s-tpl" toReformat="true" toShortenFQNames="true" value="    Tuple$var1$[$var2$,$var0$]&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;2&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var0"/>
@@ -274,28 +286,28 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-set" toReformat="true" toShortenFQNames="true" value="    Set$var1$$var0$&#10;">
+  <template description="" name="s-set" toReformat="true" toShortenFQNames="true" value="    Set$var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;()&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-hset" toReformat="true" toShortenFQNames="true" value="    HashSet$var1$$var0$&#10;">
+  <template description="" name="s-hset" toReformat="true" toShortenFQNames="true" value="    HashSet$var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;()&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-mhset" toReformat="true" toShortenFQNames="true" value="    mutable.HashSet$var1$$var0$&#10;">
+  <template description="" name="s-mhset" toReformat="true" toShortenFQNames="true" value="    mutable.HashSet$var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;()&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-keyval" toReformat="true" toShortenFQNames="true" value="    $var1$-&gt;$var2$$var0$&#10;">
+  <template description="" name="s-keyval" toReformat="true" toShortenFQNames="true" value="    $var1$-&gt;$var2$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;key&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;val&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;, keyval&quot;" expression="" name="var0"/>
@@ -303,7 +315,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-map" toReformat="true" toShortenFQNames="true" value="    Map[$var1$,$var2$]$var0$&#10;">
+  <template description="" name="s-map" toReformat="true" toShortenFQNames="true" value="    Map[$var1$,$var2$]$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(keyval)&quot;" expression="" name="var0"/>
@@ -311,7 +323,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-hmap" toReformat="true" toShortenFQNames="true" value="    HashMap[$var1$,$var2$]$var0$&#10;">
+  <template description="" name="s-hmap" toReformat="true" toShortenFQNames="true" value="    HashMap[$var1$,$var2$]$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(keyval)&quot;" expression="" name="var0"/>
@@ -319,7 +331,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-mmap" toReformat="true" toShortenFQNames="true" value="    mutable.Map[$var1$,$var2$]$var0$&#10;">
+  <template description="" name="s-mmap" toReformat="true" toShortenFQNames="true" value="    mutable.Map[$var1$,$var2$]$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(keyval)&quot;" expression="" name="var0"/>
@@ -327,7 +339,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-mhmap" toReformat="true" toShortenFQNames="true" value="    mutable.HashMap[$var1$,$var2$]$var0$&#10;">
+  <template description="" name="s-mhmap" toReformat="true" toShortenFQNames="true" value="    mutable.HashMap[$var1$,$var2$]$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(keyval)&quot;" expression="" name="var0"/>
@@ -335,108 +347,108 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-as" toReformat="true" toShortenFQNames="true" value="    $var1$.asInstanceOf[$var2$]&#10;">
+  <template description="" name="s-as" toReformat="true" toShortenFQNames="true" value="    $var1$.asInstanceOf[$var2$]&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-is" toReformat="true" toShortenFQNames="true" value="    $var1$.isInstanceOf[$var2$]&#10;&#10;">
+  <template description="" name="s-is" toReformat="true" toShortenFQNames="true" value="    $var1$.isInstanceOf[$var2$]&#10;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-(a" toReformat="true" toShortenFQNames="true" value="    ($var1$ =&gt; $var0$)&#10;">
+  <template description="" name="s-(a" toReformat="true" toShortenFQNames="true" value="    ($var1$ =&gt; $END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-{(" toReformat="true" toShortenFQNames="true" value="    {($var1$,$var2$) =&gt;&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-{(" toReformat="true" toShortenFQNames="true" value="    {($var1$,$var2$) =&gt;&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-filter" toReformat="true" toShortenFQNames="true" value="    $var0$.filter (a&#10;">
+  <template description="" name="s-filter" toReformat="true" toShortenFQNames="true" value="    $var0$.filter (a&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-mapf" toReformat="true" toShortenFQNames="true" value="    $var0$.map (a&#10;">
+  <template description="" name="s-mapf" toReformat="true" toShortenFQNames="true" value="    $var0$.map (a&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-flatmap" toReformat="true" toShortenFQNames="true" value="    $var1$.flatMap$var0$(a&#10;">
+  <template description="" name="s-flatmap" toReformat="true" toShortenFQNames="true" value="    $var1$.flatMap$var0$(a&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;[T]&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-fldl" toReformat="true" toShortenFQNames="true" value="    $var1$.foldLeft($var0$) {(&#10;">
+  <template description="" name="s-fldl" toReformat="true" toShortenFQNames="true" value="    $var1$.foldLeft($var0$) {(&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;first&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-fldr" toReformat="true" toShortenFQNames="true" value="    $var1$.foldRight($var0$) {(&#10;">
+  <template description="" name="s-fldr" toReformat="true" toShortenFQNames="true" value="    $var1$.foldRight($var0$) {(&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;first&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-/:" toReformat="true" toShortenFQNames="true" value="    ($var1$/:$var2$)($var0$)&#10;">
+  <template description="" name="s-/:" toReformat="true" toShortenFQNames="true" value="    ($var1$/:$var2$)($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;first&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-:\" toReformat="true" toShortenFQNames="true" value="    ($var1$:\$var2$)($var0$)&#10;">
+  <template description="" name="s-:\" toReformat="true" toShortenFQNames="true" value="    ($var1$:\$var2$)($END$)&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;first&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var2"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-redl" toReformat="true" toShortenFQNames="true" value="    $var1$.reduceLeft[$var0$] {(&#10;">
+  <template description="" name="s-redl" toReformat="true" toShortenFQNames="true" value="    $var1$.reduceLeft[$var0$] {(&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-redr" toReformat="true" toShortenFQNames="true" value="    $var1$.reduceRight[$var0$] {(&#10;">
+  <template description="" name="s-redr" toReformat="true" toShortenFQNames="true" value="    $var1$.reduceRight[$var0$] {(&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;T&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-zipwi" toReformat="true" toShortenFQNames="true" value="    $var0$.view.zipWithIndex&#10;">
+  <template description="" name="s-zipwi" toReformat="true" toShortenFQNames="true" value="    $var0$.view.zipWithIndex&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-spl" toReformat="true" toShortenFQNames="true" value="    $var1$.split(&quot;$var0$&quot;)&#10;">
+  <template description="" name="s-spl" toReformat="true" toShortenFQNames="true" value="    $var1$.split(&quot;$var0$&quot;)&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;,&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-val" toReformat="true" toShortenFQNames="true" value="    val $var1$$var2$ = $var0$&#10;">
+  <template description="" name="s-val" toReformat="true" toShortenFQNames="true" value="    val $var1$$var2$ = $var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;: T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
@@ -444,7 +456,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-var" toReformat="true" toShortenFQNames="true" value="    var $var1$$var2$ = $var0$&#10;">
+  <template description="" name="s-var" toReformat="true" toShortenFQNames="true" value="    var $var1$$var2$ = $var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;: T&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;value&quot;" expression="" name="var0"/>
@@ -452,25 +464,25 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-extends" toReformat="true" toShortenFQNames="true" value="    extends $var0$&#10;">
+  <template description="" name="s-extends" toReformat="true" toShortenFQNames="true" value="    extends $var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-with" toReformat="true" toShortenFQNames="true" value="    with $var1$$var0$&#10;">
+  <template description="" name="s-with" toReformat="true" toShortenFQNames="true" value="    with $var1$$var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot; with&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-athis" toReformat="true" toShortenFQNames="true" value="    def this(arg) = this(arg)&#10;">
+  <template description="" name="s-athis" toReformat="true" toShortenFQNames="true" value="    def this(arg) = this(arg)&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-abstract" toReformat="true" toShortenFQNames="true" value="    abstract class $var1$$var2$$var3$$var4$ {&#10;        $var5$&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-abstract" toReformat="true" toShortenFQNames="true" value="    abstract class $var1$$var2$$var3$$var4$ {&#10;        $var5$&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(arg)&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; extends &quot;" expression="" name="var3"/>
@@ -480,7 +492,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-class" toReformat="true" toShortenFQNames="true" value="    class $var1$$var2$$var3$$var4$ {&#10;        $var5$&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-class" toReformat="true" toShortenFQNames="true" value="    class $var1$$var2$$var3$$var4$ {&#10;        $var5$&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(arg)&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; extends &quot;" expression="" name="var3"/>
@@ -490,7 +502,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-object" toReformat="true" toShortenFQNames="true" value="    object $var1$$var2$$var3$$var4$ $var0$&#10;">
+  <template description="" name="s-object" toReformat="true" toShortenFQNames="true" value="    object $var1$$var2$$var3$$var4$ $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(arg)&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; extends &quot;" expression="" name="var3"/>
@@ -499,7 +511,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-trait" toReformat="true" toShortenFQNames="true" value="    trait $var1$$var2$$var3$ {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-trait" toReformat="true" toShortenFQNames="true" value="    trait $var1$$var2$$var3$ {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot; extends &quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; with&quot;" expression="" name="var3"/>
@@ -507,7 +519,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-ordered" toReformat="true" toShortenFQNames="true" value="    class $var1$$var2$ extends Ordered[$var1$] $var3$ {&#10;        $var4$&#10;        def compare(that: $var1$) = $var5$&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-ordered" toReformat="true" toShortenFQNames="true" value="    class $var1$$var2$ extends Ordered[$var1$] $var3$ {&#10;        $var4$&#10;        def compare(that: $var1$) = $var5$&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(arg)&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; with&quot;" expression="" name="var3"/>
@@ -517,7 +529,7 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-casecl" toReformat="true" toShortenFQNames="true" value="    case class $var1$$var2$$var3$$var4$ $var0$&#10;">
+  <template description="" name="s-casecl" toReformat="true" toShortenFQNames="true" value="    case class $var1$$var2$$var3$$var4$ $END$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;(arg)&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot; extends &quot;" expression="" name="var3"/>
@@ -526,78 +538,78 @@
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-scalatest" toReformat="true" toShortenFQNames="true" value="    $var1$&#10;    $var0$&#10;">
+  <template description="" name="s-scalatest" toReformat="true" toShortenFQNames="true" value="    $var1$&#10;    $var0$&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;import org.scalatest.Suite&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;import org.scalatest.FunSuite&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-assert" toReformat="true" toShortenFQNames="true" value="    assert($var1$ === $var0$)&#10;">
+  <template description="" name="s-assert" toReformat="true" toShortenFQNames="true" value="    assert($var1$ === $var0$)&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-ensuring" toReformat="true" toShortenFQNames="true" value="    ifel ensuring($var1$==$var0$)&#10;">
+  <template description="" name="s-ensuring" toReformat="true" toShortenFQNames="true" value="    ifel ensuring($var1$==$var0$)&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;a&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;b&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-expect" toReformat="true" toShortenFQNames="true" value="    expect($var1$) {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-expect" toReformat="true" toShortenFQNames="true" value="    expect($var1$) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;what&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-intercept" toReformat="true" toShortenFQNames="true" value="    intercept[$var1$] {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-intercept" toReformat="true" toShortenFQNames="true" value="    intercept[$var1$] {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;IllegalArgumentException&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-test" toReformat="true" toShortenFQNames="true" value="    test(&quot;$var1$&quot;) {&#10;        $var0$&#10;    }&#10;">
+  <template description="" name="s-test" toReformat="true" toShortenFQNames="true" value="    test(&quot;$var1$&quot;) {&#10;        $END$&#10;    }&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;description&quot;" expression="" name="var1"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-suite" toReformat="true" toShortenFQNames="true" value="    class $var0$ extends Suite {&#10;        def test() {&#10;    }&#10;">
+  <template description="" name="s-suite" toReformat="true" toShortenFQNames="true" value="    class $var0$ extends Suite {&#10;        def test() {&#10;    }&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-fsuite" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends FunSuite {&#10;        test(&quot;$var0$&quot;) {&#10;    }&#10;">
+  <template description="" name="s-fsuite" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends FunSuite {&#10;        test(&quot;$var0$&quot;) {&#10;    }&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;description&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-webproject" toReformat="true" toShortenFQNames="true" value="    import sbt._&#10;&#10;    class $var1$(info: ProjectInfo) extends DefaultWebProject(info) {&#10;        val liftVersion = &quot;$var0$&quot;&#10;&#10;        override def libraryDependencies = Set(&#10;&#10;        ) ++ super.libraryDependencies&#10;&#10;        val snapshots = ScalaToolsSnapshots&#10;    }&#10;">
+  <template description="" name="s-webproject" toReformat="true" toShortenFQNames="true" value="    import sbt._&#10;&#10;    class $var1$(info: ProjectInfo) extends DefaultWebProject(info) {&#10;        val liftVersion = &quot;$var0$&quot;&#10;&#10;        override def libraryDependencies = Set(&#10;&#10;        ) ++ super.libraryDependencies&#10;&#10;        val snapshots = ScalaToolsSnapshots&#10;    }&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;Name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;2.3&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-liftjar" toReformat="true" toShortenFQNames="true" value="    &quot;net.liftweb&quot; %% &quot;$var0$&quot; % liftVersion % &quot;compile-&gt;default&quot;,&#10;">
+  <template description="" name="s-liftjar" toReformat="true" toShortenFQNames="true" value="    &quot;net.liftweb&quot; %% &quot;$var0$&quot; % liftVersion % &quot;compile-&gt;default&quot;,&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;lib&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-jettyjar" toReformat="true" toShortenFQNames="true" value="    &quot;org.mortbay.jetty&quot; % &quot;jetty&quot; % &quot;$var0$&quot; % &quot;test-&gt;default&quot;,&#10;">
+  <template description="" name="s-jettyjar" toReformat="true" toShortenFQNames="true" value="    &quot;org.mortbay.jetty&quot; % &quot;jetty&quot; % &quot;$var0$&quot; % &quot;test-&gt;default&quot;,&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;version&quot;" expression="" name="var0"/>
     <context>
       <option name="SCALA" value="true"/>
     </context>
   </template>
-  <template description="" name="sl-liftimports" toReformat="true" toShortenFQNames="true" value="    import _root_.net.liftweb.http._&#10;    import S._&#10;    import _root_.net.liftweb.util._&#10;    import Helpers._&#10;    import _root_.scala.xml._&#10;">
+  <template description="" name="s-liftimports" toReformat="true" toShortenFQNames="true" value="    import _root_.net.liftweb.http._&#10;    import S._&#10;    import _root_.net.liftweb.util._&#10;    import Helpers._&#10;    import _root_.scala.xml._&#10;">
     <context>
       <option name="SCALA" value="true"/>
     </context>

@@ -1,4 +1,4 @@
-####d3-iti
+####ng-iti
 ```javascript
 it('${1:description}', inject(function($2) {
 
@@ -6,11 +6,7 @@ it('${1:description}', inject(function($2) {
 
 }));
 ```
-####d3-pet
-```javascript
-
-```
-####d3-befi
+####ng-befi
 ```javascript
 beforeEach(inject(function($1) {
 
@@ -18,11 +14,7 @@ beforeEach(inject(function($1) {
 
 }));
 ```
-####d3-pet
-```javascript
-
-```
-####d3-aconf
+####ng-aconf
 ```javascript
 config(function($1) {
 
@@ -30,11 +22,7 @@ config(function($1) {
 
 });
 ```
-####d3-pet
-```javascript
-
-```
-####d3-acont
+####ng-acont
 ```javascript
 controller('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -42,11 +30,7 @@ controller('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-aconts
+####ng-aconts
 ```javascript
 controller('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -54,11 +38,7 @@ controller('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-adir
+####ng-adir
 ```javascript
 directive('${1}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -76,11 +56,7 @@ directive('${1}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig})
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-adirs
+####ng-adirs
 ```javascript
 directive('${1}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -98,11 +74,7 @@ directive('${1}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-afact
+####ng-afact
 ```javascript
 factory('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -110,11 +82,7 @@ factory('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/i
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-afacts
+####ng-afacts
 ```javascript
 factory('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -122,11 +90,7 @@ factory('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-aserv
+####ng-aserv
 ```javascript
 service('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 
@@ -134,11 +98,7 @@ service('${1:name}', [${2}function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/i
 
 }]);
 ```
-####d3-pet
-```javascript
-
-```
-####d3-aservs
+####ng-aservs
 ```javascript
 service('${1:name}', [${2:'$scope', }function(${2/('|")([A-Z_$]+)?\1?((, ?)$)?/$2(?3::$4)/ig}) {
 

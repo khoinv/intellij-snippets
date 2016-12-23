@@ -1,4 +1,4 @@
-####.
+####c-.
 ```css
     ${1} {
 
@@ -6,51 +6,51 @@
 
     }
 ```
-####!
+####c-!
 ```css
      !important
 ```
-####bdi:m+
+####c-bdi:m+
 ```css
     -moz-border-image: url(${1}) ${2:0} ${3:0} ${4:0} ${5:0} ${6:stretch} ${0:stretch};
 ```
-####bdi:m
+####c-bdi:m
 ```css
     -moz-border-image: ${0};
 ```
-####bdrz:m
+####c-bdrz:m
 ```css
     -moz-border-radius: ${0};
 ```
-####bxsh:m+
+####c-bxsh:m+
 ```css
     -moz-box-shadow: ${1:0} ${2:0} ${3:0} #${0:000};
 ```
-####bxsh:m
+####c-bxsh:m
 ```css
     -moz-box-shadow: ${0};
 ```
-####bdi:w+
+####c-bdi:w+
 ```css
     -webkit-border-image: url(${1}) ${2:0} ${3:0} ${4:0} ${5:0} ${6:stretch} ${0:stretch};
 ```
-####bdi:w
+####c-bdi:w
 ```css
     -webkit-border-image: ${0};
 ```
-####bdrz:w
+####c-bdrz:w
 ```css
     -webkit-border-radius: ${0};
 ```
-####bxsh:w+
+####c-bxsh:w+
 ```css
     -webkit-box-shadow: ${1:0} ${2:0} ${3:0} #${0:000};
 ```
-####bxsh:w
+####c-bxsh:w
 ```css
     -webkit-box-shadow: ${0};
 ```
-####@f
+####c-@f
 ```css
     @font-face {
 
@@ -60,11 +60,11 @@
 
     }
 ```
-####@i
+####c-@i
 ```css
     @import url(${0});
 ```
-####@m
+####c-@m
 ```css
     @media ${1:print} {
 
@@ -72,1899 +72,1899 @@
 
     }
 ```
-####bg+
+####c-bg+
 ```css
     background: #${1:FFF} url(${2}) ${3:0} ${4:0} ${0:no-repeat};
 ```
-####bga
+####c-bga
 ```css
     background-attachment: ${0};
 ```
-####bga:f
+####c-bga:f
 ```css
     background-attachment: fixed;
 ```
-####bga:s
+####c-bga:s
 ```css
     background-attachment: scroll;
 ```
-####bgbk
+####c-bgbk
 ```css
     background-break: ${0};
 ```
-####bgbk:bb
+####c-bgbk:bb
 ```css
     background-break: bounding-box;
 ```
-####bgbk:c
+####c-bgbk:c
 ```css
     background-break: continuous;
 ```
-####bgbk:eb
+####c-bgbk:eb
 ```css
     background-break: each-box;
 ```
-####bgcp
+####c-bgcp
 ```css
     background-clip: ${0};
 ```
-####bgcp:bb
+####c-bgcp:bb
 ```css
     background-clip: border-box;
 ```
-####bgcp:cb
+####c-bgcp:cb
 ```css
     background-clip: content-box;
 ```
-####bgcp:nc
+####c-bgcp:nc
 ```css
     background-clip: no-clip;
 ```
-####bgcp:pb
+####c-bgcp:pb
 ```css
     background-clip: padding-box;
 ```
-####bgc
+####c-bgc
 ```css
     background-color: #${0:FFF};
 ```
-####bgc:t
+####c-bgc:t
 ```css
     background-color: transparent;
 ```
-####bgi
+####c-bgi
 ```css
     background-image: url(${0});
 ```
-####bgi:n
+####c-bgi:n
 ```css
     background-image: none;
 ```
-####bgo
+####c-bgo
 ```css
     background-origin: ${0};
 ```
-####bgo:bb
+####c-bgo:bb
 ```css
     background-origin: border-box;
 ```
-####bgo:cb
+####c-bgo:cb
 ```css
     background-origin: content-box;
 ```
-####bgo:pb
+####c-bgo:pb
 ```css
     background-origin: padding-box;
 ```
-####bgpx
+####c-bgpx
 ```css
     background-position-x: ${0};
 ```
-####bgpy
+####c-bgpy
 ```css
     background-position-y: ${0};
 ```
-####bgp
+####c-bgp
 ```css
     background-position: ${1:0} ${0:0};
 ```
-####bgr
+####c-bgr
 ```css
     background-repeat: ${0};
 ```
-####bgr:n
+####c-bgr:n
 ```css
     background-repeat: no-repeat;
 ```
-####bgr:x
+####c-bgr:x
 ```css
     background-repeat: repeat-x;
 ```
-####bgr:y
+####c-bgr:y
 ```css
     background-repeat: repeat-y;
 ```
-####bgr:r
+####c-bgr:r
 ```css
     background-repeat: repeat;
 ```
-####bgz
+####c-bgz
 ```css
     background-size: ${0};
 ```
-####bgz:a
+####c-bgz:a
 ```css
     background-size: auto;
 ```
-####bgz:ct
+####c-bgz:ct
 ```css
     background-size: contain;
 ```
-####bgz:cv
+####c-bgz:cv
 ```css
     background-size: cover;
 ```
-####bg
+####c-bg
 ```css
     background: ${0};
 ```
-####bg:ie
+####c-bg:ie
 ```css
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='${1}',sizingMethod='${0:crop}');
 ```
-####bg:n
+####c-bg:n
 ```css
     background: none;
 ```
-####bd+
+####c-bd+
 ```css
     border: ${1:1px} ${2:solid} #${0:000};
 ```
-####bdb+
+####c-bdb+
 ```css
     border-bottom: ${1:1px} ${2:solid} #${0:000};
 ```
-####bdbc
+####c-bdbc
 ```css
     border-bottom-color: #${0:000};
 ```
-####bdbi
+####c-bdbi
 ```css
     border-bottom-image: url(${0});
 ```
-####bdbi:n
+####c-bdbi:n
 ```css
     border-bottom-image: none;
 ```
-####bdbli
+####c-bdbli
 ```css
     border-bottom-left-image: url(${0});
 ```
-####bdbli:c
+####c-bdbli:c
 ```css
     border-bottom-left-image: continue;
 ```
-####bdbli:n
+####c-bdbli:n
 ```css
     border-bottom-left-image: none;
 ```
-####bdblrz
+####c-bdblrz
 ```css
     border-bottom-left-radius: ${0};
 ```
-####bdbri
+####c-bdbri
 ```css
     border-bottom-right-image: url(${0});
 ```
-####bdbri:c
+####c-bdbri:c
 ```css
     border-bottom-right-image: continue;
 ```
-####bdbri:n
+####c-bdbri:n
 ```css
     border-bottom-right-image: none;
 ```
-####bdbrrz
+####c-bdbrrz
 ```css
     border-bottom-right-radius: ${0};
 ```
-####bdbs
+####c-bdbs
 ```css
     border-bottom-style: ${0};
 ```
-####bdbs:n
+####c-bdbs:n
 ```css
     border-bottom-style: none;
 ```
-####bdbw
+####c-bdbw
 ```css
     border-bottom-width: ${0};
 ```
-####bdb
+####c-bdb
 ```css
     border-bottom: ${0};
 ```
-####bdb:n
+####c-bdb:n
 ```css
     border-bottom: none;
 ```
-####bdbk
+####c-bdbk
 ```css
     border-break: ${0};
 ```
-####bdbk:c
+####c-bdbk:c
 ```css
     border-break: close;
 ```
-####bdcl
+####c-bdcl
 ```css
     border-collapse: ${0};
 ```
-####bdcl:c
+####c-bdcl:c
 ```css
     border-collapse: collapse;
 ```
-####bdcl:s
+####c-bdcl:s
 ```css
     border-collapse: separate;
 ```
-####bdc
+####c-bdc
 ```css
     border-color: #${0:000};
 ```
-####bdci
+####c-bdci
 ```css
     border-corner-image: url(${0});
 ```
-####bdci:c
+####c-bdci:c
 ```css
     border-corner-image: continue;
 ```
-####bdci:n
+####c-bdci:n
 ```css
     border-corner-image: none;
 ```
-####bdf
+####c-bdf
 ```css
     border-fit: ${0};
 ```
-####bdf:c
+####c-bdf:c
 ```css
     border-fit: clip;
 ```
-####bdf:of
+####c-bdf:of
 ```css
     border-fit: overwrite;
 ```
-####bdf:ow
+####c-bdf:ow
 ```css
     border-fit: overwrite;
 ```
-####bdf:r
+####c-bdf:r
 ```css
     border-fit: repeat;
 ```
-####bdf:sc
+####c-bdf:sc
 ```css
     border-fit: scale;
 ```
-####bdf:sp
+####c-bdf:sp
 ```css
     border-fit: space;
 ```
-####bdf:st
+####c-bdf:st
 ```css
     border-fit: stretch;
 ```
-####bdi
+####c-bdi
 ```css
     border-image: url(${1}) ${2:0} ${3:0} ${4:0} ${5:0} ${6:stretch} ${0:stretch};
 ```
-####bdi:n
+####c-bdi:n
 ```css
     border-image: none;
 ```
-####bdl+
+####c-bdl+
 ```css
     border-left: ${1:1px} ${2:solid} #${0:000};
 ```
-####bdlc
+####c-bdlc
 ```css
     border-left-color: #${0:000};
 ```
-####bdli
+####c-bdli
 ```css
     border-left-image: url(${0});
 ```
-####bdli:n
+####c-bdli:n
 ```css
     border-left-image: none;
 ```
-####bdls
+####c-bdls
 ```css
     border-left-style: ${0};
 ```
-####bdls:n
+####c-bdls:n
 ```css
     border-left-style: none;
 ```
-####bdlw
+####c-bdlw
 ```css
     border-left-width: ${0};
 ```
-####bdl
+####c-bdl
 ```css
     border-left: ${0};
 ```
-####bdl:n
+####c-bdl:n
 ```css
     border-left: none;
 ```
-####bdlt
+####c-bdlt
 ```css
     border-length: ${0};
 ```
-####bdlt:a
+####c-bdlt:a
 ```css
     border-length: auto;
 ```
-####bdrz
+####c-bdrz
 ```css
     border-radius: ${0};
 ```
-####bdr+
+####c-bdr+
 ```css
     border-right: ${1:1px} ${2:solid} #${0:000};
 ```
-####bdrc
+####c-bdrc
 ```css
     border-right-color: #${0:000};
 ```
-####bdri
+####c-bdri
 ```css
     border-right-image: url(${0});
 ```
-####bdri:n
+####c-bdri:n
 ```css
     border-right-image: none;
 ```
-####bdrs
+####c-bdrs
 ```css
     border-right-style: ${0};
 ```
-####bdrs:n
+####c-bdrs:n
 ```css
     border-right-style: none;
 ```
-####bdrw
+####c-bdrw
 ```css
     border-right-width: ${0};
 ```
-####bdr
+####c-bdr
 ```css
     border-right: ${0};
 ```
-####bdr:n
+####c-bdr:n
 ```css
     border-right: none;
 ```
-####bdsp
+####c-bdsp
 ```css
     border-spacing: ${0};
 ```
-####bds
+####c-bds
 ```css
     border-style: ${0};
 ```
-####bds:ds
+####c-bds:ds
 ```css
     border-style: dashed;
 ```
-####bds:dtds
+####c-bds:dtds
 ```css
     border-style: dot-dash;
 ```
-####bds:dtdtds
+####c-bds:dtdtds
 ```css
     border-style: dot-dot-dash;
 ```
-####bds:dt
+####c-bds:dt
 ```css
     border-style: dotted;
 ```
-####bds:db
+####c-bds:db
 ```css
     border-style: double;
 ```
-####bds:g
+####c-bds:g
 ```css
     border-style: groove;
 ```
-####bds:h
+####c-bds:h
 ```css
     border-style: hidden;
 ```
-####bds:i
+####c-bds:i
 ```css
     border-style: inset;
 ```
-####bds:n
+####c-bds:n
 ```css
     border-style: none;
 ```
-####bds:o
+####c-bds:o
 ```css
     border-style: outset;
 ```
-####bds:r
+####c-bds:r
 ```css
     border-style: ridge;
 ```
-####bds:s
+####c-bds:s
 ```css
     border-style: solid;
 ```
-####bds:w
+####c-bds:w
 ```css
     border-style: wave;
 ```
-####bdt+
+####c-bdt+
 ```css
     border-top: ${1:1px} ${2:solid} #${0:000};
 ```
-####bdtc
+####c-bdtc
 ```css
     border-top-color: #${0:000};
 ```
-####bdti
+####c-bdti
 ```css
     border-top-image: url(${0});
 ```
-####bdti:n
+####c-bdti:n
 ```css
     border-top-image: none;
 ```
-####bdtli
+####c-bdtli
 ```css
     border-top-left-image: url(${0});
 ```
-####bdtli:c
+####c-bdtli:c
 ```css
     border-corner-image: continue;
 ```
-####bdtli:n
+####c-bdtli:n
 ```css
     border-corner-image: none;
 ```
-####bdtlrz
+####c-bdtlrz
 ```css
     border-top-left-radius: ${0};
 ```
-####bdtri
+####c-bdtri
 ```css
     border-top-right-image: url(${0});
 ```
-####bdtri:c
+####c-bdtri:c
 ```css
     border-top-right-image: continue;
 ```
-####bdtri:n
+####c-bdtri:n
 ```css
     border-top-right-image: none;
 ```
-####bdtrrz
+####c-bdtrrz
 ```css
     border-top-right-radius: ${0};
 ```
-####bdts
+####c-bdts
 ```css
     border-top-style: ${0};
 ```
-####bdts:n
+####c-bdts:n
 ```css
     border-top-style: none;
 ```
-####bdtw
+####c-bdtw
 ```css
     border-top-width: ${0};
 ```
-####bdt
+####c-bdt
 ```css
     border-top: ${0};
 ```
-####bdt:n
+####c-bdt:n
 ```css
     border-top: none;
 ```
-####bdw
+####c-bdw
 ```css
     border-width: ${0};
 ```
-####bd
+####c-bd
 ```css
     border: ${0};
 ```
-####bd:n
+####c-bd:n
 ```css
     border: none;
 ```
-####b
+####c-b
 ```css
     bottom: ${0};
 ```
-####b:a
+####c-b:a
 ```css
     bottom: auto;
 ```
-####bxsh+
+####c-bxsh+
 ```css
     box-shadow: ${1:0} ${2:0} ${3:0} #${0:000};
 ```
-####bxsh
+####c-bxsh
 ```css
     box-shadow: ${0};
 ```
-####bxsh:n
+####c-bxsh:n
 ```css
     box-shadow: none;
 ```
-####bxz
+####c-bxz
 ```css
     box-sizing: ${0};
 ```
-####bxz:bb
+####c-bxz:bb
 ```css
     box-sizing: border-box;
 ```
-####bxz:cb
+####c-bxz:cb
 ```css
     box-sizing: content-box;
 ```
-####cps
+####c-cps
 ```css
     caption-side: ${0};
 ```
-####cps:b
+####c-cps:b
 ```css
     caption-side: bottom;
 ```
-####cps:t
+####c-cps:t
 ```css
     caption-side: top;
 ```
-####cl
+####c-cl
 ```css
     clear: ${0};
 ```
-####cl:b
+####c-cl:b
 ```css
     clear: both;
 ```
-####cl:l
+####c-cl:l
 ```css
     clear: left;
 ```
-####cl:n
+####c-cl:n
 ```css
     clear: none;
 ```
-####cl:r
+####c-cl:r
 ```css
     clear: right;
 ```
-####cp
+####c-cp
 ```css
     clip: ${0};
 ```
-####cp:a
+####c-cp:a
 ```css
     clip: auto;
 ```
-####cp:r
+####c-cp:r
 ```css
     clip: rect(${1:0} ${2:0} ${3:0} ${0:0});
 ```
-####c
+####c-c
 ```css
     color: #${0:000};
 ```
-####ct
+####c-ct
 ```css
     content: ${0};
 ```
-####ct:a
+####c-ct:a
 ```css
     content: attr(${0});
 ```
-####ct:cq
+####c-ct:cq
 ```css
     content: close-quote;
 ```
-####ct:c
+####c-ct:c
 ```css
     content: counter(${0});
 ```
-####ct:cs
+####c-ct:cs
 ```css
     content: counters(${0});
 ```
-####ct:ncq
+####c-ct:ncq
 ```css
     content: no-close-quote;
 ```
-####ct:noq
+####c-ct:noq
 ```css
     content: no-open-quote;
 ```
-####ct:n
+####c-ct:n
 ```css
     content: normal;
 ```
-####ct:oq
+####c-ct:oq
 ```css
     content: open-quote;
 ```
-####coi
+####c-coi
 ```css
     counter-increment: ${0};
 ```
-####cor
+####c-cor
 ```css
     counter-reset: ${0};
 ```
-####cur
+####c-cur
 ```css
     cursor: ${0};
 ```
-####cur:a
+####c-cur:a
 ```css
     cursor: auto;
 ```
-####cur:c
+####c-cur:c
 ```css
     cursor: crosshair;
 ```
-####cur:d
+####c-cur:d
 ```css
     cursor: default;
 ```
-####cur:ha
+####c-cur:ha
 ```css
     cursor: hand;
 ```
-####cur:he
+####c-cur:he
 ```css
     cursor: help;
 ```
-####cur:m
+####c-cur:m
 ```css
     cursor: move;
 ```
-####cur:p
+####c-cur:p
 ```css
     cursor: pointer;
 ```
-####cur:t
+####c-cur:t
 ```css
     cursor: text;
 ```
-####d
+####c-d
 ```css
     display: ${0};
 ```
-####d:mib
+####c-d:mib
 ```css
     display: -moz-inline-box;
 ```
-####d:mis
+####c-d:mis
 ```css
     display: -moz-inline-stack;
 ```
-####d:b
+####c-d:b
 ```css
     display: block;
 ```
-####d:cp
+####c-d:cp
 ```css
     display: compact;
 ```
-####d:ib
+####c-d:ib
 ```css
     display: inline-block;
 ```
-####d:itb
+####c-d:itb
 ```css
     display: inline-table;
 ```
-####d:i
+####c-d:i
 ```css
     display: inline;
 ```
-####d:li
+####c-d:li
 ```css
     display: list-item;
 ```
-####d:n
+####c-d:n
 ```css
     display: none;
 ```
-####d:ri
+####c-d:ri
 ```css
     display: run-in;
 ```
-####d:tbcp
+####c-d:tbcp
 ```css
     display: table-caption;
 ```
-####d:tbc
+####c-d:tbc
 ```css
     display: table-cell;
 ```
-####d:tbclg
+####c-d:tbclg
 ```css
     display: table-column-group;
 ```
-####d:tbcl
+####c-d:tbcl
 ```css
     display: table-column;
 ```
-####d:tbfg
+####c-d:tbfg
 ```css
     display: table-footer-group;
 ```
-####d:tbhg
+####c-d:tbhg
 ```css
     display: table-header-group;
 ```
-####d:tbrg
+####c-d:tbrg
 ```css
     display: table-row-group;
 ```
-####d:tbr
+####c-d:tbr
 ```css
     display: table-row;
 ```
-####d:tb
+####c-d:tb
 ```css
     display: table;
 ```
-####ec
+####c-ec
 ```css
     empty-cells: ${0};
 ```
-####ec:h
+####c-ec:h
 ```css
     empty-cells: hide;
 ```
-####ec:s
+####c-ec:s
 ```css
     empty-cells: show;
 ```
-####exp
+####c-exp
 ```css
     expression()
 ```
-####fl
+####c-fl
 ```css
     float: ${0};
 ```
-####fl:l
+####c-fl:l
 ```css
     float: left;
 ```
-####fl:n
+####c-fl:n
 ```css
     float: none;
 ```
-####fl:r
+####c-fl:r
 ```css
     float: right;
 ```
-####f+
+####c-f+
 ```css
     font: ${1:1em} ${2:Arial},${0:sans-serif};
 ```
-####fef
+####c-fef
 ```css
     font-effect: ${0};
 ```
-####fef:eb
+####c-fef:eb
 ```css
     font-effect: emboss;
 ```
-####fef:eg
+####c-fef:eg
 ```css
     font-effect: engrave;
 ```
-####fef:n
+####c-fef:n
 ```css
     font-effect: none;
 ```
-####fef:o
+####c-fef:o
 ```css
     font-effect: outline;
 ```
-####femp
+####c-femp
 ```css
     font-emphasize-position: ${0};
 ```
-####femp:a
+####c-femp:a
 ```css
     font-emphasize-position: after;
 ```
-####femp:b
+####c-femp:b
 ```css
     font-emphasize-position: before;
 ```
-####fems
+####c-fems
 ```css
     font-emphasize-style: ${0};
 ```
-####fems:ac
+####c-fems:ac
 ```css
     font-emphasize-style: accent;
 ```
-####fems:c
+####c-fems:c
 ```css
     font-emphasize-style: circle;
 ```
-####fems:ds
+####c-fems:ds
 ```css
     font-emphasize-style: disc;
 ```
-####fems:dt
+####c-fems:dt
 ```css
     font-emphasize-style: dot;
 ```
-####fems:n
+####c-fems:n
 ```css
     font-emphasize-style: none;
 ```
-####fem
+####c-fem
 ```css
     font-emphasize: ${0};
 ```
-####ff
+####c-ff
 ```css
     font-family: ${0};
 ```
-####ff:c
+####c-ff:c
 ```css
     font-family: ${0:'Monotype Corsiva','Comic Sans MS'},cursive;
 ```
-####ff:f
+####c-ff:f
 ```css
     font-family: ${0:Capitals,Impact},fantasy;
 ```
-####ff:m
+####c-ff:m
 ```css
     font-family: ${0:Monaco,'Courier New'},monospace;
 ```
-####ff:ss
+####c-ff:ss
 ```css
     font-family: ${0:Helvetica,Arial},sans-serif;
 ```
-####ff:s
+####c-ff:s
 ```css
     font-family: ${0:Georgia,'Times New Roman'},serif;
 ```
-####fza
+####c-fza
 ```css
     font-size-adjust: ${0};
 ```
-####fza:n
+####c-fza:n
 ```css
     font-size-adjust: none;
 ```
-####fz
+####c-fz
 ```css
     font-size: ${0};
 ```
-####fsm
+####c-fsm
 ```css
     font-smooth: ${0};
 ```
-####fsm:aw
+####c-fsm:aw
 ```css
     font-smooth: always;
 ```
-####fsm:a
+####c-fsm:a
 ```css
     font-smooth: auto;
 ```
-####fsm:n
+####c-fsm:n
 ```css
     font-smooth: never;
 ```
-####fst
+####c-fst
 ```css
     font-stretch: ${0};
 ```
-####fst:c
+####c-fst:c
 ```css
     font-stretch: condensed;
 ```
-####fst:e
+####c-fst:e
 ```css
     font-stretch: expanded;
 ```
-####fst:ec
+####c-fst:ec
 ```css
     font-stretch: extra-condensed;
 ```
-####fst:ee
+####c-fst:ee
 ```css
     font-stretch: extra-expanded;
 ```
-####fst:n
+####c-fst:n
 ```css
     font-stretch: normal;
 ```
-####fst:sc
+####c-fst:sc
 ```css
     font-stretch: semi-condensed;
 ```
-####fst:se
+####c-fst:se
 ```css
     font-stretch: semi-expanded;
 ```
-####fst:uc
+####c-fst:uc
 ```css
     font-stretch: ultra-condensed;
 ```
-####fst:ue
+####c-fst:ue
 ```css
     font-stretch: ultra-expanded;
 ```
-####fs
+####c-fs
 ```css
     font-style: ${0};
 ```
-####fs:i
+####c-fs:i
 ```css
     font-style: italic;
 ```
-####fs:n
+####c-fs:n
 ```css
     font-style: normal;
 ```
-####fs:o
+####c-fs:o
 ```css
     font-style: oblique;
 ```
-####fv
+####c-fv
 ```css
     font-variant: ${0};
 ```
-####fv:n
+####c-fv:n
 ```css
     font-variant: normal;
 ```
-####fv:sc
+####c-fv:sc
 ```css
     font-variant: small-caps;
 ```
-####fw
+####c-fw
 ```css
     font-weight: ${0};
 ```
-####fw:b
+####c-fw:b
 ```css
     font-weight: bold;
 ```
-####fw:br
+####c-fw:br
 ```css
     font-weight: bolder;
 ```
-####fw:lr
+####c-fw:lr
 ```css
     font-weight: lighter;
 ```
-####fw:n
+####c-fw:n
 ```css
     font-weight: normal;
 ```
-####f
+####c-f
 ```css
     font: ${0};
 ```
-####h
+####c-h
 ```css
     height: ${0};
 ```
-####h:a
+####c-h:a
 ```css
     height: auto;
 ```
-####l
+####c-l
 ```css
     left: ${0};
 ```
-####l:a
+####c-l:a
 ```css
     left: auto;
 ```
-####lts
+####c-lts
 ```css
     letter-spacing: ${0};
 ```
-####lh
+####c-lh
 ```css
     line-height: ${0};
 ```
-####lisi
+####c-lisi
 ```css
     list-style-image: url(${0});
 ```
-####lisi:n
+####c-lisi:n
 ```css
     list-style-image: none;
 ```
-####lisp
+####c-lisp
 ```css
     list-style-position: ${0};
 ```
-####lisp:i
+####c-lisp:i
 ```css
     list-style-position: inside;
 ```
-####lisp:o
+####c-lisp:o
 ```css
     list-style-position: outside;
 ```
-####list
+####c-list
 ```css
     list-style-type: ${0};
 ```
-####list:c
+####c-list:c
 ```css
     list-style-type: circle;
 ```
-####list:dclz
+####c-list:dclz
 ```css
     list-style-type: decimal-leading-zero;
 ```
-####list:dc
+####c-list:dc
 ```css
     list-style-type: decimal;
 ```
-####list:d
+####c-list:d
 ```css
     list-style-type: disc;
 ```
-####list:lr
+####c-list:lr
 ```css
     list-style-type: lower-roman;
 ```
-####list:n
+####c-list:n
 ```css
     list-style-type: none;
 ```
-####list:s
+####c-list:s
 ```css
     list-style-type: square;
 ```
-####list:ur
+####c-list:ur
 ```css
     list-style-type: upper-roman;
 ```
-####lis
+####c-lis
 ```css
     list-style: ${0};
 ```
-####lis:n
+####c-lis:n
 ```css
     list-style: none;
 ```
-####mb
+####c-mb
 ```css
     margin-bottom: ${0};
 ```
-####mb:a
+####c-mb:a
 ```css
     margin-bottom: auto;
 ```
-####ml
+####c-ml
 ```css
     margin-left: ${0};
 ```
-####ml:a
+####c-ml:a
 ```css
     margin-left: auto;
 ```
-####mr
+####c-mr
 ```css
     margin-right: ${0};
 ```
-####mr:a
+####c-mr:a
 ```css
     margin-right: auto;
 ```
-####mt
+####c-mt
 ```css
     margin-top: ${0};
 ```
-####mt:a
+####c-mt:a
 ```css
     margin-top: auto;
 ```
-####m
+####c-m
 ```css
     margin: ${0};
 ```
-####m:4
+####c-m:4
 ```css
     margin: ${1:0} ${2:0} ${3:0} ${0:0};
 ```
-####m:3
+####c-m:3
 ```css
     margin: ${1:0} ${2:0} ${0:0};
 ```
-####m:2
+####c-m:2
 ```css
     margin: ${1:0} ${0:0};
 ```
-####m:0
+####c-m:0
 ```css
     margin: 0;
 ```
-####m:a
+####c-m:a
 ```css
     margin: auto;
 ```
-####mah
+####c-mah
 ```css
     max-height: ${0};
 ```
-####mah:n
+####c-mah:n
 ```css
     max-height: none;
 ```
-####maw
+####c-maw
 ```css
     max-width: ${0};
 ```
-####maw:n
+####c-maw:n
 ```css
     max-width: none;
 ```
-####mih
+####c-mih
 ```css
     min-height: ${0};
 ```
-####miw
+####c-miw
 ```css
     min-width: ${0};
 ```
-####op
+####c-op
 ```css
     opacity: ${0};
 ```
-####op:ie
+####c-op:ie
 ```css
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${0:100});
 ```
-####op:ms
+####c-op:ms
 ```css
     -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=${0:100})';
 ```
-####orp
+####c-orp
 ```css
     orphans: ${0};
 ```
-####o+
+####c-o+
 ```css
     outline: ${1:1px} ${2:solid} #${0:000};
 ```
-####oc
+####c-oc
 ```css
     outline-color: ${0:#000};
 ```
-####oc:i
+####c-oc:i
 ```css
     outline-color: invert;
 ```
-####oo
+####c-oo
 ```css
     outline-offset: ${0};
 ```
-####os
+####c-os
 ```css
     outline-style: ${0};
 ```
-####ow
+####c-ow
 ```css
     outline-width: ${0};
 ```
-####o
+####c-o
 ```css
     outline: ${0};
 ```
-####o:n
+####c-o:n
 ```css
     outline: none;
 ```
-####ovs
+####c-ovs
 ```css
     overflow-style: ${0};
 ```
-####ovs:a
+####c-ovs:a
 ```css
     overflow-style: auto;
 ```
-####ovs:mq
+####c-ovs:mq
 ```css
     overflow-style: marquee;
 ```
-####ovs:mv
+####c-ovs:mv
 ```css
     overflow-style: move;
 ```
-####ovs:p
+####c-ovs:p
 ```css
     overflow-style: panner;
 ```
-####ovs:s
+####c-ovs:s
 ```css
     overflow-style: scrollbar;
 ```
-####ovx
+####c-ovx
 ```css
     overflow-x: ${0};
 ```
-####ovx:a
+####c-ovx:a
 ```css
     overflow-x: auto;
 ```
-####ovx:h
+####c-ovx:h
 ```css
     overflow-x: hidden;
 ```
-####ovx:s
+####c-ovx:s
 ```css
     overflow-x: scroll;
 ```
-####ovx:v
+####c-ovx:v
 ```css
     overflow-x: visible;
 ```
-####ovy
+####c-ovy
 ```css
     overflow-y: ${0};
 ```
-####ovy:a
+####c-ovy:a
 ```css
     overflow-y: auto;
 ```
-####ovy:h
+####c-ovy:h
 ```css
     overflow-y: hidden;
 ```
-####ovy:s
+####c-ovy:s
 ```css
     overflow-y: scroll;
 ```
-####ovy:v
+####c-ovy:v
 ```css
     overflow-y: visible;
 ```
-####ov
+####c-ov
 ```css
     overflow: ${0};
 ```
-####ov:a
+####c-ov:a
 ```css
     overflow: auto;
 ```
-####ov:h
+####c-ov:h
 ```css
     overflow: hidden;
 ```
-####ov:s
+####c-ov:s
 ```css
     overflow: scroll;
 ```
-####ov:v
+####c-ov:v
 ```css
     overflow: visible;
 ```
-####pb
+####c-pb
 ```css
     padding-bottom: ${0};
 ```
-####pl
+####c-pl
 ```css
     padding-left: ${0};
 ```
-####pr
+####c-pr
 ```css
     padding-right: ${0};
 ```
-####pt
+####c-pt
 ```css
     padding-top: ${0};
 ```
-####p
+####c-p
 ```css
     padding: ${0};
 ```
-####p:4
+####c-p:4
 ```css
     padding: ${1:0} ${2:0} ${3:0} ${0:0};
 ```
-####p:3
+####c-p:3
 ```css
     padding: ${1:0} ${2:0} ${0:0};
 ```
-####p:2
+####c-p:2
 ```css
     padding: ${1:0} ${0:0};
 ```
-####p:0
+####c-p:0
 ```css
     padding: 0;
 ```
-####pgba
+####c-pgba
 ```css
     page-break-after: ${0};
 ```
-####pgba:aw
+####c-pgba:aw
 ```css
     page-break-after: always;
 ```
-####pgba:a
+####c-pgba:a
 ```css
     page-break-after: auto;
 ```
-####pgba:l
+####c-pgba:l
 ```css
     page-break-after: left;
 ```
-####pgba:r
+####c-pgba:r
 ```css
     page-break-after: right;
 ```
-####pgbb
+####c-pgbb
 ```css
     page-break-before: ${0};
 ```
-####pgbb:aw
+####c-pgbb:aw
 ```css
     page-break-before: always;
 ```
-####pgbb:a
+####c-pgbb:a
 ```css
     page-break-before: auto;
 ```
-####pgbb:l
+####c-pgbb:l
 ```css
     page-break-before: left;
 ```
-####pgbb:r
+####c-pgbb:r
 ```css
     page-break-before: right;
 ```
-####pgbi
+####c-pgbi
 ```css
     page-break-inside: ${0};
 ```
-####pgbi:a
+####c-pgbi:a
 ```css
     page-break-inside: auto;
 ```
-####pgbi:av
+####c-pgbi:av
 ```css
     page-break-inside: avoid;
 ```
-####pos
+####c-pos
 ```css
     position: ${0};
 ```
-####pos:a
+####c-pos:a
 ```css
     position: absolute;
 ```
-####pos:f
+####c-pos:f
 ```css
     position: fixed;
 ```
-####pos:r
+####c-pos:r
 ```css
     position: relative;
 ```
-####pos:s
+####c-pos:s
 ```css
     position: static;
 ```
-####q
+####c-q
 ```css
     quotes: ${0};
 ```
-####q:en
+####c-q:en
 ```css
     quotes: '\201C' '\201D' '\2018' '\2019';
 ```
-####q:n
+####c-q:n
 ```css
     quotes: none;
 ```
-####q:ru
+####c-q:ru
 ```css
     quotes: '\00AB' '\00BB' '\201E' '\201C';
 ```
-####rz
+####c-rz
 ```css
     resize: ${0};
 ```
-####rz:b
+####c-rz:b
 ```css
     resize: both;
 ```
-####rz:h
+####c-rz:h
 ```css
     resize: horizontal;
 ```
-####rz:n
+####c-rz:n
 ```css
     resize: none;
 ```
-####rz:v
+####c-rz:v
 ```css
     resize: vertical;
 ```
-####r
+####c-r
 ```css
     right: ${0};
 ```
-####r:a
+####c-r:a
 ```css
     right: auto;
 ```
-####tbl
+####c-tbl
 ```css
     table-layout: ${0};
 ```
-####tbl:a
+####c-tbl:a
 ```css
     table-layout: auto;
 ```
-####tbl:f
+####c-tbl:f
 ```css
     table-layout: fixed;
 ```
-####tal
+####c-tal
 ```css
     text-align-last: ${0};
 ```
-####tal:a
+####c-tal:a
 ```css
     text-align-last: auto;
 ```
-####tal:c
+####c-tal:c
 ```css
     text-align-last: center;
 ```
-####tal:l
+####c-tal:l
 ```css
     text-align-last: left;
 ```
-####tal:r
+####c-tal:r
 ```css
     text-align-last: right;
 ```
-####ta
+####c-ta
 ```css
     text-align: ${0};
 ```
-####ta:c
+####c-ta:c
 ```css
     text-align: center;
 ```
-####ta:l
+####c-ta:l
 ```css
     text-align: left;
 ```
-####ta:r
+####c-ta:r
 ```css
     text-align: right;
 ```
-####td
+####c-td
 ```css
     text-decoration: ${0};
 ```
-####td:l
+####c-td:l
 ```css
     text-decoration: line-through;
 ```
-####td:n
+####c-td:n
 ```css
     text-decoration: none;
 ```
-####td:o
+####c-td:o
 ```css
     text-decoration: overline;
 ```
-####td:u
+####c-td:u
 ```css
     text-decoration: underline;
 ```
-####te
+####c-te
 ```css
     text-emphasis: ${0};
 ```
-####te:ac
+####c-te:ac
 ```css
     text-emphasis: accent;
 ```
-####te:a
+####c-te:a
 ```css
     text-emphasis: after;
 ```
-####te:b
+####c-te:b
 ```css
     text-emphasis: before;
 ```
-####te:c
+####c-te:c
 ```css
     text-emphasis: circle;
 ```
-####te:ds
+####c-te:ds
 ```css
     text-emphasis: disc;
 ```
-####te:dt
+####c-te:dt
 ```css
     text-emphasis: dot;
 ```
-####te:n
+####c-te:n
 ```css
     text-emphasis: none;
 ```
-####th
+####c-th
 ```css
     text-height: ${0};
 ```
-####th:a
+####c-th:a
 ```css
     text-height: auto;
 ```
-####th:f
+####c-th:f
 ```css
     text-height: font-size;
 ```
-####th:m
+####c-th:m
 ```css
     text-height: max-size;
 ```
-####th:t
+####c-th:t
 ```css
     text-height: text-size;
 ```
-####ti
+####c-ti
 ```css
     text-indent: ${0};
 ```
-####ti:-
+####c-ti:-
 ```css
     text-indent: -9999px;
 ```
-####tj
+####c-tj
 ```css
     text-justify: ${0};
 ```
-####tj:a
+####c-tj:a
 ```css
     text-justify: auto;
 ```
-####tj:d
+####c-tj:d
 ```css
     text-justify: distribute;
 ```
-####tj:ic
+####c-tj:ic
 ```css
     text-justify: inter-cluster;
 ```
-####tj:ii
+####c-tj:ii
 ```css
     text-justify: inter-ideograph;
 ```
-####tj:iw
+####c-tj:iw
 ```css
     text-justify: inter-word;
 ```
-####tj:k
+####c-tj:k
 ```css
     text-justify: kashida;
 ```
-####tj:t
+####c-tj:t
 ```css
     text-justify: tibetan;
 ```
-####to+
+####c-to+
 ```css
     text-outline: ${1:0} ${2:0} #${0:000};
 ```
-####to
+####c-to
 ```css
     text-outline: ${0};
 ```
-####to:n
+####c-to:n
 ```css
     text-outline: none;
 ```
-####tr
+####c-tr
 ```css
     text-replace: ${0};
 ```
-####tr:n
+####c-tr:n
 ```css
     text-replace: none;
 ```
-####tsh+
+####c-tsh+
 ```css
     text-shadow: ${1:0} ${2:0} ${3:0} #${0:000};
 ```
-####tsh
+####c-tsh
 ```css
     text-shadow: ${0};
 ```
-####tsh:n
+####c-tsh:n
 ```css
     text-shadow: none;
 ```
-####tt
+####c-tt
 ```css
     text-transform: ${0};
 ```
-####tt:c
+####c-tt:c
 ```css
     text-transform: capitalize;
 ```
-####tt:l
+####c-tt:l
 ```css
     text-transform: lowercase;
 ```
-####tt:n
+####c-tt:n
 ```css
     text-transform: none;
 ```
-####tt:u
+####c-tt:u
 ```css
     text-transform: uppercase;
 ```
-####tw
+####c-tw
 ```css
     text-wrap: ${0};
 ```
-####tw:no
+####c-tw:no
 ```css
     text-wrap: none;
 ```
-####tw:n
+####c-tw:n
 ```css
     text-wrap: normal;
 ```
-####tw:s
+####c-tw:s
 ```css
     text-wrap: suppress;
 ```
-####tw:u
+####c-tw:u
 ```css
     text-wrap: unrestricted;
 ```
-####t
+####c-t
 ```css
     top: ${0};
 ```
-####t:a
+####c-t:a
 ```css
     top: auto;
 ```
-####va
+####c-va
 ```css
     vertical-align: ${0};
 ```
-####va:bl
+####c-va:bl
 ```css
     vertical-align: baseline;
 ```
-####va:b
+####c-va:b
 ```css
     vertical-align: bottom;
 ```
-####va:m
+####c-va:m
 ```css
     vertical-align: middle;
 ```
-####va:sub
+####c-va:sub
 ```css
     vertical-align: sub;
 ```
-####va:sup
+####c-va:sup
 ```css
     vertical-align: super;
 ```
-####va:tb
+####c-va:tb
 ```css
     vertical-align: text-bottom;
 ```
-####va:tt
+####c-va:tt
 ```css
     vertical-align: text-top;
 ```
-####va:t
+####c-va:t
 ```css
     vertical-align: top;
 ```
-####v
+####c-v
 ```css
     visibility: ${0};
 ```
-####v:c
+####c-v:c
 ```css
     visibility: collapse;
 ```
-####v:h
+####c-v:h
 ```css
     visibility: hidden;
 ```
-####v:v
+####c-v:v
 ```css
     visibility: visible;
 ```
-####whsc
+####c-whsc
 ```css
     white-space-collapse: ${0};
 ```
-####whsc:ba
+####c-whsc:ba
 ```css
     white-space-collapse: break-all;
 ```
-####whsc:bs
+####c-whsc:bs
 ```css
     white-space-collapse: break-strict;
 ```
-####whsc:k
+####c-whsc:k
 ```css
     white-space-collapse: keep-all;
 ```
-####whsc:l
+####c-whsc:l
 ```css
     white-space-collapse: loose;
 ```
-####whsc:n
+####c-whsc:n
 ```css
     white-space-collapse: normal;
 ```
-####whs
+####c-whs
 ```css
     white-space: ${0};
 ```
-####whs:n
+####c-whs:n
 ```css
     white-space: normal;
 ```
-####whs:nw
+####c-whs:nw
 ```css
     white-space: nowrap;
 ```
-####whs:pl
+####c-whs:pl
 ```css
     white-space: pre-line;
 ```
-####whs:pw
+####c-whs:pw
 ```css
     white-space: pre-wrap;
 ```
-####whs:p
+####c-whs:p
 ```css
     white-space: pre;
 ```
-####wid
+####c-wid
 ```css
     widows: ${0};
 ```
-####w
+####c-w
 ```css
     width: ${0};
 ```
-####w:a
+####c-w:a
 ```css
     width: auto;
 ```
-####wob
+####c-wob
 ```css
     word-break: ${0};
 ```
-####wob:ba
+####c-wob:ba
 ```css
     word-break: break-all;
 ```
-####wob:bs
+####c-wob:bs
 ```css
     word-break: break-strict;
 ```
-####wob:k
+####c-wob:k
 ```css
     word-break: keep-all;
 ```
-####wob:l
+####c-wob:l
 ```css
     word-break: loose;
 ```
-####wob:n
+####c-wob:n
 ```css
     word-break: normal;
 ```
-####wos
+####c-wos
 ```css
     word-spacing: ${0};
 ```
-####wow
+####c-wow
 ```css
     word-wrap: ${0};
 ```
-####wow:no
+####c-wow:no
 ```css
     word-wrap: none;
 ```
-####wow:n
+####c-wow:n
 ```css
     word-wrap: normal;
 ```
-####wow:s
+####c-wow:s
 ```css
     word-wrap: suppress;
 ```
-####wow:u
+####c-wow:u
 ```css
     word-wrap: unrestricted;
 ```
-####z
+####c-z
 ```css
     z-index: ${0};
 ```
-####z:a
+####c-z:a
 ```css
     z-index: auto;
 ```
-####zoo
+####c-zoo
 ```css
     zoom: 1;
 ```
-####:h
+####c-:h
 ```css
     :hover
 ```
-####:fc
+####c-:fc
 ```css
     :first-child
 ```
-####:lc
+####c-:lc
 ```css
     :last-child
 ```
-####:nc
+####c-:nc
 ```css
     :nth-child(${0})
 ```
-####:nlc
+####c-:nlc
 ```css
     :nth-last-child(${0})
 ```
-####:oc
+####c-:oc
 ```css
     :only-child
 ```
-####:a
+####c-:a
 ```css
     :after
 ```
-####:b
+####c-:b
 ```css
     :before
 ```
-####::a
+####c-::a
 ```css
     ::after
 ```

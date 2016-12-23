@@ -1,94 +1,78 @@
-####jv-po
+####j-po
 ```java
     protected ${0}
 ```
-####jv-pu
+####j-pu
 ```java
     public ${0}
 ```
-####jv-pr
+####j-pr
 ```java
     private ${0}
 ```
-####jv-before
+####j-before
 ```java
     @Before
 
     static void ${1:intercept}(${2:args}) { ${0} }
 ```
-####jv-mm
+####j-mm
 ```java
     @ManyToMany
 
     ${0}
 ```
-####jv-mo
+####j-mo
 ```java
     @ManyToOne
 
     ${0}
 ```
-####jv-om
+####j-om
 ```java
     @OneToMany${1:(cascade=CascadeType.ALL)}
 
     ${0}
 ```
-####jv-oo
+####j-oo
 ```java
     @OneToOne
 
     ${1}
 ```
-####jv-im
+####j-im
 ```java
     import ${0}
 ```
-####jv-j.b
+####j-j.b
 ```java
     java.beans.
 ```
-####jv-j.i
+####j-j.i
 ```java
     java.io.
 ```
-####jv-j.m
+####j-j.m
 ```java
     java.math.
 ```
-####jv-j.n
+####j-j.n
 ```java
     java.net.
 ```
-####jv-j.u
+####j-j.u
 ```java
     java.util.
 ```
-####jv-cl
-```java
-    class ${1:`vim_snippets#Filename("$1", "untitled")`} ${0}
-```
-####jv-pcl
-```java
-    public class ${1:`vim_snippets#Filename("$1", "untitled")`} ${0}
-```
-####jv-in
-```java
-    interface ${1:`vim_snippets#Filename("$1", "untitled")`} ${2:extends Parent}
-```
-####jv-tc
-```java
-    public class ${1:`vim_snippets#Filename("$1")`} extends ${0:TestCase}
-```
-####jv-ext
+####j-ext
 ```java
     extends ${0}
 ```
-####jv-imp
+####j-imp
 ```java
     implements ${0}
 ```
-####jv-/*
+####j-/*
 ```java
     /*
 
@@ -96,39 +80,39 @@
 
      */
 ```
-####jv-co
+####j-co
 ```java
     static public final ${1:String} ${2:var} = ${3};
 ```
-####jv-cos
+####j-cos
 ```java
     static public final String ${1:var} = "${2}";
 ```
-####jv-case
+####j-case
 ```java
     case ${1}:
 
         ${0}
 ```
-####jv-def
+####j-def
 ```java
     default:
 
         ${0}
 ```
-####jv-el
+####j-el
 ```java
     else
 ```
-####jv-eif
+####j-eif
 ```java
     else if (${1}) ${0}
 ```
-####jv-if
+####j-if
 ```java
     if (${1}) ${0}
 ```
-####jv-sw
+####j-sw
 ```java
     switch (${1}) {
 
@@ -136,131 +120,111 @@
 
     }
 ```
-####jv-m
+####j-m
 ```java
     ${1:void} ${2:method}(${3}) ${4:throws }
 ```
-####jv-v
+####j-v
 ```java
     ${1:String} ${2:var}${3: = null}${4};
 ```
-####jv-d.al
+####j-d.al
 ```java
     List<${1:Object}> ${2:list} = new ArrayList<$1>();${0}
 ```
-####jv-d.hm
+####j-d.hm
 ```java
     Map<${1:Object}, ${2:Object}> ${3:map} = new HashMap<$1, $2>();${0}
 ```
-####jv-d.hs
+####j-d.hs
 ```java
     Set<${1:Object}> ${2:set} = new HashSet<$1>();${0}
 ```
-####jv-d.st
+####j-d.st
 ```java
     Stack<${1:Object}> ${2:stack} = new Stack<$1>();${0}
 ```
-####jv-singlet
-```java
-    private static class Holder {
-
-        private static final ${1:`vim_snippets#Filename("$1")`} INSTANCE = new $1();
-
-    }
-
-
-
-    private $1() { }
-
-
-
-    public static $1 getInstance() {
-
-        return Holder.INSTANCE;
-
-    }
-```
-####jv-ab
+####j-ab
 ```java
     abstract ${0}
 ```
-####jv-fi
+####j-fi
 ```java
     final ${0}
 ```
-####jv-st
+####j-st
 ```java
     static ${0}
 ```
-####jv-sy
+####j-sy
 ```java
     synchronized ${0}
 ```
-####jv-err
+####j-err
 ```java
     System.err.print("${0:Message}");
 ```
-####jv-errf
+####j-errf
 ```java
     System.err.printf("${1:Message}", ${0:exception});
 ```
-####jv-errln
+####j-errln
 ```java
     System.err.println("${0:Message}");
 ```
-####jv-as
+####j-as
 ```java
     assert ${1:test} : "${2:Failure message}";
 ```
-####jv-ae
+####j-ae
 ```java
     assertEquals("${1:Failure message}", ${2:expected}, ${3:actual});
 ```
-####jv-aae
+####j-aae
 ```java
     assertArrayEquals("${1:Failure message}", ${2:expecteds}, ${3:actuals});
 ```
-####jv-af
+####j-af
 ```java
     assertFalse("${1:Failure message}", ${2:condition});
 ```
-####jv-at
+####j-at
 ```java
     assertTrue("${1:Failure message}", ${2:condition});
 ```
-####jv-an
+####j-an
 ```java
     assertNull("${1:Failure message}", ${2:object});
 ```
-####jv-ann
+####j-ann
 ```java
     assertNotNull("${1:Failure message}", ${2:object});
 ```
-####jv-ass
+####j-ass
 ```java
     assertSame("${1:Failure message}", ${2:expected}, ${3:actual});
 ```
-####jv-asns
+####j-asns
 ```java
     assertNotSame("${1:Failure message}", ${2:expected}, ${3:actual});
 ```
-####jv-fa
+####j-fa
 ```java
     fail("${1:Failure message}");
 ```
-####jv-ca
+####j-ca
 ```java
     catch(${1:Exception} ${2:e}) ${0}
 ```
-####jv-thr
+####j-thr
 ```java
     throw ${0}
 ```
-####jv-ths
+####j-ths
 ```java
     throws ${0}
 ```
-####jv-try
+####j-try
 ```java
     try {
 
@@ -270,7 +234,7 @@
 
     }
 ```
-####jv-tryf
+####j-tryf
 ```java
     try {
 
@@ -282,15 +246,15 @@
 
     }
 ```
-####jv-findall
+####j-findall
 ```java
     List<${1:listName}> ${2:items} = ${1}.findAll();
 ```
-####jv-findbyid
+####j-findbyid
 ```java
     ${1:var} ${2:item} = ${1}.findById(${3});
 ```
-####jv-/**
+####j-/**
 ```java
     /**
 
@@ -298,55 +262,47 @@
 
      */
 ```
-####jv-@au
-```java
-    @author `system("grep \`id -un\` /etc/passwd | cut -d \":\" -f5 | cut -d \",\" -f1")`
-```
-####jv-@br
+####j-@br
 ```java
     @brief ${0:Description}
 ```
-####jv-@fi
-```java
-    @file ${0:`vim_snippets#Filename("$1")`}.java
-```
-####jv-@pa
+####j-@pa
 ```java
     @param ${0:param}
 ```
-####jv-@re
+####j-@re
 ```java
     @return ${0:param}
 ```
-####jv-debug
+####j-debug
 ```java
     Logger.debug(${1:param});
 ```
-####jv-error
+####j-error
 ```java
     Logger.error(${1:param});
 ```
-####jv-info
+####j-info
 ```java
     Logger.info(${1:param});
 ```
-####jv-warn
+####j-warn
 ```java
     Logger.warn(${1:param});
 ```
-####jv-enfor
+####j-enfor
 ```java
     for (${1} : ${2}) ${0}
 ```
-####jv-for
+####j-for
 ```java
     for (${1}; ${2}; ${3}) ${0}
 ```
-####jv-wh
+####j-wh
 ```java
     while (${1}) ${0}
 ```
-####jv-psvm
+####j-psvm
 ```java
     public static void main (String[] args) {
 
@@ -354,7 +310,7 @@
 
     }
 ```
-####jv-main
+####j-main
 ```java
     public static void main (String[] args) {
 
@@ -362,51 +318,51 @@
 
     }
 ```
-####jv-sout
+####j-sout
 ```java
     System.out.println(${0});
 ```
-####jv-serr
+####j-serr
 ```java
     System.err.println(${0});
 ```
-####jv-print
+####j-print
 ```java
     System.out.print("${0:Message}");
 ```
-####jv-printf
+####j-printf
 ```java
     System.out.printf("${1:Message}", ${0:args});
 ```
-####jv-println
+####j-println
 ```java
     System.out.println(${0});
 ```
-####jv-printlna
+####j-printlna
 ```java
     System.out.println(Arrays.toString(${0}));
 ```
-####jv-ren
+####j-ren
 ```java
     render(${1:param});
 ```
-####jv-rena
+####j-rena
 ```java
     renderArgs.put("${1}", ${2});
 ```
-####jv-renb
+####j-renb
 ```java
     renderBinary(${1:param});
 ```
-####jv-renj
+####j-renj
 ```java
     renderJSON(${1:param});
 ```
-####jv-renx
+####j-renx
 ```java
     renderXml(${1:param});
 ```
-####jv-set
+####j-set
 ```java
     ${1:public} void set${3:}(${2:String} ${0:}){
 
@@ -414,7 +370,7 @@
 
     }
 ```
-####jv-get
+####j-get
 ```java
     ${1:public} ${2:String} get${3:}(){
 
@@ -422,15 +378,15 @@
 
     }
 ```
-####jv-re
+####j-re
 ```java
     return ${0}
 ```
-####jv-br
+####j-br
 ```java
     break;
 ```
-####jv-t
+####j-t
 ```java
     public void test${1:Name}() throws Exception {
 
@@ -438,7 +394,7 @@
 
     }
 ```
-####jv-test
+####j-test
 ```java
     @Test
 
@@ -448,27 +404,27 @@
 
     }
 ```
-####jv-Sc
+####j-Sc
 ```java
     Scanner
 ```
-####jv-action
+####j-action
 ```java
     public static void ${1:index}(${2:args}) { ${0} }
 ```
-####jv-rnf
+####j-rnf
 ```java
     notFound(${1:param});
 ```
-####jv-rnfin
+####j-rnfin
 ```java
     notFoundIfNull(${1:param});
 ```
-####jv-rr
+####j-rr
 ```java
     redirect(${1:param});
 ```
-####jv-ru
+####j-ru
 ```java
     unauthorized(${1:param});
 ```

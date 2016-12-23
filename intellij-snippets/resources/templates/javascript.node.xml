@@ -7,6 +7,7 @@
     </context>
   </template>
   <template description="" name="nd-ex" toReformat="true" toShortenFQNames="true" value="    module.exports = $var1$;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -15,6 +16,7 @@
   </template>
   <template description="" name="nd-re" toReformat="true" toShortenFQNames="true" value="    $var1$ $var2$ = require('$var3$');&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;const&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;module_name&quot;" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -25,6 +27,7 @@
   <template description="" name="nd-on" toReformat="true" toShortenFQNames="true" value="    on('$var1$', function($var2$) {&#10;      $var3$&#10;    });&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -43,6 +46,7 @@
   <template description="" name="nd-once" toReformat="true" toShortenFQNames="true" value="    once('$var1$', function($var2$) {&#10;      $var3$&#10;    });&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;event_name&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -60,6 +64,8 @@
   </template>
   <template description="" name="nd-net" toReformat="true" toShortenFQNames="true" value="    net.createServer(function($var1$){&#10;        $var1$.on('data', function('data'){&#10;          $var2$&#10;        ]});&#10;        $var1$.on('end', function(){&#10;          $var3$&#10;        });&#10;    }).listen($var4$);&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;socket&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;8124&quot;" expression="" name="var4"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -69,6 +75,7 @@
   </template>
   <template description="" name="nd-pipe" toReformat="true" toShortenFQNames="true" value="    pipe($var1$)$var2$&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;stream&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

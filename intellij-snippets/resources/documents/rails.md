@@ -1,24 +1,24 @@
-####rail-art
+####rl-art
 ```ruby
     assert_redirected_to ${1:action}: '${2:index}'
 ```
-####rail-artnp
+####rl-artnp
 ```ruby
     assert_redirected_to ${1:parent}_${2:child}_path(${3:@$1}, ${0:@$2})
 ```
-####rail-artnpp
+####rl-artnpp
 ```ruby
     assert_redirected_to ${1:parent}_${2:child}_path(${0:@$1})
 ```
-####rail-artp
+####rl-artp
 ```ruby
     assert_redirected_to ${1:model}_path(${0:@$1})
 ```
-####rail-artpp
+####rl-artpp
 ```ruby
     assert_redirected_to ${0:model}s_path
 ```
-####rail-asd
+####rl-asd
 ```ruby
     assert_difference '${1:Model}.${2:count}', ${3:1} do
 
@@ -26,7 +26,7 @@
 
     end
 ```
-####rail-asnd
+####rl-asnd
 ```ruby
     assert_no_difference '${1:Model}.${2:count}' do
 
@@ -34,15 +34,15 @@
 
     end
 ```
-####rail-asre
+####rl-asre
 ```ruby
     assert_response :${1:success}, @response.body
 ```
-####rail-asrj
+####rl-asrj
 ```ruby
     assert_rjs :${1:replace}, '${0:dom id}'
 ```
-####rail-ass
+####rl-ass
 ```ruby
     assert_select '${1:path}', ${2:text}: '${3:inner_html}' ${4:do}
 
@@ -50,27 +50,27 @@
 
     end
 ```
-####rail-ba
+####rl-ba
 ```ruby
     before_action :${0:method}
 ```
-####rail-bf
+####rl-bf
 ```ruby
     before_filter :${0:method}
 ```
-####rail-bt
+####rl-bt
 ```ruby
     belongs_to :${0:association}
 ```
-####rail-btp
+####rl-btp
 ```ruby
     belongs_to :${1:association}, polymorphic: true
 ```
-####rail-crw
+####rl-crw
 ```ruby
     cattr_accessor :${0:attr_names}
 ```
-####rail-defcreate
+####rl-defcreate
 ```ruby
     def create
 
@@ -100,7 +100,7 @@
 
     end
 ```
-####rail-defdestroy
+####rl-defdestroy
 ```ruby
     def destroy
 
@@ -120,7 +120,7 @@
 
     end
 ```
-####rail-defedit
+####rl-defedit
 ```ruby
     def edit
 
@@ -128,7 +128,7 @@
 
     end
 ```
-####rail-defindex
+####rl-defindex
 ```ruby
     def index
 
@@ -146,7 +146,7 @@
 
     end
 ```
-####rail-defnew
+####rl-defnew
 ```ruby
     def new
 
@@ -164,7 +164,7 @@
 
     end
 ```
-####rail-defshow
+####rl-defshow
 ```ruby
     def show
 
@@ -182,7 +182,7 @@
 
     end
 ```
-####rail-defupdate
+####rl-defupdate
 ```ruby
     def update
 
@@ -212,7 +212,7 @@
 
     end
 ```
-####rail-defparams
+####rl-defparams
 ```ruby
     def ${1:model_class_name}_params
 
@@ -220,99 +220,99 @@
 
     end
 ```
-####rail-dele
+####rl-dele
 ```ruby
     delegate :${1:methods}, to: :${0:object}
 ```
-####rail-dele
+####rl-dele
 ```ruby
     delegate :${1:methods}, to: :${2:object}, prefix: :${3:prefix}, allow_nil: ${0:allow_nil}
 ```
-####rail-amc
+####rl-amc
 ```ruby
     alias_method_chain :${1:method_name}, :${0:feature}
 ```
-####rail-flash
+####rl-flash
 ```ruby
     flash[:${1:notice}] = '${0}'
 ```
-####rail-habtm
+####rl-habtm
 ```ruby
     has_and_belongs_to_many :${1:object}, join_table: '${2:table_name}', foreign_key: '${3}_id'
 ```
-####rail-hm
+####rl-hm
 ```ruby
     has_many :${0:object}
 ```
-####rail-hmd
+####rl-hmd
 ```ruby
     has_many :${1:other}s, class_name: '${2:$1}', foreign_key: '${3:$1}_id', dependent: :destroy
 ```
-####rail-hmt
+####rl-hmt
 ```ruby
     has_many :${1:object}, through: :${0:object}
 ```
-####rail-ho
+####rl-ho
 ```ruby
     has_one :${0:object}
 ```
-####rail-hod
+####rl-hod
 ```ruby
     has_one :${1:object}, dependent: :${0:destroy}
 ```
-####rail-i18
+####rl-i18
 ```ruby
     I18n.t('${1:type.key}')
 ```
-####rail-ist
+####rl-ist
 ```ruby
     <%= image_submit_tag('${1:agree.png}', id: '${2:id}'${0}) %>
 ```
-####rail-log
+####rl-log
 ```ruby
     Rails.logger.${1:debug} ${0}
 ```
-####rail-log2
+####rl-log2
 ```ruby
     RAILS_DEFAULT_LOGGER.${1:debug} ${0}
 ```
-####rail-logd
+####rl-logd
 ```ruby
     logger.debug { '${1:message}' }
 ```
-####rail-loge
+####rl-loge
 ```ruby
     logger.error { '${1:message}' }
 ```
-####rail-logf
+####rl-logf
 ```ruby
     logger.fatal { '${1:message}' }
 ```
-####rail-logi
+####rl-logi
 ```ruby
     logger.info { '${1:message}' }
 ```
-####rail-logw
+####rl-logw
 ```ruby
     logger.warn { '${1:message}' }
 ```
-####rail-mapc
+####rl-mapc
 ```ruby
     ${1:map}.${2:connect} '${0:controller/:action/:id}'
 ```
-####rail-mapca
+####rl-mapca
 ```ruby
     ${1:map}.catch_all '*${2:anything}', controller: '${3:default}', action: '${4:error}'
 ```
-####rail-mapr
+####rl-mapr
 ```ruby
     ${1:map}.resource :${0:resource}
 ```
-####rail-maprs
+####rl-maprs
 ```ruby
     ${1:map}.resources :${0:resource}
 ```
-####rail-mapwo
+####rl-mapwo
 ```ruby
     ${1:map}.with_options ${2:controller}: '${3:thing}' do |$3|
 
@@ -322,77 +322,77 @@
 
 
 ```
-####rail-mbv
+####rl-mbv
 ```ruby
     before_validation :${0:method}
 ```
-####rail-mbc
+####rl-mbc
 ```ruby
     before_create :${0:method}
 ```
-####rail-mbu
+####rl-mbu
 ```ruby
     before_update :${0:method}
 ```
-####rail-mbs
+####rl-mbs
 ```ruby
     before_save :${0:method}
 ```
-####rail-mbd
+####rl-mbd
 ```ruby
     before_destroy :${0:method}
 
 
 ```
-####rail-mav
+####rl-mav
 ```ruby
     after_validation :${0:method}
 ```
-####rail-maf
+####rl-maf
 ```ruby
     after_find :${0:method}
 ```
-####rail-mat
+####rl-mat
 ```ruby
     after_touch :${0:method}
 ```
-####rail-macr
+####rl-macr
 ```ruby
     after_create :${0:method}
 ```
-####rail-mau
+####rl-mau
 ```ruby
     after_update :${0:method}
 ```
-####rail-mas
+####rl-mas
 ```ruby
     after_save :${0:method}
 ```
-####rail-mad
+####rl-mad
 ```ruby
     after_destroy :${0:method}
 
 
 ```
-####rail-marc
+####rl-marc
 ```ruby
     around_create :${0:method}
 ```
-####rail-maru
+####rl-maru
 ```ruby
     around_update :${0:method}
 ```
-####rail-mars
+####rl-mars
 ```ruby
     around_save :${0:method}
 ```
-####rail-mard
+####rl-mard
 ```ruby
     around_destroy :${0:method}
 
 
 ```
-####rail-mcht
+####rl-mcht
 ```ruby
     change_table :${1:table_name} do |t|
 
@@ -400,35 +400,35 @@
 
     end
 ```
-####rail-mp
+####rl-mp
 ```ruby
     map(&:${0:id})
 ```
-####rail-mrw
+####rl-mrw
 ```ruby
     mattr_accessor :${0:attr_names}
 ```
-####rail-oa
+####rl-oa
 ```ruby
     order('${0:field}')
 ```
-####rail-od
+####rl-od
 ```ruby
     order('${0:field} DESC')
 ```
-####rail-pa
+####rl-pa
 ```ruby
     params[:${1:id}]
 ```
-####rail-ra
+####rl-ra
 ```ruby
     render action: '${0:action}'
 ```
-####rail-ral
+####rl-ral
 ```ruby
     render action: '${1:action}', layout: '${0:layoutname}'
 ```
-####rail-rest
+####rl-rest
 ```ruby
     respond_to do |format|
 
@@ -436,79 +436,79 @@
 
     end
 ```
-####rail-rf
+####rl-rf
 ```ruby
     render file: '${0:filepath}'
 ```
-####rail-rfu
+####rl-rfu
 ```ruby
     render file: '${1:filepath}', use_full_path: ${0:false}
 ```
-####rail-ri
+####rl-ri
 ```ruby
     render inline: "${0:<%= 'hello' %>}"
 ```
-####rail-ril
+####rl-ril
 ```ruby
     render inline: "${1:<%= 'hello' %>}", locals: { ${2:name}: '${3:value}'${0} }
 ```
-####rail-rit
+####rl-rit
 ```ruby
     render inline: "${1:<%= 'hello' %>}", type: ${0::rxml}
 ```
-####rail-rjson
+####rl-rjson
 ```ruby
     render json: '${0:text to render}'
 ```
-####rail-rl
+####rl-rl
 ```ruby
     render layout: '${0:layoutname}'
 ```
-####rail-rn
+####rl-rn
 ```ruby
     render nothing: ${0:true}
 ```
-####rail-rns
+####rl-rns
 ```ruby
     render nothing: ${1:true}, status: ${0:401}
 ```
-####rail-rp
+####rl-rp
 ```ruby
     render partial: '${0:item}'
 ```
-####rail-rpc
+####rl-rpc
 ```ruby
     render partial: '${1:item}', collection: ${0:@$1s}
 ```
-####rail-rpl
+####rl-rpl
 ```ruby
     render partial: '${1:item}', locals: { ${2:$1}: ${0:@$1} }
 ```
-####rail-rpo
+####rl-rpo
 ```ruby
     render partial: '${1:item}', object: ${0:@$1}
 ```
-####rail-rps
+####rl-rps
 ```ruby
     render partial: '${1:item}', status: ${0:500}
 ```
-####rail-rt
+####rl-rt
 ```ruby
     render text: '${0:text to render}'
 ```
-####rail-rtl
+####rl-rtl
 ```ruby
     render text: '${1:text to render}', layout: '${0:layoutname}'
 ```
-####rail-rtlt
+####rl-rtlt
 ```ruby
     render text: '${1:text to render}', layout: ${0:true}
 ```
-####rail-rts
+####rl-rts
 ```ruby
     render text: '${1:text to render}', status: ${0:401}
 ```
-####rail-ru
+####rl-ru
 ```ruby
     render :update do |${1:page}|
 
@@ -516,15 +516,15 @@
 
     end
 ```
-####rail-rxml
+####rl-rxml
 ```ruby
     render xml: '${0:text to render}'
 ```
-####rail-sc
+####rl-sc
 ```ruby
     scope :${1:name}, -> { where(${2:field}: ${0:value}) }
 ```
-####rail-sl
+####rl-sl
 ```ruby
     scope :${1:name}, lambda do |${2:value}|
 
@@ -532,11 +532,11 @@
 
     end
 ```
-####rail-sha1
+####rl-sha1
 ```ruby
     Digest::SHA1.hexdigest(${0:string})
 ```
-####rail-sweeper
+####rl-sweeper
 ```ruby
     class ${1:ModelClassName}Sweeper < ActionController::Caching::Sweeper
 
@@ -568,75 +568,75 @@
 
     end
 ```
-####rail-va
+####rl-va
 ```ruby
     validates_associated :${0:attribute}
 ```
-####rail-va
+####rl-va
 ```ruby
     validates :${0:terms}, acceptance: true
 ```
-####rail-vc
+####rl-vc
 ```ruby
     validates :${0:attribute}, confirmation: true
 ```
-####rail-ve
+####rl-ve
 ```ruby
     validates :${1:attribute}, exclusion: { in: ${0:%w( mov avi )} }
 ```
-####rail-vf
+####rl-vf
 ```ruby
     validates :${1:attribute}, format: { with: /${0:regex}/ }
 ```
-####rail-vi
+####rl-vi
 ```ruby
     validates :${1:attribute}, inclusion: { in: %w(${0: mov avi }) }
 ```
-####rail-vl
+####rl-vl
 ```ruby
     validates :${1:attribute}, length: { in: ${2:3}..${0:20} }
 ```
-####rail-vn
+####rl-vn
 ```ruby
     validates :${0:attribute}, numericality: true
 ```
-####rail-vp
+####rl-vp
 ```ruby
     validates :${0:attribute}, presence: true
 ```
-####rail-vu
+####rl-vu
 ```ruby
     validates :${0:attribute}, uniqueness: true
 ```
-####rail-format
+####rl-format
 ```ruby
     format.${1:js|xml|html} { ${0} }
 ```
-####rail-wc
+####rl-wc
 ```ruby
     where(${1:'conditions'}${0:, bind_var})
 ```
-####rail-wf
+####rl-wf
 ```ruby
     where(${1:field}: ${0:value})
 ```
-####rail-xdelete
+####rl-xdelete
 ```ruby
     xhr :delete, :${1:destroy}, id: ${2:1}
 ```
-####rail-xget
+####rl-xget
 ```ruby
     xhr :get, :${1:show}, id: ${2:1}
 ```
-####rail-xpost
+####rl-xpost
 ```ruby
     xhr :post, :${1:create}, ${2:object}: ${3:object}
 ```
-####rail-xput
+####rl-xput
 ```ruby
     xhr :put, :${1:update}, id: ${2:1}, ${3:object}: ${4:object}
 ```
-####rail-test
+####rl-test
 ```ruby
     test '${1:should do something}' do
 
@@ -644,31 +644,31 @@
 
     end
 ```
-####rail-mac
+####rl-mac
 ```ruby
     add_column :${1:table_name}, :${2:column_name}, :${0:data_type}
 ```
-####rail-mai
+####rl-mai
 ```ruby
     add_index :${1:table_name}, :${0:column_name}
 ```
-####rail-mrc
+####rl-mrc
 ```ruby
     remove_column :${1:table_name}, :${0:column_name}
 ```
-####rail-mrnc
+####rl-mrnc
 ```ruby
     rename_column :${1:table_name}, :${2:old_column_name}, :${0:new_column_name}
 ```
-####rail-mcc
+####rl-mcc
 ```ruby
     change_column :${1:table}, :${2:column}, :${0:type}
 ```
-####rail-mnc
+####rl-mnc
 ```ruby
     t.${1:string} :${2:title}${3:, null: false}
 ```
-####rail-mct
+####rl-mct
 ```ruby
     create_table :${1:table_name} do |t|
 
@@ -676,269 +676,239 @@
 
     end
 ```
-####rail-migration
-```ruby
-    class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` < ActiveRecord::Migration
-
-        def up
-
-            ${0}
-
-        end
-
-
-
-        def down
-
-        end
-
-    end
-```
-####rail-migration
-```ruby
-    class `substitute( substitute(vim_snippets#Filename(), '^\d\+_', '',''), '\(_\|^\)\(.\)', '\u\2', 'g')` < ActiveRecord::Migration
-
-        def change
-
-            ${0}
-
-        end
-
-    end
-```
-####rail-trc
+####rl-trc
 ```ruby
     t.remove :${0:column}
 ```
-####rail-tre
+####rl-tre
 ```ruby
     t.rename :${1:old_column_name}, :${2:new_column_name}
 
     ${0}
 ```
-####rail-tref
+####rl-tref
 ```ruby
     t.references :${0:model}
 ```
-####rail-tcb
+####rl-tcb
 ```ruby
     t.boolean :${1:title}
 
     ${0}
 ```
-####rail-tcbi
+####rl-tcbi
 ```ruby
     t.binary :${1:title}, limit: ${2:2}.megabytes
 
     ${0}
 ```
-####rail-tcd
+####rl-tcd
 ```ruby
     t.decimal :${1:title}, precision: ${2:10}, scale: ${3:2}
 
     ${0}
 ```
-####rail-tcda
+####rl-tcda
 ```ruby
     t.date :${1:title}
 
     ${0}
 ```
-####rail-tcdt
+####rl-tcdt
 ```ruby
     t.datetime :${1:title}
 
     ${0}
 ```
-####rail-tcf
+####rl-tcf
 ```ruby
     t.float :${1:title}
 
     ${0}
 ```
-####rail-tch
+####rl-tch
 ```ruby
     t.change :${1:name}, :${2:string}, ${3:limit}: ${4:80}
 
     ${0}
 ```
-####rail-tci
+####rl-tci
 ```ruby
     t.integer :${1:title}
 
     ${0}
 ```
-####rail-tcl
+####rl-tcl
 ```ruby
     t.integer :lock_version, null: false, default: 0
 
     ${0}
 ```
-####rail-tcr
+####rl-tcr
 ```ruby
     t.references :${1:taggable}, polymorphic: { default: '${2:Photo}' }
 
     ${0}
 ```
-####rail-tcs
+####rl-tcs
 ```ruby
     t.string :${1:title}
 
     ${0}
 ```
-####rail-tct
+####rl-tct
 ```ruby
     t.text :${1:title}
 
     ${0}
 ```
-####rail-tcti
+####rl-tcti
 ```ruby
     t.time :${1:title}
 
     ${0}
 ```
-####rail-tcts
+####rl-tcts
 ```ruby
     t.timestamp :${1:title}
 
     ${0}
 ```
-####rail-tctss
+####rl-tctss
 ```ruby
     t.timestamps
 
     ${0}
 ```
-####rail-isfp
+####rl-isfp
 ```ruby
     it { should filter_param :${0:key} }
 ```
-####rail-isrt
+####rl-isrt
 ```ruby
     it { should redirect_to ${0:url} }
 ```
-####rail-isrtp
+####rl-isrtp
 ```ruby
     it { should render_template ${0} }
 ```
-####rail-isrwl
+####rl-isrwl
 ```ruby
     it { should render_with_layout ${0} }
 ```
-####rail-isrf
+####rl-isrf
 ```ruby
     it { should rescue_from ${0:exception} }
 ```
-####rail-isrw
+####rl-isrw
 ```ruby
     it { should respond_with ${0:status} }
 ```
-####rail-isr
+####rl-isr
 ```ruby
     it { should route(:${1:method}, '${0:path}') }
 ```
-####rail-isss
+####rl-isss
 ```ruby
     it { should set_session :${0:key} }
 ```
-####rail-issf
+####rl-issf
 ```ruby
     it { should set_the_flash('${0}') }
 ```
-####rail-isama
+####rl-isama
 ```ruby
     it { should allow_mass_assignment_of :${0} }
 ```
-####rail-isav
+####rl-isav
 ```ruby
     it { should allow_value(${1}).for :${0} }
 ```
-####rail-isee
+####rl-isee
 ```ruby
     it { should ensure_exclusion_of :${0} }
 ```
-####rail-isei
+####rl-isei
 ```ruby
     it { should ensure_inclusion_of :${0} }
 ```
-####rail-isel
+####rl-isel
 ```ruby
     it { should ensure_length_of :${0} }
 ```
-####rail-isva
+####rl-isva
 ```ruby
     it { should validate_acceptance_of :${0} }
 ```
-####rail-isvc
+####rl-isvc
 ```ruby
     it { should validate_confirmation_of :${0} }
 ```
-####rail-isvn
+####rl-isvn
 ```ruby
     it { should validate_numericality_of :${0} }
 ```
-####rail-isvp
+####rl-isvp
 ```ruby
     it { should validate_presence_of :${0} }
 ```
-####rail-isvu
+####rl-isvu
 ```ruby
     it { should validate_uniqueness_of :${0} }
 ```
-####rail-isana
+####rl-isana
 ```ruby
     it { should accept_nested_attributes_for :${0} }
 ```
-####rail-isbt
+####rl-isbt
 ```ruby
     it { should belong_to :${0} }
 ```
-####rail-isbtcc
+####rl-isbtcc
 ```ruby
     it { should belong_to(:${1}).counter_cache ${0:true} }
 ```
-####rail-ishbtm
+####rl-ishbtm
 ```ruby
     it { should have_and_belong_to_many :${0} }
 ```
-####rail-isbv
+####rl-isbv
 ```ruby
     it { should be_valid }
 ```
-####rail-ishc
+####rl-ishc
 ```ruby
     it { should have_db_column :${0} }
 ```
-####rail-ishi
+####rl-ishi
 ```ruby
     it { should have_db_index :${0} }
 ```
-####rail-ishm
+####rl-ishm
 ```ruby
     it { should have_many :${0} }
 ```
-####rail-ishmt
+####rl-ishmt
 ```ruby
     it { should have_many(:${1}).through :${0} }
 ```
-####rail-isho
+####rl-isho
 ```ruby
     it { should have_one :${0} }
 ```
-####rail-ishro
+####rl-ishro
 ```ruby
     it { should have_readonly_attribute :${0} }
 ```
-####rail-iss
+####rl-iss
 ```ruby
     it { should serialize :${0} }
 ```
-####rail-isres
+####rl-isres
 ```ruby
     it { should respond_to :${0} }
 ```
-####rail-isresw
+####rl-isresw
 ```ruby
     it { should respond_to(:${1}).with(${0}).arguments }
 ```

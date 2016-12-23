@@ -1,7 +1,8 @@
-## Intellij-snippets
+## IntelliJ-snippets
 This repository contains snippets files for various programing languages.
 
-Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets) - that using snipMate format
+In the first step, all of snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets) and [bootstrap-snippets](https://github.com/bonsaiben/bootstrap-snippets) - that using snipMate format.
+I am very happy if someone contribute with me to improve it better!
 #### How to use
 - Clone this repository to your local env
 
@@ -14,10 +15,12 @@ Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets
     - Windows: <your_user_home_directory>.IntelliJ IDEA<version_number>\config\templates
     - Linux: ~IntelliJ IDEA<version>\config\templates
     - OS X: ~/Library/Preferences/IntelliJ IDEA<version>/templates
-- restart Intellij Editor if it is running
+- Restart IntelliJ Editor if it is running
+- Type snippet name fllowed by pressing Tab or Enter to get template code. If snippets list do not show up press ```<CMD>J```.
+- To move between variable locations  in tamplate code you can use ```<Tab>``` or ```<Enter>```. But if emmet mode is enabled, when you type ```abc<Tab>``` it will be converted to a html tag like ```<abc></abc>```, so you shoud you ```<Enter>``` instead of ```<Tab>``` to swich between variable locations.
 
 #### This template may be works for the following JetBrains products
-- IntelliJ IDEA( EC and Ultimate)( tested)
+- IntelliJ IDEA(EC and Ultimate)(tested)
 - WebStorm and PhpStorm(not tested)
 - PyCharm(not tested)
 - RubyMine(not tested)
@@ -49,41 +52,42 @@ Snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets
 - [sql.md](intellij-snippets/resources/documents/sql.md)
 
 
-## Freely make your snippets style
-- using convert(inFile, outFile, prefix, language, [supportLanguages]) in convert.pty
-- supportLanguages OPTIONS
-    - "HTML"
-    - "XML"
-    - "JSON"
-    - "JAVA_CODE"
-    - "CSS"
-    - "CUCUMBER_FEATURE_FILE"
-    - "JAVA_SCRIPT"
-    - "TypeScript"
-    - "SQL"
-    - "ColdFusion"
-    - "PHP"
-    - "GROOVY"
-    - "MAVEN"
-    - "ASPECTJ" value="true" />
-    - "ACTION_SCRIPT"
-    - "MXML"
-    - "CoffeeScript"
-    - "JSP"
-    - "OGNL"
-    - "GSP"
-    - "SCALA"
-    - "SBT"
-    - "SSP"
-    - "KOTLIN"
-    - "HAML"
-    - "Python"
-    - "Django"
-    - "RUBY"
-    - "RHTML"
-    - "GO"
+## How to customize my snippets style
+- In vim-snippets repository has various snippets language, and you can convert it to intelliJ snippet if you need.
+- Using convert(inFile, outFile, prefix, language, [supportLanguages]) in convert.py
+- SupportLanguages OPTIONS
+    - HTML
+    - XML
+    - JSON
+    - JAVA_CODE
+    - CSS
+    - CUCUMBER_FEATURE_FILE
+    - JAVA_SCRIPT
+    - TypeScript
+    - SQL
+    - ColdFusion
+    - PHP
+    - GROOVY
+    - MAVEN
+    - ASPECTJ
+    - ACTION_SCRIPT
+    - MXML
+    - CoffeeScript
+    - JSP
+    - OGNL
+    - GSP
+    - SCALA
+    - SBT
+    - SSP
+    - KOTLIN
+    - HAML
+    - Python
+    - Django
+    - RUBY
+    - RHTML
+    - GO
 - Note: If you want make a snippet that support all languages, let supportLanguages value is 'OTHER'
-- prefix option can be empty
+- Change prefix to what you want, prefix option can be empty
 
 ## TODO
 - Make it become a Plugin

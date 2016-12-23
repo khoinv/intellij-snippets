@@ -44,7 +44,7 @@
 ```
 ####jq-ajaxcomplete
 ```javascript
-    ${1:obj}.ajaxComplete(function (${2:e}, xhr, settings) {
+    ${1:obj}.ajaxComplete(function (${1:e}, xhr, settings) {
 
         ${0:// callback}
 
@@ -52,7 +52,7 @@
 ```
 ####jq-ajaxerror
 ```javascript
-    ${1:obj}.ajaxError(function (${2:e}, xhr, settings, thrownError) {
+    ${1:obj}.ajaxError(function (${1:e}, xhr, settings, thrownError) {
 
         ${2:// error callback}
 
@@ -98,7 +98,7 @@
 ```
 ####jq-ajaxsend
 ```javascript
-    ${1:obj}.ajaxSend(function (${2:request, settings}) {
+    ${1:obj}.ajaxSend(function (${1:request, settings}) {
 
         ${2:// error callback}
 

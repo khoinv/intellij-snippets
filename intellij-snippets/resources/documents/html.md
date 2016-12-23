@@ -1,260 +1,256 @@
-####nbs
+####h-nbs
 ```html
     &nbsp;
 ```
-####left
+####h-left
 ```html
     &#x2190;
 ```
-####right
+####h-right
 ```html
     &#x2192;
 ```
-####up
+####h-up
 ```html
     &#x2191;
 ```
-####down
+####h-down
 ```html
     &#x2193;
 ```
-####return
+####h-return
 ```html
     &#x21A9;
 ```
-####backtab
+####h-backtab
 ```html
     &#x21E4;
 ```
-####tab
+####h-tab
 ```html
     &#x21E5;
 ```
-####shift
+####h-shift
 ```html
     &#x21E7;
 ```
-####ctrl
+####h-ctrl
 ```html
     &#x2303;
 ```
-####enter
+####h-enter
 ```html
     &#x2305;
 ```
-####cmd
+####h-cmd
 ```html
     &#x2318;
 ```
-####option
+####h-option
 ```html
     &#x2325;
 ```
-####delete
+####h-delete
 ```html
     &#x2326;
 ```
-####backspace
+####h-backspace
 ```html
     &#x232B;
 ```
-####esc
+####h-esc
 ```html
     &#x238B;
 ```
-####//
+####h-//
 ```html
     <!-- ${1} -->${0}
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 
     "http://www.w3.org/TR/html4/strict.dtd">
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 
     "http://www.w3.org/TR/html4/loose.dtd">
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE HTML>
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ```
-####doctype
+####h-doctype
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 ```
-####docts
+####h-docts
 ```html
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 
     "http://www.w3.org/TR/html4/strict.dtd">
 ```
-####doct
+####h-doct
 ```html
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 
     "http://www.w3.org/TR/html4/loose.dtd">
 ```
-####doct5
+####h-doct5
 ```html
     <!DOCTYPE HTML>
 ```
-####docxf
+####h-docxf
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 ```
-####docxs
+####h-docxs
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 ```
-####docxt
+####h-docxt
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ```
-####docx
+####h-docx
 ```html
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 ```
-####attr
+####h-attr
 ```html
     ${1:attribute}="${0:property}"
 ```
-####attr+
+####h-attr+
 ```html
     ${1:attribute}="${2:property}" attr+
 ```
-####.
+####h-.
 ```html
     class="${1}"
 ```
-#####
+####h-#
 ```html
     id="${1}"
 ```
-####alt
+####h-alt
 ```html
     alt="${1}"
 ```
-####charset
+####h-charset
 ```html
     charset="${1:utf-8}"
 ```
-####data
+####h-data
 ```html
     data-${1}="${2:$1}"
 ```
-####for
+####h-for
 ```html
     for="${1}"
 ```
-####height
+####h-height
 ```html
     height="${1}"
 ```
-####href
+####h-href
 ```html
     href="${1:#}"
 ```
-####lang
+####h-lang
 ```html
     lang="${1:en}"
 ```
-####media
+####h-media
 ```html
     media="${1}"
 ```
-####name
+####h-name
 ```html
     name="${1}"
 ```
-####rel
+####h-rel
 ```html
     rel="${1}"
 ```
-####scope
+####h-scope
 ```html
     scope="${1:row}"
 ```
-####src
+####h-src
 ```html
     src="${1}"
 ```
-####title=
+####h-title=
 ```html
     title="${1}"
 ```
-####type
+####h-type
 ```html
     type="${1}"
 ```
-####value
+####h-value
 ```html
     value="${1}"
 ```
-####width
+####h-width
 ```html
     width="${1}"
 ```
-####a
+####h-a
 ```html
     <a href="${1:#}">${0:$1}</a>
 ```
-####a.
+####h-a.
 ```html
     <a class="${1}" href="${2:#}">${0:$1}</a>
 ```
-####a#
+####h-a#
 ```html
     <a id="${1}" href="${2:#}">${0:$1}</a>
 ```
-####a:ext
+####h-a:ext
 ```html
     <a href="http://${1:example.com}">${0:$1}</a>
 ```
-####a:mail
+####h-a:mail
 ```html
     <a href="mailto:${1:joe@example.com}?subject=${2:feedback}">${0:email me}</a>
 ```
-####ac
-```html
-    <a href="`@+`">${0:`@+`}</a>
-```
-####abbr
+####h-abbr
 ```html
     <abbr title="${1}">${0}</abbr>
 ```
-####address
+####h-address
 ```html
     <address>
 
@@ -262,33 +258,33 @@
 
     </address>
 ```
-####area
+####h-area
 ```html
     <area shape="${1:rect}" coords="${2}" href="${3}" alt="${0}" />
 ```
-####area+
+####h-area+
 ```html
     <area shape="${1:rect}" coords="${2}" href="${3}" alt="${4}" />
 
     area+
 ```
-####area:c
+####h-area:c
 ```html
     <area shape="circle" coords="${1}" href="${2}" alt="${0}" />
 ```
-####area:d
+####h-area:d
 ```html
     <area shape="default" coords="${1}" href="${2}" alt="${0}" />
 ```
-####area:p
+####h-area:p
 ```html
     <area shape="poly" coords="${1}" href="${2}" alt="${0}" />
 ```
-####area:r
+####h-area:r
 ```html
     <area shape="rect" coords="${1}" href="${2}" alt="${0}" />
 ```
-####article
+####h-article
 ```html
     <article>
 
@@ -296,7 +292,7 @@
 
     </article>
 ```
-####article.
+####h-article.
 ```html
     <article class="${1}">
 
@@ -304,7 +300,7 @@
 
     </article>
 ```
-####article#
+####h-article#
 ```html
     <article id="${1}">
 
@@ -312,7 +308,7 @@
 
     </article>
 ```
-####aside
+####h-aside
 ```html
     <aside>
 
@@ -320,7 +316,7 @@
 
     </aside>
 ```
-####aside.
+####h-aside.
 ```html
     <aside class="${1}">
 
@@ -328,7 +324,7 @@
 
     </aside>
 ```
-####aside#
+####h-aside#
 ```html
     <aside id="${1}">
 
@@ -336,35 +332,35 @@
 
     </aside>
 ```
-####audio
+####h-audio
 ```html
     <audio src="${1}>${0}</audio>
 ```
-####b
+####h-b
 ```html
     <b>${0}</b>
 ```
-####base
+####h-base
 ```html
     <base href="${1}" target="${0}" />
 ```
-####bdi
+####h-bdi
 ```html
     <bdi>${0}</bdo>
 ```
-####bdo
+####h-bdo
 ```html
     <bdo dir="${1}">${0}</bdo>
 ```
-####bdo:l
+####h-bdo:l
 ```html
     <bdo dir="ltr">${0}</bdo>
 ```
-####bdo:r
+####h-bdo:r
 ```html
     <bdo dir="rtl">${0}</bdo>
 ```
-####blockquote
+####h-blockquote
 ```html
     <blockquote>
 
@@ -372,7 +368,7 @@
 
     </blockquote>
 ```
-####body
+####h-body
 ```html
     <body>
 
@@ -380,31 +376,31 @@
 
     </body>
 ```
-####br
+####h-br
 ```html
     <br />
 ```
-####button
+####h-button
 ```html
     <button type="${1:submit}">${0}</button>
 ```
-####button.
+####h-button.
 ```html
     <button class="${1:button}" type="${2:submit}">${0}</button>
 ```
-####button#
+####h-button#
 ```html
     <button id="${1}" type="${2:submit}">${0}</button>
 ```
-####button:s
+####h-button:s
 ```html
     <button type="submit">${0}</button>
 ```
-####button:r
+####h-button:r
 ```html
     <button type="reset">${0}</button>
 ```
-####canvas
+####h-canvas
 ```html
     <canvas>
 
@@ -412,29 +408,29 @@
 
     </canvas>
 ```
-####caption
+####h-caption
 ```html
     <caption>${0}</caption>
 ```
-####cite
+####h-cite
 ```html
     <cite>${0}</cite>
 ```
-####code
+####h-code
 ```html
     <code>${0}</code>
 ```
-####col
+####h-col
 ```html
     <col />
 ```
-####col+
+####h-col+
 ```html
     <col />
 
     col+
 ```
-####colgroup
+####h-colgroup
 ```html
     <colgroup>
 
@@ -442,7 +438,7 @@
 
     </colgroup>
 ```
-####colgroup+
+####h-colgroup+
 ```html
     <colgroup>
 
@@ -452,19 +448,19 @@
 
     </colgroup>
 ```
-####command
+####h-command
 ```html
     <command type="command" label="${1}" icon="${0}">
 ```
-####command:c
+####h-command:c
 ```html
     <command type="checkbox" label="${1}" icon="${0}">
 ```
-####command:r
+####h-command:r
 ```html
     <command type="radio" radiogroup="${1}" label="${2}" icon="${0}">
 ```
-####datagrid
+####h-datagrid
 ```html
     <datagrid>
 
@@ -472,7 +468,7 @@
 
     </datagrid>
 ```
-####datalist
+####h-datalist
 ```html
     <datalist>
 
@@ -480,7 +476,7 @@
 
     </datalist>
 ```
-####datatemplate
+####h-datatemplate
 ```html
     <datatemplate>
 
@@ -488,31 +484,31 @@
 
     </datatemplate>
 ```
-####dd
+####h-dd
 ```html
     <dd>${0}</dd>
 ```
-####dd.
+####h-dd.
 ```html
     <dd class="${1}">${0}</dd>
 ```
-####dd#
+####h-dd#
 ```html
     <dd id="${1}">${0}</dd>
 ```
-####del
+####h-del
 ```html
     <del>${0}</del>
 ```
-####details
+####h-details
 ```html
     <details>${0}</details>
 ```
-####dfn
+####h-dfn
 ```html
     <dfn>${0}</dfn>
 ```
-####dialog
+####h-dialog
 ```html
     <dialog>
 
@@ -520,7 +516,7 @@
 
     </dialog>
 ```
-####div
+####h-div
 ```html
     <div>
 
@@ -528,7 +524,7 @@
 
     </div>
 ```
-####div.
+####h-div.
 ```html
     <div class="${1}">
 
@@ -536,7 +532,7 @@
 
     </div>
 ```
-####div#
+####h-div#
 ```html
     <div id="${1}">
 
@@ -544,7 +540,7 @@
 
     </div>
 ```
-####dl
+####h-dl
 ```html
     <dl>
 
@@ -552,7 +548,7 @@
 
     </dl>
 ```
-####dl.
+####h-dl.
 ```html
     <dl class="${1}">
 
@@ -560,7 +556,7 @@
 
     </dl>
 ```
-####dl#
+####h-dl#
 ```html
     <dl id="${1}">
 
@@ -568,7 +564,7 @@
 
     </dl>
 ```
-####dl+
+####h-dl+
 ```html
     <dl>
 
@@ -580,19 +576,19 @@
 
     </dl>
 ```
-####dt
+####h-dt
 ```html
     <dt>${0}</dt>
 ```
-####dt.
+####h-dt.
 ```html
     <dt class="${1}">${0}</dt>
 ```
-####dt#
+####h-dt#
 ```html
     <dt id="${1}">${0}</dt>
 ```
-####dt+
+####h-dt+
 ```html
     <dt>${1}</dt>
 
@@ -600,15 +596,15 @@
 
     dt+${0}
 ```
-####em
+####h-em
 ```html
     <em>${0}</em>
 ```
-####embed
+####h-embed
 ```html
     <embed src="${1}" type="${0}" />
 ```
-####fieldset
+####h-fieldset
 ```html
     <fieldset>
 
@@ -616,7 +612,7 @@
 
     </fieldset>
 ```
-####fieldset.
+####h-fieldset.
 ```html
     <fieldset class="${1}">
 
@@ -624,7 +620,7 @@
 
     </fieldset>
 ```
-####fieldset#
+####h-fieldset#
 ```html
     <fieldset id="${1}">
 
@@ -632,7 +628,7 @@
 
     </fieldset>
 ```
-####fieldset+
+####h-fieldset+
 ```html
     <fieldset>
 
@@ -644,15 +640,15 @@
 
     fieldset+${0}
 ```
-####figcaption
+####h-figcaption
 ```html
     <figcaption>${0}</figcaption>
 ```
-####figure
+####h-figure
 ```html
     <figure>${0}</figure>
 ```
-####figure#
+####h-figure#
 ```html
     <figure id="${1}">
 
@@ -660,7 +656,7 @@
 
     </figure>
 ```
-####figure.
+####h-figure.
 ```html
     <figure class="${1}">
 
@@ -668,7 +664,7 @@
 
     </figure>
 ```
-####footer
+####h-footer
 ```html
     <footer>
 
@@ -676,7 +672,7 @@
 
     </footer>
 ```
-####footer.
+####h-footer.
 ```html
     <footer class="${1}">
 
@@ -684,7 +680,7 @@
 
     </footer>
 ```
-####footer#
+####h-footer#
 ```html
     <footer id="${1}">
 
@@ -692,7 +688,7 @@
 
     </footer>
 ```
-####form
+####h-form
 ```html
     <form action="${1}" method="${2:post}">
 
@@ -700,7 +696,7 @@
 
     </form>
 ```
-####form.
+####h-form.
 ```html
     <form class="${1}" action="${2}" method="${3:post}">
 
@@ -708,7 +704,7 @@
 
     </form>
 ```
-####form#
+####h-form#
 ```html
     <form id="${1}" action="${2}" method="${3:post}">
 
@@ -716,93 +712,79 @@
 
     </form>
 ```
-####h1
+####h-h1
 ```html
     <h1>${0}</h1>
 ```
-####h1.
+####h-h1.
 ```html
     <h1 class="${1}">${0}</h1>
 ```
-####h1#
+####h-h1#
 ```html
     <h1 id="${1}">${0}</h1>
 ```
-####h2
+####h-h2
 ```html
     <h2>${0}</h2>
 ```
-####h2.
+####h-h2.
 ```html
     <h2 class="${1}">${0}</h2>
 ```
-####h2#
+####h-h2#
 ```html
     <h2 id="${1}">${0}</h2>
 ```
-####h3
+####h-h3
 ```html
     <h3>${0}</h3>
 ```
-####h3.
+####h-h3.
 ```html
     <h3 class="${1}">${0}</h3>
 ```
-####h3#
+####h-h3#
 ```html
     <h3 id="${1}">${0}</h3>
 ```
-####h4
+####h-h4
 ```html
     <h4>${0}</h4>
 ```
-####h4.
+####h-h4.
 ```html
     <h4 class="${1}">${0}</h4>
 ```
-####h4#
+####h-h4#
 ```html
     <h4 id="${1}">${0}</h4>
 ```
-####h5
+####h-h5
 ```html
     <h5>${0}</h5>
 ```
-####h5.
+####h-h5.
 ```html
     <h5 class="${1}">${0}</h5>
 ```
-####h5#
+####h-h5#
 ```html
     <h5 id="${1}">${0}</h5>
 ```
-####h6
+####h-h6
 ```html
     <h6>${0}</h6>
 ```
-####h6.
+####h-h6.
 ```html
     <h6 class="${1}">${0}</h6>
 ```
-####h6#
+####h-h6#
 ```html
     <h6 id="${1}">${0}</h6>
 ```
-####head
-```html
-    <head>
-
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-
-
-        <title>${1:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
-
-        ${0}
-
-    </head>
-```
-####header
+####h-header
 ```html
     <header>
 
@@ -810,7 +792,7 @@
 
     </header>
 ```
-####header.
+####h-header.
 ```html
     <header class="${1}">
 
@@ -818,7 +800,7 @@
 
     </header>
 ```
-####header#
+####h-header#
 ```html
     <header id="${1}">
 
@@ -826,7 +808,7 @@
 
     </header>
 ```
-####hgroup
+####h-hgroup
 ```html
     <hgroup>
 
@@ -834,7 +816,7 @@
 
     </hgroup>
 ```
-####hgroup.
+####h-hgroup.
 ```html
     <hgroup class="${1}>
 
@@ -842,11 +824,11 @@
 
     </hgroup>
 ```
-####hr
+####h-hr
 ```html
     <hr />
 ```
-####html
+####h-html
 ```html
     <html>
 
@@ -854,7 +836,7 @@
 
     </html>
 ```
-####xhtml
+####h-xhtml
 ```html
     <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -862,201 +844,149 @@
 
     </html>
 ```
-####html5
-```html
-    <!DOCTYPE html>
-
-    <html>
-
-        <head>
-
-            <meta charset="utf-8" />
-
-            <meta name="viewport" content="width=device-width" />
-
-            <title>${1:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
-
-            ${2:link}
-
-        </head>
-
-        <body>
-
-            ${0:body}
-
-        </body>
-
-    </html>
-```
-####html5l
-```html
-    <!DOCTYPE html>
-
-    <html lang="${1:es}">
-
-        <head>
-
-            <meta charset="utf-8" />
-
-            <meta name="viewport" content="width=device-width" />
-
-            <title>${2:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
-
-            ${3:link}
-
-        </head>
-
-        <body>
-
-            ${0:body}
-
-        </body>
-
-    </html>
-```
-####i
+####h-i
 ```html
     <i>${0}</i>
 ```
-####iframe
+####h-iframe
 ```html
     <iframe src="${1}" frameborder="0"></iframe>
 ```
-####iframe.
+####h-iframe.
 ```html
     <iframe class="${1}" src="${2}" frameborder="0"></iframe>
 ```
-####iframe#
+####h-iframe#
 ```html
     <iframe id="${1}" src="${2}" frameborder="0"></iframe>
 ```
-####img
+####h-img
 ```html
     <img src="${1}" alt="${2}" />
 ```
-####img.
+####h-img.
 ```html
     <img class="${1}" src="${2}" alt="${3}" />
 ```
-####img#
+####h-img#
 ```html
     <img id="${1}" src="${2}" alt="${3}" />
 ```
-####input
+####h-input
 ```html
     <input type="${1:text/submit/hidden/button/image}" name="${2}" id="${3:$2}" value="${4}" />
 ```
-####input.
+####h-input.
 ```html
     <input class="${1}" type="${2:text/submit/hidden/button/image}" name="${3}" id="${4:$3}" value="${5}" />
 ```
-####input:text
+####h-input:text
 ```html
     <input type="text" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:submit
+####h-input:submit
 ```html
     <input type="submit" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:hidden
+####h-input:hidden
 ```html
     <input type="hidden" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:button
+####h-input:button
 ```html
     <input type="button" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:image
+####h-input:image
 ```html
     <input type="image" name="${1}" id="${2:$1}" src="${3}" alt="${4}" />
 ```
-####input:checkbox
+####h-input:checkbox
 ```html
     <input type="checkbox" name="${1}" id="${2:$1}" />
 ```
-####input:radio
+####h-input:radio
 ```html
     <input type="radio" name="${1}" id="${2:$1}" />
 ```
-####input:color
+####h-input:color
 ```html
     <input type="color" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:date
+####h-input:date
 ```html
     <input type="date" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:datetime
+####h-input:datetime
 ```html
     <input type="datetime" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:datetime-local
+####h-input:datetime-local
 ```html
     <input type="datetime-local" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:email
+####h-input:email
 ```html
     <input type="email" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:file
+####h-input:file
 ```html
     <input type="file" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:month
+####h-input:month
 ```html
     <input type="month" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:number
+####h-input:number
 ```html
     <input type="number" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:password
+####h-input:password
 ```html
     <input type="password" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:range
+####h-input:range
 ```html
     <input type="range" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:reset
+####h-input:reset
 ```html
     <input type="reset" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:search
+####h-input:search
 ```html
     <input type="search" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:time
+####h-input:time
 ```html
     <input type="time" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:url
+####h-input:url
 ```html
     <input type="url" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####input:week
+####h-input:week
 ```html
     <input type="week" name="${1}" id="${2:$1}" value="${3}" />
 ```
-####ins
+####h-ins
 ```html
     <ins>${0}</ins>
 ```
-####kbd
+####h-kbd
 ```html
     <kbd>${0}</kbd>
 ```
-####label
+####h-label
 ```html
     <label for="${0:$1}">${1}</label>
 ```
-####label:i
+####h-label:i
 ```html
     <label for="${2:$1}">${1}</label>
 
     <input type="${3:text/submit/hidden/button}" name="${4:$2}" id="${5:$2}" value="${6}" />
 ```
-####label:s
+####h-label:s
 ```html
     <label for="${2:$1}">${1}</label>
 
@@ -1066,67 +996,67 @@
 
     </select>
 ```
-####legend
+####h-legend
 ```html
     <legend>${0}</legend>
 ```
-####legend+
+####h-legend+
 ```html
     <legend><span>${0}</span></legend>
 ```
-####li
+####h-li
 ```html
     <li>${0}</li>
 ```
-####li.
+####h-li.
 ```html
     <li class="${1}">${0}</li>
 ```
-####li+
+####h-li+
 ```html
     <li>${1}</li>
 
     li+
 ```
-####lia
+####h-lia
 ```html
     <li><a href="${0:#}">${1}</a></li>
 ```
-####lia+
+####h-lia+
 ```html
     <li><a href="${2:#}">${1}</a></li>
 
     lia+
 ```
-####link
+####h-link
 ```html
     <link rel="${1}" href="${2}" title="${3}" type="${4}" />
 ```
-####link:atom
+####h-link:atom
 ```html
     <link rel="alternate" href="${1:atom.xml}" title="Atom" type="application/atom+xml" />
 ```
-####link:s
+####h-link:s
 ```html
     <link rel="stylesheet" href="${1:style.css}" />
 ```
-####link:css
+####h-link:css
 ```html
     <link rel="stylesheet" href="${1:style.css}" type="text/css" media="${2:all}" />
 ```
-####link:favicon
+####h-link:favicon
 ```html
     <link rel="shortcut icon" href="${1:favicon.ico}" type="image/x-icon" />
 ```
-####link:rss
+####h-link:rss
 ```html
     <link rel="alternate" href="${1:rss.xml}" title="RSS" type="application/atom+xml" />
 ```
-####link:touch
+####h-link:touch
 ```html
     <link rel="apple-touch-icon" href="${1:favicon.png}" />
 ```
-####main
+####h-main
 ```html
     <main role="main">
 
@@ -1134,7 +1064,7 @@
 
     </main>
 ```
-####map
+####h-map
 ```html
     <map name="${1}">
 
@@ -1142,7 +1072,7 @@
 
     </map>
 ```
-####map.
+####h-map.
 ```html
     <map class="${1}" name="${2}">
 
@@ -1150,7 +1080,7 @@
 
     </map>
 ```
-####map#
+####h-map#
 ```html
     <map name="${1}" id="${2:$1}>
 
@@ -1158,7 +1088,7 @@
 
     </map>
 ```
-####map+
+####h-map+
 ```html
     <map name="${1}">
 
@@ -1166,11 +1096,11 @@
 
     </map>
 ```
-####mark
+####h-mark
 ```html
     <mark>${0}</mark>
 ```
-####menu
+####h-menu
 ```html
     <menu>
 
@@ -1178,7 +1108,7 @@
 
     </menu>
 ```
-####menu:c
+####h-menu:c
 ```html
     <menu type="context">
 
@@ -1186,7 +1116,7 @@
 
     </menu>
 ```
-####menu:t
+####h-menu:t
 ```html
     <menu type="toolbar">
 
@@ -1194,35 +1124,35 @@
 
     </menu>
 ```
-####meta
+####h-meta
 ```html
     <meta http-equiv="${1}" content="${2}" />
 ```
-####meta:s
+####h-meta:s
 ```html
     <meta ${0} />
 ```
-####meta:d
+####h-meta:d
 ```html
     <meta name="description" content="${0}" />
 ```
-####meta:compat
+####h-meta:compat
 ```html
     <meta http-equiv="X-UA-Compatible" content="IE=${1:7,8,edge}" />
 ```
-####meta:refresh
+####h-meta:refresh
 ```html
     <meta http-equiv="refresh" content="text/html;charset=UTF-8" />
 ```
-####meta:utf
+####h-meta:utf
 ```html
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 ```
-####meter
+####h-meter
 ```html
     <meter>${0}</meter>
 ```
-####nav
+####h-nav
 ```html
     <nav>
 
@@ -1230,7 +1160,7 @@
 
     </nav>
 ```
-####nav.
+####h-nav.
 ```html
     <nav class="${1}">
 
@@ -1238,7 +1168,7 @@
 
     </nav>
 ```
-####nav#
+####h-nav#
 ```html
     <nav id="${1}">
 
@@ -1246,7 +1176,7 @@
 
     </nav>
 ```
-####noscript
+####h-noscript
 ```html
     <noscript>
 
@@ -1254,7 +1184,7 @@
 
     </noscript>
 ```
-####object
+####h-object
 ```html
     <object data="${1}" type="${2}">
 
@@ -1262,7 +1192,7 @@
 
     </object>
 ```
-####movie
+####h-movie
 ```html
     <object width="$2" height="$3" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
 
@@ -1286,7 +1216,7 @@
 
     </object>
 ```
-####ol
+####h-ol
 ```html
     <ol>
 
@@ -1294,7 +1224,7 @@
 
     </ol>
 ```
-####ol.
+####h-ol.
 ```html
     <ol class="${1}">
 
@@ -1302,7 +1232,7 @@
 
     </ol>
 ```
-####ol#
+####h-ol#
 ```html
     <ol id="${1}">
 
@@ -1310,7 +1240,7 @@
 
     </ol>
 ```
-####ol+
+####h-ol+
 ```html
     <ol>
 
@@ -1320,21 +1250,21 @@
 
     </ol>
 ```
-####opt
+####h-opt
 ```html
     <option value="${1}">${0:$1}</option>
 ```
-####opt+
+####h-opt+
 ```html
     <option value="${1}">${2:$1}</option>
 
     opt+${0}
 ```
-####optt
+####h-optt
 ```html
     <option>${0}</option>
 ```
-####optgroup
+####h-optgroup
 ```html
     <optgroup>
 
@@ -1344,27 +1274,27 @@
 
     </optgroup>
 ```
-####output
+####h-output
 ```html
     <output>${0}</output>
 ```
-####p
+####h-p
 ```html
     <p>${0}</p>
 ```
-####p.
+####h-p.
 ```html
     <p class="${1}">${0}</p>
 ```
-####p#
+####h-p#
 ```html
     <p id="${1}">${0}</p>
 ```
-####param
+####h-param
 ```html
     <param name="${1}" value="${2}" />
 ```
-####pre
+####h-pre
 ```html
     <pre>
 
@@ -1372,23 +1302,23 @@
 
     </pre>
 ```
-####progress
+####h-progress
 ```html
     <progress>${0}</progress>
 ```
-####q
+####h-q
 ```html
     <q>${0}</q>
 ```
-####rp
+####h-rp
 ```html
     <rp>${0}</rp>
 ```
-####rt
+####h-rt
 ```html
     <rt>${0}</rt>
 ```
-####ruby
+####h-ruby
 ```html
     <ruby>
 
@@ -1396,11 +1326,11 @@
 
     </ruby>
 ```
-####s
+####h-s
 ```html
     <s>${0}</s>
 ```
-####samp
+####h-samp
 ```html
     <samp>
 
@@ -1408,7 +1338,7 @@
 
     </samp>
 ```
-####script
+####h-script
 ```html
     <script type="text/javascript" charset="utf-8">
 
@@ -1416,11 +1346,11 @@
 
     </script>
 ```
-####scripts
+####h-scripts
 ```html
     <script src="${0}.js"></script>
 ```
-####scriptt
+####h-scriptt
 ```html
     <script type="${1}" id="${2}">
 
@@ -1428,11 +1358,11 @@
 
     </script>
 ```
-####scriptsrc
+####h-scriptsrc
 ```html
     <script src="${0}.js" type="text/javascript" charset="utf-8"></script>
 ```
-####section
+####h-section
 ```html
     <section>
 
@@ -1440,7 +1370,7 @@
 
     </section>
 ```
-####section.
+####h-section.
 ```html
     <section class="${1}">
 
@@ -1448,7 +1378,7 @@
 
     </section>
 ```
-####section#
+####h-section#
 ```html
     <section id="${1}">
 
@@ -1456,7 +1386,7 @@
 
     </section>
 ```
-####select
+####h-select
 ```html
     <select name="${1}" id="${2:$1}">
 
@@ -1464,7 +1394,7 @@
 
     </select>
 ```
-####select.
+####h-select.
 ```html
     <select name="${1}" id="${2:$1}" class="${3}>
 
@@ -1472,7 +1402,7 @@
 
     </select>
 ```
-####select+
+####h-select+
 ```html
     <select name="${1}" id="${2:$1}">
 
@@ -1482,31 +1412,31 @@
 
     </select>
 ```
-####small
+####h-small
 ```html
     <small>${0}</small>
 ```
-####source
+####h-source
 ```html
     <source src="${1}" type="${2}" media="${0}" />
 ```
-####span
+####h-span
 ```html
     <span>${0}</span>
 ```
-####span.
+####h-span.
 ```html
     <span class="${1}">${0}</span>
 ```
-####span#
+####h-span#
 ```html
     <span id="${1}">${0}</span>
 ```
-####strong
+####h-strong
 ```html
     <strong>${0}</strong>
 ```
-####style
+####h-style
 ```html
     <style type="text/css" media="${1:all}">
 
@@ -1514,11 +1444,11 @@
 
     </style>
 ```
-####sub
+####h-sub
 ```html
     <sub>${0}</sub>
 ```
-####summary
+####h-summary
 ```html
     <summary>
 
@@ -1526,11 +1456,11 @@
 
     </summary>
 ```
-####sup
+####h-sup
 ```html
     <sup>${0}</sup>
 ```
-####table
+####h-table
 ```html
     <table>
 
@@ -1538,7 +1468,7 @@
 
     </table>
 ```
-####table.
+####h-table.
 ```html
     <table class="${1}">
 
@@ -1546,7 +1476,7 @@
 
     </table>
 ```
-####table#
+####h-table#
 ```html
     <table id="${1}">
 
@@ -1554,7 +1484,7 @@
 
     </table>
 ```
-####tbody
+####h-tbody
 ```html
     <tbody>
 
@@ -1562,29 +1492,29 @@
 
     </tbody>
 ```
-####td
+####h-td
 ```html
     <td>${0}</td>
 ```
-####td.
+####h-td.
 ```html
     <td class="${1}">${0}</td>
 ```
-####td#
+####h-td#
 ```html
     <td id="${1}">${0}</td>
 ```
-####td+
+####h-td+
 ```html
     <td>${1}</td>
 
     td+${0}
 ```
-####textarea
+####h-textarea
 ```html
     <textarea name="${1}" id="${2:$1}" rows="${3:8}" cols="${4:40}">${5}</textarea>
 ```
-####tfoot
+####h-tfoot
 ```html
     <tfoot>
 
@@ -1592,25 +1522,25 @@
 
     </tfoot>
 ```
-####th
+####h-th
 ```html
     <th>${0}</th>
 ```
-####th.
+####h-th.
 ```html
     <th class="${1}">${0}</th>
 ```
-####th#
+####h-th#
 ```html
     <th id="${1}">${0}</th>
 ```
-####th+
+####h-th+
 ```html
     <th>${1}</th>
 
     th+${0}
 ```
-####thead
+####h-thead
 ```html
     <thead>
 
@@ -1618,15 +1548,11 @@
 
     </thead>
 ```
-####time
+####h-time
 ```html
     <time datetime="${1}" pubdate="${2:$1}">${0:$1}</time>
 ```
-####title
-```html
-    <title>${0:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
-```
-####tr
+####h-tr
 ```html
     <tr>
 
@@ -1634,7 +1560,7 @@
 
     </tr>
 ```
-####tr+
+####h-tr+
 ```html
     <tr>
 
@@ -1644,11 +1570,11 @@
 
     </tr>
 ```
-####track
+####h-track
 ```html
     <track src="${1}" srclang="${2}" label="${3}" default="${4:default} />${5}
 ```
-####ul
+####h-ul
 ```html
     <ul>
 
@@ -1656,7 +1582,7 @@
 
     </ul>
 ```
-####ul.
+####h-ul.
 ```html
     <ul class="${1}">
 
@@ -1664,7 +1590,7 @@
 
     </ul>
 ```
-####ul#
+####h-ul#
 ```html
     <ul id="${1}">
 
@@ -1672,7 +1598,7 @@
 
     </ul>
 ```
-####ul+
+####h-ul+
 ```html
     <ul>
 
@@ -1682,15 +1608,15 @@
 
     </ul>
 ```
-####var
+####h-var
 ```html
     <var>${0}</var>
 ```
-####video
+####h-video
 ```html
     <video src="${1} height="${2}" width="${3}" preload="${5:none}" autoplay="${6:autoplay}>${7}</video>
 ```
-####wbr
+####h-wbr
 ```html
     <wbr />
 ```

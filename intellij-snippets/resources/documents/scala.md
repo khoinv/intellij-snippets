@@ -1,16 +1,16 @@
-####sl-if
+####s-if
 ```scala
     if (${1})
 
         ${0}
 ```
-####sl-ifn
+####s-ifn
 ```scala
     if (!${1})
 
         ${0}
 ```
-####sl-ife
+####s-ife
 ```scala
     if (${1})
 
@@ -20,7 +20,7 @@
 
         ${0}
 ```
-####sl-ifelif
+####s-ifelif
 ```scala
     if (${1})
 
@@ -30,13 +30,13 @@
 
         ${0}
 ```
-####sl-eif
+####s-eif
 ```scala
     else if (${3})
 
         ${0}
 ```
-####sl-wh
+####s-wh
 ```scala
     while (${1:obj}) {
 
@@ -44,7 +44,7 @@
 
     }
 ```
-####sl-for
+####s-for
 ```scala
     for (${1:item} <- ${2:obj}) {
 
@@ -52,7 +52,7 @@
 
     }
 ```
-####sl-fori
+####s-fori
 ```scala
     for (${1:i} <- ${2:0} to ${3:obj}.length) {
 
@@ -60,7 +60,7 @@
 
     }
 ```
-####sl-fory
+####s-fory
 ```scala
     for {
 
@@ -68,7 +68,7 @@
 
     } yield ${0}
 ```
-####sl-try
+####s-try
 ```scala
     try {
 
@@ -86,7 +86,7 @@
 
     }
 ```
-####sl-match
+####s-match
 ```scala
     ${1: obj} match {
 
@@ -96,39 +96,39 @@
 
     }
 ```
-####sl-case
+####s-case
 ```scala
     case ${1:value} => ${0}
 ```
-####sl-arg
+####s-arg
 ```scala
     ${1:a}: ${2:T}${0:, arg}
 ```
-####sl-args
+####s-args
 ```scala
     ${1:args}: ${0:T}*
 ```
-####sl-def
+####s-def
 ```scala
     def ${1:name}(${2:arg}) = ${0:}
 ```
-####sl-prdef
+####s-prdef
 ```scala
     private def ${1:name}(${2:arg}) = ${0:}
 ```
-####sl-ovdef
+####s-ovdef
 ```scala
     override def ${1:name}(${2:arg}) = ${0:}
 ```
-####sl-fcf
+####s-fcf
 ```scala
     (${1:a}: ${2:T}) => $1 ${0}
 ```
-####sl-=>
+####s-=>
 ```scala
     ${1:name} => ${0}
 ```
-####sl-rec
+####s-rec
 ```scala
     def ${1:name}(${0:arg}) =
 
@@ -136,161 +136,161 @@
 
         else $1($2)
 ```
-####sl-crdef
+####s-crdef
 ```scala
     def ${1:name}(${2:arg})(${3:arg}) = ${0:}
 ```
-####sl-main
+####s-main
 ```scala
     def main(args: Array[String]):${1:T} = ${0:}
 ```
-####sl-T
+####s-T
 ```scala
     dbl
 ```
-####sl-T
+####s-T
 ```scala
     int
 ```
-####sl-T
+####s-T
 ```scala
     lng
 ```
-####sl-T
+####s-T
 ```scala
     chr
 ```
-####sl-T
+####s-T
 ```scala
     str
 ```
-####sl-T
+####s-T
 ```scala
     arr
 ```
-####sl-T
+####s-T
 ```scala
     buf
 ```
-####sl-T
+####s-T
 ```scala
     list
 ```
-####sl-T
+####s-T
 ```scala
     tpl
 ```
-####sl-T
+####s-T
 ```scala
     set
 ```
-####sl-T
+####s-T
 ```scala
     map
 ```
-####sl-T
+####s-T
 ```scala
     hset
 ```
-####sl-T
+####s-T
 ```scala
     hmap
 ```
-####sl-T
+####s-T
 ```scala
     bool
 ```
-####sl-bool
+####s-bool
 ```scala
     Boolean
 ```
-####sl-anyr
+####s-anyr
 ```scala
     AnyRef
 ```
-####sl-dbl
+####s-dbl
 ```scala
     Double
 ```
-####sl-int
+####s-int
 ```scala
     Int
 ```
-####sl-str
+####s-str
 ```scala
     String
 ```
-####sl-chr
+####s-chr
 ```scala
     Char
 ```
-####sl-lng
+####s-lng
 ```scala
     Long
 ```
-####sl-arr
+####s-arr
 ```scala
     Array${1:[T]}${0:()}
 ```
-####sl-buf
+####s-buf
 ```scala
     Buffer${1:[T]}${0:()}
 ```
-####sl-list
+####s-list
 ```scala
     List${1:[T]}${0:()}
 ```
-####sl-tpl
+####s-tpl
 ```scala
     Tuple${1:2}[${2:T},${0:T}]
 ```
-####sl-set
+####s-set
 ```scala
     Set${1:[T]}${0:()}
 ```
-####sl-hset
+####s-hset
 ```scala
     HashSet${1:[T]}${0:()}
 ```
-####sl-mhset
+####s-mhset
 ```scala
     mutable.HashSet${1:[T]}${0:()}
 ```
-####sl-keyval
+####s-keyval
 ```scala
     ${1:key}->${2:val}${0:, keyval}
 ```
-####sl-map
+####s-map
 ```scala
     Map[${1:T},${2:T}]${0:(keyval)}
 ```
-####sl-hmap
+####s-hmap
 ```scala
     HashMap[${1:T},${2:T}]${0:(keyval)}
 ```
-####sl-mmap
+####s-mmap
 ```scala
     mutable.Map[${1:T},${2:T}]${0:(keyval)}
 ```
-####sl-mhmap
+####s-mhmap
 ```scala
     mutable.HashMap[${1:T},${2:T}]${0:(keyval)}
 ```
-####sl-as
+####s-as
 ```scala
     ${1:name}.asInstanceOf[${2:T}]
 ```
-####sl-is
+####s-is
 ```scala
     ${1:name}.isInstanceOf[${2:T}]
 
 
 ```
-####sl-(a
+####s-(a
 ```scala
     (${1:a} => ${0})
 ```
-####sl-{(
+####s-{(
 ```scala
     {(${1:a},${2:b}) =>
 
@@ -298,71 +298,71 @@
 
     }
 ```
-####sl-filter
+####s-filter
 ```scala
     ${0:name}.filter (a
 ```
-####sl-mapf
+####s-mapf
 ```scala
     ${0:name}.map (a
 ```
-####sl-flatmap
+####s-flatmap
 ```scala
     ${1:name}.flatMap${0:[T]}(a
 ```
-####sl-fldl
+####s-fldl
 ```scala
     ${1:name}.foldLeft(${0:first}) {(
 ```
-####sl-fldr
+####s-fldr
 ```scala
     ${1:name}.foldRight(${0:first}) {(
 ```
-####sl-/:
+####s-/:
 ```scala
     (${1:first}/:${2:name})(${0})
 ```
-####sl-:\
+####s-:\
 ```scala
     (${1:first}:\${2:name})(${0})
 ```
-####sl-redl
+####s-redl
 ```scala
     ${1:name}.reduceLeft[${0:T}] {(
 ```
-####sl-redr
+####s-redr
 ```scala
     ${1:name}.reduceRight[${0:T}] {(
 ```
-####sl-zipwi
+####s-zipwi
 ```scala
     ${0:name}.view.zipWithIndex
 ```
-####sl-spl
+####s-spl
 ```scala
     ${1:name}.split("${0:,}")
 ```
-####sl-val
+####s-val
 ```scala
     val ${1:name}${2:: T} = ${0:value}
 ```
-####sl-var
+####s-var
 ```scala
     var ${1:name}${2:: T} = ${0:value}
 ```
-####sl-extends
+####s-extends
 ```scala
     extends ${0:what}
 ```
-####sl-with
+####s-with
 ```scala
     with ${1:what}${0: with}
 ```
-####sl-athis
+####s-athis
 ```scala
     def this(arg) = this(arg)
 ```
-####sl-abstract
+####s-abstract
 ```scala
     abstract class ${1:name}${2:(arg)}${3: extends }${4: with} {
 
@@ -372,7 +372,7 @@
 
     }
 ```
-####sl-class
+####s-class
 ```scala
     class ${1:name}${2:(arg)}${3: extends }${4: with} {
 
@@ -382,11 +382,11 @@
 
     }
 ```
-####sl-object
+####s-object
 ```scala
     object ${1:name}${2:(arg)}${3: extends }${4: with} ${0:}
 ```
-####sl-trait
+####s-trait
 ```scala
     trait ${1:name}${2: extends }${3: with} {
 
@@ -394,7 +394,7 @@
 
     }
 ```
-####sl-ordered
+####s-ordered
 ```scala
     class ${1:name}${2:(arg)} extends Ordered[$1] ${3: with} {
 
@@ -406,25 +406,25 @@
 
     }
 ```
-####sl-casecl
+####s-casecl
 ```scala
     case class ${1:name}${2:(arg)}${3: extends }${4: with} ${0:}
 ```
-####sl-scalatest
+####s-scalatest
 ```scala
     ${1:import org.scalatest.Suite}
 
     ${0:import org.scalatest.FunSuite}
 ```
-####sl-assert
+####s-assert
 ```scala
     assert(${1:a} === ${0:b})
 ```
-####sl-ensuring
+####s-ensuring
 ```scala
     ifel ensuring(${1:a}==${0:b})
 ```
-####sl-expect
+####s-expect
 ```scala
     expect(${1:what}) {
 
@@ -432,7 +432,7 @@
 
     }
 ```
-####sl-intercept
+####s-intercept
 ```scala
     intercept[${1:IllegalArgumentException}] {
 
@@ -440,7 +440,7 @@
 
     }
 ```
-####sl-test
+####s-test
 ```scala
     test("${1:description}") {
 
@@ -448,7 +448,7 @@
 
     }
 ```
-####sl-suite
+####s-suite
 ```scala
     class ${0:name} extends Suite {
 
@@ -456,7 +456,7 @@
 
     }
 ```
-####sl-fsuite
+####s-fsuite
 ```scala
     class ${1:name} extends FunSuite {
 
@@ -464,7 +464,7 @@
 
     }
 ```
-####sl-webproject
+####s-webproject
 ```scala
     import sbt._
 
@@ -488,15 +488,15 @@
 
     }
 ```
-####sl-liftjar
+####s-liftjar
 ```scala
     "net.liftweb" %% "${0:lib}" % liftVersion % "compile->default",
 ```
-####sl-jettyjar
+####s-jettyjar
 ```scala
     "org.mortbay.jetty" % "jetty" % "${0:version}" % "test->default",
 ```
-####sl-liftimports
+####s-liftimports
 ```scala
     import _root_.net.liftweb.http._
 

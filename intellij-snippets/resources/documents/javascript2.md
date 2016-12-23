@@ -116,94 +116,6 @@
 
     }
 ```
-####js-interface
-```cs
-    public interface ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-if+
-```cs
-    public interface ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-class
-```cs
-    public class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls
-```cs
-    ${2:public} class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls+
-```cs
-    public class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls+^
-```cs
-    public static class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls&
-```cs
-    internal class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls&^
-```cs
-    internal static class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls|
-```cs
-    protected class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-cls|%
-```cs
-    protected abstract class ${1:`vim_snippets#Filename()`} {
-
-        ${0}
-
-    }
-```
-####js-ctor
-```cs
-    public ${1:`vim_snippets#Filename()`}() {
-
-        ${0}
-
-    }
-```
 ####js-prop
 ```cs
     ${1:public} ${2:int} ${3} { get; set; }
@@ -541,14 +453,6 @@
     private string ${1}(${2}) {
 
         ${0:return "";}
-
-    }
-```
-####js-struct
-```cs
-    public struct ${1:`vim_snippets#Filename()`} {
-
-        ${0}
 
     }
 ```

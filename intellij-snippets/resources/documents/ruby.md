@@ -210,38 +210,6 @@
 
     end
 ```
-####rb-cla
-```ruby
-    class ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
-
-        ${0}
-
-    end
-```
-####rb-clai
-```ruby
-    class ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
-
-        def initialize(${2:args})
-
-            ${0}
-
-        end
-
-    end
-```
-####rb-cla<
-```ruby
-    class ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} < ${2:ParentClass}
-
-        def initialize(${3:args})
-
-            ${0}
-
-        end
-
-    end
-```
 ####rb-blankslate
 ```ruby
     class ${0:BlankSlate}
@@ -255,60 +223,6 @@
     class << ${1:self}
 
         ${0}
-
-    end
-```
-####rb-cla-
-```ruby
-    class ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`} < DelegateClass(${2:ParentClass})
-
-        def initialize(${3:args})
-
-            super(${4:del_obj})
-
-
-
-            ${0}
-
-        end
-
-    end
-```
-####rb-mod
-```ruby
-    module ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
-
-        ${0}
-
-    end
-```
-####rb-mod
-```ruby
-    module ${1:`substitute(vim_snippets#Filename(), '\(_\|^\)\(.\)', '\u\2', 'g')`}
-
-        module ClassMethods
-
-            ${0}
-
-        end
-
-
-
-        module InstanceMethods
-
-
-
-        end
-
-
-
-        def self.included(receiver)
-
-            receiver.extend         ClassMethods
-
-            receiver.send :include, InstanceMethods
-
-        end
 
     end
 ```
@@ -1076,14 +990,6 @@
 ```ruby
     class << self; self end
 ```
-####rb-nam
-```ruby
-    namespace :${1:`vim_snippets#Filename()`} do
-
-        ${0}
-
-    end
-```
 ####rb-tas
 ```ruby
     desc '${1:Task description}'
@@ -1257,14 +1163,6 @@
 ####rb-mthrow
 ```ruby
     -> { throw :${1:error} }.must_throw :${2:error}
-```
-####rb-desc
-```ruby
-    describe ${1:`substitute(substitute(vim_snippets#Filename(), '_spec$', '', ''), '\(_\|^\)\(.\)', '\u\2', 'g')`} do
-
-        ${0}
-
-    end
 ```
 ####rb-descm
 ```ruby

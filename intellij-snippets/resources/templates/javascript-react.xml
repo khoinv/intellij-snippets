@@ -14,6 +14,7 @@
     </context>
   </template>
   <template description="" name="re-cdm" toReformat="true" toShortenFQNames="true" value="    componentDidMount() {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -21,6 +22,7 @@
     </context>
   </template>
   <template description="" name="re-cdup" toReformat="true" toShortenFQNames="true" value="    componentDidUpdate(prevProps, prevState) {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -28,6 +30,7 @@
     </context>
   </template>
   <template description="" name="re-cwm" toReformat="true" toShortenFQNames="true" value="    componentWillMount() {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -35,6 +38,7 @@
     </context>
   </template>
   <template description="" name="re-cwr" toReformat="true" toShortenFQNames="true" value="    componentWillReceiveProps(nextProps) {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -42,6 +46,7 @@
     </context>
   </template>
   <template description="" name="re-cwun" toReformat="true" toShortenFQNames="true" value="    componentWillUnmount() {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -49,6 +54,7 @@
     </context>
   </template>
   <template description="" name="re-cwu" toReformat="true" toShortenFQNames="true" value="    componentWillUpdate(nextProps, nextState) {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -64,6 +70,8 @@
     </context>
   </template>
   <template description="" name="re-dp" toReformat="true" toShortenFQNames="true" value="    static defaultProps = {&#10;        $var1$: $var2$,&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -71,6 +79,8 @@
     </context>
   </template>
   <template description="" name="re-st" toReformat="true" toShortenFQNames="true" value="    state = {&#10;        $var1$: $var2$,&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -78,6 +88,7 @@
     </context>
   </template>
   <template description="" name="re-pt" toReformat="true" toShortenFQNames="true" value="    static propTypes = {&#10;        $var1$: React.PropTypes.$var2$,&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;type&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -85,7 +96,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-rcc" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $var0$&#10;            );&#10;        }&#10;    }&#10;">
+  <template description="" name="re-rcc" toReformat="true" toShortenFQNames="true" value="    class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $var0$&#10;            );&#10;        }&#10;    }&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var0"/>
     <context>
@@ -95,13 +106,15 @@
     </context>
   </template>
   <template description="" name="re-rdr" toReformat="true" toShortenFQNames="true" value="    ReactDOM.render($var1$, $var2$)&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="re-ercc" toReformat="true" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $var0$&#10;            );&#10;        }&#10;    }&#10;">
+  <template description="" name="re-ercc" toReformat="true" toShortenFQNames="true" value="    export default class $var1$ extends React.Component {&#10;        render() {&#10;            return (&#10;                $var0$&#10;            );&#10;        }&#10;    }&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;ClassName&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;&lt;div /&gt;&quot;" expression="" name="var0"/>
     <context>
@@ -111,6 +124,7 @@
     </context>
   </template>
   <template description="" name="re-ctor" toReformat="true" toShortenFQNames="true" value="    constructor() {&#10;        super();&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -126,6 +140,8 @@
     </context>
   </template>
   <template description="" name="re-sst" toReformat="true" toShortenFQNames="true" value="    this.setState({&#10;        $var1$: $var2$&#10;    });&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -133,6 +149,7 @@
     </context>
   </template>
   <template description="" name="re-scu" toReformat="true" toShortenFQNames="true" value="    shouldComponentUpdate(nextProps, nextState) {&#10;        $var1$&#10;    }&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
@@ -140,6 +157,7 @@
     </context>
   </template>
   <template description="" name="re-prp" toReformat="true" toShortenFQNames="true" value="    this.props.$var1$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

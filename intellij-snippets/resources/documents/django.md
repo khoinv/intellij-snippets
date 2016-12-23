@@ -1,118 +1,118 @@
-####auto
+####djauto
 ```python
     ${1:FIELDNAME} = models.AutoField(${0})
 ```
-####bigint
+####djbigint
 ```python
     ${1:FIELDNAME} = models.BigIntegerField(${0})
 ```
-####binary
+####djbinary
 ```python
     ${1:FIELDNAME} = models.BinaryField(${0})
 ```
-####bool
+####djbool
 ```python
     ${1:FIELDNAME} = models.BooleanField(${0:default=True})
 ```
-####char
+####djchar
 ```python
     ${1:FIELDNAME} = models.CharField(max_length=${2}${0:, blank=True})
 ```
-####comma
+####djcomma
 ```python
     ${1:FIELDNAME} = models.CommaSeparatedIntegerField(max_length=${2}${0:, blank=True})
 ```
-####date
+####djdate
 ```python
     ${1:FIELDNAME} = models.DateField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})
 ```
-####datetime
+####djdatetime
 ```python
     ${1:FIELDNAME} = models.DateTimeField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})
 ```
-####decimal
+####djdecimal
 ```python
     ${1:FIELDNAME} = models.DecimalField(max_digits=${2}, decimal_places=${0})
 ```
-####email
+####djemail
 ```python
     ${1:FIELDNAME} = models.EmailField(max_length=${2:75}${0:, blank=True})
 ```
-####file
+####djfile
 ```python
     ${1:FIELDNAME} = models.FileField(upload_to=${2:path/for/upload}${0:, max_length=100})
 ```
-####filepath
+####djfilepath
 ```python
     ${1:FIELDNAME} = models.FilePathField(path=${2:"/abs/path/to/dir"}${3:, max_length=100}${4:, match="*.ext"}${5:, recursive=True}${0:, blank=True, })
 ```
-####float
+####djfloat
 ```python
     ${1:FIELDNAME} = models.FloatField(${0})
 ```
-####image
+####djimage
 ```python
     ${1:FIELDNAME} = models.ImageField(upload_to=${2:path/for/upload}${3:, height_field=height, width_field=width}${0:, max_length=100})
 ```
-####int
+####djint
 ```python
     ${1:FIELDNAME} = models.IntegerField(${0})
 ```
-####ip
+####djip
 ```python
     ${1:FIELDNAME} = models.IPAddressField(${0})
 ```
-####nullbool
+####djnullbool
 ```python
     ${1:FIELDNAME} = models.NullBooleanField(${0})
 ```
-####posint
+####djposint
 ```python
     ${1:FIELDNAME} = models.PositiveIntegerField(${0})
 ```
-####possmallint
+####djpossmallint
 ```python
     ${1:FIELDNAME} = models.PositiveSmallIntegerField(${0})
 ```
-####slug
+####djslug
 ```python
     ${1:FIELDNAME} = models.SlugField(max_length=${2:50}${0:, blank=True})
 ```
-####smallint
+####djsmallint
 ```python
     ${1:FIELDNAME} = models.SmallIntegerField(${0})
 ```
-####text
+####djtext
 ```python
     ${1:FIELDNAME} = models.TextField(${0:blank=True})
 ```
-####time
+####djtime
 ```python
     ${1:FIELDNAME} = models.TimeField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})
 ```
-####url
+####djurl
 ```python
     ${1:FIELDNAME} = models.URLField(${2:verify_exists=False}${3:, max_length=200}${0:, blank=True})
 ```
-####xml
+####djxml
 ```python
     ${1:FIELDNAME} = models.XMLField(schema_path=${2:None}${0:, blank=True})
 ```
-####fk
+####djfk
 ```python
     ${1:FIELDNAME} = models.ForeignKey(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${0:, to_field=''})
 ```
-####m2m
+####djm2m
 ```python
     ${1:FIELDNAME} = models.ManyToManyField(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${5:, symmetrical=False}${6:, through=''}${0:, db_table=''})
 ```
-####o2o
+####djo2o
 ```python
     ${1:FIELDNAME} = models.OneToOneField(${2:OtherModel}${3:, parent_link=True}${4:, related_name=''}${5:, limit_choices_to=}${0:, to_field=''})
 
 
 ```
-####form
+####djform
 ```python
     class ${1:FormName}(forms.Form):
 
@@ -122,7 +122,7 @@
 
 
 ```
-####model
+####djmodel
 ```python
     class ${1:ModelName}(models.Model):
 
@@ -158,7 +158,7 @@
 
 
 ```
-####modeladmin
+####djmodeladmin
 ```python
     class ${1:ModelName}Admin(admin.ModelAdmin):
 
@@ -170,7 +170,7 @@
 
 
 ```
-####tabularinline
+####djtabularinline
 ```python
     class ${0:ModelName}Inline(admin.TabularInline):
 
@@ -178,7 +178,7 @@
 
 
 ```
-####stackedinline
+####djstackedinline
 ```python
     class ${0:ModelName}Inline(admin.StackedInline):
 

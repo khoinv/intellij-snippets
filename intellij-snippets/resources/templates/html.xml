@@ -1,222 +1,223 @@
 <templateSet group="html">
-  <template description="" name="nbs" toReformat="true" toShortenFQNames="true" value="    &amp;nbsp;&#10;">
+  <template description="" name="h-nbs" toReformat="true" toShortenFQNames="true" value="    &amp;nbsp;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="left" toReformat="true" toShortenFQNames="true" value="    &amp;#x2190;&#10;">
+  <template description="" name="h-left" toReformat="true" toShortenFQNames="true" value="    &amp;#x2190;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="right" toReformat="true" toShortenFQNames="true" value="    &amp;#x2192;&#10;">
+  <template description="" name="h-right" toReformat="true" toShortenFQNames="true" value="    &amp;#x2192;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="up" toReformat="true" toShortenFQNames="true" value="    &amp;#x2191;&#10;">
+  <template description="" name="h-up" toReformat="true" toShortenFQNames="true" value="    &amp;#x2191;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="down" toReformat="true" toShortenFQNames="true" value="    &amp;#x2193;&#10;">
+  <template description="" name="h-down" toReformat="true" toShortenFQNames="true" value="    &amp;#x2193;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="return" toReformat="true" toShortenFQNames="true" value="    &amp;#x21A9;&#10;">
+  <template description="" name="h-return" toReformat="true" toShortenFQNames="true" value="    &amp;#x21A9;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="backtab" toReformat="true" toShortenFQNames="true" value="    &amp;#x21E4;&#10;">
+  <template description="" name="h-backtab" toReformat="true" toShortenFQNames="true" value="    &amp;#x21E4;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="tab" toReformat="true" toShortenFQNames="true" value="    &amp;#x21E5;&#10;">
+  <template description="" name="h-tab" toReformat="true" toShortenFQNames="true" value="    &amp;#x21E5;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="shift" toReformat="true" toShortenFQNames="true" value="    &amp;#x21E7;&#10;">
+  <template description="" name="h-shift" toReformat="true" toShortenFQNames="true" value="    &amp;#x21E7;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ctrl" toReformat="true" toShortenFQNames="true" value="    &amp;#x2303;&#10;">
+  <template description="" name="h-ctrl" toReformat="true" toShortenFQNames="true" value="    &amp;#x2303;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="enter" toReformat="true" toShortenFQNames="true" value="    &amp;#x2305;&#10;">
+  <template description="" name="h-enter" toReformat="true" toShortenFQNames="true" value="    &amp;#x2305;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="cmd" toReformat="true" toShortenFQNames="true" value="    &amp;#x2318;&#10;">
+  <template description="" name="h-cmd" toReformat="true" toShortenFQNames="true" value="    &amp;#x2318;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="option" toReformat="true" toShortenFQNames="true" value="    &amp;#x2325;&#10;">
+  <template description="" name="h-option" toReformat="true" toShortenFQNames="true" value="    &amp;#x2325;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="delete" toReformat="true" toShortenFQNames="true" value="    &amp;#x2326;&#10;">
+  <template description="" name="h-delete" toReformat="true" toShortenFQNames="true" value="    &amp;#x2326;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="backspace" toReformat="true" toShortenFQNames="true" value="    &amp;#x232B;&#10;">
+  <template description="" name="h-backspace" toReformat="true" toShortenFQNames="true" value="    &amp;#x232B;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="esc" toReformat="true" toShortenFQNames="true" value="    &amp;#x238B;&#10;">
+  <template description="" name="h-esc" toReformat="true" toShortenFQNames="true" value="    &amp;#x238B;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="//" toReformat="true" toShortenFQNames="true" value="    &lt;!-- $var1$ --&gt;$var0$&#10;">
+  <template description="" name="h-//" toReformat="true" toShortenFQNames="true" value="    &lt;!-- $var1$ --&gt;$END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doctype" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="docts" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&#10;">
+  <template description="" name="h-docts" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doct" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;&#10;">
+  <template description="" name="h-doct" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="doct5" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML&gt;&#10;">
+  <template description="" name="h-doct5" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE HTML&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="docxf" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Frameset//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd&quot;&gt;&#10;">
+  <template description="" name="h-docxf" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Frameset//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="docxs" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;">
+  <template description="" name="h-docxs" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="docxt" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&#10;">
+  <template description="" name="h-docxt" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="docx" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;&#10;">
+  <template description="" name="h-docx" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1//EN&quot;&#10;    &quot;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="attr" toReformat="true" toShortenFQNames="true" value="    $var1$=&quot;$var0$&quot;&#10;">
+  <template description="" name="h-attr" toReformat="true" toShortenFQNames="true" value="    $var1$=&quot;$var0$&quot;&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;property&quot;" expression="" name="var0"/>
     <context>
@@ -225,7 +226,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="attr+" toReformat="true" toShortenFQNames="true" value="    $var1$=&quot;$var2$&quot; attr+&#10;">
+  <template description="" name="h-attr+" toReformat="true" toShortenFQNames="true" value="    $var1$=&quot;$var2$&quot; attr+&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;attribute&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;property&quot;" expression="" name="var2"/>
     <context>
@@ -234,28 +235,31 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="." toReformat="true" toShortenFQNames="true" value="    class=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-." toReformat="true" toShortenFQNames="true" value="    class=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="#" toReformat="true" toShortenFQNames="true" value="    id=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-#" toReformat="true" toShortenFQNames="true" value="    id=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="alt" toReformat="true" toShortenFQNames="true" value="    alt=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-alt" toReformat="true" toShortenFQNames="true" value="    alt=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="charset" toReformat="true" toShortenFQNames="true" value="    charset=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-charset" toReformat="true" toShortenFQNames="true" value="    charset=&quot;$var1$&quot;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;utf-8&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -263,7 +267,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="data" toReformat="true" toShortenFQNames="true" value="    data-$var1$=&quot;$var2$&quot;&#10;">
+  <template description="" name="h-data" toReformat="true" toShortenFQNames="true" value="    data-$var1$=&quot;$var2$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -271,21 +276,23 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="for" toReformat="true" toShortenFQNames="true" value="    for=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-for" toReformat="true" toShortenFQNames="true" value="    for=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="height" toReformat="true" toShortenFQNames="true" value="    height=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-height" toReformat="true" toShortenFQNames="true" value="    height=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="href" toReformat="true" toShortenFQNames="true" value="    href=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-href" toReformat="true" toShortenFQNames="true" value="    href=&quot;$var1$&quot;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -293,7 +300,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="lang" toReformat="true" toShortenFQNames="true" value="    lang=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-lang" toReformat="true" toShortenFQNames="true" value="    lang=&quot;$var1$&quot;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;en&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -301,28 +308,31 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="media" toReformat="true" toShortenFQNames="true" value="    media=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-media" toReformat="true" toShortenFQNames="true" value="    media=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="name" toReformat="true" toShortenFQNames="true" value="    name=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-name" toReformat="true" toShortenFQNames="true" value="    name=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="rel" toReformat="true" toShortenFQNames="true" value="    rel=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-rel" toReformat="true" toShortenFQNames="true" value="    rel=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="scope" toReformat="true" toShortenFQNames="true" value="    scope=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-scope" toReformat="true" toShortenFQNames="true" value="    scope=&quot;$var1$&quot;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;row&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -330,42 +340,47 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="src" toReformat="true" toShortenFQNames="true" value="    src=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-src" toReformat="true" toShortenFQNames="true" value="    src=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="title=" toReformat="true" toShortenFQNames="true" value="    title=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-title=" toReformat="true" toShortenFQNames="true" value="    title=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="type" toReformat="true" toShortenFQNames="true" value="    type=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-type" toReformat="true" toShortenFQNames="true" value="    type=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="value" toReformat="true" toShortenFQNames="true" value="    value=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-value" toReformat="true" toShortenFQNames="true" value="    value=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="width" toReformat="true" toShortenFQNames="true" value="    width=&quot;$var1$&quot;&#10;">
+  <template description="" name="h-width" toReformat="true" toShortenFQNames="true" value="    width=&quot;$var1$&quot;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="a" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;$var1$&quot;&gt;$var0$&lt;/a&gt;&#10;">
+  <template description="" name="h-a" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;$var1$&quot;&gt;$var0$&lt;/a&gt;&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
@@ -374,7 +389,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="a." toReformat="true" toShortenFQNames="true" value="    &lt;a class=&quot;$var1$&quot; href=&quot;$var2$&quot;&gt;$var0$&lt;/a&gt;&#10;">
+  <template description="" name="h-a." toReformat="true" toShortenFQNames="true" value="    &lt;a class=&quot;$var1$&quot; href=&quot;$var2$&quot;&gt;$var0$&lt;/a&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
@@ -383,7 +399,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="a#" toReformat="true" toShortenFQNames="true" value="    &lt;a id=&quot;$var1$&quot; href=&quot;$var2$&quot;&gt;$var0$&lt;/a&gt;&#10;">
+  <template description="" name="h-a#" toReformat="true" toShortenFQNames="true" value="    &lt;a id=&quot;$var1$&quot; href=&quot;$var2$&quot;&gt;$var0$&lt;/a&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
@@ -392,7 +409,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="a:ext" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;http://$var1$&quot;&gt;$var0$&lt;/a&gt;&#10;">
+  <template description="" name="h-a:ext" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;http://$var1$&quot;&gt;$var0$&lt;/a&gt;&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;example.com&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
@@ -401,7 +418,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="a:mail" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;mailto:$var1$?subject=$var2$&quot;&gt;$var0$&lt;/a&gt;&#10;">
+  <template description="" name="h-a:mail" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;mailto:$var1$?subject=$var2$&quot;&gt;$var0$&lt;/a&gt;&#10;$END$">
     <variable alwaysStopAt="true" defaultValue="&quot;joe@example.com&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;feedback&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;email me&quot;" expression="" name="var0"/>
@@ -411,185 +428,198 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ac" toReformat="true" toShortenFQNames="true" value="    &lt;a href=&quot;`@+`&quot;&gt;$var0$&lt;/a&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`@+`&quot;" expression="" name="var0"/>
+  <template description="" name="h-abbr" toReformat="true" toShortenFQNames="true" value="    &lt;abbr title=&quot;$var1$&quot;&gt;$END$&lt;/abbr&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="abbr" toReformat="true" toShortenFQNames="true" value="    &lt;abbr title=&quot;$var1$&quot;&gt;$var0$&lt;/abbr&gt;&#10;">
+  <template description="" name="h-address" toReformat="true" toShortenFQNames="true" value="    &lt;address&gt;&#10;        $END$&#10;    &lt;/address&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="address" toReformat="true" toShortenFQNames="true" value="    &lt;address&gt;&#10;        $var0$&#10;    &lt;/address&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="area" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;$var1$&quot; coords=&quot;$var2$&quot; href=&quot;$var3$&quot; alt=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-area" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;$var1$&quot; coords=&quot;$var2$&quot; href=&quot;$var3$&quot; alt=&quot;$END$&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;rect&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="area+" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;$var1$&quot; coords=&quot;$var2$&quot; href=&quot;$var3$&quot; alt=&quot;$var4$&quot; /&gt;&#10;    area+&#10;">
+  <template description="" name="h-area+" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;$var1$&quot; coords=&quot;$var2$&quot; href=&quot;$var3$&quot; alt=&quot;$var4$&quot; /&gt;&#10;    area+&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;rect&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var4"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="area:c" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;circle&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-area:c" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;circle&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="area:d" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;default&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-area:d" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;default&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="area:p" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;poly&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-area:p" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;poly&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="area:r" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;rect&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-area:r" toReformat="true" toShortenFQNames="true" value="    &lt;area shape=&quot;rect&quot; coords=&quot;$var1$&quot; href=&quot;$var2$&quot; alt=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="article" toReformat="true" toShortenFQNames="true" value="    &lt;article&gt;&#10;        $var0$&#10;    &lt;/article&gt;&#10;">
+  <template description="" name="h-article" toReformat="true" toShortenFQNames="true" value="    &lt;article&gt;&#10;        $END$&#10;    &lt;/article&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="article." toReformat="true" toShortenFQNames="true" value="    &lt;article class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/article&gt;&#10;">
+  <template description="" name="h-article." toReformat="true" toShortenFQNames="true" value="    &lt;article class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/article&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="article#" toReformat="true" toShortenFQNames="true" value="    &lt;article id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/article&gt;&#10;">
+  <template description="" name="h-article#" toReformat="true" toShortenFQNames="true" value="    &lt;article id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/article&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="aside" toReformat="true" toShortenFQNames="true" value="    &lt;aside&gt;&#10;        $var0$&#10;    &lt;/aside&gt;&#10;">
+  <template description="" name="h-aside" toReformat="true" toShortenFQNames="true" value="    &lt;aside&gt;&#10;        $END$&#10;    &lt;/aside&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="aside." toReformat="true" toShortenFQNames="true" value="    &lt;aside class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/aside&gt;&#10;">
+  <template description="" name="h-aside." toReformat="true" toShortenFQNames="true" value="    &lt;aside class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/aside&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="aside#" toReformat="true" toShortenFQNames="true" value="    &lt;aside id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/aside&gt;&#10;">
+  <template description="" name="h-aside#" toReformat="true" toShortenFQNames="true" value="    &lt;aside id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/aside&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="audio" toReformat="true" toShortenFQNames="true" value="    &lt;audio src=&quot;$var1$&gt;$var0$&lt;/audio&gt;&#10;">
+  <template description="" name="h-audio" toReformat="true" toShortenFQNames="true" value="    &lt;audio src=&quot;$var1$&gt;$END$&lt;/audio&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="b" toReformat="true" toShortenFQNames="true" value="    &lt;b&gt;$var0$&lt;/b&gt;&#10;">
+  <template description="" name="h-b" toReformat="true" toShortenFQNames="true" value="    &lt;b&gt;$END$&lt;/b&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="base" toReformat="true" toShortenFQNames="true" value="    &lt;base href=&quot;$var1$&quot; target=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-base" toReformat="true" toShortenFQNames="true" value="    &lt;base href=&quot;$var1$&quot; target=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="bdi" toReformat="true" toShortenFQNames="true" value="    &lt;bdi&gt;$var0$&lt;/bdo&gt;&#10;">
+  <template description="" name="h-bdi" toReformat="true" toShortenFQNames="true" value="    &lt;bdi&gt;$END$&lt;/bdo&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="bdo" toReformat="true" toShortenFQNames="true" value="    &lt;bdo dir=&quot;$var1$&quot;&gt;$var0$&lt;/bdo&gt;&#10;">
+  <template description="" name="h-bdo" toReformat="true" toShortenFQNames="true" value="    &lt;bdo dir=&quot;$var1$&quot;&gt;$END$&lt;/bdo&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="bdo:l" toReformat="true" toShortenFQNames="true" value="    &lt;bdo dir=&quot;ltr&quot;&gt;$var0$&lt;/bdo&gt;&#10;">
+  <template description="" name="h-bdo:l" toReformat="true" toShortenFQNames="true" value="    &lt;bdo dir=&quot;ltr&quot;&gt;$END$&lt;/bdo&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="bdo:r" toReformat="true" toShortenFQNames="true" value="    &lt;bdo dir=&quot;rtl&quot;&gt;$var0$&lt;/bdo&gt;&#10;">
+  <template description="" name="h-bdo:r" toReformat="true" toShortenFQNames="true" value="    &lt;bdo dir=&quot;rtl&quot;&gt;$END$&lt;/bdo&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="blockquote" toReformat="true" toShortenFQNames="true" value="    &lt;blockquote&gt;&#10;        $var0$&#10;    &lt;/blockquote&gt;&#10;">
+  <template description="" name="h-blockquote" toReformat="true" toShortenFQNames="true" value="    &lt;blockquote&gt;&#10;        $END$&#10;    &lt;/blockquote&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="body" toReformat="true" toShortenFQNames="true" value="    &lt;body&gt;&#10;        $var0$&#10;    &lt;/body&gt;&#10;">
+  <template description="" name="h-body" toReformat="true" toShortenFQNames="true" value="    &lt;body&gt;&#10;        $END$&#10;    &lt;/body&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="br" toReformat="true" toShortenFQNames="true" value="    &lt;br /&gt;&#10;">
+  <template description="" name="h-br" toReformat="true" toShortenFQNames="true" value="    &lt;br /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="button" toReformat="true" toShortenFQNames="true" value="    &lt;button type=&quot;$var1$&quot;&gt;$var0$&lt;/button&gt;&#10;">
+  <template description="" name="h-button" toReformat="true" toShortenFQNames="true" value="    &lt;button type=&quot;$var1$&quot;&gt;$END$&lt;/button&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;submit&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -597,7 +627,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="button." toReformat="true" toShortenFQNames="true" value="    &lt;button class=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;$var0$&lt;/button&gt;&#10;">
+  <template description="" name="h-button." toReformat="true" toShortenFQNames="true" value="    &lt;button class=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;$END$&lt;/button&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;button&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;submit&quot;" expression="" name="var2"/>
     <context>
@@ -606,7 +636,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="button#" toReformat="true" toShortenFQNames="true" value="    &lt;button id=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;$var0$&lt;/button&gt;&#10;">
+  <template description="" name="h-button#" toReformat="true" toShortenFQNames="true" value="    &lt;button id=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;$END$&lt;/button&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;submit&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -614,336 +645,362 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="button:s" toReformat="true" toShortenFQNames="true" value="    &lt;button type=&quot;submit&quot;&gt;$var0$&lt;/button&gt;&#10;">
+  <template description="" name="h-button:s" toReformat="true" toShortenFQNames="true" value="    &lt;button type=&quot;submit&quot;&gt;$END$&lt;/button&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="button:r" toReformat="true" toShortenFQNames="true" value="    &lt;button type=&quot;reset&quot;&gt;$var0$&lt;/button&gt;&#10;">
+  <template description="" name="h-button:r" toReformat="true" toShortenFQNames="true" value="    &lt;button type=&quot;reset&quot;&gt;$END$&lt;/button&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="canvas" toReformat="true" toShortenFQNames="true" value="    &lt;canvas&gt;&#10;        $var0$&#10;    &lt;/canvas&gt;&#10;">
+  <template description="" name="h-canvas" toReformat="true" toShortenFQNames="true" value="    &lt;canvas&gt;&#10;        $END$&#10;    &lt;/canvas&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="caption" toReformat="true" toShortenFQNames="true" value="    &lt;caption&gt;$var0$&lt;/caption&gt;&#10;">
+  <template description="" name="h-caption" toReformat="true" toShortenFQNames="true" value="    &lt;caption&gt;$END$&lt;/caption&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="cite" toReformat="true" toShortenFQNames="true" value="    &lt;cite&gt;$var0$&lt;/cite&gt;&#10;">
+  <template description="" name="h-cite" toReformat="true" toShortenFQNames="true" value="    &lt;cite&gt;$END$&lt;/cite&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="code" toReformat="true" toShortenFQNames="true" value="    &lt;code&gt;$var0$&lt;/code&gt;&#10;">
+  <template description="" name="h-code" toReformat="true" toShortenFQNames="true" value="    &lt;code&gt;$END$&lt;/code&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="col" toReformat="true" toShortenFQNames="true" value="    &lt;col /&gt;&#10;">
+  <template description="" name="h-col" toReformat="true" toShortenFQNames="true" value="    &lt;col /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="col+" toReformat="true" toShortenFQNames="true" value="    &lt;col /&gt;&#10;    col+&#10;">
+  <template description="" name="h-col+" toReformat="true" toShortenFQNames="true" value="    &lt;col /&gt;&#10;    col+&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="colgroup" toReformat="true" toShortenFQNames="true" value="    &lt;colgroup&gt;&#10;        $var0$&#10;    &lt;/colgroup&gt;&#10;">
+  <template description="" name="h-colgroup" toReformat="true" toShortenFQNames="true" value="    &lt;colgroup&gt;&#10;        $END$&#10;    &lt;/colgroup&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="colgroup+" toReformat="true" toShortenFQNames="true" value="    &lt;colgroup&gt;&#10;        &lt;col /&gt;&#10;        col+$var0$&#10;    &lt;/colgroup&gt;&#10;">
+  <template description="" name="h-colgroup+" toReformat="true" toShortenFQNames="true" value="    &lt;colgroup&gt;&#10;        &lt;col /&gt;&#10;        col+$END$&#10;    &lt;/colgroup&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="command" toReformat="true" toShortenFQNames="true" value="    &lt;command type=&quot;command&quot; label=&quot;$var1$&quot; icon=&quot;$var0$&quot;&gt;&#10;">
+  <template description="" name="h-command" toReformat="true" toShortenFQNames="true" value="    &lt;command type=&quot;command&quot; label=&quot;$var1$&quot; icon=&quot;$END$&quot;&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="command:c" toReformat="true" toShortenFQNames="true" value="    &lt;command type=&quot;checkbox&quot; label=&quot;$var1$&quot; icon=&quot;$var0$&quot;&gt;&#10;">
+  <template description="" name="h-command:c" toReformat="true" toShortenFQNames="true" value="    &lt;command type=&quot;checkbox&quot; label=&quot;$var1$&quot; icon=&quot;$END$&quot;&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="command:r" toReformat="true" toShortenFQNames="true" value="    &lt;command type=&quot;radio&quot; radiogroup=&quot;$var1$&quot; label=&quot;$var2$&quot; icon=&quot;$var0$&quot;&gt;&#10;">
+  <template description="" name="h-command:r" toReformat="true" toShortenFQNames="true" value="    &lt;command type=&quot;radio&quot; radiogroup=&quot;$var1$&quot; label=&quot;$var2$&quot; icon=&quot;$END$&quot;&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="datagrid" toReformat="true" toShortenFQNames="true" value="    &lt;datagrid&gt;&#10;        $var0$&#10;    &lt;/datagrid&gt;&#10;">
+  <template description="" name="h-datagrid" toReformat="true" toShortenFQNames="true" value="    &lt;datagrid&gt;&#10;        $END$&#10;    &lt;/datagrid&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="datalist" toReformat="true" toShortenFQNames="true" value="    &lt;datalist&gt;&#10;        $var0$&#10;    &lt;/datalist&gt;&#10;">
+  <template description="" name="h-datalist" toReformat="true" toShortenFQNames="true" value="    &lt;datalist&gt;&#10;        $END$&#10;    &lt;/datalist&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="datatemplate" toReformat="true" toShortenFQNames="true" value="    &lt;datatemplate&gt;&#10;        $var0$&#10;    &lt;/datatemplate&gt;&#10;">
+  <template description="" name="h-datatemplate" toReformat="true" toShortenFQNames="true" value="    &lt;datatemplate&gt;&#10;        $END$&#10;    &lt;/datatemplate&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dd" toReformat="true" toShortenFQNames="true" value="    &lt;dd&gt;$var0$&lt;/dd&gt;&#10;">
+  <template description="" name="h-dd" toReformat="true" toShortenFQNames="true" value="    &lt;dd&gt;$END$&lt;/dd&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dd." toReformat="true" toShortenFQNames="true" value="    &lt;dd class=&quot;$var1$&quot;&gt;$var0$&lt;/dd&gt;&#10;">
+  <template description="" name="h-dd." toReformat="true" toShortenFQNames="true" value="    &lt;dd class=&quot;$var1$&quot;&gt;$END$&lt;/dd&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dd#" toReformat="true" toShortenFQNames="true" value="    &lt;dd id=&quot;$var1$&quot;&gt;$var0$&lt;/dd&gt;&#10;">
+  <template description="" name="h-dd#" toReformat="true" toShortenFQNames="true" value="    &lt;dd id=&quot;$var1$&quot;&gt;$END$&lt;/dd&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="del" toReformat="true" toShortenFQNames="true" value="    &lt;del&gt;$var0$&lt;/del&gt;&#10;">
+  <template description="" name="h-del" toReformat="true" toShortenFQNames="true" value="    &lt;del&gt;$END$&lt;/del&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="details" toReformat="true" toShortenFQNames="true" value="    &lt;details&gt;$var0$&lt;/details&gt;&#10;">
+  <template description="" name="h-details" toReformat="true" toShortenFQNames="true" value="    &lt;details&gt;$END$&lt;/details&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dfn" toReformat="true" toShortenFQNames="true" value="    &lt;dfn&gt;$var0$&lt;/dfn&gt;&#10;">
+  <template description="" name="h-dfn" toReformat="true" toShortenFQNames="true" value="    &lt;dfn&gt;$END$&lt;/dfn&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dialog" toReformat="true" toShortenFQNames="true" value="    &lt;dialog&gt;&#10;        $var0$&#10;    &lt;/dialog&gt;&#10;">
+  <template description="" name="h-dialog" toReformat="true" toShortenFQNames="true" value="    &lt;dialog&gt;&#10;        $END$&#10;    &lt;/dialog&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="div" toReformat="true" toShortenFQNames="true" value="    &lt;div&gt;&#10;        $var0$&#10;    &lt;/div&gt;&#10;">
+  <template description="" name="h-div" toReformat="true" toShortenFQNames="true" value="    &lt;div&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="div." toReformat="true" toShortenFQNames="true" value="    &lt;div class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/div&gt;&#10;">
+  <template description="" name="h-div." toReformat="true" toShortenFQNames="true" value="    &lt;div class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="div#" toReformat="true" toShortenFQNames="true" value="    &lt;div id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/div&gt;&#10;">
+  <template description="" name="h-div#" toReformat="true" toShortenFQNames="true" value="    &lt;div id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dl" toReformat="true" toShortenFQNames="true" value="    &lt;dl&gt;&#10;        $var0$&#10;    &lt;/dl&gt;&#10;">
+  <template description="" name="h-dl" toReformat="true" toShortenFQNames="true" value="    &lt;dl&gt;&#10;        $END$&#10;    &lt;/dl&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dl." toReformat="true" toShortenFQNames="true" value="    &lt;dl class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/dl&gt;&#10;">
+  <template description="" name="h-dl." toReformat="true" toShortenFQNames="true" value="    &lt;dl class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/dl&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dl#" toReformat="true" toShortenFQNames="true" value="    &lt;dl id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/dl&gt;&#10;">
+  <template description="" name="h-dl#" toReformat="true" toShortenFQNames="true" value="    &lt;dl id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/dl&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dl+" toReformat="true" toShortenFQNames="true" value="    &lt;dl&gt;&#10;        &lt;dt&gt;$var1$&lt;/dt&gt;&#10;        &lt;dd&gt;$var2$&lt;/dd&gt;&#10;        dt+$var0$&#10;    &lt;/dl&gt;&#10;">
+  <template description="" name="h-dl+" toReformat="true" toShortenFQNames="true" value="    &lt;dl&gt;&#10;        &lt;dt&gt;$var1$&lt;/dt&gt;&#10;        &lt;dd&gt;$var2$&lt;/dd&gt;&#10;        dt+$END$&#10;    &lt;/dl&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dt" toReformat="true" toShortenFQNames="true" value="    &lt;dt&gt;$var0$&lt;/dt&gt;&#10;">
+  <template description="" name="h-dt" toReformat="true" toShortenFQNames="true" value="    &lt;dt&gt;$END$&lt;/dt&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dt." toReformat="true" toShortenFQNames="true" value="    &lt;dt class=&quot;$var1$&quot;&gt;$var0$&lt;/dt&gt;&#10;">
+  <template description="" name="h-dt." toReformat="true" toShortenFQNames="true" value="    &lt;dt class=&quot;$var1$&quot;&gt;$END$&lt;/dt&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dt#" toReformat="true" toShortenFQNames="true" value="    &lt;dt id=&quot;$var1$&quot;&gt;$var0$&lt;/dt&gt;&#10;">
+  <template description="" name="h-dt#" toReformat="true" toShortenFQNames="true" value="    &lt;dt id=&quot;$var1$&quot;&gt;$END$&lt;/dt&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="dt+" toReformat="true" toShortenFQNames="true" value="    &lt;dt&gt;$var1$&lt;/dt&gt;&#10;    &lt;dd&gt;$var2$&lt;/dd&gt;&#10;    dt+$var0$&#10;">
+  <template description="" name="h-dt+" toReformat="true" toShortenFQNames="true" value="    &lt;dt&gt;$var1$&lt;/dt&gt;&#10;    &lt;dd&gt;$var2$&lt;/dd&gt;&#10;    dt+$END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="em" toReformat="true" toShortenFQNames="true" value="    &lt;em&gt;$var0$&lt;/em&gt;&#10;">
+  <template description="" name="h-em" toReformat="true" toShortenFQNames="true" value="    &lt;em&gt;$END$&lt;/em&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="embed" toReformat="true" toShortenFQNames="true" value="    &lt;embed src=&quot;$var1$&quot; type=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-embed" toReformat="true" toShortenFQNames="true" value="    &lt;embed src=&quot;$var1$&quot; type=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="fieldset" toReformat="true" toShortenFQNames="true" value="    &lt;fieldset&gt;&#10;        $var0$&#10;    &lt;/fieldset&gt;&#10;">
+  <template description="" name="h-fieldset" toReformat="true" toShortenFQNames="true" value="    &lt;fieldset&gt;&#10;        $END$&#10;    &lt;/fieldset&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="fieldset." toReformat="true" toShortenFQNames="true" value="    &lt;fieldset class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/fieldset&gt;&#10;">
+  <template description="" name="h-fieldset." toReformat="true" toShortenFQNames="true" value="    &lt;fieldset class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/fieldset&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="fieldset#" toReformat="true" toShortenFQNames="true" value="    &lt;fieldset id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/fieldset&gt;&#10;">
+  <template description="" name="h-fieldset#" toReformat="true" toShortenFQNames="true" value="    &lt;fieldset id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/fieldset&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="fieldset+" toReformat="true" toShortenFQNames="true" value="    &lt;fieldset&gt;&#10;        &lt;legend&gt;&lt;span&gt;$var1$&lt;/span&gt;&lt;/legend&gt;&#10;        $var2$&#10;    &lt;/fieldset&gt;&#10;    fieldset+$var0$&#10;">
+  <template description="" name="h-fieldset+" toReformat="true" toShortenFQNames="true" value="    &lt;fieldset&gt;&#10;        &lt;legend&gt;&lt;span&gt;$var1$&lt;/span&gt;&lt;/legend&gt;&#10;        $var2$&#10;    &lt;/fieldset&gt;&#10;    fieldset+$END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="figcaption" toReformat="true" toShortenFQNames="true" value="    &lt;figcaption&gt;$var0$&lt;/figcaption&gt;&#10;">
+  <template description="" name="h-figcaption" toReformat="true" toShortenFQNames="true" value="    &lt;figcaption&gt;$END$&lt;/figcaption&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="figure" toReformat="true" toShortenFQNames="true" value="    &lt;figure&gt;$var0$&lt;/figure&gt;&#10;">
+  <template description="" name="h-figure" toReformat="true" toShortenFQNames="true" value="    &lt;figure&gt;$END$&lt;/figure&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="figure#" toReformat="true" toShortenFQNames="true" value="    &lt;figure id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/figure&gt;&#10;">
+  <template description="" name="h-figure#" toReformat="true" toShortenFQNames="true" value="    &lt;figure id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/figure&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="figure." toReformat="true" toShortenFQNames="true" value="    &lt;figure class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/figure&gt;&#10;">
+  <template description="" name="h-figure." toReformat="true" toShortenFQNames="true" value="    &lt;figure class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/figure&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="footer" toReformat="true" toShortenFQNames="true" value="    &lt;footer&gt;&#10;        $var0$&#10;    &lt;/footer&gt;&#10;">
+  <template description="" name="h-footer" toReformat="true" toShortenFQNames="true" value="    &lt;footer&gt;&#10;        $END$&#10;    &lt;/footer&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="footer." toReformat="true" toShortenFQNames="true" value="    &lt;footer class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/footer&gt;&#10;">
+  <template description="" name="h-footer." toReformat="true" toShortenFQNames="true" value="    &lt;footer class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/footer&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="footer#" toReformat="true" toShortenFQNames="true" value="    &lt;footer id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/footer&gt;&#10;">
+  <template description="" name="h-footer#" toReformat="true" toShortenFQNames="true" value="    &lt;footer id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/footer&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="form" toReformat="true" toShortenFQNames="true" value="    &lt;form action=&quot;$var1$&quot; method=&quot;$var2$&quot;&gt;&#10;        $var0$&#10;    &lt;/form&gt;&#10;">
+  <template description="" name="h-form" toReformat="true" toShortenFQNames="true" value="    &lt;form action=&quot;$var1$&quot; method=&quot;$var2$&quot;&gt;&#10;        $END$&#10;    &lt;/form&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;post&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -951,7 +1008,9 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="form." toReformat="true" toShortenFQNames="true" value="    &lt;form class=&quot;$var1$&quot; action=&quot;$var2$&quot; method=&quot;$var3$&quot;&gt;&#10;        $var0$&#10;    &lt;/form&gt;&#10;">
+  <template description="" name="h-form." toReformat="true" toShortenFQNames="true" value="    &lt;form class=&quot;$var1$&quot; action=&quot;$var2$&quot; method=&quot;$var3$&quot;&gt;&#10;        $END$&#10;    &lt;/form&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;post&quot;" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -959,7 +1018,9 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="form#" toReformat="true" toShortenFQNames="true" value="    &lt;form id=&quot;$var1$&quot; action=&quot;$var2$&quot; method=&quot;$var3$&quot;&gt;&#10;        $var0$&#10;    &lt;/form&gt;&#10;">
+  <template description="" name="h-form#" toReformat="true" toShortenFQNames="true" value="    &lt;form id=&quot;$var1$&quot; action=&quot;$var2$&quot; method=&quot;$var3$&quot;&gt;&#10;        $END$&#10;    &lt;/form&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;post&quot;" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -967,285 +1028,341 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h1" toReformat="true" toShortenFQNames="true" value="    &lt;h1&gt;$var0$&lt;/h1&gt;&#10;">
+  <template description="" name="h-h1" toReformat="true" toShortenFQNames="true" value="    &lt;h1&gt;$END$&lt;/h1&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h1." toReformat="true" toShortenFQNames="true" value="    &lt;h1 class=&quot;$var1$&quot;&gt;$var0$&lt;/h1&gt;&#10;">
+  <template description="" name="h-h1." toReformat="true" toShortenFQNames="true" value="    &lt;h1 class=&quot;$var1$&quot;&gt;$END$&lt;/h1&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h1#" toReformat="true" toShortenFQNames="true" value="    &lt;h1 id=&quot;$var1$&quot;&gt;$var0$&lt;/h1&gt;&#10;">
+  <template description="" name="h-h1#" toReformat="true" toShortenFQNames="true" value="    &lt;h1 id=&quot;$var1$&quot;&gt;$END$&lt;/h1&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h2" toReformat="true" toShortenFQNames="true" value="    &lt;h2&gt;$var0$&lt;/h2&gt;&#10;">
+  <template description="" name="h-h2" toReformat="true" toShortenFQNames="true" value="    &lt;h2&gt;$END$&lt;/h2&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h2." toReformat="true" toShortenFQNames="true" value="    &lt;h2 class=&quot;$var1$&quot;&gt;$var0$&lt;/h2&gt;&#10;">
+  <template description="" name="h-h2." toReformat="true" toShortenFQNames="true" value="    &lt;h2 class=&quot;$var1$&quot;&gt;$END$&lt;/h2&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h2#" toReformat="true" toShortenFQNames="true" value="    &lt;h2 id=&quot;$var1$&quot;&gt;$var0$&lt;/h2&gt;&#10;">
+  <template description="" name="h-h2#" toReformat="true" toShortenFQNames="true" value="    &lt;h2 id=&quot;$var1$&quot;&gt;$END$&lt;/h2&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h3" toReformat="true" toShortenFQNames="true" value="    &lt;h3&gt;$var0$&lt;/h3&gt;&#10;">
+  <template description="" name="h-h3" toReformat="true" toShortenFQNames="true" value="    &lt;h3&gt;$END$&lt;/h3&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h3." toReformat="true" toShortenFQNames="true" value="    &lt;h3 class=&quot;$var1$&quot;&gt;$var0$&lt;/h3&gt;&#10;">
+  <template description="" name="h-h3." toReformat="true" toShortenFQNames="true" value="    &lt;h3 class=&quot;$var1$&quot;&gt;$END$&lt;/h3&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h3#" toReformat="true" toShortenFQNames="true" value="    &lt;h3 id=&quot;$var1$&quot;&gt;$var0$&lt;/h3&gt;&#10;">
+  <template description="" name="h-h3#" toReformat="true" toShortenFQNames="true" value="    &lt;h3 id=&quot;$var1$&quot;&gt;$END$&lt;/h3&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h4" toReformat="true" toShortenFQNames="true" value="    &lt;h4&gt;$var0$&lt;/h4&gt;&#10;">
+  <template description="" name="h-h4" toReformat="true" toShortenFQNames="true" value="    &lt;h4&gt;$END$&lt;/h4&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h4." toReformat="true" toShortenFQNames="true" value="    &lt;h4 class=&quot;$var1$&quot;&gt;$var0$&lt;/h4&gt;&#10;">
+  <template description="" name="h-h4." toReformat="true" toShortenFQNames="true" value="    &lt;h4 class=&quot;$var1$&quot;&gt;$END$&lt;/h4&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h4#" toReformat="true" toShortenFQNames="true" value="    &lt;h4 id=&quot;$var1$&quot;&gt;$var0$&lt;/h4&gt;&#10;">
+  <template description="" name="h-h4#" toReformat="true" toShortenFQNames="true" value="    &lt;h4 id=&quot;$var1$&quot;&gt;$END$&lt;/h4&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h5" toReformat="true" toShortenFQNames="true" value="    &lt;h5&gt;$var0$&lt;/h5&gt;&#10;">
+  <template description="" name="h-h5" toReformat="true" toShortenFQNames="true" value="    &lt;h5&gt;$END$&lt;/h5&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h5." toReformat="true" toShortenFQNames="true" value="    &lt;h5 class=&quot;$var1$&quot;&gt;$var0$&lt;/h5&gt;&#10;">
+  <template description="" name="h-h5." toReformat="true" toShortenFQNames="true" value="    &lt;h5 class=&quot;$var1$&quot;&gt;$END$&lt;/h5&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h5#" toReformat="true" toShortenFQNames="true" value="    &lt;h5 id=&quot;$var1$&quot;&gt;$var0$&lt;/h5&gt;&#10;">
+  <template description="" name="h-h5#" toReformat="true" toShortenFQNames="true" value="    &lt;h5 id=&quot;$var1$&quot;&gt;$END$&lt;/h5&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h6" toReformat="true" toShortenFQNames="true" value="    &lt;h6&gt;$var0$&lt;/h6&gt;&#10;">
+  <template description="" name="h-h6" toReformat="true" toShortenFQNames="true" value="    &lt;h6&gt;$END$&lt;/h6&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h6." toReformat="true" toShortenFQNames="true" value="    &lt;h6 class=&quot;$var1$&quot;&gt;$var0$&lt;/h6&gt;&#10;">
+  <template description="" name="h-h6." toReformat="true" toShortenFQNames="true" value="    &lt;h6 class=&quot;$var1$&quot;&gt;$END$&lt;/h6&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="h6#" toReformat="true" toShortenFQNames="true" value="    &lt;h6 id=&quot;$var1$&quot;&gt;$var0$&lt;/h6&gt;&#10;">
+  <template description="" name="h-h6#" toReformat="true" toShortenFQNames="true" value="    &lt;h6 id=&quot;$var1$&quot;&gt;$END$&lt;/h6&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="head" toReformat="true" toShortenFQNames="true" value="    &lt;head&gt;&#10;        &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;&#10;&#10;        &lt;title&gt;$var1$&lt;/title&gt;&#10;        $var0$&#10;    &lt;/head&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var1"/>
+  <template description="" name="h-header" toReformat="true" toShortenFQNames="true" value="    &lt;header&gt;&#10;        $END$&#10;    &lt;/header&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="header" toReformat="true" toShortenFQNames="true" value="    &lt;header&gt;&#10;        $var0$&#10;    &lt;/header&gt;&#10;">
+  <template description="" name="h-header." toReformat="true" toShortenFQNames="true" value="    &lt;header class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/header&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="header." toReformat="true" toShortenFQNames="true" value="    &lt;header class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/header&gt;&#10;">
+  <template description="" name="h-header#" toReformat="true" toShortenFQNames="true" value="    &lt;header id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/header&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="header#" toReformat="true" toShortenFQNames="true" value="    &lt;header id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/header&gt;&#10;">
+  <template description="" name="h-hgroup" toReformat="true" toShortenFQNames="true" value="    &lt;hgroup&gt;&#10;        $END$&#10;    &lt;/hgroup&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="hgroup" toReformat="true" toShortenFQNames="true" value="    &lt;hgroup&gt;&#10;        $var0$&#10;    &lt;/hgroup&gt;&#10;">
+  <template description="" name="h-hgroup." toReformat="true" toShortenFQNames="true" value="    &lt;hgroup class=&quot;$var1$&gt;&#10;        $END$&#10;    &lt;/hgroup&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="hgroup." toReformat="true" toShortenFQNames="true" value="    &lt;hgroup class=&quot;$var1$&gt;&#10;        $var0$&#10;    &lt;/hgroup&gt;&#10;">
+  <template description="" name="h-hr" toReformat="true" toShortenFQNames="true" value="    &lt;hr /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="hr" toReformat="true" toShortenFQNames="true" value="    &lt;hr /&gt;&#10;">
+  <template description="" name="h-html" toReformat="true" toShortenFQNames="true" value="    &lt;html&gt;&#10;    $END$&#10;    &lt;/html&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="html" toReformat="true" toShortenFQNames="true" value="    &lt;html&gt;&#10;    $var0$&#10;    &lt;/html&gt;&#10;">
+  <template description="" name="h-xhtml" toReformat="true" toShortenFQNames="true" value="    &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#10;    $END$&#10;    &lt;/html&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="xhtml" toReformat="true" toShortenFQNames="true" value="    &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#10;    $var0$&#10;    &lt;/html&gt;&#10;">
+  <template description="" name="h-i" toReformat="true" toShortenFQNames="true" value="    &lt;i&gt;$END$&lt;/i&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="html5" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html&gt;&#10;    &lt;html&gt;&#10;        &lt;head&gt;&#10;            &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;&#10;            &lt;title&gt;$var1$&lt;/title&gt;&#10;            $var2$&#10;        &lt;/head&gt;&#10;        &lt;body&gt;&#10;            $var0$&#10;        &lt;/body&gt;&#10;    &lt;/html&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;link&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="var0"/>
+  <template description="" name="h-iframe" toReformat="true" toShortenFQNames="true" value="    &lt;iframe src=&quot;$var1$&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="html5l" toReformat="true" toShortenFQNames="true" value="    &lt;!DOCTYPE html&gt;&#10;    &lt;html lang=&quot;$var1$&quot;&gt;&#10;        &lt;head&gt;&#10;            &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;&#10;            &lt;title&gt;$var2$&lt;/title&gt;&#10;            $var3$&#10;        &lt;/head&gt;&#10;        &lt;body&gt;&#10;            $var0$&#10;        &lt;/body&gt;&#10;    &lt;/html&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;es&quot;" expression="" name="var1"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var2"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;link&quot;" expression="" name="var3"/>
-    <variable alwaysStopAt="true" defaultValue="&quot;body&quot;" expression="" name="var0"/>
+  <template description="" name="h-iframe." toReformat="true" toShortenFQNames="true" value="    &lt;iframe class=&quot;$var1$&quot; src=&quot;$var2$&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="i" toReformat="true" toShortenFQNames="true" value="    &lt;i&gt;$var0$&lt;/i&gt;&#10;">
+  <template description="" name="h-iframe#" toReformat="true" toShortenFQNames="true" value="    &lt;iframe id=&quot;$var1$&quot; src=&quot;$var2$&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="iframe" toReformat="true" toShortenFQNames="true" value="    &lt;iframe src=&quot;$var1$&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;">
+  <template description="" name="h-img" toReformat="true" toShortenFQNames="true" value="    &lt;img src=&quot;$var1$&quot; alt=&quot;$var2$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="iframe." toReformat="true" toShortenFQNames="true" value="    &lt;iframe class=&quot;$var1$&quot; src=&quot;$var2$&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;">
+  <template description="" name="h-img." toReformat="true" toShortenFQNames="true" value="    &lt;img class=&quot;$var1$&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="iframe#" toReformat="true" toShortenFQNames="true" value="    &lt;iframe id=&quot;$var1$&quot; src=&quot;$var2$&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;">
+  <template description="" name="h-img#" toReformat="true" toShortenFQNames="true" value="    &lt;img id=&quot;$var1$&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="img" toReformat="true" toShortenFQNames="true" value="    &lt;img src=&quot;$var1$&quot; alt=&quot;$var2$&quot; /&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="img." toReformat="true" toShortenFQNames="true" value="    &lt;img class=&quot;$var1$&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot; /&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="img#" toReformat="true" toShortenFQNames="true" value="    &lt;img id=&quot;$var1$&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot; /&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="input" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;$var1$&quot; name=&quot;$var2$&quot; id=&quot;$var3$&quot; value=&quot;$var4$&quot; /&gt;&#10;">
+  <template description="" name="h-input" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;$var1$&quot; name=&quot;$var2$&quot; id=&quot;$var3$&quot; value=&quot;$var4$&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;text/submit/hidden/button/image&quot;" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var3"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var4"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input." toReformat="true" toShortenFQNames="true" value="    &lt;input class=&quot;$var1$&quot; type=&quot;$var2$&quot; name=&quot;$var3$&quot; id=&quot;$var4$&quot; value=&quot;$var5$&quot; /&gt;&#10;">
+  <template description="" name="h-input." toReformat="true" toShortenFQNames="true" value="    &lt;input class=&quot;$var1$&quot; type=&quot;$var2$&quot; name=&quot;$var3$&quot; id=&quot;$var4$&quot; value=&quot;$var5$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;text/submit/hidden/button/image&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$3&quot;" expression="" name="var4"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var5"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:text" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;text&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:text" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;text&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h-input:submit" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;submit&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h-input:hidden" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;hidden&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h-input:button" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;button&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h-input:image" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;image&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; src=&quot;$var3$&quot; alt=&quot;$var4$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var4"/>
+    <context>
+      <option name="TypeScript" value="true"/>
+      <option name="JAVA_SCRIPT" value="true"/>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template description="" name="h-input:checkbox" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;checkbox&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1253,7 +1370,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:submit" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;submit&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:radio" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;radio&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1261,181 +1379,172 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:hidden" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;hidden&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:color" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;color&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:button" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;button&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:date" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;date&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:image" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;image&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; src=&quot;$var3$&quot; alt=&quot;$var4$&quot; /&gt;&#10;">
+  <template description="" name="h-input:datetime" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;datetime&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:checkbox" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;checkbox&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; /&gt;&#10;">
+  <template description="" name="h-input:datetime-local" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;datetime-local&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:radio" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;radio&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; /&gt;&#10;">
+  <template description="" name="h-input:email" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;email&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:color" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;color&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:file" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;file&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:date" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;date&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:month" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;month&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:datetime" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;datetime&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:number" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;number&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:datetime-local" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;datetime-local&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:password" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;password&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:email" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;email&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:range" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;range&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:file" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;file&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:reset" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;reset&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:month" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;month&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:search" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;search&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:number" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;number&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:time" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;time&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:password" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;password&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:url" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;url&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:range" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;range&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+  <template description="" name="h-input:week" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;week&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:reset" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;reset&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+  <template description="" name="h-ins" toReformat="true" toShortenFQNames="true" value="    &lt;ins&gt;$END$&lt;/ins&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:search" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;search&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+  <template description="" name="h-kbd" toReformat="true" toShortenFQNames="true" value="    &lt;kbd&gt;$END$&lt;/kbd&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="input:time" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;time&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="input:url" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;url&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="input:week" toReformat="true" toShortenFQNames="true" value="    &lt;input type=&quot;week&quot; name=&quot;$var1$&quot; id=&quot;$var2$&quot; value=&quot;$var3$&quot; /&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="ins" toReformat="true" toShortenFQNames="true" value="    &lt;ins&gt;$var0$&lt;/ins&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="kbd" toReformat="true" toShortenFQNames="true" value="    &lt;kbd&gt;$var0$&lt;/kbd&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="label" toReformat="true" toShortenFQNames="true" value="    &lt;label for=&quot;$var0$&quot;&gt;$var1$&lt;/label&gt;&#10;">
+  <template description="" name="h-label" toReformat="true" toShortenFQNames="true" value="    &lt;label for=&quot;$var0$&quot;&gt;$var1$&lt;/label&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1443,21 +1552,25 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="label:i" toReformat="true" toShortenFQNames="true" value="    &lt;label for=&quot;$var2$&quot;&gt;$var1$&lt;/label&gt;&#10;    &lt;input type=&quot;$var3$&quot; name=&quot;$var4$&quot; id=&quot;$var5$&quot; value=&quot;$var6$&quot; /&gt;&#10;">
+  <template description="" name="h-label:i" toReformat="true" toShortenFQNames="true" value="    &lt;label for=&quot;$var2$&quot;&gt;$var1$&lt;/label&gt;&#10;    &lt;input type=&quot;$var3$&quot; name=&quot;$var4$&quot; id=&quot;$var5$&quot; value=&quot;$var6$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;text/submit/hidden/button&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var4"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var5"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var6"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="label:s" toReformat="true" toShortenFQNames="true" value="    &lt;label for=&quot;$var2$&quot;&gt;$var1$&lt;/label&gt;&#10;    &lt;select name=&quot;$var3$&quot; id=&quot;$var4$&quot;&gt;&#10;        &lt;option value=&quot;$var5$&quot;&gt;$var0$&lt;/option&gt;&#10;    &lt;/select&gt;&#10;">
+  <template description="" name="h-label:s" toReformat="true" toShortenFQNames="true" value="    &lt;label for=&quot;$var2$&quot;&gt;$var1$&lt;/label&gt;&#10;    &lt;select name=&quot;$var3$&quot; id=&quot;$var4$&quot;&gt;&#10;        &lt;option value=&quot;$var5$&quot;&gt;$var0$&lt;/option&gt;&#10;    &lt;/select&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$2&quot;" expression="" name="var4"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var5"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$5&quot;" expression="" name="var0"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1465,42 +1578,45 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="legend" toReformat="true" toShortenFQNames="true" value="    &lt;legend&gt;$var0$&lt;/legend&gt;&#10;">
+  <template description="" name="h-legend" toReformat="true" toShortenFQNames="true" value="    &lt;legend&gt;$END$&lt;/legend&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="legend+" toReformat="true" toShortenFQNames="true" value="    &lt;legend&gt;&lt;span&gt;$var0$&lt;/span&gt;&lt;/legend&gt;&#10;">
+  <template description="" name="h-legend+" toReformat="true" toShortenFQNames="true" value="    &lt;legend&gt;&lt;span&gt;$END$&lt;/span&gt;&lt;/legend&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="li" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;$var0$&lt;/li&gt;&#10;">
+  <template description="" name="h-li" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;$END$&lt;/li&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="li." toReformat="true" toShortenFQNames="true" value="    &lt;li class=&quot;$var1$&quot;&gt;$var0$&lt;/li&gt;&#10;">
+  <template description="" name="h-li." toReformat="true" toShortenFQNames="true" value="    &lt;li class=&quot;$var1$&quot;&gt;$END$&lt;/li&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="li+" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;$var1$&lt;/li&gt;&#10;    li+&#10;">
+  <template description="" name="h-li+" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;$var1$&lt;/li&gt;&#10;    li+&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="lia" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;&lt;a href=&quot;$var0$&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;">
+  <template description="" name="h-lia" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;&lt;a href=&quot;$var0$&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var0"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1508,7 +1624,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="lia+" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;&lt;a href=&quot;$var2$&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;    lia+&#10;">
+  <template description="" name="h-lia+" toReformat="true" toShortenFQNames="true" value="    &lt;li&gt;&lt;a href=&quot;$var2$&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;    lia+&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;#&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1516,14 +1633,18 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;$var1$&quot; href=&quot;$var2$&quot; title=&quot;$var3$&quot; type=&quot;$var4$&quot; /&gt;&#10;">
+  <template description="" name="h-link" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;$var1$&quot; href=&quot;$var2$&quot; title=&quot;$var3$&quot; type=&quot;$var4$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var4"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link:atom" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;alternate&quot; href=&quot;$var1$&quot; title=&quot;Atom&quot; type=&quot;application/atom+xml&quot; /&gt;&#10;">
+  <template description="" name="h-link:atom" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;alternate&quot; href=&quot;$var1$&quot; title=&quot;Atom&quot; type=&quot;application/atom+xml&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;atom.xml&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1531,7 +1652,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link:s" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;stylesheet&quot; href=&quot;$var1$&quot; /&gt;&#10;">
+  <template description="" name="h-link:s" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;stylesheet&quot; href=&quot;$var1$&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;style.css&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1539,7 +1660,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link:css" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;stylesheet&quot; href=&quot;$var1$&quot; type=&quot;text/css&quot; media=&quot;$var2$&quot; /&gt;&#10;">
+  <template description="" name="h-link:css" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;stylesheet&quot; href=&quot;$var1$&quot; type=&quot;text/css&quot; media=&quot;$var2$&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;style.css&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;all&quot;" expression="" name="var2"/>
     <context>
@@ -1548,7 +1669,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link:favicon" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;shortcut icon&quot; href=&quot;$var1$&quot; type=&quot;image/x-icon&quot; /&gt;&#10;">
+  <template description="" name="h-link:favicon" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;shortcut icon&quot; href=&quot;$var1$&quot; type=&quot;image/x-icon&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;favicon.ico&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1556,7 +1677,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link:rss" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;alternate&quot; href=&quot;$var1$&quot; title=&quot;RSS&quot; type=&quot;application/atom+xml&quot; /&gt;&#10;">
+  <template description="" name="h-link:rss" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;alternate&quot; href=&quot;$var1$&quot; title=&quot;RSS&quot; type=&quot;application/atom+xml&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;rss.xml&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1564,7 +1685,7 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="link:touch" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;$var1$&quot; /&gt;&#10;">
+  <template description="" name="h-link:touch" toReformat="true" toShortenFQNames="true" value="    &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;$var1$&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;favicon.png&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1572,28 +1693,32 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="main" toReformat="true" toShortenFQNames="true" value="    &lt;main role=&quot;main&quot;&gt;&#10;        $var0$&#10;    &lt;/main&gt;&#10;">
+  <template description="" name="h-main" toReformat="true" toShortenFQNames="true" value="    &lt;main role=&quot;main&quot;&gt;&#10;        $END$&#10;    &lt;/main&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="map" toReformat="true" toShortenFQNames="true" value="    &lt;map name=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/map&gt;&#10;">
+  <template description="" name="h-map" toReformat="true" toShortenFQNames="true" value="    &lt;map name=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/map&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="map." toReformat="true" toShortenFQNames="true" value="    &lt;map class=&quot;$var1$&quot; name=&quot;$var2$&quot;&gt;&#10;        $var0$&#10;    &lt;/map&gt;&#10;">
+  <template description="" name="h-map." toReformat="true" toShortenFQNames="true" value="    &lt;map class=&quot;$var1$&quot; name=&quot;$var2$&quot;&gt;&#10;        $END$&#10;    &lt;/map&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="map#" toReformat="true" toShortenFQNames="true" value="    &lt;map name=&quot;$var1$&quot; id=&quot;$var2$&gt;&#10;        $var0$&#10;    &lt;/map&gt;&#10;">
+  <template description="" name="h-map#" toReformat="true" toShortenFQNames="true" value="    &lt;map name=&quot;$var1$&quot; id=&quot;$var2$&gt;&#10;        $END$&#10;    &lt;/map&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1601,63 +1726,71 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="map+" toReformat="true" toShortenFQNames="true" value="    &lt;map name=&quot;$var1$&quot;&gt;&#10;        &lt;area shape=&quot;$var2$&quot; coords=&quot;$var3$&quot; href=&quot;$var4$&quot; alt=&quot;$var5$&quot; /&gt;$var6$&#10;    &lt;/map&gt;&#10;">
+  <template description="" name="h-map+" toReformat="true" toShortenFQNames="true" value="    &lt;map name=&quot;$var1$&quot;&gt;&#10;        &lt;area shape=&quot;$var2$&quot; coords=&quot;$var3$&quot; href=&quot;$var4$&quot; alt=&quot;$var5$&quot; /&gt;$var6$&#10;    &lt;/map&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var4"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var5"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var6"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="mark" toReformat="true" toShortenFQNames="true" value="    &lt;mark&gt;$var0$&lt;/mark&gt;&#10;">
+  <template description="" name="h-mark" toReformat="true" toShortenFQNames="true" value="    &lt;mark&gt;$END$&lt;/mark&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="menu" toReformat="true" toShortenFQNames="true" value="    &lt;menu&gt;&#10;        $var0$&#10;    &lt;/menu&gt;&#10;">
+  <template description="" name="h-menu" toReformat="true" toShortenFQNames="true" value="    &lt;menu&gt;&#10;        $END$&#10;    &lt;/menu&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="menu:c" toReformat="true" toShortenFQNames="true" value="    &lt;menu type=&quot;context&quot;&gt;&#10;        $var0$&#10;    &lt;/menu&gt;&#10;">
+  <template description="" name="h-menu:c" toReformat="true" toShortenFQNames="true" value="    &lt;menu type=&quot;context&quot;&gt;&#10;        $END$&#10;    &lt;/menu&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="menu:t" toReformat="true" toShortenFQNames="true" value="    &lt;menu type=&quot;toolbar&quot;&gt;&#10;        $var0$&#10;    &lt;/menu&gt;&#10;">
+  <template description="" name="h-menu:t" toReformat="true" toShortenFQNames="true" value="    &lt;menu type=&quot;toolbar&quot;&gt;&#10;        $END$&#10;    &lt;/menu&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meta" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;$var1$&quot; content=&quot;$var2$&quot; /&gt;&#10;">
+  <template description="" name="h-meta" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;$var1$&quot; content=&quot;$var2$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meta:s" toReformat="true" toShortenFQNames="true" value="    &lt;meta $var0$ /&gt;&#10;">
+  <template description="" name="h-meta:s" toReformat="true" toShortenFQNames="true" value="    &lt;meta $END$ /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meta:d" toReformat="true" toShortenFQNames="true" value="    &lt;meta name=&quot;description&quot; content=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-meta:d" toReformat="true" toShortenFQNames="true" value="    &lt;meta name=&quot;description&quot; content=&quot;$END$&quot; /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meta:compat" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=$var1$&quot; /&gt;&#10;">
+  <template description="" name="h-meta:compat" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=$var1$&quot; /&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;7,8,edge&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1665,63 +1798,68 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meta:refresh" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;refresh&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#10;">
+  <template description="" name="h-meta:refresh" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;refresh&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meta:utf" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#10;">
+  <template description="" name="h-meta:utf" toReformat="true" toShortenFQNames="true" value="    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="meter" toReformat="true" toShortenFQNames="true" value="    &lt;meter&gt;$var0$&lt;/meter&gt;&#10;">
+  <template description="" name="h-meter" toReformat="true" toShortenFQNames="true" value="    &lt;meter&gt;$END$&lt;/meter&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="nav" toReformat="true" toShortenFQNames="true" value="    &lt;nav&gt;&#10;        $var0$&#10;    &lt;/nav&gt;&#10;">
+  <template description="" name="h-nav" toReformat="true" toShortenFQNames="true" value="    &lt;nav&gt;&#10;        $END$&#10;    &lt;/nav&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="nav." toReformat="true" toShortenFQNames="true" value="    &lt;nav class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/nav&gt;&#10;">
+  <template description="" name="h-nav." toReformat="true" toShortenFQNames="true" value="    &lt;nav class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/nav&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="nav#" toReformat="true" toShortenFQNames="true" value="    &lt;nav id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/nav&gt;&#10;">
+  <template description="" name="h-nav#" toReformat="true" toShortenFQNames="true" value="    &lt;nav id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/nav&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="noscript" toReformat="true" toShortenFQNames="true" value="    &lt;noscript&gt;&#10;        $var0$&#10;    &lt;/noscript&gt;&#10;">
+  <template description="" name="h-noscript" toReformat="true" toShortenFQNames="true" value="    &lt;noscript&gt;&#10;        $END$&#10;    &lt;/noscript&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="object" toReformat="true" toShortenFQNames="true" value="    &lt;object data=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;&#10;        $var3$&#10;    &lt;/object&gt;&#10;">
+  <template description="" name="h-object" toReformat="true" toShortenFQNames="true" value="    &lt;object data=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;&#10;        $var3$&#10;    &lt;/object&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="movie" toReformat="true" toShortenFQNames="true" value="    &lt;object width=&quot;$var2$&quot; height=&quot;$var3$&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot;&#10;    codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;&#10;        &lt;param name=&quot;src&quot; value=&quot;$var1$&quot; /&gt;&#10;        &lt;param name=&quot;controller&quot; value=&quot;$var4$&quot; /&gt;&#10;        &lt;param name=&quot;autoplay&quot; value=&quot;$var5$&quot; /&gt;&#10;        &lt;embed src=&quot;$var1$&quot;&#10;            width=&quot;$var2$&quot; height=&quot;$var3$&quot;&#10;            controller=&quot;$var4$&quot; autoplay=&quot;$var5$&quot;&#10;            scale=&quot;tofit&quot; cache=&quot;true&quot;&#10;            pluginspage=&quot;http://www.apple.com/quicktime/download/&quot; /&gt;&#10;    &lt;/object&gt;&#10;">
+  <template description="" name="h-movie" toReformat="true" toShortenFQNames="true" value="    &lt;object width=&quot;$var2$&quot; height=&quot;$var3$&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot;&#10;    codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;&#10;        &lt;param name=&quot;src&quot; value=&quot;$var1$&quot; /&gt;&#10;        &lt;param name=&quot;controller&quot; value=&quot;$var4$&quot; /&gt;&#10;        &lt;param name=&quot;autoplay&quot; value=&quot;$var5$&quot; /&gt;&#10;        &lt;embed src=&quot;$var1$&quot;&#10;            width=&quot;$var2$&quot; height=&quot;$var3$&quot;&#10;            controller=&quot;$var4$&quot; autoplay=&quot;$var5$&quot;&#10;            scale=&quot;tofit&quot; cache=&quot;true&quot;&#10;            pluginspage=&quot;http://www.apple.com/quicktime/download/&quot; /&gt;&#10;    &lt;/object&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;movie.mov&quot;" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;320&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;240&quot;" expression="" name="var3"/>
@@ -1733,35 +1871,39 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ol" toReformat="true" toShortenFQNames="true" value="    &lt;ol&gt;&#10;        $var0$&#10;    &lt;/ol&gt;&#10;">
+  <template description="" name="h-ol" toReformat="true" toShortenFQNames="true" value="    &lt;ol&gt;&#10;        $END$&#10;    &lt;/ol&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ol." toReformat="true" toShortenFQNames="true" value="    &lt;ol class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/ol&gt;&#10;">
+  <template description="" name="h-ol." toReformat="true" toShortenFQNames="true" value="    &lt;ol class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/ol&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ol#" toReformat="true" toShortenFQNames="true" value="    &lt;ol id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/ol&gt;&#10;">
+  <template description="" name="h-ol#" toReformat="true" toShortenFQNames="true" value="    &lt;ol id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/ol&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ol+" toReformat="true" toShortenFQNames="true" value="    &lt;ol&gt;&#10;        &lt;li&gt;$var1$&lt;/li&gt;&#10;        li+$var0$&#10;    &lt;/ol&gt;&#10;">
+  <template description="" name="h-ol+" toReformat="true" toShortenFQNames="true" value="    &lt;ol&gt;&#10;        &lt;li&gt;$var1$&lt;/li&gt;&#10;        li+$END$&#10;    &lt;/ol&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="opt" toReformat="true" toShortenFQNames="true" value="    &lt;option value=&quot;$var1$&quot;&gt;$var0$&lt;/option&gt;&#10;">
+  <template description="" name="h-opt" toReformat="true" toShortenFQNames="true" value="    &lt;option value=&quot;$var1$&quot;&gt;$var0$&lt;/option&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1769,7 +1911,8 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="opt+" toReformat="true" toShortenFQNames="true" value="    &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;    opt+$var0$&#10;">
+  <template description="" name="h-opt+" toReformat="true" toShortenFQNames="true" value="    &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;    opt+$END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1777,14 +1920,15 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="optt" toReformat="true" toShortenFQNames="true" value="    &lt;option&gt;$var0$&lt;/option&gt;&#10;">
+  <template description="" name="h-optt" toReformat="true" toShortenFQNames="true" value="    &lt;option&gt;$END$&lt;/option&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="optgroup" toReformat="true" toShortenFQNames="true" value="    &lt;optgroup&gt;&#10;        &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;        opt+$var0$&#10;    &lt;/optgroup&gt;&#10;">
+  <template description="" name="h-optgroup" toReformat="true" toShortenFQNames="true" value="    &lt;optgroup&gt;&#10;        &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;        opt+$END$&#10;    &lt;/optgroup&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1792,147 +1936,156 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="output" toReformat="true" toShortenFQNames="true" value="    &lt;output&gt;$var0$&lt;/output&gt;&#10;">
+  <template description="" name="h-output" toReformat="true" toShortenFQNames="true" value="    &lt;output&gt;$END$&lt;/output&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="p" toReformat="true" toShortenFQNames="true" value="    &lt;p&gt;$var0$&lt;/p&gt;&#10;">
+  <template description="" name="h-p" toReformat="true" toShortenFQNames="true" value="    &lt;p&gt;$END$&lt;/p&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="p." toReformat="true" toShortenFQNames="true" value="    &lt;p class=&quot;$var1$&quot;&gt;$var0$&lt;/p&gt;&#10;">
+  <template description="" name="h-p." toReformat="true" toShortenFQNames="true" value="    &lt;p class=&quot;$var1$&quot;&gt;$END$&lt;/p&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="p#" toReformat="true" toShortenFQNames="true" value="    &lt;p id=&quot;$var1$&quot;&gt;$var0$&lt;/p&gt;&#10;">
+  <template description="" name="h-p#" toReformat="true" toShortenFQNames="true" value="    &lt;p id=&quot;$var1$&quot;&gt;$END$&lt;/p&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="param" toReformat="true" toShortenFQNames="true" value="    &lt;param name=&quot;$var1$&quot; value=&quot;$var2$&quot; /&gt;&#10;">
+  <template description="" name="h-param" toReformat="true" toShortenFQNames="true" value="    &lt;param name=&quot;$var1$&quot; value=&quot;$var2$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="pre" toReformat="true" toShortenFQNames="true" value="    &lt;pre&gt;&#10;        $var0$&#10;    &lt;/pre&gt;&#10;">
+  <template description="" name="h-pre" toReformat="true" toShortenFQNames="true" value="    &lt;pre&gt;&#10;        $END$&#10;    &lt;/pre&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="progress" toReformat="true" toShortenFQNames="true" value="    &lt;progress&gt;$var0$&lt;/progress&gt;&#10;">
+  <template description="" name="h-progress" toReformat="true" toShortenFQNames="true" value="    &lt;progress&gt;$END$&lt;/progress&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="q" toReformat="true" toShortenFQNames="true" value="    &lt;q&gt;$var0$&lt;/q&gt;&#10;">
+  <template description="" name="h-q" toReformat="true" toShortenFQNames="true" value="    &lt;q&gt;$END$&lt;/q&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="rp" toReformat="true" toShortenFQNames="true" value="    &lt;rp&gt;$var0$&lt;/rp&gt;&#10;">
+  <template description="" name="h-rp" toReformat="true" toShortenFQNames="true" value="    &lt;rp&gt;$END$&lt;/rp&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="rt" toReformat="true" toShortenFQNames="true" value="    &lt;rt&gt;$var0$&lt;/rt&gt;&#10;">
+  <template description="" name="h-rt" toReformat="true" toShortenFQNames="true" value="    &lt;rt&gt;$END$&lt;/rt&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ruby" toReformat="true" toShortenFQNames="true" value="    &lt;ruby&gt;&#10;        &lt;rp&gt;&lt;rt&gt;$var0$&lt;/rt&gt;&lt;/rp&gt;&#10;    &lt;/ruby&gt;&#10;">
+  <template description="" name="h-ruby" toReformat="true" toShortenFQNames="true" value="    &lt;ruby&gt;&#10;        &lt;rp&gt;&lt;rt&gt;$END$&lt;/rt&gt;&lt;/rp&gt;&#10;    &lt;/ruby&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="s" toReformat="true" toShortenFQNames="true" value="    &lt;s&gt;$var0$&lt;/s&gt;&#10;">
+  <template description="" name="h-s" toReformat="true" toShortenFQNames="true" value="    &lt;s&gt;$END$&lt;/s&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="samp" toReformat="true" toShortenFQNames="true" value="    &lt;samp&gt;&#10;        $var0$&#10;    &lt;/samp&gt;&#10;">
+  <template description="" name="h-samp" toReformat="true" toShortenFQNames="true" value="    &lt;samp&gt;&#10;        $END$&#10;    &lt;/samp&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="script" toReformat="true" toShortenFQNames="true" value="    &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&#10;        $var0$&#10;    &lt;/script&gt;&#10;">
+  <template description="" name="h-script" toReformat="true" toShortenFQNames="true" value="    &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&#10;        $END$&#10;    &lt;/script&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="scripts" toReformat="true" toShortenFQNames="true" value="    &lt;script src=&quot;$var0$.js&quot;&gt;&lt;/script&gt;&#10;">
+  <template description="" name="h-scripts" toReformat="true" toShortenFQNames="true" value="    &lt;script src=&quot;$END$.js&quot;&gt;&lt;/script&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="scriptt" toReformat="true" toShortenFQNames="true" value="    &lt;script type=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;        $var0$&#10;    &lt;/script&gt;&#10;">
+  <template description="" name="h-scriptt" toReformat="true" toShortenFQNames="true" value="    &lt;script type=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;        $END$&#10;    &lt;/script&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="scriptsrc" toReformat="true" toShortenFQNames="true" value="    &lt;script src=&quot;$var0$.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&#10;">
+  <template description="" name="h-scriptsrc" toReformat="true" toShortenFQNames="true" value="    &lt;script src=&quot;$END$.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="section" toReformat="true" toShortenFQNames="true" value="    &lt;section&gt;&#10;        $var0$&#10;    &lt;/section&gt;&#10;">
+  <template description="" name="h-section" toReformat="true" toShortenFQNames="true" value="    &lt;section&gt;&#10;        $END$&#10;    &lt;/section&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="section." toReformat="true" toShortenFQNames="true" value="    &lt;section class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/section&gt;&#10;">
+  <template description="" name="h-section." toReformat="true" toShortenFQNames="true" value="    &lt;section class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/section&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="section#" toReformat="true" toShortenFQNames="true" value="    &lt;section id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/section&gt;&#10;">
+  <template description="" name="h-section#" toReformat="true" toShortenFQNames="true" value="    &lt;section id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/section&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="select" toReformat="true" toShortenFQNames="true" value="    &lt;select name=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;        $var0$&#10;    &lt;/select&gt;&#10;">
+  <template description="" name="h-select" toReformat="true" toShortenFQNames="true" value="    &lt;select name=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;        $END$&#10;    &lt;/select&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1940,16 +2093,20 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="select." toReformat="true" toShortenFQNames="true" value="    &lt;select name=&quot;$var1$&quot; id=&quot;$var2$&quot; class=&quot;$var3$&gt;&#10;        $var0$&#10;    &lt;/select&gt;&#10;">
+  <template description="" name="h-select." toReformat="true" toShortenFQNames="true" value="    &lt;select name=&quot;$var1$&quot; id=&quot;$var2$&quot; class=&quot;$var3$&gt;&#10;        $END$&#10;    &lt;/select&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="select+" toReformat="true" toShortenFQNames="true" value="    &lt;select name=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;        &lt;option value=&quot;$var3$&quot;&gt;$var4$&lt;/option&gt;&#10;        opt+$var0$&#10;    &lt;/select&gt;&#10;">
+  <template description="" name="h-select+" toReformat="true" toShortenFQNames="true" value="    &lt;select name=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;        &lt;option value=&quot;$var3$&quot;&gt;$var4$&lt;/option&gt;&#10;        opt+$END$&#10;    &lt;/select&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$3&quot;" expression="" name="var4"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -1957,49 +2114,53 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="small" toReformat="true" toShortenFQNames="true" value="    &lt;small&gt;$var0$&lt;/small&gt;&#10;">
+  <template description="" name="h-small" toReformat="true" toShortenFQNames="true" value="    &lt;small&gt;$END$&lt;/small&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="source" toReformat="true" toShortenFQNames="true" value="    &lt;source src=&quot;$var1$&quot; type=&quot;$var2$&quot; media=&quot;$var0$&quot; /&gt;&#10;">
+  <template description="" name="h-source" toReformat="true" toShortenFQNames="true" value="    &lt;source src=&quot;$var1$&quot; type=&quot;$var2$&quot; media=&quot;$END$&quot; /&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="span" toReformat="true" toShortenFQNames="true" value="    &lt;span&gt;$var0$&lt;/span&gt;&#10;">
+  <template description="" name="h-span" toReformat="true" toShortenFQNames="true" value="    &lt;span&gt;$END$&lt;/span&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="span." toReformat="true" toShortenFQNames="true" value="    &lt;span class=&quot;$var1$&quot;&gt;$var0$&lt;/span&gt;&#10;">
+  <template description="" name="h-span." toReformat="true" toShortenFQNames="true" value="    &lt;span class=&quot;$var1$&quot;&gt;$END$&lt;/span&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="span#" toReformat="true" toShortenFQNames="true" value="    &lt;span id=&quot;$var1$&quot;&gt;$var0$&lt;/span&gt;&#10;">
+  <template description="" name="h-span#" toReformat="true" toShortenFQNames="true" value="    &lt;span id=&quot;$var1$&quot;&gt;$END$&lt;/span&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="strong" toReformat="true" toShortenFQNames="true" value="    &lt;strong&gt;$var0$&lt;/strong&gt;&#10;">
+  <template description="" name="h-strong" toReformat="true" toShortenFQNames="true" value="    &lt;strong&gt;$END$&lt;/strong&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="style" toReformat="true" toShortenFQNames="true" value="    &lt;style type=&quot;text/css&quot; media=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/style&gt;&#10;">
+  <template description="" name="h-style" toReformat="true" toShortenFQNames="true" value="    &lt;style type=&quot;text/css&quot; media=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/style&gt;&#10;">
     <variable alwaysStopAt="true" defaultValue="&quot;all&quot;" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
@@ -2007,136 +2168,147 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="sub" toReformat="true" toShortenFQNames="true" value="    &lt;sub&gt;$var0$&lt;/sub&gt;&#10;">
+  <template description="" name="h-sub" toReformat="true" toShortenFQNames="true" value="    &lt;sub&gt;$END$&lt;/sub&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="summary" toReformat="true" toShortenFQNames="true" value="    &lt;summary&gt;&#10;        $var0$&#10;    &lt;/summary&gt;&#10;">
+  <template description="" name="h-summary" toReformat="true" toShortenFQNames="true" value="    &lt;summary&gt;&#10;        $END$&#10;    &lt;/summary&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="sup" toReformat="true" toShortenFQNames="true" value="    &lt;sup&gt;$var0$&lt;/sup&gt;&#10;">
+  <template description="" name="h-sup" toReformat="true" toShortenFQNames="true" value="    &lt;sup&gt;$END$&lt;/sup&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="table" toReformat="true" toShortenFQNames="true" value="    &lt;table&gt;&#10;        $var0$&#10;    &lt;/table&gt;&#10;">
+  <template description="" name="h-table" toReformat="true" toShortenFQNames="true" value="    &lt;table&gt;&#10;        $END$&#10;    &lt;/table&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="table." toReformat="true" toShortenFQNames="true" value="    &lt;table class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/table&gt;&#10;">
+  <template description="" name="h-table." toReformat="true" toShortenFQNames="true" value="    &lt;table class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/table&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="table#" toReformat="true" toShortenFQNames="true" value="    &lt;table id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/table&gt;&#10;">
+  <template description="" name="h-table#" toReformat="true" toShortenFQNames="true" value="    &lt;table id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/table&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="tbody" toReformat="true" toShortenFQNames="true" value="    &lt;tbody&gt;&#10;        $var0$&#10;    &lt;/tbody&gt;&#10;">
+  <template description="" name="h-tbody" toReformat="true" toShortenFQNames="true" value="    &lt;tbody&gt;&#10;        $END$&#10;    &lt;/tbody&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="td" toReformat="true" toShortenFQNames="true" value="    &lt;td&gt;$var0$&lt;/td&gt;&#10;">
+  <template description="" name="h-td" toReformat="true" toShortenFQNames="true" value="    &lt;td&gt;$END$&lt;/td&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="td." toReformat="true" toShortenFQNames="true" value="    &lt;td class=&quot;$var1$&quot;&gt;$var0$&lt;/td&gt;&#10;">
+  <template description="" name="h-td." toReformat="true" toShortenFQNames="true" value="    &lt;td class=&quot;$var1$&quot;&gt;$END$&lt;/td&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="td#" toReformat="true" toShortenFQNames="true" value="    &lt;td id=&quot;$var1$&quot;&gt;$var0$&lt;/td&gt;&#10;">
+  <template description="" name="h-td#" toReformat="true" toShortenFQNames="true" value="    &lt;td id=&quot;$var1$&quot;&gt;$END$&lt;/td&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="td+" toReformat="true" toShortenFQNames="true" value="    &lt;td&gt;$var1$&lt;/td&gt;&#10;    td+$var0$&#10;">
+  <template description="" name="h-td+" toReformat="true" toShortenFQNames="true" value="    &lt;td&gt;$var1$&lt;/td&gt;&#10;    td+$END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="textarea" toReformat="true" toShortenFQNames="true" value="    &lt;textarea name=&quot;$var1$&quot; id=&quot;$var2$&quot; rows=&quot;$var3$&quot; cols=&quot;$var4$&quot;&gt;$var5$&lt;/textarea&gt;&#10;">
+  <template description="" name="h-textarea" toReformat="true" toShortenFQNames="true" value="    &lt;textarea name=&quot;$var1$&quot; id=&quot;$var2$&quot; rows=&quot;$var3$&quot; cols=&quot;$var4$&quot;&gt;$var5$&lt;/textarea&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;8&quot;" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;40&quot;" expression="" name="var4"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var5"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="tfoot" toReformat="true" toShortenFQNames="true" value="    &lt;tfoot&gt;&#10;        $var0$&#10;    &lt;/tfoot&gt;&#10;">
+  <template description="" name="h-tfoot" toReformat="true" toShortenFQNames="true" value="    &lt;tfoot&gt;&#10;        $END$&#10;    &lt;/tfoot&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="th" toReformat="true" toShortenFQNames="true" value="    &lt;th&gt;$var0$&lt;/th&gt;&#10;">
+  <template description="" name="h-th" toReformat="true" toShortenFQNames="true" value="    &lt;th&gt;$END$&lt;/th&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="th." toReformat="true" toShortenFQNames="true" value="    &lt;th class=&quot;$var1$&quot;&gt;$var0$&lt;/th&gt;&#10;">
+  <template description="" name="h-th." toReformat="true" toShortenFQNames="true" value="    &lt;th class=&quot;$var1$&quot;&gt;$END$&lt;/th&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="th#" toReformat="true" toShortenFQNames="true" value="    &lt;th id=&quot;$var1$&quot;&gt;$var0$&lt;/th&gt;&#10;">
+  <template description="" name="h-th#" toReformat="true" toShortenFQNames="true" value="    &lt;th id=&quot;$var1$&quot;&gt;$END$&lt;/th&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="th+" toReformat="true" toShortenFQNames="true" value="    &lt;th&gt;$var1$&lt;/th&gt;&#10;    th+$var0$&#10;">
+  <template description="" name="h-th+" toReformat="true" toShortenFQNames="true" value="    &lt;th&gt;$var1$&lt;/th&gt;&#10;    th+$END$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="thead" toReformat="true" toShortenFQNames="true" value="    &lt;thead&gt;&#10;        $var0$&#10;    &lt;/thead&gt;&#10;">
+  <template description="" name="h-thead" toReformat="true" toShortenFQNames="true" value="    &lt;thead&gt;&#10;        $END$&#10;    &lt;/thead&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="time" toReformat="true" toShortenFQNames="true" value="    &lt;time datetime=&quot;$var1$&quot; pubdate=&quot;$var2$&quot;&gt;$var0$&lt;/time&gt;&#10;">
+  <template description="" name="h-time" toReformat="true" toShortenFQNames="true" value="    &lt;time datetime=&quot;$var1$&quot; pubdate=&quot;$var2$&quot;&gt;$var0$&lt;/time&gt;&#10;$END$">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var2"/>
     <variable alwaysStopAt="true" defaultValue="&quot;$1&quot;" expression="" name="var0"/>
     <context>
@@ -2145,81 +2317,85 @@
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="title" toReformat="true" toShortenFQNames="true" value="    &lt;title&gt;$var0$&lt;/title&gt;&#10;">
-    <variable alwaysStopAt="true" defaultValue="&quot;`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&amp;', '')`&quot;" expression="" name="var0"/>
+  <template description="" name="h-tr" toReformat="true" toShortenFQNames="true" value="    &lt;tr&gt;&#10;        $END$&#10;    &lt;/tr&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="tr" toReformat="true" toShortenFQNames="true" value="    &lt;tr&gt;&#10;        $var0$&#10;    &lt;/tr&gt;&#10;">
+  <template description="" name="h-tr+" toReformat="true" toShortenFQNames="true" value="    &lt;tr&gt;&#10;        &lt;td&gt;$var1$&lt;/td&gt;&#10;        td+$END$&#10;    &lt;/tr&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="tr+" toReformat="true" toShortenFQNames="true" value="    &lt;tr&gt;&#10;        &lt;td&gt;$var1$&lt;/td&gt;&#10;        td+$var0$&#10;    &lt;/tr&gt;&#10;">
-    <context>
-      <option name="TypeScript" value="true"/>
-      <option name="JAVA_SCRIPT" value="true"/>
-      <option name="HTML" value="true"/>
-    </context>
-  </template>
-  <template description="" name="track" toReformat="true" toShortenFQNames="true" value="    &lt;track src=&quot;$var1$&quot; srclang=&quot;$var2$&quot; label=&quot;$var3$&quot; default=&quot;$var4$ /&gt;$var5$&#10;">
+  <template description="" name="h-track" toReformat="true" toShortenFQNames="true" value="    &lt;track src=&quot;$var1$&quot; srclang=&quot;$var2$&quot; label=&quot;$var3$&quot; default=&quot;$var4$ /&gt;$var5$&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;default&quot;" expression="" name="var4"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var5"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ul" toReformat="true" toShortenFQNames="true" value="    &lt;ul&gt;&#10;        $var0$&#10;    &lt;/ul&gt;&#10;">
+  <template description="" name="h-ul" toReformat="true" toShortenFQNames="true" value="    &lt;ul&gt;&#10;        $END$&#10;    &lt;/ul&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ul." toReformat="true" toShortenFQNames="true" value="    &lt;ul class=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/ul&gt;&#10;">
+  <template description="" name="h-ul." toReformat="true" toShortenFQNames="true" value="    &lt;ul class=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/ul&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ul#" toReformat="true" toShortenFQNames="true" value="    &lt;ul id=&quot;$var1$&quot;&gt;&#10;        $var0$&#10;    &lt;/ul&gt;&#10;">
+  <template description="" name="h-ul#" toReformat="true" toShortenFQNames="true" value="    &lt;ul id=&quot;$var1$&quot;&gt;&#10;        $END$&#10;    &lt;/ul&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="ul+" toReformat="true" toShortenFQNames="true" value="    &lt;ul&gt;&#10;        &lt;li&gt;$var1$&lt;/li&gt;&#10;        li+$var0$&#10;    &lt;/ul&gt;&#10;">
+  <template description="" name="h-ul+" toReformat="true" toShortenFQNames="true" value="    &lt;ul&gt;&#10;        &lt;li&gt;$var1$&lt;/li&gt;&#10;        li+$END$&#10;    &lt;/ul&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="var" toReformat="true" toShortenFQNames="true" value="    &lt;var&gt;$var0$&lt;/var&gt;&#10;">
+  <template description="" name="h-var" toReformat="true" toShortenFQNames="true" value="    &lt;var&gt;$END$&lt;/var&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="video" toReformat="true" toShortenFQNames="true" value="    &lt;video src=&quot;$var1$ height=&quot;$var2$&quot; width=&quot;$var3$&quot; preload=&quot;$var5$&quot; autoplay=&quot;$var6$&gt;$var7$&lt;/video&gt;&#10;">
+  <template description="" name="h-video" toReformat="true" toShortenFQNames="true" value="    &lt;video src=&quot;$var1$ height=&quot;$var2$&quot; width=&quot;$var3$&quot; preload=&quot;$var5$&quot; autoplay=&quot;$var6$&gt;$var7$&lt;/video&gt;&#10;">
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var1"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var2"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var3"/>
     <variable alwaysStopAt="true" defaultValue="&quot;none&quot;" expression="" name="var5"/>
     <variable alwaysStopAt="true" defaultValue="&quot;autoplay&quot;" expression="" name="var6"/>
+    <variable alwaysStopAt="true" defaultValue="" expression="" name="var7"/>
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>
       <option name="HTML" value="true"/>
     </context>
   </template>
-  <template description="" name="wbr" toReformat="true" toShortenFQNames="true" value="    &lt;wbr /&gt;&#10;">
+  <template description="" name="h-wbr" toReformat="true" toShortenFQNames="true" value="    &lt;wbr /&gt;&#10;">
     <context>
       <option name="TypeScript" value="true"/>
       <option name="JAVA_SCRIPT" value="true"/>

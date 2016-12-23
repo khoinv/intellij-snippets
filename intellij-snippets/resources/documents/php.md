@@ -1,4 +1,4 @@
-####php-<?
+####p-<?
 ```php
     <?php
 
@@ -6,31 +6,31 @@
 
     ${0}
 ```
-####php-dst
+####p-dst
 ```php
     declare(strict_types=${1:1});
 ```
-####php-ec
+####p-ec
 ```php
     echo ${0};
 ```
-####php-<?e
+####p-<?e
 ```php
     <?php echo ${0} ?>
 ```
-####php-<?=
+####p-<?=
 ```php
     <?=${0}?>
 ```
-####php-?=
+####p-?=
 ```php
     <?= ${0} ?>
 ```
-####php-?
+####p-?
 ```php
     <?php ${0} ?>
 ```
-####php-?f
+####p-?f
 ```php
     <?php foreach ($${1:vars} as $${2:$var}): ?>
 
@@ -38,7 +38,7 @@
 
     <?php endforeach ?>
 ```
-####php-?i
+####p-?i
 ```php
     <?php if ($${1:var}): ?>
 
@@ -46,37 +46,17 @@
 
     <?php endif ?>
 ```
-####php-ns
+####p-ns
 ```php
     namespace ${1:Foo\Bar\Baz};
 
     ${0}
 ```
-####php-c
-```php
-    class ${1:`vim_snippets#Filename()`}
-
-    {
-
-        ${0}
-
-    }
-```
-####php-i
-```php
-    interface ${1:`vim_snippets#Filename()`}
-
-    {
-
-        ${0}
-
-    }
-```
-####php-t.
+####p-t.
 ```php
     $this->
 ```
-####php-f
+####p-f
 ```php
     function ${1}(${3})
 
@@ -86,7 +66,7 @@
 
     }
 ```
-####php-m
+####p-m
 ```php
     ${1:protected} function ${2:foo}()
 
@@ -96,35 +76,7 @@
 
     }
 ```
-####php-sm
-```php
-    /**
-
-     * Sets the value of ${1:foo}
-
-     *
-
-     * @param ${2:string} $$1 ${3:description}
-
-     *
-
-     * @return ${4:`vim_snippets#Filename()`}
-
-     */
-
-    ${5:public} function set${6:$1}(${7:$2 }$$1)
-
-    {
-
-        $this->${8:$1} = $$1;
-
-
-
-        return $this;
-
-    }
-```
-####php-gm
+####p-gm
 ```php
     /**
 
@@ -144,87 +96,87 @@
 
     }
 ```
-####php-$s
+####p-$s
 ```php
     ${1:$foo}->set${2:Bar}(${0});
 ```
-####php-$g
+####p-$g
 ```php
     ${1:$foo}->get${0:Bar}();
 ```
-####php-=?:
+####p-=?:
 ```php
     $${1:foo} = ${2:true} ? ${3:a} : ${0};
 ```
-####php-?:
+####p-?:
 ```php
     ${1:true} ? ${2:a} : ${0}
 ```
-####php-t
+####p-t
 ```php
     $${1:retVal} = (${2:condition}) ? ${3:a} : ${4:b};
 ```
-####php-C
+####p-C
 ```php
     $_COOKIE['${1:variable}']
 ```
-####php-E
+####p-E
 ```php
     $_ENV['${1:variable}']
 ```
-####php-F
+####p-F
 ```php
     $_FILES['${1:variable}']
 ```
-####php-G
+####p-G
 ```php
     $_GET['${1:variable}']
 ```
-####php-P
+####p-P
 ```php
     $_POST['${1:variable}']
 ```
-####php-R
+####p-R
 ```php
     $_REQUEST['${1:variable}']
 ```
-####php-S
+####p-S
 ```php
     $_SERVER['${1:variable}']
 ```
-####php-SS
+####p-SS
 ```php
     $_SESSION['${1:variable}']
 ```
-####php-get
+####p-get
 ```php
     $_GET['${1}']
 ```
-####php-post
+####p-post
 ```php
     $_POST['${1}']
 ```
-####php-session
+####p-session
 ```php
     $_SESSION['${1}']
 ```
-####php-inc
+####p-inc
 ```php
     include '${1:file}';
 ```
-####php-inc1
+####p-inc1
 ```php
     include_once '${1:file}';
 ```
-####php-req
+####p-req
 ```php
     require '${1:file}';
 ```
-####php-req1
+####p-req1
 ```php
     require_once '${1:file}';
 ```
-####php-/*
+####p-/*
 ```php
     /**
 
@@ -232,23 +184,7 @@
 
      */
 ```
-####php-doc_cp
-```php
-    /**
-
-     * ${1:undocumented class}
-
-     *
-
-     * @package ${2:default}
-
-     * @subpackage ${3:default}
-
-     * @author ${4:`g:snips_author`}
-
-     */
-```
-####php-doc_vp
+####p-doc_vp
 ```php
     /**
 
@@ -260,7 +196,7 @@
 
      */
 ```
-####php-doc_v
+####p-doc_v
 ```php
     /**
 
@@ -274,31 +210,7 @@
 
     ${1:var} $${2};
 ```
-####php-doc_c
-```php
-    /**
-
-     * ${3:undocumented class}
-
-     *
-
-     * @package ${4:default}
-
-     * @subpackage ${5:default}
-
-     * @author ${6:`g:snips_author`}
-
-     */
-
-    ${1:}class ${2:}
-
-    {
-
-        ${0}
-
-    } // END $1class $2
-```
-####php-doc_dp
+####p-doc_dp
 ```php
     /**
 
@@ -306,7 +218,7 @@
 
      */
 ```
-####php-doc_d
+####p-doc_d
 ```php
     /**
 
@@ -316,93 +228,7 @@
 
     define(${1}, ${2});
 ```
-####php-doc_fp
-```php
-    /**
-
-     * ${1:undocumented function}
-
-     *
-
-     * @return ${2:void}
-
-     * @author ${3:`g:snips_author`}
-
-     */
-```
-####php-doc_s
-```php
-    /**
-
-     * ${4:undocumented function}
-
-     *
-
-     * @return ${5:void}
-
-     * @author ${6:`g:snips_author`}
-
-     */
-
-    ${1}function ${2}(${3});
-```
-####php-doc_f
-```php
-    /**
-
-     * ${4:undocumented function}
-
-     *
-
-     * @return ${5:void}
-
-     * @author ${6:`g:snips_author`}
-
-     */
-
-    ${1}function ${2}(${3})
-
-    {${0}
-
-    }
-```
-####php-doc_h
-```php
-    /**
-
-     * ${1}
-
-     *
-
-     * @author ${2:`g:snips_author`}
-
-     * @version ${3:$Id$}
-
-     * @copyright ${4:$2}, `strftime('%d %B, %Y')`
-
-     * @package ${0:default}
-
-     */
-```
-####php-doc_i
-```php
-    /**
-
-     * $1
-
-     * @package ${2:default}
-
-     * @author ${3:`!v g:snips_author`}
-
-     **/
-
-    interface ${1:someClass}
-
-    {${4}
-
-    }
-```
-####php-inheritdoc
+####p-inheritdoc
 ```php
     /**
 
@@ -410,103 +236,15 @@
 
      */
 ```
-####php-interface
-```php
-    /**
-
-     * ${2:undocumented class}
-
-     *
-
-     * @package ${3:default}
-
-     * @author ${4:`g:snips_author`}
-
-     */
-
-    interface ${1:`vim_snippets#Filename()`}
-
-    {
-
-        ${0}
-
-    }
-```
-####php-trait
-```php
-    /**
-
-     * ${2:undocumented class}
-
-     *
-
-     * @package ${3:default}
-
-     * @author ${4:`g:snips_author`}
-
-     */
-
-    trait ${1:`vim_snippets#Filename()`}
-
-    {
-
-        ${0}
-
-    }
-```
-####php-class
-```php
-    /**
-
-     * ${1}
-
-     */
-
-    class ${2:`vim_snippets#Filename()`}
-
-    {
-
-        ${3}
-
-        /**
-
-         * ${4}
-
-         */
-
-        ${5:public} function ${6:__construct}(${7:argument})
-
-        {
-
-            ${0}
-
-        }
-
-    }
-```
-####php-nc
-```php
-    namespace ${1:`substitute(substitute(expand("%:h"), '\v^\w+\/(\u)', '\1', ''), '\/', '\\\', 'g')`};
-
-
-
-    ${2:abstract }class ${3:`vim_snippets#Filename()`}
-
-    {
-
-        ${0}
-
-    }
-```
-####php-def
+####p-def
 ```php
     define('${1:VARIABLE_NAME}', ${2:'definition'});
 ```
-####php-def?
+####p-def?
 ```php
     ${1}defined('${2}')
 ```
-####php-wh
+####p-wh
 ```php
     while (${1:/* condition */}) {
 
@@ -514,7 +252,7 @@
 
     }
 ```
-####php-do
+####p-do
 ```php
     do {
 
@@ -522,7 +260,7 @@
 
     } while (${1});
 ```
-####php-if
+####p-if
 ```php
     if (${1}) {
 
@@ -530,7 +268,7 @@
 
     }
 ```
-####php-ifn
+####p-ifn
 ```php
     if (!${1}) {
 
@@ -538,7 +276,7 @@
 
     }
 ```
-####php-ifil
+####p-ifil
 ```php
     <?php if (${1}): ?>
 
@@ -546,7 +284,7 @@
 
     <?php endif; ?>
 ```
-####php-ife
+####p-ife
 ```php
     if (${1}) {
 
@@ -560,7 +298,7 @@
 
     ${0}
 ```
-####php-ifeil
+####p-ifeil
 ```php
     <?php if (${1}): ?>
 
@@ -574,7 +312,7 @@
 
     ${0}
 ```
-####php-el
+####p-el
 ```php
     else {
 
@@ -582,7 +320,7 @@
 
     }
 ```
-####php-eif
+####p-eif
 ```php
     elseif (${1}) {
 
@@ -590,7 +328,7 @@
 
     }
 ```
-####php-switch
+####p-switch
 ```php
     switch ($${1:variable}) {
 
@@ -610,7 +348,7 @@
 
     }
 ```
-####php-case
+####p-case
 ```php
     case '${1:value}':
 
@@ -618,7 +356,7 @@
 
         break;
 ```
-####php-for
+####p-for
 ```php
     for ($${2:i} = 0; $$2 < ${1:count}; $$2${3:++}) {
 
@@ -626,7 +364,7 @@
 
     }
 ```
-####php-foreach
+####p-foreach
 ```php
     foreach ($${1:variable} as $${2:value}) {
 
@@ -634,7 +372,7 @@
 
     }
 ```
-####php-foreachil
+####p-foreachil
 ```php
     <?php foreach ($${1:variable} as $${2:value}): ?>
 
@@ -642,7 +380,7 @@
 
     <?php endforeach; ?>
 ```
-####php-foreachk
+####p-foreachk
 ```php
     foreach ($${1:variable} as $${2:key} => $${3:value}) {
 
@@ -650,7 +388,7 @@
 
     }
 ```
-####php-foreachkil
+####p-foreachkil
 ```php
     <?php foreach ($${1:variable} as $${2:key} => $${3:value}): ?>
 
@@ -658,11 +396,11 @@
 
     <?php endforeach; ?>
 ```
-####php-array
+####p-array
 ```php
     $${1:arrayName} = ['${2}' => ${3}];
 ```
-####php-try
+####p-try
 ```php
     try {
 
@@ -672,7 +410,7 @@
 
     }
 ```
-####php-lambda
+####p-lambda
 ```php
     ${1:static }function (${2:args}) use (${3:&$x, $y /*put vars in scope (closure) */}) {
 
@@ -680,35 +418,35 @@
 
     };
 ```
-####php-pd
+####p-pd
 ```php
     echo '<pre>'; var_dump(${0}); echo '</pre>';
 ```
-####php-pdd
+####p-pdd
 ```php
     echo '<pre>'; var_dump(${1}); echo '</pre>'; die(${0:});
 ```
-####php-vd
+####p-vd
 ```php
     var_dump(${0});
 ```
-####php-vdd
+####p-vdd
 ```php
     var_dump(${1}); die(${0:});
 ```
-####php-pr
+####p-pr
 ```php
     print_r(${0});
 ```
-####php-prs
+####p-prs
 ```php
     print_r(${0}, 1);
 ```
-####php-vdf
+####p-vdf
 ```php
     error_log(print_r($${1:foo}, true), 3, '${2:/tmp/debug.log}');
 ```
-####php-http_redirect
+####p-http_redirect
 ```php
     header ("HTTP/1.1 301 Moved Permanently");
 
@@ -716,69 +454,23 @@
 
     exit();
 ```
-####php-log
+####p-log
 ```php
     error_log(var_export(${1}, true));
 ```
-####php-var
+####p-var
 ```php
     var_export(${1});
 ```
-####php-ve
+####p-ve
 ```php
     echo '<pre>' . var_export(${1}, 1) . '</pre>';
 ```
-####php-pc
+####p-pc
 ```php
     var_export($1);$0
 ```
-####php-gs
-```php
-    /**
-
-     * Gets the value of ${1:foo}
-
-     *
-
-     * @return ${2:string}
-
-     */
-
-    public function get${3:$1}()
-
-    {
-
-        return $this->${4:$1};
-
-    }
-
-
-
-    /**
-
-     * Sets the value of $1
-
-     *
-
-     * @param $2 $$1 ${5:description}
-
-     *
-
-     * @return ${6:`vim_snippets#Filename()`}
-
-     */
-
-    public function set$3(${7:$2 }$$1)
-
-    {
-
-        $this->$4 = $$1;
-
-        return $this;
-
-    }
-```
-####php-ags
+####p-ags
 ```php
     /**
 
@@ -814,15 +506,15 @@
 
     }
 ```
-####php-rett
+####p-rett
 ```php
     return true;
 ```
-####php-retf
+####p-retf
 ```php
     return false;
 ```
-####php-am
+####p-am
 ```php
     $${1:foo} = array_map(function($${2:v}) {
 
@@ -832,7 +524,7 @@
 
     }, $$1);
 ```
-####php-aw
+####p-aw
 ```php
     array_walk($${1:foo}, function(&$${2:v}, $${3:k}) {
 
@@ -840,7 +532,7 @@
 
     });
 ```
-####php-static_var
+####p-static_var
 ```php
     static $${1} = null;
 
@@ -850,7 +542,7 @@
 
     }
 ```
-####php-CSVWriter
+####p-CSVWriter
 ```php
     <?php
 
@@ -918,7 +610,7 @@
 
     }
 ```
-####php-CSVIterator
+####p-CSVIterator
 ```php
     
 
@@ -1122,51 +814,51 @@
 
     } // end class
 ```
-####php-ase
+####p-ase
 ```php
     $this->assertEquals(${1:expected}, ${2:actual});
 ```
-####php-asne
+####p-asne
 ```php
     $this->assertNotEquals(${1:expected}, ${2:actual});
 ```
-####php-asf
+####p-asf
 ```php
     $this->assertFalse(${1});
 ```
-####php-ast
+####p-ast
 ```php
     $this->assertTrue(${1});
 ```
-####php-asfex
+####p-asfex
 ```php
     $this->assertFileExists(${1:'path/to/file'});
 ```
-####php-asfnex
+####p-asfnex
 ```php
     $this->assertFileNotExists(${1:'path/to/file'});
 ```
-####php-ascon
+####p-ascon
 ```php
     $this->assertContains(${1:$needle}, ${2:$haystack});
 ```
-####php-ashk
+####p-ashk
 ```php
     $this->assertArrayHasKey(${1:$key}, ${2:$array});
 ```
-####php-asnhk
+####p-asnhk
 ```php
     this->assertArrayNotHasKey(${1:$key}, ${2:$array});
 ```
-####php-ascha
+####p-ascha
 ```php
     $this->assertClassHasAttribute(${1:$attributeName}, '${2:$className}');
 ```
-####php-asi
+####p-asi
 ```php
     $this->assertInstanceOf(${1:expected}, ${2:actual});
 ```
-####php-test
+####p-test
 ```php
     public function test${1}()
 
@@ -1176,7 +868,7 @@
 
     }
 ```
-####php-setup
+####p-setup
 ```php
     protected function setUp()
 
@@ -1186,7 +878,7 @@
 
     }
 ```
-####php-teardown
+####p-teardown
 ```php
     protected function tearDown()
 
@@ -1196,7 +888,7 @@
 
     }
 ```
-####php-exp
+####p-exp
 ```php
     expects($this->${1:once}())
 
@@ -1206,7 +898,7 @@
 
         ->will($this->returnValue(${5}));
 ```
-####php-testcmt
+####p-testcmt
 ```php
     /**
 
@@ -1214,47 +906,47 @@
 
     */
 ```
-####php-fail
+####p-fail
 ```php
     $this->fail(${1});
 ```
-####php-marki
+####p-marki
 ```php
     $this->markTestIncomplete(${1});
 ```
-####php-marks
+####p-marks
 ```php
     $this->markTestSkipped(${1});
 ```
-####php-te
+####p-te
 ```php
     throw new ${1:Exception}("${2:Error Processing Request}");
 ```
-####php-fpc
+####p-fpc
 ```php
     file_put_contents(${1:file}, ${2:content}${3:, FILE_APPEND});$0
 ```
-####php-sr
+####p-sr
 ```php
     str_replace(${1:search}, ${2:replace}, ${3:subject})$0
 ```
-####php-ia
+####p-ia
 ```php
     in_array(${1:needle}, ${2:haystack})$0
 ```
-####php-is
+####p-is
 ```php
     isset(${1:var})$0
 ```
-####php-isa
+####p-isa
 ```php
     isset($${1:array}[${2:key}])$0
 ```
-####php-in
+####p-in
 ```php
     is_null($${1:var})$0
 ```
-####php-fe
+####p-fe
 ```php
     file_exists(${1:file})$0
 ```
