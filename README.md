@@ -3,6 +3,9 @@ This repository contains snippets files for various programing languages.
 
 In the first step, all of snippets was converted from [vim-snippets](https://github.com/honza/vim-snippets) and [bootstrap-snippets](https://github.com/bonsaiben/bootstrap-snippets) - that using snipMate format.
 I am very happy if someone contribute with me to improve it better!
+#### Screencasts
+![bootstrap.gif](https://github.com/khoinv/intellij-snippets/blob/master/screencasts/bootstrap.gif?raw=true)
+
 #### How to use
 - Clone this repository to your local env
 
