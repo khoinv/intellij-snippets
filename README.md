@@ -7,10 +7,11 @@ I am very happy if someone contribute with me to improve it better!
 ![bootstrap.gif](https://github.com/khoinv/intellij-snippets/blob/master/screencasts/bootstrap.gif?raw=true)
 
 #### How to use
-- Clone this repository to your local env
+- Clone this repository to your local environment
 
 ```bash
-    git submodule update --init --recursive
+    git clone https://github.com/khoinv/intellij-snippets.git
+    cd IntelliJ-snippets && git submodule update --init --recursive
 ```
 
 - Copy all of file in intellij-snippets/resources/templates/* to your templates folder depend on your OS
